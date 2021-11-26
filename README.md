@@ -1,5 +1,5 @@
 # malika-tours-in-Bayern
-Simple web application for Malika Tea 🍵
+Simple web application for Malika Tours in Bayern ⛰️
 - Responsive Design. 
 - Navbar.
 - Columns Layouts using flexbox. 
