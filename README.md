@@ -1,10 +1,10 @@
 # malika-tours-in-Bayern
-Simple web application for Malika Tours in Bayern ⛰️
+Simple web application about Malika Tours in Bayern ⛰️
 - Responsive Design. 
-- Navbar.
-- Columns Layouts using flexbox. 
-- External Icons from fontawesome.  
+- Flexbox for Columns Layouts.
+- Navbar. 
 - Animation. 
+- External Icons from fontawesome.  
 
 To run Demo : https://malika-tours.netlify.app/
 
