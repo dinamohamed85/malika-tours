@@ -360,14 +360,16 @@ Featured Tours
   position: absolute;
   right: 0;
   bottom: 0;
-  background: var(--clr-primary-8);
+  background: var(--clr-primary-8);  
   color: var(--clr-primary-1);
   text-transform: capitalize;
   padding: 0.25rem 0.5rem;
   margin-bottom: 0;
+  opacity: 0.70;
+  font-weight: 600;
 }
 .tour-info {
-  padding: 1rem 0.25rem;
+  padding: 1rem 0.75rem;
 }
 /* additional css for different layout*/
 .tour-title {
@@ -691,10 +693,21 @@ Navbar
 /* set hero to 
 min-height:calc(100vh - 62px);
 */
-.activtiy {
-  color: #e9b949;
+.tour-activtiy {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  align-items: center;
 }
-.love-icon {
+.tour-activtiy p {
+  line-height: 0;
+  margin-top: 0;
+  margin-bottom: 0.75rem;
+  text-transform: capitalize;
+  color: #ffd166;
+  font-weight: 600;
+}
+.tour-love-icon {
   font-size: 1rem;
-  color: rgb(241, 121, 121);
+  color: #ef476f;
 }
