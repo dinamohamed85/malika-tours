@@ -694,3 +694,7 @@ min-height:calc(100vh - 62px);
 .activtiy {
   color: #e9b949;
 }
+.love-icon {
+  font-size: 1rem;
+  color: rgb(241, 121, 121);
+}
