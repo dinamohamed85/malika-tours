@@ -209,7 +209,13 @@ Hero
   color: var(--clr-white);
   border-color: var(--clr-white);
 }
-@media screen and (min-width: 768px) {
+.hero {
+    background: linear-gradient(rgb(44, 174, 186, 0.7), rgba(0, 0, 0, 0.7)),
+      url("../images/main.jpeg") center/cover no-repeat;
+  }
+  
+
+/* @media screen and (min-width: 768px) {
   .hero {
     background: linear-gradient(rgb(44, 174, 186, 0.7), rgba(0, 0, 0, 0.7)),
       url("../images/main.jpeg") center/cover no-repeat;
@@ -220,7 +226,7 @@ Hero
   .hero-banner p {
     max-width: 45rem;
   }
-}
+} */
 /*
 =============== 
 About
@@ -676,3 +682,6 @@ Navbar
 /* set hero to 
 min-height:calc(100vh - 62px);
 */
+.activtiy {
+  color: #e9b949;
+}
