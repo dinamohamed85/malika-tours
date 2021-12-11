@@ -30,6 +30,7 @@ scrollLinks.forEach(link => {
     // prevent default
     e.preventDefault();
     links.classList.remove("show-links");
+    kids.classList.remove("show-kids");
 
     const id = e.target.getAttribute("href").slice(1);
     const element = document.getElementById(id);

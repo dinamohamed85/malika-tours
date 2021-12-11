@@ -582,7 +582,7 @@ Navbar
 */
 /* add :not(.nav-logo) to img */
 .nav-logo{
-  height: 4rem;
+  height: 2rem;
 }
 .navbar {
   position: fixed;
@@ -605,7 +605,7 @@ Navbar
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 1rem 2rem;
+  padding: 0.75rem 1.5rem;
 }
 .nav-toggle {
   background: transparent;
@@ -663,6 +663,8 @@ Navbar
   min-width: 10rem;
   /* overflow: hidden; */
   transition: var(--transition);
+  width: 100%;  
+  padding-left: 2rem;
   z-index: 99;  
 }
 .show-kids {
@@ -676,6 +678,12 @@ Navbar
   /* hide nav toggle button */
   .nav-toggle {
     display: none;
+  }
+  /* show kids */
+  .nav-kids {    
+    padding-left: 0.5rem;
+    margin-top: 1.25rem;
+    max-width: 12rem;
   }
   /* show links */
   .nav-links {
