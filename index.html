@@ -5,11 +5,11 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-  <title>Malika Tours || Bayren</title>
+  <title>Malika Tours || Home</title>
   <!-- favicon -->
   <link rel="shortcut icon" href="./images/favicon.ico" type="image/x-icon" />
   <!-- font-awesome -->
-  <link rel="stylesheet" href="./fontawesome-free-5.12.1-web/css/all.min.css" />
+  <link rel="stylesheet" href="./fontawesome-free-5.15.4-web/css/all.min.css" />
   <!-- styles css -->
   <link rel="stylesheet" href="./css/styles.css" />
 </head>
@@ -39,34 +39,43 @@
           <!-- end of single link -->
           <!-- single link -->
           <li>
-
-            <a href="#about" class=" scroll-link nav-link">
-              about
-            </a>
-          </li>
-          <!-- end of single link -->
-          <!-- single link -->
-          <li>
-
-            <a href="#services" class="nav-link scroll-link">
-              services
-            </a>
-          </li>
-          <!-- end of single link -->
-          <!-- single link -->
-          <li>
-
-
             <a href="#featured" class="nav-link scroll-link">
               featured
             </a>
           </li>
           <!-- end of single link -->
           <!-- single link -->
-          <li>
+          <li id="nav-kids-toggle">
+            <a class="nav-link">
+              kids <span>
+                <i class="fas fa-angle-down"></i> </span></a>
 
-            <a href="#gallery" class="nav-link scroll-link">
-              gallery
+            <ul class="nav-kids" id="nav-kids">
+              <li><a href="tours.html" class="nav-kid scroll-link">
+                  playground</li>
+              <li><a href="tours.html" class="nav-kid scroll-link">
+                  zoo</li>
+              <li><a href="tours.html" class="nav-kid scroll-link">
+                  swimming</li>
+            </ul>
+          </li>
+          <!-- end of single link -->
+          <!-- single link -->
+          <li>
+            <a href="tours.html" class="nav-link scroll-link" id="nav-Outings-toggle">
+              Outings<span>
+                <i class="fas fa-angle-down"></i>
+              </span>
+            </a>
+
+          </li>
+          <!-- end of single link -->
+          <!-- single link -->
+          <li>
+            <a href="tours.html" class="nav-link scroll-link" id="nav-More-toggle">
+              More<span>
+                <i class="fas fa-angle-down"></i>
+              </span>
             </a>
           </li>
           <!-- end of single link -->
@@ -76,15 +85,12 @@
         <!-- footer icons -->
         <ul class="nav-icons">
           <li>
-
             <a href="https://www.twitter.com" target="_blank" class="nav-icon"><i class="fab fa-facebook"></i></a>
           </li>
           <li>
-
             <a href="https://www.twitter.com" target="_blank" class="nav-icon"><i class="fab fa-twitter"></i></a>
           </li>
           <li>
-
             <a href="https://www.twitter.com" target="_blank" class="nav-icon"><i class="fab fa-squarespace"></i></a>
           </li>
           <!-- end of nav social media icons -->
@@ -121,7 +127,7 @@
       <article class="about-info">
         <h3>explore the difference</h3>
         <p>
-          If you are living in Bayern, here is your reference for interesting Outings 🎡 ⛱️ , Restaurants 🥘 ,
+          If you are living in Munich, here is your reference for interesting Outings 🎡 ⛱️ , Restaurants 🥘 ,
           Shopping 🛍️ and more
           .<br>
           Find nice places to visit with your family in Munich and cities around.
@@ -134,6 +140,128 @@
     </div>
   </section>
   <!-- end of about section -->
+
+  <!-- featured tours -->
+  <section class="section" id="featured">
+    <!-- title  -->
+    <div class="section-title">
+      <h2>featured <span>tours</span></h2>
+    </div>
+    <!-- end of title  -->
+    <!-- featured-center -->
+    <div class="section-center featured-center ">
+      <!-- single tour -->
+      <article class="tour-card">
+        <div class="tour-img-container">
+          <img src="./images/tour-1.jpeg" class="tour-img" alt="" />
+          <p class="tour-date">septemper, 2021</p>
+        </div>
+        <!-- tour info -->
+        <div class="tour-info">
+          <div class="tour-title">
+            <h4>Starnberger See</h4>
+            <p><span><i class="fas fa-map"></i></span> Germany</p>
+          </div>
+          <p>
+            Starnberger See, Marienstraße 23-17, 82327 Tutzing.
+            Close to the Munich city center as it is about 30 min away via S6.<br>
+            Activities to do :
+          <div class="tour-activtiy">
+            <p class="activtiy">Ship&Boat</p>
+            <p class="activtiy">Cafes</p>
+            <p class="activtiy">SwimmingPool</p>
+            <p class="activtiy">Playground</p>
+          </div>
+
+          </p>
+          <!-- tour footer -->
+          <div class="tour-footer">
+            <p>
+              <i class="fas fa-heart tour-love-icon"></i> 2,900
+            </p>
+            <p>6 hours</p>
+            <p>from 10€</p>
+          </div>
+        </div>
+      </article>
+      <!-- end of single tour -->
+      <!-- single tour -->
+      <article class="tour-card">
+        <div class="tour-img-container">
+          <img src="./images/tour-2.jpeg" class="tour-img" alt="" />
+          <p class="tour-date">october, 2021</p>
+        </div>
+        <!-- tour info -->
+        <div class="tour-info">
+          <div class="tour-title">
+            <h4>Regensberg</h4>
+            <p><i class="fas fa-map"></i> Germany</p>
+          </div>
+          <p>
+            Regensberg is a city in eastern Bavaria as it is about 2 hours away Munich by train.
+            it is among the top sights and travel attractions.
+            <br>Activities to do :
+          <div class="tour-activtiy">
+            <p class="activtiy">Danube river</p>
+            <p class="activtiy">Ship</p>
+            <p class="activtiy">Dom</p>
+            <p class="activtiy">Theater</p>
+            <p class="activtiy">Restaurants</p>
+          </div>
+          </p>
+          <!-- tour footer -->
+          <div class="tour-footer">
+            <p>
+              <i class="fas fa-heart tour-love-icon"></i> 1,100
+            </p>
+            <p>12 hours</p>
+            <p>from 20€</p>
+          </div>
+        </div>
+      </article>
+      <!-- end of single tour -->
+      <!-- single tour -->
+      <article class="tour-card">
+        <div class="tour-img-container">
+          <img src="./images/tour-3.jpeg" class="tour-img" alt="" />
+          <p class="tour-date">july, 2021</p>
+        </div>
+        <!-- tour info -->
+        <div class="tour-info">
+          <div class="tour-title">
+            <h4>langwieder see</h4>
+            <p><span><i class="fas fa-map"></i></span> Germany</p>
+          </div>
+          <p>
+            langwieder see Kreuzkapellenstr.89 .81249 Munich.
+            Close to the Munich city center as it is about 30 min away via S8.
+            <br>Activities to do :
+          <div class="tour-activtiy">
+            <p class="activtiy">Swimming</p>
+            <p class="activtiy">Boat</p>
+            <p class="activtiy">Landscape</p>
+            <p class="activtiy">Playground</p>
+          </div>
+          </p>
+          <!-- tour footer -->
+          <div class="tour-footer">
+            <p>
+              <i class="fas fa-heart tour-love-icon"></i> 2,300
+            </p>
+            <p>6 hours</p>
+            <p>from 5€</p>
+          </div>
+        </div>
+      </article>
+      <!-- end of single tour -->
+
+    </div>
+    <!-- end of tours center -->
+    <div class="tour-btn">
+      <a href="tours.html" class="btn">all tours</a>
+    </div>
+  </section>
+  <!-- end of featured tours -->
   <!-- services -->
   <section class="section services" id="services">
     <!-- title  -->
@@ -160,7 +288,7 @@
         <div class="service-info">
           <h4 class="service-title">endless hiking</h4>
           <p class="service-text">
-            Over one hundred amazing suggestions like indoor & outdoor places ,activities for you and your family, enjoy
+            Over two hundred amazing suggestions like indoor & outdoor places ,activities for you and your family, enjoy
             it all the year.
           </p>
         </div>
@@ -172,7 +300,7 @@
         <div class="service-info">
           <h4 class="service-title">amazing comfort</h4>
           <p class="service-text">
-            Relax and comfort when you know what's best for all seasons of the year to do with us.
+            Relax and comfort when you know what's best to do for all seasons of the year with us.
           </p>
         </div>
       </article>
@@ -180,127 +308,6 @@
     </div>
   </section>
   <!-- end of services -->
-  <!-- featured tours -->
-  <section class="section" id="featured">
-    <!-- title  -->
-    <div class="section-title">
-      <h2>featured <span>tours</span></h2>
-    </div>
-    <!-- end of title  -->
-    <!-- featured-center -->
-    <div class="section-center featured-center ">
-      <!-- single tour -->
-      <article class="tour-card">
-        <div class="tour-img-container">
-          <img src="./images/tour-1.jpeg" class="tour-img" alt="" />
-          <p class="tour-date">august 26th, 2021</p>
-        </div>
-        <!-- tour info -->
-        <div class="tour-info">
-          <div class="tour-title">
-            <h4>Starnberger See</h4>
-            <p><span><i class="fas fa-map"></i></span> Germany</p>
-          </div>
-          <p>
-            Starnberger See, Marienstraße 23-17, 82327 Tutzing.
-            Close to the Munich city center as it is about 30 min away via S6.<br>
-            Enjoy activities like :
-          <div class="tour-activtiy">
-            <p class="activtiy">Ship&Boat</p>
-            <p class="activtiy">Cafes</p>
-            <p class="activtiy">SwimmingPool</p>
-            <p class="activtiy">Playground</p>
-          </div>
-
-          </p>
-          <!-- tour footer -->
-          <div class="tour-footer">
-            <p>
-              <i class="fas fa-heart tour-love-icon"></i> 200k
-            </p>
-            <p>6 hours</p>
-            <p>from 10€</p>
-          </div>
-        </div>
-      </article>
-      <!-- end of single tour -->
-      <!-- single tour -->
-      <article class="tour-card">
-        <div class="tour-img-container">
-          <img src="./images/tour-2.jpeg" class="tour-img" alt="" />
-          <p class="tour-date">october 1th, 2021</p>
-        </div>
-        <!-- tour info -->
-        <div class="tour-info">
-          <div class="tour-title">
-            <h4>Regensberg</h4>
-            <p><i class="fas fa-map"></i> Germany</p>
-          </div>
-          <p>
-            Regensberg is a city in eastern Bavaria as it is about 2 hours away Munich by train.
-            it is among the top sights and travel attractions.
-            <br>Enjoy activities like :
-          <div class="tour-activtiy">
-            <p class="activtiy">Danube river</p>
-            <p class="activtiy">Ship</p>
-            <p class="activtiy">Dom</p>
-            <p class="activtiy">Theater</p>
-            <p class="activtiy">Restaurants</p>
-          </div>
-          </p>
-          <!-- tour footer -->
-          <div class="tour-footer">
-            <p>
-              <i class="fas fa-heart tour-love-icon"></i> 100k
-            </p>
-            <p>12 hours</p>
-            <p>from 20€</p>
-          </div>
-        </div>
-      </article>
-      <!-- end of single tour -->
-      <!-- single tour -->
-      <article class="tour-card">
-        <div class="tour-img-container">
-          <img src="./images/tour-3.jpeg" class="tour-img" alt="" />
-          <p class="tour-date">september 15th, 2021</p>
-        </div>
-        <!-- tour info -->
-        <div class="tour-info">
-          <div class="tour-title">
-            <h4>langwieder see</h4>
-            <p><span><i class="fas fa-map"></i></span> Germany</p>
-          </div>
-          <p>
-            langwieder see Kreuzkapellenstr.89 .81249 Munich.
-            Close to the Munich city center as it is about 30 min away via S8.
-            <br>Enjoy activities like :
-          <div class="tour-activtiy">
-            <p class="activtiy">Swimming</p>
-            <p class="activtiy">Boat</p>
-            <p class="activtiy">Landscape</p>
-            <p class="activtiy">Playground</p>
-          </div>
-          </p>
-          <!-- tour footer -->
-          <div class="tour-footer">
-            <p>
-              <i class="fas fa-heart tour-love-icon"></i> 150k
-            </p>
-            <p>6 hours</p>
-            <p>from 5€</p>
-          </div>
-        </div>
-      </article>
-      <!-- end of single tour -->
-
-    </div>
-    <!-- end of tours center -->
-    <div class="tour-btn">
-      <a href="#" class="btn">all tours</a>
-    </div>
-  </section>
-  <!-- end of featured tours -->
   <!-- contact -->
   <section class="section contact" id="contact">
     <div class="section-center contact-center">
@@ -378,9 +385,10 @@
         <a href="#home" class="footer-link scroll-link">home</a>
       </li>
       <a href="#about" class="footer-link scroll-link">about</a>
-      <a href="#services" class="footer-link scroll-link">services</a>
       <a href="#featured" class="footer-link scroll-link">featured</a>
+      <a href="#services" class="footer-link scroll-link">services</a>
       <a href="#gallery" class="footer-link scroll-link">gallery</a>
+      <a href="contact.html" class="footer-link scroll-link">contact</a>
     </ul>
     <!-- footer icons -->
     <ul class="footer-icons">
