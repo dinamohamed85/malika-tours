@@ -19,7 +19,23 @@ const navkidsBtn = document.getElementById("nav-kids-toggle");
 const kids = document.getElementById("nav-kids");
 // add event listener
 navkidsBtn.addEventListener("mouseover", () => {
-  kids.classList.toggle("show-kids");
+  kids.classList.add("show-kids");
+});
+
+const home = document.getElementById("hero");
+home.addEventListener('mouseover', e => {
+  // prevent default
+  e.preventDefault();
+  kids.classList.remove('show-kids');
+});
+
+const navbar = document.getElementById("navbar");
+navbar.addEventListener('mouseover', e => {
+  // prevent default
+  e.preventDefault();
+  if (!e.target.classList.contains('nav-kid') && !e.target.classList.contains('icon-kid')) {
+    kids.classList.remove('show-kids');
+  }
 });
 
 // ********** smooth scroll ************
@@ -30,7 +46,7 @@ scrollLinks.forEach(link => {
     // prevent default
     e.preventDefault();
     links.classList.remove("show-links");
-    kids.classList.remove("show-kids");
+    kids.classList.remove('show-kids');
 
     const id = e.target.getAttribute("href").slice(1);
     const element = document.getElementById(id);
@@ -48,3 +64,4 @@ scrollLinks.forEach(link => {
     });
   });
 });
+
