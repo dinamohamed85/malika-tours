@@ -11,12 +11,14 @@
   <!-- font-awesome -->
   <link rel="stylesheet" href="./fontawesome-free-5.15.4-web/css/all.min.css" />
   <!-- styles css -->
+  <!-- <link rel="stylesheet" href="./css/styles1.css" /> -->
   <link rel="stylesheet" href="./css/styles.css" />
 </head>
 
 <body>
+  <!-- js -->
+  <script type="module" src="./js/app.js"></script>
   <!-- header  -->
-
   <!-- navbar -->
   <nav class="navbar" id="navbar">
     <div class="nav-center">
@@ -29,63 +31,30 @@
       </div>
       <!-- end of nav header -->
       <!-- nav links -->
-      <ul class="nav-links" id="nav-links">
+      <ul class="menu" id="menu">
         <li>
           <!-- single link -->
-          <a href="#home" class="scroll-link nav-link">
-            home
-          </a>
+          <a class="nav-link" href="#home">home</a>
         </li>
         <!-- end of single link -->
         <!-- single link -->
         <li>
-          <a href="#featured" class="nav-link scroll-link">
-            featured
-          </a>
+          <a class="nav-link" href="#featured">featured</a>
         </li>
         <!-- end of single link -->
-        <!-- single link -->
-        <li>
 
-          <a class="nav-kid scroll-link" id="nav-kids-toggle">kids
-            <i class="fas fa-angle-down scroll-link"></i>
-
-          </a>
-
-          <ul class="nav-kids scroll-link" id="nav-kids">
-            <li><a href="" class="nav-kid scroll-link">
-                <i class="fas fa-parachute-box icon-kid"></i> playground</a>
-            </li>
-            <li><a href="" class="nav-kid scroll-link">
-                <i class="fas fa-hippo icon-kid"></i>zoo</a></li>
-            <li><a href="" class="nav-kid scroll-link">
-                <i class="fas fa-swimmer icon-kid"></i> swimming</a></li>
-            <li><a href="" class="nav-kid scroll-link">
-                <i class="fas fa-archway icon-kid"></i> museum</a></li>
-            <li><a href="" class="nav-kid scroll-link">
-                <i class="fab fa-pagelines icon-kid"></i></i> farm</a></li>
-          </ul>
+        <li class="menu-item-has-children"><a href="#" class="nav-link">kids<i
+              class="fas fa-angle-down nav-icon"></i></a>
+          <ul class="sub-menu" id="submenu-kid"></ul>
         </li>
-        <!-- end of single link -->
-        <!-- single link -->
-        <li>
-          <a href="tours.html" class="nav-link scroll-link" id="nav-Outings-toggle">
-            Outings<span>
-              <i class="fas fa-angle-down"></i>
-            </span>
-          </a>
-
+        <li class="menu-item-has-children"><a href="#" class="nav-link">Outings<i
+              class="fas fa-angle-down nav-icon"></i></a>
+          <ul class="sub-menu" id="submenu-outing"></ul>
         </li>
-        <!-- end of single link -->
-        <!-- single link -->
-        <li>
-          <a href="tours.html" class="nav-link scroll-link" id="nav-More-toggle">
-            More<span>
-              <i class="fas fa-angle-down"></i>
-            </span>
-          </a>
+        <li class="menu-item-has-children"><a href="#" class="nav-link">More<i
+              class="fas fa-angle-down nav-icon"></i></a>
+          <ul class="sub-menu" id="submenu-more"></ul>
         </li>
-        <!-- end of single link -->
       </ul>
       <!-- end of nav links -->
       <!-- nav social media icons -->
@@ -102,6 +71,7 @@
         </li>
         <!-- end of nav social media icons -->
       </ul>
+    </div>
   </nav>
   <!-- end of navbar -->
   <!-- hero component -->
@@ -382,7 +352,6 @@
     </div>
   </section>
   <!-- end of gallery  -->
-
   <!-- footer -->
   <footer class="section footer">
     <!-- footer links -->
@@ -411,8 +380,5 @@
       <span id="date"></span>. all rights reserved
     </p>
   </footer>
-  <!-- js -->
-  <script src="./js/app.js"></script>
-</body>
 
-</html>
+</body>
