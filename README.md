@@ -3,6 +3,7 @@ Simple web application about Malika Tours in Bayern ⛰️
 - Responsive Design. 
 - Flexbox for Columns Layouts.
 - Navbar. 
+- Sub Menu. 
 - Animation. 
 - External Icons from fontawesome.  
 
