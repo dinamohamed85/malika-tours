@@ -505,9 +505,9 @@ Gallery
   transition: var(--transition);
 }
 .gallery-img-container:hover .gallery-img {
-  opacity: 0.5;
+  opacity: 0.9;
 }
-.gallery-img-container:hover .gallery-icon {
+.gallery-img-container:hover  {
   opacity: 1;
 }
 @media screen and (max-width: 768px) {
@@ -592,7 +592,7 @@ Navbar
   width: 100%;
   background: var(--clr-white);
   box-shadow: var(--dark-shadow);
-  /* z-index: 1; */
+  z-index: 1;
 }
 .nav-icons {
   display: none;
@@ -624,7 +624,8 @@ Navbar
 }
 .nav-link {
   position: relative;  
-  padding: 1rem 2rem;
+  padding: 1rem 0.75rem;
+  padding-right: 2.5rem;
   text-transform: capitalize;
   letter-spacing: var(--spacing);
   transition: var(--transition);
@@ -637,7 +638,7 @@ Navbar
 .nav-link:hover ,.sub-link:hover{
   color: var(--clr-primary-1);
   background: var(--clr-primary-8);
-  padding-left: 1.25rem;
+  padding-left: 0.5rem;
 }
 /* nav toggle functionality */
 .menu{
@@ -660,7 +661,8 @@ Navbar
 /* nav toggle functionality */
 .sub-link {  
   display:flex;
-  padding: 0.87rem 2rem;
+  padding: 0.87rem 0.75rem;
+  padding-right: 2.5rem;
   text-transform: capitalize;
   letter-spacing: var(--spacing);
   transition: var(--transition);
@@ -739,7 +741,7 @@ min-height:calc(100vh - 62px);
   margin-bottom: 0.75rem;
   text-transform: capitalize;
   color: var(--clr-orange-1);
-  font-weight: 600;
+  font-weight: 900;
 }
 .tour-love-icon {
   font-size: 1rem;
