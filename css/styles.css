@@ -68,7 +68,7 @@ ul {
   list-style-type: none;
 }
 a {
-  text-decoration: none;
+  text-decoration: none; 
 }
 img:not(.nav-logo) {
   width: 100%;
@@ -384,8 +384,8 @@ Featured Tours
   margin-bottom: 0.75rem;
   line-height: 1.25;
 }
-.tour-title p {
-  color: var(--clr-grey-7);
+.tour-title p,a:visited {
+  color: var(--clr-grey-4);
 }
 /* end of additional css for different layout*/
 .tour-footer {
