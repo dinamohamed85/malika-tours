@@ -85,7 +85,7 @@ h4 {
   letter-spacing: var(--spacing);
   text-transform: capitalize;
   line-height: 1.25;
-  margin-bottom: 0.75rem;
+  margin-bottom: 0.75rem;  
 }
 h1 {
   font-size: 3rem;
@@ -100,7 +100,7 @@ h4 {
   font-size: 0.875rem;
 }
 p {
-  margin-bottom: 1.25rem;
+  margin-bottom: 0.5rem;
   color: var(--clr-grey-5);
 }
 @media screen and (min-width: 800px) {
@@ -123,7 +123,7 @@ p {
   h2,
   h3,
   h4 {
-    line-height: 1;
+    line-height: 1.5;
   }
 }
 /*  global classes */
@@ -367,7 +367,7 @@ Featured Tours
   text-transform: capitalize;
   padding: 0.25rem;
   margin-bottom: 0;
-  opacity: 0.70;
+  opacity: 0.60;
   font-weight: 600;
 }
 .tour-info {
