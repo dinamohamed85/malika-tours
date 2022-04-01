@@ -737,6 +737,7 @@ min-height:calc(100vh - 62px);
   justify-content: space-between;
   flex-wrap: wrap;
   align-items: center;
+   margin-bottom: 1.25rem;
 }
 .tour-activtiy p {
   line-height: 0;
