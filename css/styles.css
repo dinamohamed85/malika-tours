@@ -148,7 +148,7 @@ p {
 }
 /* section */
 .section {
-  padding: 2rem 0;
+  padding: 1.5rem 0;
 }
 .section-title {
   text-align: center;
@@ -163,11 +163,11 @@ p {
 .section-center {
   width: 93vw;
   margin: 0 auto;
-  max-width: 1260px;
+  max-width: 1360px;
 }
 @media screen and (min-width: 992px) {
   .section-center {
-    width: 98vw;
+    width: 97vw;
   }
 }
 
@@ -413,12 +413,12 @@ Featured Tours
     justify-content: space-between;
   }
   .tour-card {
-    flex: 0 0 calc(50% - 2rem);
+    flex: 0 0 calc(50% - 1.25rem);
   }
 }
 @media screen and (min-width: 1170px) {
   .tour-card {
-    flex: 0 0 calc(33.3333% - 2rem);
+    flex: 0 0 calc(33.3333% - 1.25rem);
   }
 }
 /*
@@ -745,7 +745,7 @@ min-height:calc(100vh - 62px);
   margin-bottom: 0.75rem;
   text-transform: capitalize;
   color: var(--clr-orange-1);
-  font-weight: 900;
+  font-weight: 700;
 }
 .tour-love-icon {
   font-size: 1rem;
