@@ -751,3 +751,10 @@ min-height:calc(100vh - 62px);
   font-size: 1rem;
   color: #ef476f;
 }
+
+.site-icon {
+    margin-right: 0.15rem;
+    color: var(--clr-primary-5);
+    font-size: 1.2rem;
+    transition: var(--transition);
+  }
