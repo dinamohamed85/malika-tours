@@ -725,9 +725,9 @@ Navbar
     display: flex;
   }
   
-  /* .nav-icon:hover {
+  .nav-icon:hover {
     color: var(--clr-primary-8);
-  } */
+  }
 }
 /* set hero to 
 min-height:calc(100vh - 62px);
@@ -753,8 +753,11 @@ min-height:calc(100vh - 62px);
 }
 
 .site-icon {
-    margin-right: 0.15rem;
+    margin-right: 0.20rem;
     color: var(--clr-primary-5);
-    font-size: 1.2rem;
+    font-size: 1rem;
     transition: var(--transition);
+  }
+.site-icon:hover {
+    color: var(--clr-primary-8);
   }
