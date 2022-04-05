@@ -1,8 +1,9 @@
 import sublinks from './data.js';
 const linkBtns = [...document.querySelectorAll('.nav-link')];
-const submenukid = document.getElementById('submenu-kid');
-const submenuouting = document.getElementById('submenu-outing');
-const submenumore = document.getElementById('submenu-more');
+const submenuOuting = document.getElementById('submenu-outing');
+const submenuRestaurant = document.getElementById('submenu-restaurant');
+const submenuShopping = document.getElementById('submenu-shopping');
+const submenuOther = document.getElementById('submenu-other');
 // ********** set date ************
 // select span
 const date = (document.getElementById(
@@ -35,15 +36,18 @@ linkBtns.forEach((btn) => {
         .join('')}
       `;
     console.log("Hello world! --- show 2 " + page);
-    if (page == "kids") {
+    if (page == "Outings") {
       console.log("Hello world! --- show in  " + page);
-      submenukid.innerHTML = tempinnerHTML;
+      submenuOuting.innerHTML = tempinnerHTML;
     }
-    else if (page == "Outings") {
-      submenuouting.innerHTML = tempinnerHTML;
+    else if (page == "Restaurants") {
+      submenuRestaurant.innerHTML = tempinnerHTML;
     }
-    else if (page == "More") {
-      submenumore.innerHTML = tempinnerHTML;
+    else if (page == "Shopping") {
+      submenuShopping.innerHTML = tempinnerHTML;
+    }
+    else if (page == "Other") {
+      submenuOther.innerHTML = tempinnerHTML;
     }
   }
 });

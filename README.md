@@ -7,7 +7,7 @@ Simple web application about Malika Tours in Bayern ⛰️
 - Animation. 
 - External Icons from fontawesome.  
 
-To run Demo : https://malika-tours.netlify.app/
+To run Demo : https://explorey.netlify.app/
 
 ## Screenshots 🎉
 

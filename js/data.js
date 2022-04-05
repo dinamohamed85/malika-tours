@@ -1,7 +1,10 @@
 const sublinks = [
     {
-        page: 'kids',
+        page: 'Outings',
         links: [
+            { label: 'parks', icon: 'fas fa-book', url: '#' },
+            { label: 'lakes', icon: 'fas fa-book', url: '#' },
+            { label: 'cities', icon: 'fas fa-book', url: '#' },
             { label: 'playground', icon: 'fas fa-parachute-box', url: '#' },
             { label: 'swimming', icon: 'fas fa-swimmer', url: '#' },
             { label: 'zoo', icon: 'fas fa-hippo', url: '#' },
@@ -15,7 +18,7 @@ const sublinks = [
                         links: [
                             { label: 'museum', icon: 'fas fa-archway', url: '#' },
                             { label: 'circus', icon: 'fas fa-credit-card', url: '#' },
-                            { label: 'cinma', icon: 'fas fa-credit-card', url: '#' },
+                            { label: 'Cinema', icon: 'fas fa-credit-card', url: '#' },
                             { label: 'theater', icon: 'fas fa-credit-card', url: '#' },],
                     },
                 ],
@@ -23,26 +26,32 @@ const sublinks = [
         ],
     },
     {
-        page: 'Outings',
+        page: 'Restaurants',
         links: [
-            { label: 'parks', icon: 'fas fa-book', url: '#' },
-            { label: 'lakes', icon: 'fas fa-book', url: '#' },
-            { label: 'city', icon: 'fas fa-book', url: '#' },
-            { label: 'malls', icon: 'fas fa-book', url: '#' },
-            { label: 'shopping', icon: 'fas fa-book', url: '#' },
-            { label: 'restaurants', icon: 'fas fa-book', url: '#' },
+            { label: 'halal', icon: 'fas fa-book', url: '#' },
+            { label: 'sea food', icon: 'fas fa-book', url: '#' },
+            { label: 'Sushi', icon: 'fas fa-book', url: '#' },
+            { label: 'Greek', icon: 'fas fa-book', url: '#' },
             { label: 'cafes', icon: 'fas fa-book', url: '#' },
         ],
     },
     {
-        page: 'More',
+        page: 'Shopping',
         links: [
-            { label: 'events', icon: 'fas fa-briefcase', url: '#' },
-            { label: 'gym', icon: 'fas fa-briefcase', url: '#' },
+            { label: 'malls', icon: 'fas fa-book', url: '#' },
+            { label: 'shops', icon: 'fas fa-book', url: '#' },
             { label: 'markets', icon: 'fas fa-briefcase', url: '#' },
             { label: 'furniture', icon: 'fas fa-briefcase', url: '#' },
             { label: 'online shopping', icon: 'fas fa-briefcase', url: '#' },
+        ],
+    },
+    {
+        page: 'Other',
+        links: [
+            { label: 'events', icon: 'fas fa-briefcase', url: '#' },
+            { label: 'gym', icon: 'fas fa-briefcase', url: '#' },
             { label: 'cakes', icon: 'fas fa-briefcase', url: '#' },
+            { label: 'arabic doctors', icon: 'fas fa-briefcase', url: '#' },
             { label: 'arabic school', icon: 'fas fa-briefcase', url: '#' },
         ],
     },
