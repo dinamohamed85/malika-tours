@@ -13,13 +13,13 @@ To run Demo : https://explorey.netlify.app/
 
 <table >
  <tr>
-  <td><img src='screenshots/img1.jpg' width='100%' /></td>
-  <td><img src='screenshots/img2.jpg' width='100%' /></td>
-  <td><img src='screenshots/img3.jpg' width='100%' /></td>
+  <td><img src='screenshots/shot1.png' width='100%' /></td>
+  <td><img src='screenshots/shot2.png' width='100%' /></td>
+  <td><img src='screenshots/shot3.png' width='100%' /></td>
  </tr>
  <tr>
-  <td><img src='screenshots/img4.jpg' width='100%' /></td>
-  <td><img src='screenshots/img5.jpg' width='100%' /></td>
-  <td><img src='screenshots/img6.jpg' width='100%' /></td>
+  <td><img src='screenshots/shot4.png' width='100%' /></td>
+  <td><img src='screenshots/shot5.png' width='100%' /></td>
+  <td><img src='screenshots/shot6.png' width='100%' /></td>
  </tr>
 </table>
