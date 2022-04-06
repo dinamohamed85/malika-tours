@@ -5,251 +5,172 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-  <title>Malika Tours || All Tours</title>
+  <title>Explorey ||Tours</title>
   <!-- favicon -->
   <link rel="shortcut icon" href="./images/favicon.ico" type="image/x-icon" />
   <!-- font-awesome -->
-  <link rel="stylesheet" href="./fontawesome-free-5.12.1-web/css/all.min.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" />
   <!-- styles css -->
+  <!-- <link rel="stylesheet" href="./css/styles1.css" /> -->
   <link rel="stylesheet" href="./css/styles.css" />
 </head>
 
 <body>
+  <!-- js -->
   <!-- header  -->
-  <header id="home">
-    <!-- navbar -->
-    <nav class="navbar">
-      <div class="nav-center">
-        <!-- nav header -->
-        <div class="nav-header">
-          <img src="./images/logo.png" class="nav-logo" alt="" />
-          <button type="button" class="nav-toggle" id="nav-toggle">
-            <i class="fas fa-bars"></i>
-          </button>
-        </div>
-        <!-- end of nav header -->
-        <!-- nav links -->
-        <ul class="nav-links" id="nav-links">
-          <li>
-            <!-- single link -->
-            <a href="#home" class="scroll-link nav-link">
-              home
-            </a>
-          </li>
-          <!-- end of single link -->
-          <!-- single link -->
-          <li>
-
-            <a href="#about" class=" scroll-link nav-link">
-              about
-            </a>
-          </li>
-          <!-- end of single link -->
-          <!-- single link -->
-          <li>
-
-            <a href="#services" class="nav-link scroll-link">
-              services
-            </a>
-          </li>
-          <!-- end of single link -->
-          <!-- single link -->
-          <li>
-
-
-            <a href="#featured" class="nav-link scroll-link">
-              featured
-            </a>
-          </li>
-          <!-- end of single link -->
-          <!-- single link -->
-          <li>
-
-            <a href="#gallery" class="nav-link scroll-link">
-              gallery
-            </a>
-          </li>
-          <!-- end of single link -->
-        </ul>
-        <!-- end of nav links -->
-        <!-- nav social media icons -->
-        <!-- footer icons -->
-        <ul class="nav-icons">
-          <li>
-
-            <a href="https://www.twitter.com" target="_blank" class="nav-icon"><i class="fab fa-facebook"></i></a>
-          </li>
-          <li>
-
-            <a href="https://www.twitter.com" target="_blank" class="nav-icon"><i class="fab fa-twitter"></i></a>
-          </li>
-          <li>
-
-            <a href="https://www.twitter.com" target="_blank" class="nav-icon"><i class="fab fa-squarespace"></i></a>
-          </li>
-          <!-- end of nav social media icons -->
-        </ul>
-    </nav>
-    <!-- end of navbar -->
-    <!-- hero component -->
-    <div class="hero">
-      <div class="hero-banner">
-        <h1>continue exploring</h1>
-        <p>
-          Here your Guid for Interesting Tours,
-          enjoy outings in Munich and the cities around.
-        </p>
-        <a href="#featured" class="btn hero-btn scroll-link">explore tours</a>
+  <!-- navbar -->
+  <nav class="navbar" id="navbar">
+    <div class="nav-center">
+      <!-- nav header -->
+      <div class="nav-header">
+        <img src="./images/logo.png" class="nav-logo" alt="" />
+        <button type="button" class="nav-toggle" id="nav-toggle">
+          <i class="fas fa-bars"></i>
+        </button>
       </div>
+      <!-- end of nav header -->
+      <!-- nav links -->
+      <ul class="menu" id="menu">
+        <li>
+          <!-- single link -->
+          <a class="nav-link" href="index.html" class="nav-icon"><i class="fa-solid fa-house menu-icon"></i>home</a>
+        </li>
+        <!-- end of single link -->
+        <!-- single link -->
+        <li>
+          <a class="nav-link" href="index.html#featured" class="nav-icon"><i
+              class="fa-solid fa-star menu-icon"></i>featured</a>
+        </li>
+        <!-- end of single link -->
+
+        <li><a href="tours.html" class="nav-link" class="nav-icon"><i
+              class="fa-solid fa-person-walking-luggage menu-icon"></i>Outings</a>
+        </li>
+        <li><a class="nav-link" class="nav-icon"><i class="fa-solid fa-utensils menu-icon"></i>Restaurants</a>
+        </li>
+        <li><a class="nav-link" class="nav-icon"><i class="fa-solid fa-bag-shopping menu-icon"></i>Shopping</a>
+        </li>
+        <li><a class="nav-link" class="nav-icon"><i class="fa-solid fa-ellipsis  menu-icon"></i>More</a>
+        </li>
+      </ul>
+      <!-- end of nav links -->
+      <!-- nav social media icons -->
+      <!-- footer icons -->
+      <ul class="nav-icons">
+        <li>
+          <a href="https://www.facebook.com/dina.mohamed85" target="_blank" class="nav-icon"><i
+              class="fab fa-facebook"></i></a>
+        </li>
+        <li>
+          <a href="https://www.linkedin.com/in/dina-mohamed-686a17188" target="_blank" class="nav-icon"><i
+              class="fab fa-linkedin"></i></a>
+        </li>
+        <li>
+          <a href="https://github.com/dinamohamed85/malika-tours" target="_blank" class="nav-icon"><i
+              class="fab fa-github"></i></a>
+        </li>
+        <!-- end of nav social media icons -->
+      </ul>
     </div>
-  </header>
-  <!-- end of header  -->
-  <!-- all tours -->
-  <section class="section" id="featured">
-    <!-- title  -->
-    <div class="section-title">
-      <h2>all <span>tours</span></h2>
+  </nav>
+  <!-- end of navbar -->
+  <!-- tours -->
+  <section class="tours">
+    <!-- filters -->
+    <div class="filters-container">
+      <!-- search -->
+      <form class="input-form">
+        <input type="text" class="search-input" placeholder="search..." />
+      </form>
+      <!-- categories -->
+      <h5>Category</h5>
+      <article class="categories">
+        <button class="category-btn">all</button>
+        <button class="category-btn">lake</button>
+        <button class="category-btn">city</button>
+      </article>
     </div>
-    <!-- end of title  -->
-    <!-- featured-center -->
-    <div class="section-center featured-center ">
+    <!-- tours -->
+    <div class="tours-container">
       <!-- single tour -->
       <article class="tour-card">
         <div class="tour-img-container">
-          <img src="./images/tour-1.jpeg" class="tour-img" alt="" />
+          <a href="http://www.bayregio-starnberger-see.de/" target="_blank">
+            <img src="./images/tour-1.jpeg" class="tour-img" alt="" /></a>
           <p class="tour-date">septemper, 2021</p>
         </div>
         <!-- tour info -->
         <div class="tour-info">
           <div class="tour-title">
-            <h4>Starnberger See</h4>
-            <p><span><i class="fas fa-map"></i></span> Germany</p>
+            <h4><a href="http://www.bayregio-starnberger-see.de/" target="_blank"><i
+                  class="fa-solid fa-earth-europe site-icon"></i>Starnberger See</a></h4>
+            <p><a href="https://goo.gl/maps/MXqL54V1TmHgckZaA" target="_blank"><i
+                  class="fa-solid fa-location-dot site-icon"></i>
+                Germany</a> </p>
           </div>
           <p>
-            Starnberger See, Marienstraße 23-17, 82327 Tutzing.
-            Close to the Munich city center as it is about 30 min away via S6.<br>
-            Activities to do :
-          <div class="tour-activtiy">
-            <p class="activtiy">Ship&Boat</p>
-            <p class="activtiy">Cafes</p>
-            <p class="activtiy">SwimmingPool</p>
-            <p class="activtiy">Playground</p>
-          </div>
-
+            Close to the Munich city center as it is about 25 min away via <strong>S6</strong> (Starnberg).
           </p>
+          <p>Starnberger is Germany's second-largest body of fresh water.
+          </p>
+          <div>
+            <h4> Activities to do :</h4>
+            <div class="tour-activtiy">
+              <p class="activtiy">Ship&Boat</p>
+              <p class="activtiy">SwimmingPool</p>
+              <p class="activtiy">Strolling</p>
+              <p class="activtiy">bike</p>
+              <p class="activtiy">Picnic</p>
+              <p class="activtiy">grillzone</p>
+              <p class="activtiy">ice-cream</p>
+              <p class="activtiy">Cafes</p>
+            </div>
+          </div>
           <!-- tour footer -->
           <div class="tour-footer">
             <p>
-              <i class="fas fa-heart tour-love-icon"></i> 2,900
+              <i class="fas fa-heart tour-love-icon"></i> 6,900
             </p>
-            <p>6 hours</p>
-            <p>from 10€</p>
+            <p>10 hours</p>
+            <p>from 3€</p>
           </div>
         </div>
       </article>
-      <!-- end of single tour -->
-      <!-- single tour -->
-      <article class="tour-card">
-        <div class="tour-img-container">
-          <img src="./images/tour-2.jpeg" class="tour-img" alt="" />
-          <p class="tour-date">october, 2021</p>
-        </div>
-        <!-- tour info -->
-        <div class="tour-info">
-          <div class="tour-title">
-            <h4>Regensberg</h4>
-            <p><i class="fas fa-map"></i> Germany</p>
-          </div>
-          <p>
-            Regensberg is a city in eastern Bavaria as it is about 2 hours away Munich by train.
-            it is among the top sights and travel attractions.
-            <br>Activities to do :
-          <div class="tour-activtiy">
-            <p class="activtiy">Danube river</p>
-            <p class="activtiy">Ship</p>
-            <p class="activtiy">Dom</p>
-            <p class="activtiy">Theater</p>
-            <p class="activtiy">Restaurants</p>
-          </div>
-          </p>
-          <!-- tour footer -->
-          <div class="tour-footer">
-            <p>
-              <i class="fas fa-heart tour-love-icon"></i> 1,100
-            </p>
-            <p>12 hours</p>
-            <p>from 20€</p>
-          </div>
-        </div>
-      </article>
-      <!-- end of single tour -->
-      <!-- single tour -->
-      <article class="tour-card">
-        <div class="tour-img-container">
-          <img src="./images/tour-3.jpeg" class="tour-img" alt="" />
-          <p class="tour-date">july, 2021</p>
-        </div>
-        <!-- tour info -->
-        <div class="tour-info">
-          <div class="tour-title">
-            <h4>langwieder see</h4>
-            <p><span><i class="fas fa-map"></i></span> Germany</p>
-          </div>
-          <p>
-            langwieder see Kreuzkapellenstr.89 .81249 Munich.
-            Close to the Munich city center as it is about 30 min away via S8.
-            <br>Activities to do :
-          <div class="tour-activtiy">
-            <p class="activtiy">Swimming</p>
-            <p class="activtiy">Boat</p>
-            <p class="activtiy">Landscape</p>
-            <p class="activtiy">Playground</p>
-          </div>
-          </p>
-          <!-- tour footer -->
-          <div class="tour-footer">
-            <p>
-              <i class="fas fa-heart tour-love-icon"></i> 2,300
-            </p>
-            <p>6 hours</p>
-            <p>from 5€</p>
-          </div>
-        </div>
-      </article>
-      <!-- end of single tour -->
-
     </div>
   </section>
-  <!-- end of all tours -->
+
   <!-- footer -->
   <footer class="section footer">
     <!-- footer links -->
     <ul class="footer-links">
       <li>
-        <a href="#home" class="footer-link scroll-link">home</a>
+        <a href="index.html" class="footer-link scroll-link">home</a>
       </li>
       <a href="#about" class="footer-link scroll-link">about</a>
-      <a href="#services" class="footer-link scroll-link">services</a>
       <a href="#featured" class="footer-link scroll-link">featured</a>
+      <a href="#services" class="footer-link scroll-link">services</a>
       <a href="#gallery" class="footer-link scroll-link">gallery</a>
     </ul>
     <!-- footer icons -->
     <ul class="footer-icons">
       <!-- single icon -->
       <li>
-        <a href="https://www.twitter.com" target="_blank" class="footer-icon"><i class="fab fa-facebook"></i></a>
+        <a href="https://www.facebook.com/dina.mohamed85" target="_blank" class="footer-icon"><i
+            class="fab fa-facebook"></i></a>
       </li>
       <!-- end of single icon -->
-      <a href="https://www.twitter.com" target="_blank" class="footer-icon"><i class="fab fa-twitter"></i></a>
-      <a href="https://www.twitter.com" target="_blank" class="footer-icon"><i class="fab fa-squarespace"></i></a>
+      <a href="https://www.linkedin.com/in/dina-mohamed-686a17188" target="_blank" class="footer-icon"><i
+          class="fab fa-linkedin"></i></a>
+      <a href="https://github.com/dinamohamed85/malika-tours" target="_blank" class="footer-icon"><i
+          class="fab fa-github"></i></a>
     </ul>
     <p class="copyright">
-      copyright &copy; malikaTours your guid for interesting hikes
+      copyright &copy; ExploreY your guid for interesting hikes
       <span id="date"></span>. all rights reserved
     </p>
   </footer>
-  <!-- js -->
+  <script src="./js/data.js"></script>
   <script src="./js/app.js"></script>
+  <script src="./js/db-tours.js"></script>
+  <script src="./js/tours.js"></script>
 </body>
-
-</html>
