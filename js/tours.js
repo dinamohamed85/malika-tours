@@ -13,7 +13,7 @@ const displayTours = () => {
     toursContainer.innerHTML = filteredTours
         .map((tour) => {
             const { id, title, category, icon, image, country, date, location, site, address, description, thingstodo, likes, duration, season, featured, price } = tour;
-            return `<article class="tour" data-id="${id}">
+            return `<article class="tour-card" data-id="${id}">
             <div class="tour-img-container">
             <a href="${site}" target="_blank">
                 <img src="${image}" class="tour-img" alt="" /></a>
@@ -36,11 +36,9 @@ const displayTours = () => {
             <div>
                 <h4> Activities to do :</h4>
                 <div class="tour-activtiy">
-                <p class="activtiy">${thingstodo[0]}</p>
-                <p class="activtiy">${thingstodo[1]}</p>
-                <p class="activtiy">${thingstodo[2]}</p>
-                <p class="activtiy">${thingstodo[3]}</p>
-                <p class="activtiy">${thingstodo[4]}</p>
+                ${thingstodo.map((thing) => {
+                return `<p class="activtiy">${thing}</p>`
+            }).join('')}              
                 </div>
             </div>
             <!-- tour footer -->
