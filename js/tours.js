@@ -48,7 +48,7 @@ const displayTours = () => {
                 <p>
                 <i class="fas fa-heart tour-love-icon"></i> ${likes}
                 </p>
-                <p>${duration}</p>
+                <p>${duration} Hours</p>
                 <p>from ${price}€</p>
             </div>
         </div>
