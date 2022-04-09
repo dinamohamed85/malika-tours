@@ -709,6 +709,12 @@ Navbar
 min-height:calc(100vh - 62px);
 */
 .tour-activtiy {
+  -ms-box-orient: horizontal;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -moz-flex;
+  display: -webkit-flex;
   display: flex;
   -webkit-justify-content: space-between; 
   justify-content:space-between;
