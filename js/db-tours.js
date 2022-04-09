@@ -111,7 +111,7 @@ const tours = [
     {
         id: '5',
         title: 'Freizeitpark Märchenwald',
-        category: 'amusement Park',
+        category: 'amusement',
         icon: 'fa-solid fa-democrat',
         image: './images/tour-5.jpeg',
         country: 'Germany',
@@ -249,7 +249,7 @@ const tours = [
     {
         id: '10',
         title: 'Bayern park',
-        category: 'amusement Park',
+        category: 'amusement',
         icon: 'fa-solid fa-democrat',
         image: './images/tour-10.jpeg',
         country: 'Germany',
@@ -428,7 +428,7 @@ const tours = [
     {
         id: '17',
         title: 'Allgäu Skyline Park',
-        category: 'amusement Park',
+        category: 'amusement',
         icon: 'fa-solid fa-democrat',
         image: './images/tour-17.jpeg',
         country: 'Germany',
@@ -839,7 +839,7 @@ const tours = [
     {
         id: '33',
         title: 'Cosimawellenbad',
-        category: 'SwimmingPool',
+        category: 'Swimming',
         icon: 'fas fa-swimmer',
         image: './images/tour-33.jpeg',
         country: 'Germany',
@@ -918,7 +918,7 @@ const tours = [
     {
         id: '36',
         title: 'Westbad (Hallenbad)',
-        category: 'SwimmingPool',
+        category: 'Swimming',
         icon: 'fas fa-swimmer',
         image: './images/tour-36.jpeg',
         country: 'Germany',
@@ -995,7 +995,7 @@ const tours = [
     {
         id: '39',
         title: 'Michaelibad',
-        category: 'SwimmingPool',
+        category: 'Swimming',
         icon: 'fas fa-swimmer',
         image: './images/tour-39.jpeg',
         country: 'Germany',

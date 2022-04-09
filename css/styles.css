@@ -784,8 +784,6 @@ min-height:calc(100vh - 62px);
   justify-content: center;
   flex-wrap: wrap;
   gap: 0.5rem;
-  align-items: center;
-  margin-bottom: 1rem;
 }
 .category-btn {
   background: transparent;

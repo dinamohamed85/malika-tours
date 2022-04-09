@@ -77,11 +77,6 @@ clearbutton.addEventListener('click', () => {
     searchInput.value = '';
     displayTours();
 })
-// console.log(
-//   tours.filter((tour) => {
-//     return tour.title.toLowerCase().includes('');
-//   })
-// );
 
 // Filter Buttons
 
