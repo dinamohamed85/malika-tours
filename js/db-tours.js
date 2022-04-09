@@ -473,7 +473,7 @@ const tours = [
         duration: 6,
         price: 8,
         season: 'summer',
-        featured: true,
+        featured: false,
     },
     {
         id: '19',
@@ -913,7 +913,7 @@ const tours = [
         duration: 6,
         price: 8,
         season: 'winter',
-        featured: true,
+        featured: false,
     },
     {
         id: '36',
@@ -990,7 +990,7 @@ const tours = [
         duration: 6,
         price: 8,
         season: 'summer',
-        featured: true,
+        featured: false,
     },
     {
         id: '39',
@@ -1099,7 +1099,7 @@ const tours = [
         duration: 3,
         price: 1,
         season: 'winter',
-        featured: true,
+        featured: false,
     },
     {
         id: '43',

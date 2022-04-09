@@ -70,6 +70,13 @@ form.addEventListener('keyup', () => {
     displayTours();
 });
 
+// Text clear
+const clearbutton = document.querySelector('.clear-btn');
+clearbutton.addEventListener('click', () => {
+    filteredTours = [...tours];
+    searchInput.value = '';
+    displayTours();
+})
 // console.log(
 //   tours.filter((tour) => {
 //     return tour.title.toLowerCase().includes('');
