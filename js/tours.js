@@ -64,9 +64,9 @@ const form = document.querySelector('.input-form');
 const searchInput = document.querySelector('.search-input');
 
 form.addEventListener('keyup', () => {
-    const inputValue = searchInput.value;
+    const inputValue = searchInput.value.toLowerCase();
     filteredTours = tours.filter((tour) => {
-        return tour.title.toLowerCase().includes(inputValue);
+        return tour.title.toLowerCase().includes(inputValue) || tour.thingstodo.find((item) => item.toLowerCase().includes(inputValue));
     });
     displayTours();
 });
