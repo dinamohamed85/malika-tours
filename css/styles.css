@@ -710,8 +710,10 @@ min-height:calc(100vh - 62px);
 */
 .tour-activtiy {
   display: flex;
+  -webkit-justify-content: space-between; 
   justify-content:space-between;
   flex-wrap: wrap;
+  -webkit-gap: 1rem;
   gap: 1rem;
   align-items: center;
   margin-bottom: 1.5rem;
@@ -785,6 +787,7 @@ min-height:calc(100vh - 62px);
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
+  -webkit-gap: 0.5rem;
   gap: 0.5rem;
 }
 .category-btn {
@@ -851,5 +854,5 @@ min-height:calc(100vh - 62px);
   top: 0;
   margin-bottom: 0;
   font-size: 2rem;
-  /* opacity: 0.90; */
+  opacity: 0.8;
 }
