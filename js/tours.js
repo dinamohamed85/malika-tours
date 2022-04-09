@@ -18,6 +18,7 @@ const displayTours = () => {
             <a href="${site}" target="_blank">
                 <img src="${image}" class="tour-img" alt="" /></a>
             <p class="tour-date">${date}</p>
+            ${featured ? `<i class="fa-solid fa-star featured-icon"></i>` : ``} 
             </div>
             <!-- tour info -->
             <div class="tour-info">
