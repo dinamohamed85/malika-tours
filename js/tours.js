@@ -1,7 +1,10 @@
 
 let filteredTours = [...tours];
-
 const toursContainer = document.querySelector('.tours-container');
+const form = document.querySelector('.input-form');
+const searchInput = document.querySelector('.search-input');
+const clearbutton = document.querySelector('.clear-btn');
+const categoriesDOM = document.querySelector('.categories');
 
 const displayTours = () => {
 
@@ -9,7 +12,6 @@ const displayTours = () => {
         toursContainer.innerHTML = `<h6>Sorry, no tours matched your search</h6>`;
         return;
     }
-
     toursContainer.innerHTML = filteredTours
         .map((tour) => {
             const { id, title, category, icon, image, country, date, location, site, address, description, thingstodo, likes, duration, season, featured, price } = tour;
@@ -56,33 +58,7 @@ const displayTours = () => {
         .join('');
 };
 
-displayTours();
-
-// Text Filter
-
-const form = document.querySelector('.input-form');
-const searchInput = document.querySelector('.search-input');
-
-form.addEventListener('keyup', () => {
-    const inputValue = searchInput.value.toLowerCase();
-    filteredTours = tours.filter((tour) => {
-        return tour.title.toLowerCase().includes(inputValue) || tour.thingstodo.find((item) => item.toLowerCase().includes(inputValue));
-    });
-    displayTours();
-});
-
-// Text clear
-const clearbutton = document.querySelector('.clear-btn');
-clearbutton.addEventListener('click', () => {
-    filteredTours = [...tours];
-    searchInput.value = '';
-    displayTours();
-})
-
 // Filter Buttons
-
-const categoriesDOM = document.querySelector('.categories');
-
 const displayButtons = () => {
     const buttons = [
         'all',
@@ -96,19 +72,39 @@ const displayButtons = () => {
         .join('');
 };
 
-displayButtons();
+window.addEventListener('DOMContentLoaded', () => {
 
-categoriesDOM.addEventListener('click', (e) => {
-    const el = e.target;
-    if (el.classList.contains('category-btn')) {
-        if (el.dataset.id === 'all') {
-            filteredTours = [...tours];
-        } else {
-            filteredTours = tours.filter((tour) => {
-                return tour.category === el.dataset.id;
-            });
-        }
+    displayTours();
+    displayButtons();
+
+    // Text Filter
+    form.addEventListener('keyup', () => {
+        const inputValue = searchInput.value.toLowerCase();
+        filteredTours = tours.filter((tour) => {
+            return tour.title.toLowerCase().includes(inputValue) || tour.thingstodo.find((item) => item.toLowerCase().includes(inputValue));
+        });
+        displayTours();
+    });
+
+    // Text clear
+    clearbutton.addEventListener('click', () => {
+        filteredTours = [...tours];
         searchInput.value = '';
         displayTours();
-    }
+    })
+
+    categoriesDOM.addEventListener('click', (e) => {
+        const el = e.target;
+        if (el.classList.contains('category-btn')) {
+            if (el.dataset.id === 'all') {
+                filteredTours = [...tours];
+            } else {
+                filteredTours = tours.filter((tour) => {
+                    return tour.category === el.dataset.id;
+                });
+            }
+            searchInput.value = '';
+            displayTours();
+        }
+    });
 });
