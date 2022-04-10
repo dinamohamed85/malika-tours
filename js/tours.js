@@ -5,13 +5,27 @@ const form = document.querySelector('.input-form');
 const searchInput = document.querySelector('.search-input');
 const clearbutton = document.querySelector('.clear-btn');
 const categoriesDOM = document.querySelector('.categories');
+const toursTitle = document.querySelector('.tours-title');
+
+searchInput.value = '';
+let currentCategory = 'all';
 
 const displayTours = () => {
 
     if (filteredTours.length < 1) {
-        toursContainer.innerHTML = `<h6>Sorry, no tours matched your search</h6>`;
+        toursContainer.innerHTML = `<h2 class="section-title" >Sorry, no tours matched your search</h2>`;
         return;
     }
+    let text = '';
+    if (currentCategory == 'all')
+        text = filteredTours.length + ' places ';
+    else
+        text = filteredTours.length + ' ' + currentCategory;
+
+    toursTitle.innerHTML = `<div class="tours-title">
+        <h2>find <span class="featured-num">${text}</span><span> to visit in Munich and cities around</span></h2>
+    </div>`;
+
     toursContainer.innerHTML = filteredTours
         .map((tour) => {
             const { id, title, category, icon, image, country, date, location, site, address, description, thingstodo, likes, duration, season, featured, price } = tour;
@@ -96,6 +110,7 @@ window.addEventListener('DOMContentLoaded', () => {
     categoriesDOM.addEventListener('click', (e) => {
         const el = e.target;
         if (el.classList.contains('category-btn')) {
+            currentCategory = el.dataset.id;
             if (el.dataset.id === 'all') {
                 filteredTours = [...tours];
             } else {

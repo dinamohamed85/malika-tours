@@ -26,6 +26,7 @@ Variables
   --clr-primary-8: hsl(184, 80%, 74%);
   --clr-primary-9: hsl(185, 94%, 87%);
   --clr-primary-10: hsl(186, 100%, 94%);
+  --clr-primary-11: hsl(186, 100%, 98%);
   /* darkest grey - used for headings */
   --clr-grey-1: hsl(209, 61%, 16%);
   --clr-grey-2: hsl(211, 39%, 23%);
@@ -47,6 +48,7 @@ Variables
   --dark-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
   --max-width: 1360px;
   --fixed-width: 620px;
+  --fluid-width: 97vw;
 }
 /*
 =============== 
@@ -153,6 +155,8 @@ p {
   padding: 1.5rem 0;
 }
 .section-title {
+  margin: 0 auto;
+  width: 85vw;
   text-align: center;
   margin-bottom: 1.5rem;
 }
@@ -709,17 +713,9 @@ Navbar
 min-height:calc(100vh - 62px);
 */
 .tour-activtiy {
-  -ms-box-orient: horizontal;
-  display: -webkit-box;
-  display: -moz-box;
-  display: -ms-flexbox;
-  display: -moz-flex;
-  display: -webkit-flex;
   display: flex;
-  -webkit-justify-content: space-between; 
   justify-content:space-between;
-  flex-wrap: wrap;
-  -webkit-gap: 1rem;
+  flex-wrap: wrap;  
   gap: 1rem;
   align-items: center;
   margin-bottom: 1.5rem;
@@ -777,7 +773,7 @@ min-height:calc(100vh - 62px);
     grid-template-columns: 200px 1fr;
   }
 }
-@media screen and (min-width: 992px) {
+@media screen and (min-width: 992px) { 
   .tours-container {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -793,7 +789,6 @@ min-height:calc(100vh - 62px);
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
-  -webkit-gap: 0.5rem;
   gap: 0.5rem;
 }
 .category-btn {
@@ -817,7 +812,7 @@ min-height:calc(100vh - 62px);
   max-width: var(98%);
   align-items: center;
   margin-left: .5rem;
-  background: var(--clr-primary-10);
+  background: var(--clr-primary-11);
   border-radius: var(--radius);
   border-color: transparent;
 }
@@ -831,7 +826,7 @@ min-height:calc(100vh - 62px);
   padding: 0.5rem 1rem;  
   margin-left: 1rem;
   width: 93%;  
-  background: var(--clr-primary-10);
+  background: var(--clr-primary-11);
   border-color: transparent; 
   outline: none;
   letter-spacing: var(--spacing);   
@@ -854,11 +849,14 @@ min-height:calc(100vh - 62px);
   color: red;
 }
 .featured-icon{
-  color: var(--clr-orange-1);
+  color: orange;
   position: absolute;
   left: 0;
   top: 0;
   margin-bottom: 0;
   font-size: 2rem;
   opacity: 0.8;
+}
+.featured-num{
+  color: var(--clr-primary-5);
 }
