@@ -8,12 +8,14 @@ const categoriesDOM = document.querySelector('.categories');
 const toursTitle = document.querySelector('.tours-title');
 
 searchInput.value = '';
+toursTitle.innerHTML = '';
 let currentCategory = 'all';
 
 const displayTours = () => {
 
     if (filteredTours.length < 1) {
-        toursContainer.innerHTML = `<h2 class="section-title" >Sorry, no tours matched your search</h2>`;
+        toursTitle.innerHTML = '';
+        toursContainer.innerHTML = `<h3 class="section-title" >Sorry, no tours matched your search</h3>`;
         return;
     }
     let text = '';
@@ -105,6 +107,7 @@ window.addEventListener('DOMContentLoaded', () => {
     clearbutton.addEventListener('click', () => {
         filteredTours = [...tours];
         searchInput.value = '';
+        currentCategory = '';
         displayTours();
     })
 
