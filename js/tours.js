@@ -90,40 +90,46 @@ const displayButtons = () => {
 
 window.addEventListener('DOMContentLoaded', () => {
 
-    displayTours();
-    displayButtons();
-
-    // Text Filter
-    form.addEventListener('keyup', () => {
-        const inputValue = searchInput.value.toLowerCase();
-        filteredTours = tours.filter((tour) => {
-            return tour.title.toLowerCase().includes(inputValue) || tour.thingstodo.find((item) => item.toLowerCase().includes(inputValue)) || tour.category.toLowerCase().includes(inputValue);
-        });
-        currentCategory = inputValue + ' place';
+    try {
         displayTours();
-    });
+        displayButtons();
 
-    // Text clear
-    clearbutton.addEventListener('click', () => {
-        filteredTours = [...tours];
-        searchInput.value = '';
-        currentCategory = '';
-        displayTours();
-    })
-
-    categoriesDOM.addEventListener('click', (e) => {
-        const el = e.target;
-        if (el.classList.contains('category-btn')) {
-            currentCategory = el.dataset.id;
-            if (el.dataset.id === 'all') {
-                filteredTours = [...tours];
-            } else {
-                filteredTours = tours.filter((tour) => {
-                    return tour.category === el.dataset.id;
-                });
-            }
-            searchInput.value = '';
+        // Text Filter
+        form.addEventListener('keyup', () => {
+            const inputValue = searchInput.value.toLowerCase();
+            filteredTours = tours.filter((tour) => {
+                return tour.title.toLowerCase().includes(inputValue) || tour.thingstodo.find((item) => item.toLowerCase().includes(inputValue)) || tour.category.toLowerCase().includes(inputValue);
+            });
+            currentCategory = inputValue + ' place';
             displayTours();
-        }
-    });
+        });
+
+        // Text clear
+        clearbutton.addEventListener('click', () => {
+            filteredTours = [...tours];
+            searchInput.value = '';
+            currentCategory = '';
+            displayTours();
+        })
+
+        categoriesDOM.addEventListener('click', (e) => {
+            const el = e.target;
+            if (el.classList.contains('category-btn')) {
+                currentCategory = el.dataset.id;
+                if (el.dataset.id === 'all') {
+                    filteredTours = [...tours];
+                } else {
+                    filteredTours = tours.filter((tour) => {
+                        return tour.category === el.dataset.id;
+                    });
+                }
+                searchInput.value = '';
+                displayTours();
+            }
+        });
+
+    } catch (error) {
+        console.log(error.message);
+        toursContainer.textContent = 'There was an error.....    ' + error.message;
+    }
 });
