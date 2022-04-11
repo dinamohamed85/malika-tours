@@ -72,6 +72,7 @@ const displayTours = () => {
         </article>`;
         })
         .join('');
+
 };
 
 // Filter Buttons
