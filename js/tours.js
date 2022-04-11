@@ -16,7 +16,7 @@ const displayTours = () => {
 
     if (filteredTours.length < 1) {
         toursTitle.innerHTML = '';
-        toursContainer.innerHTML = `<h3 class="section-title" >Sorry, no tours matched your search</h3>`;
+        toursContainer.innerHTML = `<h2 class="section-title" >Sorry, no tours matched your search</h2>`;
         return;
     }
     let text = '';
@@ -26,7 +26,7 @@ const displayTours = () => {
         text = filteredTours.length + ' ' + currentCategory;
 
     toursTitle.innerHTML = `<div class="tours-title">
-        <h2>find <span class="featured-num">${text}</span><span> to visit in Munich and cities around</span></h2>
+        <h2>find <span class="featured-num">${text}</span> to visit in Munich and cities around</h2>
     </div>`;
 
     toursContainer.innerHTML = filteredTours
@@ -105,7 +105,7 @@ window.addEventListener('DOMContentLoaded', () => {
                 filteredTours = tours.filter((tour) => {
                     return tour.title.toLowerCase().includes(inputValue) || tour.thingstodo.find((item) => item.toLowerCase().includes(inputValue)) || tour.category.toLowerCase().includes(inputValue);
                 });
-                currentCategory = inputValue + ' place';
+                currentCategory = ' place for ' + inputValue;
                 displayTours();
             });
 
