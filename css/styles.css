@@ -823,7 +823,7 @@ min-height:calc(100vh - 62px);
   margin-bottom: 0;
 }
 .search-input {
-  padding: 0.5rem 1rem;  
+  padding: 0.667rem 1rem;  
   margin-left: 1rem;
   width: 93%;  
   background: var(--clr-primary-11);
@@ -834,7 +834,7 @@ min-height:calc(100vh - 62px);
 .clear-btn{
   position: absolute;
   right: 4px;
-  top: 2px;
+  top: 5px;
   margin-bottom: 0;
   background: transparent;
   border: none;

@@ -120,7 +120,7 @@ const tours = [
         location: 'https://goo.gl/maps/XaVqJ6GYJ6TFx3Xt5',
         site: 'http://www.maerchenwald-isartal.de',
         address: 'In the south of Bavaria as it is about 50 min away via <strong>S7</strong> (Wolfratshausen) or 40 min by <strong>Car</strong> (82515 Wolfratshausen).',
-        description: 'Nature reserve–style zoo with animals grouped in large enclosures, as per their geographic spread.',
+        description: 'Nature reserve style zoo with animals grouped in large enclosures, as per their geographic spread.',
         thingstodo: [
             'Amusement Park',
             'Roller Coaster',
