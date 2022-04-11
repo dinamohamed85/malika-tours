@@ -1,4 +1,5 @@
 
+import tours from './db-tours.js';
 let filteredTours = [];
 const toursContainer = document.querySelector('.tours-container');
 const form = document.querySelector('.input-form');

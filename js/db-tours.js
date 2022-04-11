@@ -1265,3 +1265,5 @@ const tours = [
         featured: false,
     },
 ];
+
+export default tours;
