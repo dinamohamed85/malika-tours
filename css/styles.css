@@ -764,7 +764,7 @@ min-height:calc(100vh - 62px);
   font-size: 0.85rem;
 }
 .tours-container {
-  width: 93vw;
+  width: 98%;
   margin: 0 auto;
   max-width: var(--max-width);
 }
