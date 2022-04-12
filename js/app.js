@@ -50,9 +50,10 @@ navBtn.addEventListener("click", () => {
 let filteredTours = [];
 const toursContainer = document.querySelector('.featured-center');
 const toursTitle = document.querySelector('.tours-title');
-toursTitle.innerHTML = '';
 
 const displayTours = () => {
+
+  toursTitle.innerHTML = '';
 
   if (filteredTours.length < 1) {
     toursTitle.innerHTML = '';

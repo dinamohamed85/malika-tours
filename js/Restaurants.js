@@ -1,10 +1,7 @@
 
-import tours from './data/db-restaurants.js';
-let filteredTours = [];
+import restaurants from './data/db-restaurants.js';
+let filteredList = [];
 const toursContainer = document.querySelector('.tours-container');
-const form = document.querySelector('.input-form');
-const searchInput = document.querySelector('.search-input');
-const clearButton = document.querySelector('.clear-btn');
 const categoriesDOM = document.querySelector('.categories');
 const toursTitle = document.querySelector('.tours-title');
 
@@ -14,22 +11,22 @@ let currentCategory = 'all';
 
 const displayTours = () => {
 
-    if (filteredTours.length < 1) {
+    if (filteredList.length < 1) {
         toursTitle.innerHTML = '';
         toursContainer.innerHTML = `<h2 class="section-title" >Sorry, no tours matched your search</h2>`;
         return;
     }
     let text = '';
     if (currentCategory == 'all')
-        text = filteredTours.length + ' restaurant ';
+        text = filteredList.length + ' restaurant ';
     else
-        text = filteredTours.length + ' ' + currentCategory + ' restaurant';
+        text = filteredList.length + ' ' + currentCategory + ' restaurant';
 
     toursTitle.innerHTML = `<div class="tours-title">
         <h2>find <span class="featured-num">${text}</span> in Munich</h2>
     </div>`;
 
-    toursContainer.innerHTML = filteredTours
+    toursContainer.innerHTML = filteredList
         .map((tour) => {
             const { id, title, category, icon, image, country, date, location, site, address, description, thingstodo, likes, duration, season, featured, price } = tour;
             return `<article class="tour-card" data-id="${id}">
@@ -88,7 +85,7 @@ const displayButtons = () => {
 window.addEventListener('DOMContentLoaded', () => {
 
     try {
-        filteredTours = [...tours];
+        filteredList = [...restaurants];
         if (toursContainer && form && searchInput && clearButton && categoriesDOM && toursTitle) {
             console.log('html selectors is true');
             displayTours();
@@ -97,7 +94,7 @@ window.addEventListener('DOMContentLoaded', () => {
             // Text Filter
             form.addEventListener('keyup', () => {
                 const inputValue = searchInput.value.toLowerCase();
-                filteredTours = tours.filter((tour) => {
+                filteredList = tours.filter((tour) => {
                     return tour.title.toLowerCase().includes(inputValue) || tour.thingstodo.find((item) => item.toLowerCase().includes(inputValue)) || tour.category.toLowerCase().includes(inputValue);
                 });
                 currentCategory = ' restaurant for ' + inputValue;
@@ -106,7 +103,7 @@ window.addEventListener('DOMContentLoaded', () => {
 
             // Text clear
             clearButton.addEventListener('click', () => {
-                filteredTours = [...tours];
+                filteredList = [...tours];
                 searchInput.value = '';
                 currentCategory = '';
                 displayTours();
@@ -117,9 +114,9 @@ window.addEventListener('DOMContentLoaded', () => {
                 if (el.classList.contains('category-btn')) {
                     currentCategory = el.dataset.id;
                     if (el.dataset.id === 'all') {
-                        filteredTours = [...tours];
+                        filteredList = [...tours];
                     } else {
-                        filteredTours = tours.filter((tour) => {
+                        filteredList = tours.filter((tour) => {
                             return tour.category === el.dataset.id;
                         });
                     }

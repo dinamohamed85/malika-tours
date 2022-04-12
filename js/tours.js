@@ -7,8 +7,7 @@ const clearButton = document.querySelector('.clear-btn');
 const categoriesDOM = document.querySelector('.categories');
 const toursTitle = document.querySelector('.tours-title');
 
-searchInput.value = '';
-toursTitle.innerHTML = '';
+
 let currentCategory = 'all';
 
 const displayTours = () => {
@@ -76,6 +75,10 @@ const displayTours = () => {
 
 // Filter Buttons
 const displayButtons = () => {
+
+    searchInput.value = '';
+    toursTitle.innerHTML = '';
+
     const buttons = [
         'all',
         ...new Set(tours.map((tour) => tour.category)),

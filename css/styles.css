@@ -152,7 +152,7 @@ p {
 }
 /* section */
 .section {
-  padding: 1rem .5;
+  padding: 1rem .5;  
 }
 .section-title {
   margin: 0 auto;
@@ -170,6 +170,7 @@ p {
   width: 93vw;
   margin: 0 auto;
   max-width: var(--max-width);
+  min-height: 67vh;
 }
 @media screen and (min-width: 992px) {
   .section-center {
@@ -880,7 +881,7 @@ min-height:calc(100vh - 62px);
 }
 .restaurant-center {
   width: 90vw;
-  margin: 0 auto;
+  margin: 1rem auto;
   max-width: 1170px;
   display: grid;
   gap: 3rem 2rem;
