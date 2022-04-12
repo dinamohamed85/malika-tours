@@ -26,7 +26,7 @@ Variables
   --clr-primary-8: hsl(184, 80%, 74%);
   --clr-primary-9: hsl(185, 94%, 87%);
   --clr-primary-10: hsl(186, 100%, 94%);
-  --clr-primary-11: hsl(186, 100%, 98%);
+  --clr-primary-11: hsl(186, 100%, 99%);
   /* darkest grey - used for headings */
   --clr-grey-1: hsl(209, 61%, 16%);
   --clr-grey-2: hsl(211, 39%, 23%);
@@ -419,12 +419,12 @@ Featured Tours
     justify-content: space-between;
   }
   .tour-card {
-    flex: 0 0 calc(50% - 1.25rem);
+    flex: 0 0 calc(50% - 1rem);
   }
 }
 @media screen and (min-width: 1170px) {
   .tour-card {
-    flex: 0 0 calc(33.3333% - 1.25rem);
+    flex: 0 0 calc(33.3333% - 1rem);
   }
 }
 /*
@@ -763,7 +763,11 @@ min-height:calc(100vh - 62px);
   margin: 1.5rem 0 0.5rem;
   font-size: 0.85rem;
 }
-
+.tours-container {
+  width: 93vw;
+  margin: 0 auto;
+  max-width: var(--max-width);
+}
 .category-btn:hover {
   color: var(--grey-700);
 }

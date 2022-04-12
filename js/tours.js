@@ -1,5 +1,4 @@
-
-import tours from './db-tours.js';
+import tours from './data/db-tours.js';
 let filteredTours = [];
 const toursContainer = document.querySelector('.tours-container');
 const form = document.querySelector('.input-form');
@@ -73,7 +72,6 @@ const displayTours = () => {
         </article>`;
         })
         .join('');
-
 };
 
 // Filter Buttons
@@ -94,6 +92,7 @@ window.addEventListener('DOMContentLoaded', () => {
 
     try {
         filteredTours = [...tours];
+
         if (toursContainer && form && searchInput && clearButton && categoriesDOM && toursTitle) {
             console.log('html selectors is true');
             displayTours();

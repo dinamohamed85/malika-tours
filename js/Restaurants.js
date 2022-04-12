@@ -1,5 +1,5 @@
 
-import tours from './db-restaurants.js';
+import tours from './data/db-restaurants.js';
 let filteredTours = [];
 const toursContainer = document.querySelector('.tours-container');
 const form = document.querySelector('.input-form');
