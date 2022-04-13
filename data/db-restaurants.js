@@ -8,7 +8,7 @@ const restaurants = [
         country: 'Germany',
         location: 'https://goo.gl/maps/AgxFSnuRnJyRFsCRA',
         site: 'https://wolt.com/en/deu/munich/restaurant/bab-al-yemen',
-        description: 'Bab Al Yemen is an arabic restaurant in the center of munich',
+        description: 'Bab Al Yemen is an arabic restaurant in the center of Munich',
         thingstodo: [
             'Madghout Lamb',
             'Zurbian Lamb',
@@ -29,7 +29,7 @@ const restaurants = [
         country: 'Germany',
         location: 'https://goo.gl/maps/iQoHaD6xVQfiPgr98',
         site: 'https://esspoint-pide.de/',
-        description: 'Bab Al Yemen is an arabic restaurant in the center of munich',
+        description: 'EssPoint is a Turkish restaurant has many branches in Munich',
         thingstodo: [
             'Madghout Lamb',
             'Zurbian Lamb',
