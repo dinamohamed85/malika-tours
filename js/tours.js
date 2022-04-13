@@ -139,7 +139,6 @@ window.addEventListener('DOMContentLoaded', () => {
         else
             throw new Error(
                 `Please check html selectors, no such element exists`
-                // toursContainer.textContent = 'There was an error.....    ' ;
             );
     } catch (error) {
         console.log(error.message);
