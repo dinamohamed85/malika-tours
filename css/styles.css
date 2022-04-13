@@ -910,7 +910,7 @@ min-height:calc(100vh - 62px);
 .item-price {
   color: var(--clr-gold);
 }
-.restaurant-text {
+.item-text {
   margin-bottom: 0;
   padding-top: 1rem;
 }

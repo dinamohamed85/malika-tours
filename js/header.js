@@ -44,7 +44,7 @@ const displayHeader = () => {
         </li>
         <li><a href="shopping.html" class="nav-link" class="nav-icon"><i class="fa-solid fa-bag-shopping menu-icon"></i>Shopping</a>
         </li>
-        <li><a class="nav-link" class="nav-icon"><i class="fa-solid fa-ellipsis  menu-icon"></i>More</a>
+        <li><a href="more.html" class="nav-link" class="nav-icon"><i class="fa-solid fa-ellipsis  menu-icon"></i>More</a>
         </li>
     </ul>
     <!-- end of nav links -->
