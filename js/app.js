@@ -1,4 +1,4 @@
-import tours from './data/db-tours.js';
+import tours from '../data/db-tours.js';
 const linkBtns = [...document.querySelectorAll('.nav-link')];
 
 // ********** set date ************
