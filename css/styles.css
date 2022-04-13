@@ -170,7 +170,7 @@ p {
   width: 93vw;
   margin: 0 auto;
   max-width: var(--max-width);
-  min-height: 67vh;
+  /* min-height: 67vh; */
 }
 @media screen and (min-width: 992px) {
   .section-center {
@@ -553,6 +553,7 @@ Footer
   text-align: center;
   padding-left: 2rem;
   padding-right: 2rem;
+  margin-bottom: 0;
 }
 .footer-links,
 .footer-icons {
