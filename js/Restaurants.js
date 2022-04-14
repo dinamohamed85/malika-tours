@@ -28,7 +28,7 @@ const displayRestaurants = () => {
         .map((item) => {
             const { id, title, category, icon, image, location, site, description, menu, likes, featured, avg_price } = item;
             return `<article class="item">
-        <img src="${image}" class="restaurant-photo" />
+        <img src="${image}" class="item-photo" />
         <div class="item-info">
         <header>
             <h4>${title}</h4>
