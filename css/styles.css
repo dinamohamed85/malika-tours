@@ -905,6 +905,9 @@ min-height:calc(100vh - 62px);
   border-bottom: 0.5px dotted var(--clr-grey-5);
 }
 .item-info h4 {
+  margin-bottom: 0.75rem;
+}
+.item-info p {
   margin-bottom: 0.5rem;
 }
 .item-price {
@@ -922,7 +925,7 @@ min-height:calc(100vh - 62px);
     max-width: 40rem;
   }
   .item-photo {
-    height: 175px;
+    height: 17rem;
   }
 }
 @media screen and (min-width: 1200px) {
@@ -931,6 +934,6 @@ min-height:calc(100vh - 62px);
     grid-template-columns: 1fr 1fr;
   }
   .item-photo {
-    height: 150px;
+    height: 15rem;
   }
 }

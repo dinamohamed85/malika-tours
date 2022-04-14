@@ -30,14 +30,31 @@ const displayRestaurants = () => {
             return `<article class="item">
         <img src="${image}" class="item-photo" />
         <div class="item-info">
-        <header>
-            <h4>${title}</h4>
+        <header>            
+            <h4><a href="${location}" target="_blank"><i
+            class="fa-solid fa-location-dot site-icon"></i>${title}</a></h4>
             <h4 class="item-price">${avg_price}€</h4>
         </header>
         <p class="item-text">
             ${description}
         </p>
+        <div>
+            <h4> popular Of Menu :</h4>
+            <div class="tour-activtiy">
+            ${menu.map((item) => {
+                return `<p class="activtiy">${item}</p>`
+            }).join('')}            
+            </div>
         </div>
+        <!-- item footer -->
+        <div class="tour-footer">
+            <p>
+            <i class="fas fa-heart tour-love-icon"></i> ${likes}
+            </p>
+            <p><a href="${site}" target="_blank"><i
+            class="fa-solid fa-diamond-turn-right site-icon"></i>All Menu</a></p>
+        </div>
+        </div>       
     </article>`;
         })
         .join('');
