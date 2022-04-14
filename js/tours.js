@@ -77,7 +77,6 @@ const displayTours = () => {
 const displayButtons = () => {
 
     searchInput.value = '';
-    toursTitle.innerHTML = '';
 
     const buttons = [
         'all',
