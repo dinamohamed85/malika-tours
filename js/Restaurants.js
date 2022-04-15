@@ -16,7 +16,7 @@ const displayRestaurants = () => {
     }
     let text = '';
     if (currentCategory == 'all')
-        text = filteredList.length + ' restaurant ';
+        text = filteredList.length + ' restaurants ';
     else
         text = filteredList.length + ' ' + currentCategory + ' restaurant';
 

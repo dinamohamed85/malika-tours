@@ -159,6 +159,7 @@ p {
   width: 85vw;
   text-align: center;
   margin-bottom: 1.5rem;
+  margin-top: 1rem;
 }
 .section-title h2 {
   text-transform: uppercase;
@@ -594,7 +595,7 @@ Navbar
 */
 /* add :not(.nav-logo) to img */
 .nav-logo{
-  height: 2rem;
+  height: 1.75rem;
 }
 .navbar {
   /* position: fixed; */
@@ -618,7 +619,7 @@ Navbar
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 0.75rem 1.0rem;
+  padding: 0.5rem 1rem;
   /* padding: 0 0; */
 }
 .nav-toggle {
@@ -635,7 +636,7 @@ Navbar
 }
 .nav-link {
   position: relative;  
-  padding: 1rem 1rem;
+  padding: .5rem 1rem;
   padding-right: 2.5rem;
   text-transform: capitalize;
   letter-spacing: var(--spacing);
