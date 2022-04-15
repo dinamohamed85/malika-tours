@@ -148,6 +148,27 @@ const restaurants = [
         avg_price: 5,
         featured: true,
     },
+    {
+        id: '8',
+        title: 'Taste my Burger',
+        category: 'halal',
+        icon: 'fa-solid fa-h',
+        image: './images/restaurants/restaurant-8.jpeg',
+        country: 'Germany',
+        location: 'https://goo.gl/maps/7BXtrXuwtBH8EKWD9',
+        site: 'https://www.tastemyburger.com/menu',
+        description: 'Taste my Burger is restaurant has Vibrant grill joint for hefty burgers with halal beef & cosmopolitan sauces like curry or wasabi in Munich',
+        menu: [
+            'Cheeseburger',
+            'Yakuza',
+            'Hula Hula',
+            'Stinking Rose',
+            'Evergreen',
+        ],
+        likes: '2,398',
+        avg_price: 8,
+        featured: true,
+    },
 ];
 
 export default restaurants;
