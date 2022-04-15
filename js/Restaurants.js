@@ -39,7 +39,7 @@ const displayRestaurants = () => {
             ${description}
         </p>
         <div>
-            <h4> popular Of Menu :</h4>
+            <h4>popular dishes :</h4>
             <div class="tour-activtiy">
             ${menu.map((item) => {
                 return `<p class="activtiy">${item}</p>`
