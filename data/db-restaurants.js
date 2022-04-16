@@ -262,7 +262,7 @@ const restaurants = [
         image: './images/restaurants/restaurant-13.jpeg',
         country: 'Germany',
         location: 'https://goo.gl/maps/VN2AcBNfV9J1yZEw8',
-        site: 'https://restaurantguru.com/Arabesk-Munich/menu',
+        site: 'https://foodlocate.com/restaurants/muenchen/al-qaswaa',
         description: 'Al Qaswaa is a Moroccan arabic restaurant in Munich, Meze platters, grilled meats & tagines, plus Moroccan tea, in an easygoing, colorful restaurant.',
         menu: [
             'tajine',
