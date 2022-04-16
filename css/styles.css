@@ -897,7 +897,7 @@ min-height:calc(100vh - 62px);
 .item-photo {
   object-fit: cover;
   height: 17rem;
-  border: 0.25rem solid var(--clr-orange-1);
+  border: 0.20rem solid var(--clr-orange-1);
   border-radius: var(--radius);
 }
 .item-info header {

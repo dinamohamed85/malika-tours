@@ -190,6 +190,28 @@ const restaurants = [
         avg_price: 8,
         featured: true,
     },
+    {
+        id: '10',
+        title: 'Moosacher Paradies',
+        category: 'halal',
+        icon: 'fa-solid fa-h',
+        image: './images/restaurants/restaurant-10.jpeg',
+        country: 'Germany',
+        location: 'https://goo.gl/maps/AaNghmC5p4NR9hdU6',
+        site: 'https://www.moosacherparadies.de/speisekarte/',
+        description: 'Down-to-earth restaurant offering homestyle dishes, including sausages, steaks & pasta.',
+        menu: [
+            'Spaghetti Bolognese',
+            'Risotto „Kalb“',
+            'Medallion Pan',
+            'Schnitzel Kalb',
+            'Balkan dishes',
+            'Steak',
+        ],
+        likes: '2,664',
+        avg_price: 20,
+        featured: true,
+    },
 ];
 
 export default restaurants;
