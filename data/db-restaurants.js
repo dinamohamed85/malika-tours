@@ -231,7 +231,7 @@ const restaurants = [
             'linsensuppe',
         ],
         likes: '1,029',
-        avg_price: 15,
+        avg_price: 14,
         featured: true,
     },
     {
@@ -245,16 +245,38 @@ const restaurants = [
         site: 'https://restaurantguru.com/Arabesk-Munich/menu',
         description: 'Arabesk is a Lebanese Arabic restaurant in Munich, Couscous, falafel & meaty dishes, plus Lebanese wines, in an ornate, ocher-walled restaurant.',
         menu: [
-            'KEFTA HALABIEH',
-            'LAHM MESCHWI',
-            'FAROUJ MOUSAHAB',
-            'CHAWARMA',
-            'SCHISCH TAWOOUK',
+            'Kefta Halabieh',
+            'lahm meschwi',
+            'Farouj Mousahab',
+            'shawarma',
+            'schisch tawoouk',
         ],
-        likes: '1,029',
+        likes: '1,210',
+        avg_price: 16,
+        featured: true,
+    }, {
+        id: '13',
+        title: 'Al Qaswaa',
+        category: 'halal',
+        icon: 'fa-solid fa-h',
+        image: './images/restaurants/restaurant-13.jpeg',
+        country: 'Germany',
+        location: 'https://goo.gl/maps/VN2AcBNfV9J1yZEw8',
+        site: 'https://restaurantguru.com/Arabesk-Munich/menu',
+        description: 'Al Qaswaa is a Moroccan arabic restaurant in Munich, Meze platters, grilled meats & tagines, plus Moroccan tea, in an easygoing, colorful restaurant.',
+        menu: [
+            'tajine',
+            'kebabs',
+            'CousCous',
+            'lamb',
+            'shawarma',
+            'Kefta',
+        ],
+        likes: '510',
         avg_price: 15,
         featured: true,
     },
+
 ];
 
 export default restaurants;
