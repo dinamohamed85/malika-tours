@@ -857,7 +857,6 @@ min-height:calc(100vh - 62px);
   transition: var(--transition);  
 }
 .clear-btn:hover {
-  transform: scale(1);
   color: red;
 }
 .featured-icon{
