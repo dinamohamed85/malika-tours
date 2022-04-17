@@ -734,13 +734,12 @@ min-height:calc(100vh - 62px);
   font-size: 1rem;
   color: #ef476f;
 }
-
 .site-icon {
-    margin-right: 0.25rem;
-    color: var(--clr-primary-5);
-    font-size: 1rem;
-    transition: var(--transition);
-  }
+  margin-right: 0.25rem;
+  color: var(--clr-primary-5);
+  font-size: 1rem;
+  transition: var(--transition);
+}
 .site-icon:hover {
     color: var(--clr-primary-8);
   }
@@ -748,8 +747,7 @@ min-height:calc(100vh - 62px);
     margin-right: 0.9rem;
     color: var(--clr-primary-5);
     font-size: 1.5rem;
-  }
-  
+  }  
 /* =================
   tours  
 ====================
@@ -827,15 +825,17 @@ min-height:calc(100vh - 62px);
 }
 .search-icon{
   position: absolute;
-  left: 4px;
-  top: 12px;
+  left: 3%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 1rem;
   margin-bottom: 0;
-  color: var(--clr-primary-4);
+  color: var(--clr-grey-8);
 }
 .search-input {
   padding: 0.667rem 1rem;  
   margin-left: 1rem;
-  width: 90%;  
+  width: 92%;  
   background: var(--clr-primary-11);
   border-color: transparent; 
   outline: none;
@@ -843,14 +843,15 @@ min-height:calc(100vh - 62px);
 }
 .clear-btn{
   position: absolute;
-  right: 4px;
-  top: 5px;
+  right: .5%;
+  top: 50%;
+  transform: translate(-50%, -50%);
   margin-bottom: 0;
   background: transparent;
   border: none;
   outline: none;
   color: var(--clr-grey-8);
-  font-size: 1.5rem;
+  font-size: 1.25rem;
   cursor: pointer;
   transition: var(--transition);  
 }
