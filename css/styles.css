@@ -96,7 +96,7 @@ h1 {
   font-size: 3rem;
 }
 h2 {
-  font-size: 2rem;
+  font-size: 1.75rem;
 }
 h3 {
   font-size: 1.25rem;
@@ -113,7 +113,7 @@ p {
     font-size: 4rem;
   }
   h2 {
-    font-size: 2.5rem;
+    font-size: 2.25rem;
   }
   h3 {
     font-size: 1.75rem;
@@ -755,7 +755,7 @@ min-height:calc(100vh - 62px);
 .tours {
   width: var(--fluid-width);
   display: grid;
-  grid-gap: 1rem;
+  grid-gap: .5rem;
   margin: .5rem auto;
   max-width: var(--max-width);
 }
@@ -775,7 +775,7 @@ min-height:calc(100vh - 62px);
 
 @media screen and (min-width: 768px) {
   .tours {
-    grid-template-columns: 200px 1fr;
+    grid-template-columns: 17rem 1fr;
   }
 }
 @media screen and (min-width: 992px) { 
@@ -812,11 +812,11 @@ min-height:calc(100vh - 62px);
 }
 .input-form {
   position: relative;
-  width: 95%;  
+  width: 98%;  
   margin: 1rem auto;
-  max-width: var(98%);
+  /* max-width: var(98%); */
   align-items: center;
-  margin-left: .5rem;
+  /* margin-left: .5rem; */
   background: var(--clr-primary-11);
   /* border-radius: var(--radius);
   border-color: transparent; */
@@ -833,13 +833,14 @@ min-height:calc(100vh - 62px);
   color: var(--clr-grey-8);
 }
 .search-input {
-  padding: 0.667rem 1rem;  
-  margin-left: 1rem;
-  width: 92%;  
+  padding: 0.667rem 1.5rem;  
+  /* margin-left: 1rem; */
+  width: 93%;  
   background: var(--clr-primary-11);
   border-color: transparent; 
   outline: none;
   letter-spacing: var(--spacing); 
+  border-radius: var(--radius2);
 }
 .clear-btn{
   position: absolute;
@@ -873,7 +874,7 @@ min-height:calc(100vh - 62px);
 }
 .tours-title {
   margin: 0 auto;
-  width: 98%;
+  width: 99%;
   text-align: center;
   margin-bottom: 1rem;
 }
