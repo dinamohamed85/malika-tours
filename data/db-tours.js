@@ -85,7 +85,7 @@ const tours = [
     {
         id: '4',
         title: 'Wildpark Poing',
-        category: 'parks',
+        category: 'kids',
         icon: 'fa-solid fa-tree',
         image: './images/tours/tour-4.jpeg',
         country: 'Germany',
@@ -102,6 +102,7 @@ const tours = [
             'Picnic',
             'kids',
             'zoo',
+            'parks',
         ],
         likes: '9,572',
         duration: 10,
@@ -112,7 +113,7 @@ const tours = [
     {
         id: '5',
         title: 'Freizeitpark Märchenwald',
-        category: 'amusement',
+        category: 'playground',
         icon: 'fa-solid fa-democrat',
         image: './images/tours/tour-5.jpeg',
         country: 'Germany',
@@ -138,7 +139,7 @@ const tours = [
     {
         id: '6',
         title: 'Tierpark Hellabrunn',
-        category: 'parks',
+        category: 'animals',
         icon: 'fa-solid fa-tree',
         image: './images/tours/tour-6.jpeg',
         country: 'Germany',
@@ -155,6 +156,7 @@ const tours = [
             'playground',
             'kids',
             'zoo',
+            'parks'
         ],
         likes: '3,385',
         duration: 8,
