@@ -32,10 +32,14 @@ const displayHeader = () => {
         <!-- end of single link -->
         <!-- single link -->
         <li>
-        <a class="nav-link" href="index.html#featured" class="nav-icon"><i class="fa-solid fa-star menu-icon"></i>featured</a>
+        <a class="nav-link" href="index.html#featured" class="nav-icon"><i class="fa-regular fa-star menu-icon"></i>featured</a>
         </li>
         <!-- end of single link -->
-
+        <!-- single link -->
+        <li>
+        <a class="nav-link" href="index.html#gallery" class="nav-icon"><i class="fa-regular fa-images menu-icon"></i>gallery</a>
+        </li>
+        <!-- end of single link -->
         <li><a href="tours.html" class="nav-link" class="nav-icon"><i
             class="fa-solid fa-person-walking-luggage menu-icon"></i>Outings</a>
         </li>
@@ -44,26 +48,11 @@ const displayHeader = () => {
         </li>
         <li><a href="shopping.html" class="nav-link" class="nav-icon"><i class="fa-solid fa-bag-shopping menu-icon"></i>Shopping</a>
         </li>
-        <li><a href="more.html" class="nav-link" class="nav-icon"><i class="fa-solid fa-ellipsis  menu-icon"></i>More</a>
+        <li><a href="more.html" class="nav-link" class="nav-icon"><i class="fa-solid fa-ellipsis  menu-icon"></i>Other</a>
         </li>
+
     </ul>
-    <!-- end of nav links -->
-    <!-- nav social media icons -->     
-    <ul class="nav-icons">
-        <li>
-        <a href="https://www.facebook.com/dina.mohamed85" target="_blank" class="nav-icon"><i
-            class="fab fa-facebook"></i></a>
-        </li>
-        <li>
-        <a href="https://www.linkedin.com/in/dina-mohamed-686a17188" target="_blank" class="nav-icon"><i
-            class="fab fa-linkedin"></i></a>
-        </li>
-        <li>
-        <a href="https://github.com/dinamohamed85/malika-tours" target="_blank" class="nav-icon"><i
-            class="fab fa-github"></i></a>
-        </li>
-        <!-- end of nav social media icons -->
-    </ul>
+    <!-- end of nav links -->   
     </div>`;
 };
 
