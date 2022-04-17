@@ -1264,6 +1264,33 @@ const tours = [
         season: 'summer',
         featured: false,
     },
+    {
+        id: '49',
+        title: 'Umweltgarten',
+        category: 'animals',
+        icon: 'fa-regular fa-horse',
+        image: './images/tours/tour-49.jpeg',
+        country: 'Germany',
+        date: 'March, 2021',
+        location: 'https://goo.gl/maps/8YAXtNiJdmqzg2dm7',
+        site: 'https://www.neubiberg.de/umweltgarten',
+        address: 'In the south of Munich about 20 min by <strong>S7</strong>(Neubiberg).',
+        description: 'Nice little garden with animals including geese, bunnies, goats and ponies. Also a playground is there with slide, swings and other equipment.',
+        thingstodo: [
+            'rabbits',
+            'ponies',
+            'sheep',
+            'goats',
+            'playground',
+            'kids',
+            'park',
+        ],
+        likes: '842',
+        duration: 6,
+        price: 0,
+        season: 'summer',
+        featured: false,
+    },
 ];
 
 export default tours;
