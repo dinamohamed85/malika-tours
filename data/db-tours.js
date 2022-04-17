@@ -842,7 +842,7 @@ const tours = [
     {
         id: '33',
         title: 'Cosimawellenbad',
-        category: 'Swimming',
+        category: 'swimming',
         icon: 'fas fa-swimmer',
         image: './images/tours/tour-33.jpeg',
         country: 'Germany',
@@ -921,7 +921,7 @@ const tours = [
     {
         id: '36',
         title: 'Westbad (Hallenbad)',
-        category: 'Swimming',
+        category: 'swimming',
         icon: 'fas fa-swimmer',
         image: './images/tours/tour-36.jpeg',
         country: 'Germany',
@@ -998,7 +998,7 @@ const tours = [
     {
         id: '39',
         title: 'Michaelibad',
-        category: 'Swimming',
+        category: 'swimming',
         icon: 'fas fa-swimmer',
         image: './images/tours/tour-39.jpeg',
         country: 'Germany',
@@ -1283,7 +1283,8 @@ const tours = [
             'goats',
             'playground',
             'kids',
-            'park',
+            'parks',
+            'farm',
         ],
         likes: '842',
         duration: 6,
