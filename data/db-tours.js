@@ -1310,7 +1310,7 @@ const tours = [
         date: 'March, 2021',
         location: 'https://goo.gl/maps/D4if4oRXYsZpsEh48',
         site: 'https://spielplatzliebe.de/spielplatz-freiham-pumuckl-quartier/',
-        address: 'In the south of Munich about 20 min by <strong>S7</strong>(Neubiberg).',
+        address: 'In the north of Munich about 25 min by <strong>S8</strong>(Freiham).',
         description: 'Big and modern playground, for smaller and bigger kids, climb the rocks, wooden beams or the rope and go down those awesome slides!',
         thingstodo: [
             'slides',
