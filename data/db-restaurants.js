@@ -505,6 +505,29 @@ const restaurants = [
         avg_price: 14,
         featured: true,
     },
+    {
+        id: '24',
+        title: 'Shandiz',
+        category: 'halal',
+        icon: 'fa-solid fa-h',
+        image: './images/restaurants/restaurant-24.jpeg',
+        country: 'Germany',
+        location: 'https://goo.gl/maps/YcUNdGTd6pxeQiqC7',
+        site: 'https://www.shandiz.de/speisekarte',
+        description: 'Persian dishes, including kebabs, served in a traditional dining room with patterned furnishings.',
+        menu: [
+            'Kabab Tekka',
+            'gheimeh bademjoon',
+            'byrani morgh',
+            'kadu sabz',
+            'birani robian',
+            'Desserts',
+            'halal',
+        ],
+        likes: '2,220',
+        avg_price: 20,
+        featured: true,
+    },
 ];
 
 export default restaurants;
