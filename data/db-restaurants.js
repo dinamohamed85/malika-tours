@@ -550,6 +550,28 @@ const restaurants = [
         avg_price: 13,
         featured: true,
     },
+    {
+        id: '26',
+        title: 'DHABA Indisches',
+        category: 'indian food',
+        icon: 'fa-solid fa-turkish-lira-sign',
+        image: './images/restaurants/restaurant-26.jpeg',
+        country: 'Germany',
+        location: 'https://goo.gl/maps/Eab9wnoWdG2bcjky9',
+        site: 'http://www.dhaba.de/MunchenFreiheit/index.php/menu/',
+        description: 'Indian restaurant, Comfortable, traditionally decorated Indian restaurant offering a typical range of popular dishes, lunch menu monday–friday, 11:30 – 14:30 clock ((half price)).',
+        menu: [
+            'Chicken Biryani',
+            'Chicken Vindaloo',
+            'Lamm Vindaloo',
+            'Chicken Masala',
+            'Malai Tikka  ',
+            'Chicken Tikka',
+        ],
+        likes: '1,405',
+        avg_price: 8,
+        featured: true,
+    },
 ];
 
 export default restaurants;
