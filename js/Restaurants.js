@@ -94,7 +94,7 @@ window.addEventListener('DOMContentLoaded', () => {
                         filteredList = [...restaurants];
                     } else {
                         filteredList = restaurants.filter((item) => {
-                            return item.category === el.dataset.id;
+                            return item.category === el.dataset.id || item.menu.find((thing) => thing.toLowerCase().includes(el.textContent));;
                         });
                     }
                     displayRestaurants();
