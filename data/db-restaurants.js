@@ -528,6 +528,28 @@ const restaurants = [
         avg_price: 20,
         featured: true,
     },
+    {
+        id: '25',
+        title: 'Sangeet',
+        category: 'indian food',
+        icon: 'fa-solid fa-turkish-lira-sign',
+        image: './images/restaurants/restaurant-25.jpeg',
+        country: 'Germany',
+        location: 'https://goo.gl/maps/YcUNdGTd6pxeQiqC7',
+        site: 'https://www.shandiz.de/speisekarte',
+        description: 'Indian restaurant, Spicy curries, vegetarian dishes & meats from a tandoor oven in a low-lit, family-run restaurant.',
+        menu: [
+            'Chicken',
+            'meat',
+            'fish',
+            'tandoor',
+            'Basmati ',
+            'vegetarian',
+        ],
+        likes: '707',
+        avg_price: 13,
+        featured: true,
+    },
 ];
 
 export default restaurants;
