@@ -416,6 +416,26 @@ const restaurants = [
         avg_price: 14,
         featured: true,
     },
+    {
+        id: '20',
+        title: 'Haiky asian food',
+        category: 'sea food',
+        icon: 'fa-solid fa-turkish-lira-sign',
+        image: './images/restaurants/restaurant-20.jpeg',
+        country: 'Germany',
+        location: 'https://goo.gl/maps/Nm2tP1f42Kbs4bqq6',
+        site: 'https://www.haiky-sushi-asia-food.de/',
+        description: 'Good Asian food, It is value for money. the quantity is fine.',
+        menu: [
+            'shrimp (rice&vegetables)',
+            'Chichen (rice&vegetables)',
+            'duck',
+            'Chichen (nudeln&vegetables)',
+        ],
+        likes: '390',
+        avg_price: 9,
+        featured: true,
+    },
 ];
 
 export default restaurants;
