@@ -185,7 +185,7 @@ const restaurants = [
         country: 'Germany',
         location: 'https://goo.gl/maps/UjtYBJoRmJYdzJJ27',
         site: 'http://sindbad-restaurant.de/karte.html',
-        description: 'Sindbad is an arabic restaurant in Munich, No-frills pick for Middle Eastern doner kebabs, falafels & meat skewers, to eat in or take out.',
+        description: 'Sindbad is arabic restaurant in Munich, No-frills pick for Middle Eastern doner kebabs, falafels & meat skewers, to eat in or take out.',
         menu: [
             'Meat Kebab',
             'tikka meat',
@@ -581,7 +581,7 @@ const restaurants = [
         country: 'Germany',
         location: 'https://goo.gl/maps/SeyVNmJukkUdwrTA8',
         site: 'http://www.sababa-munich.com/speisekarte.html',
-        description: 'Sababa is a syrian arabic restaurant in Munich, No-frills, compact restaurant fixing up Middle Eastern staples including falafel, hummus & shawarma.',
+        description: 'Sababa is a Lebanese arabic restaurant in Munich, No-frills, compact restaurant fixing up Middle Eastern staples including falafel, hummus & shawarma.',
         menu: [
             'shawarma',
             'hummus',
@@ -602,7 +602,7 @@ const restaurants = [
         country: 'Germany',
         location: 'https://goo.gl/maps/hkrotM3WjexmfaZp6',
         site: 'https://alshaam-münchen.de/#speisekarte',
-        description: 'Al Shaam is a Lebanese Arabic restaurant in Munich, Traditional restaurant focusing on Lebanese delicacies including grilled meats, flatbreads & dips.',
+        description: 'Al Shaam is Arabic restaurant in Munich, Traditional restaurant focusing on Lebanese delicacies including grilled meats, flatbreads & dips.',
         menu: [
             'kebab',
             'schisch tawouk',
