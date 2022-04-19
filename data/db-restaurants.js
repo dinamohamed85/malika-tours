@@ -593,6 +593,28 @@ const restaurants = [
         avg_price: 5,
         featured: true,
     },
+    {
+        id: '28',
+        title: 'Al Shaam',
+        category: 'halal',
+        icon: 'fa-solid fa-h',
+        image: './images/restaurants/restaurant-28.jpeg',
+        country: 'Germany',
+        location: 'https://goo.gl/maps/hkrotM3WjexmfaZp6',
+        site: 'https://alshaam-münchen.de/#speisekarte',
+        description: 'Al Shaam is a Lebanese Arabic restaurant in Munich, Traditional restaurant focusing on Lebanese delicacies including grilled meats, flatbreads & dips.',
+        menu: [
+            'kebab',
+            'schisch tawouk',
+            'fataer',
+            'bamya',
+            'Falafel',
+            'foul',
+        ],
+        likes: '733',
+        avg_price: 10,
+        featured: true,
+    },
 ];
 
 export default restaurants;
