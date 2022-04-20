@@ -926,6 +926,28 @@ const restaurants = [
         avg_price: 10,
         featured: true,
     },
+    {
+        id: '41',
+        title: 'Andy s Krablergarten',
+        category: 'burger',
+        icon: 'fa-regular fa-burger',
+        image: './images/restaurants/restaurant-41.jpeg',
+        country: 'Germany',
+        location: 'https://goo.gl/maps/pVWnaf8XXksRris37',
+        site: 'http://www.andyskrablergarten.de/speisenkarte',
+        address: 'Thalkirchner Str. 2, 80337 München',
+        phone: '08926019148',
+        description: 'Andy s Krablergarten a German schnitzel restaurant in Munich, Relaxed restaurant & beer garden serving hearty Bavarian sides, grills & schnitzels.',
+        menu: [
+            'Puten schnitzel ',
+            'Kalb schnitzel',
+            'Steak',
+            'salad',
+        ],
+        likes: '3,882',
+        avg_price: 15,
+        featured: true,
+    },
 ];
 
 export default restaurants;
