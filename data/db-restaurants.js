@@ -899,6 +899,33 @@ const restaurants = [
         avg_price: 10,
         featured: true,
     },
+    {
+        id: '40',
+        title: 'Bavarian Oriental',
+        category: 'burger',
+        icon: 'fa-regular fa-burger',
+        image: './images/restaurants/restaurant-40.jpeg',
+        country: 'Germany',
+        location: 'https://goo.gl/maps/pVWnaf8XXksRris37',
+        site: 'http://bavarian-oriental.de/',
+        address: 'Schleißheimer Str. 188, 80797 München',
+        phone: '01722834063',
+        description: 'Bavarian Oriental a Oriental arabic restaurant in Munich, Fresh homemade bowls, hummus, baba ganoush, falafel, tzatziki, stuffed vine leaves, olives, fresh feta cheese, dates from Iran & baklava. We also offer our delicacies in the form of catering .',
+        menu: [
+            'Philly Cheese',
+            'Cheese burger',
+            'hummus',
+            'baklava',
+            'vegetables',
+            'fish',
+            'meat',
+            'Steak',
+            'falafel',
+        ],
+        likes: '263',
+        avg_price: 10,
+        featured: true,
+    },
 ];
 
 export default restaurants;
