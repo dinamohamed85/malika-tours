@@ -615,6 +615,32 @@ const restaurants = [
         avg_price: 10,
         featured: true,
     },
+    {
+        id: '29',
+        title: 'Restaurant Karam',
+        category: 'halal',
+        icon: 'fa-solid fa-h',
+        image: './images/restaurants/restaurant-29.jpeg',
+        country: 'Germany',
+        location: 'https://goo.gl/maps/gLRpDHsJxJTBqvCA7',
+        site: '',
+        address: 'Schwanthalerstraße 6, 80336 München',
+        phone: '015770910732',
+        description: 'Karam is a syrian Arabic restaurant in Munich, Excellent flavour overall with the right balance of sauce and checken, meat, falafel.., fresh bread using for sandwiches.',
+        menu: [
+            'Shawarma',
+            'weinbläteer',
+            'kebab',
+            'schisch tawouk',
+            'mix grill',
+            'manakisch',
+            'fatayir',
+            'Lammleber'
+        ],
+        likes: '239',
+        avg_price: 10,
+        featured: true,
+    },
 ];
 
 export default restaurants;
