@@ -24,7 +24,7 @@ const displayTours = () => {
         text = filteredTours.length + ' ' + currentCategory;
 
     toursTitle.innerHTML = `<div class="tours-title">
-        <h2>find <span class="featured-num">${text}</span> to visit in Munich and cities around</h2>
+        <h2>top <span class="featured-num">${text}</span> to visit in Munich and cities around</h2>
     </div>`;
 
     toursContainer.innerHTML = filteredTours
