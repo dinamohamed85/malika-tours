@@ -715,7 +715,7 @@ const tours = [
         duration: 8,
         price: 0,
         season: 'summer',
-        featured: true,
+        featured: false,
     },
     {
         id: '28',
@@ -791,7 +791,7 @@ const tours = [
         duration: 6,
         price: 0,
         season: 'summer',
-        featured: true,
+        featured: false,
     },
     {
         id: '31',
@@ -1026,7 +1026,7 @@ const tours = [
         duration: 3,
         price: 5,
         season: 'summer',
-        featured: true,
+        featured: false,
     },
     {
         id: '40',

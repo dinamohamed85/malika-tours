@@ -21,7 +21,7 @@ const displayRestaurants = () => {
         text = filteredList.length + ' ' + currentCategory + ' restaurant';
 
     restaurantsTitle.innerHTML = `<div class="section-title">
-        <h2>top <span class="featured-num">${text}</span> in Munich</h2>
+        <h2>best <span class="featured-num">${text}</span> in Munich</h2>
     </div>`;
 
     restaurantsContainer.innerHTML = filteredList
