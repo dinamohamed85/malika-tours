@@ -1,6 +1,7 @@
 const restaurants = [
     {
         id: '1',
+        order: '1',
         title: 'bab al yemen',
         category: 'halal',
         icon: 'fa-solid fa-h',
@@ -22,6 +23,7 @@ const restaurants = [
     },
     {
         id: '2',
+        order: '1',
         title: 'EssPoint Pide & Grill',
         category: 'turkish',
         icon: 'fa-solid fa-turkish-lira-sign',
@@ -45,6 +47,7 @@ const restaurants = [
     },
     {
         id: '3',
+        order: '1',
         title: 'Gourmet Tempel',
         category: 'sea food',
         icon: 'fa-solid fa-fish',
@@ -67,6 +70,7 @@ const restaurants = [
     },
     {
         id: '4',
+        order: '1',
         title: 'Deli Tadka Indian Street Food',
         category: 'indian food',
         icon: 'fa-solid fa-turkish-lira-sign',
@@ -90,7 +94,7 @@ const restaurants = [
     },
     {
         id: '5',
-        mun: 3,
+        order: '1',
         title: 'BENTO YA',
         category: 'sushi',
         icon: 'fa-solid fa-shrimp',
@@ -113,6 +117,7 @@ const restaurants = [
     },
     {
         id: '6',
+        order: '1',
         title: 'Simitçi Café',
         category: 'breakfast',
         icon: 'fa-solid fa-egg',
@@ -137,6 +142,7 @@ const restaurants = [
     },
     {
         id: '7',
+        order: '1',
         title: 'Alex cafe',
         category: 'cafes',
         icon: 'fa-solid fa-mug-saucer',
@@ -159,6 +165,7 @@ const restaurants = [
     },
     {
         id: '8',
+        order: '2',
         title: 'Taste my Burger',
         category: 'halal',
         icon: 'fa-solid fa-h',
@@ -180,6 +187,7 @@ const restaurants = [
     },
     {
         id: '9',
+        order: '3',
         title: 'Sindbad',
         category: 'halal',
         icon: 'fa-solid fa-h',
@@ -202,6 +210,7 @@ const restaurants = [
     },
     {
         id: '10',
+        order: '4',
         title: 'Moosacher Paradies',
         category: 'halal',
         icon: 'fa-solid fa-h',
@@ -226,6 +235,7 @@ const restaurants = [
     },
     {
         id: '11',
+        order: '2',
         title: 'Restaurant Myra',
         category: 'turkish',
         icon: 'fa-solid fa-turkish-lira-sign',
@@ -248,6 +258,7 @@ const restaurants = [
     },
     {
         id: '12',
+        order: '5',
         title: 'Arabesk',
         category: 'halal',
         icon: 'fa-solid fa-h',
@@ -272,6 +283,7 @@ const restaurants = [
     },
     {
         id: '13',
+        order: '6',
         title: 'Al Qaswaa',
         category: 'halal',
         icon: 'fa-solid fa-h',
@@ -373,7 +385,7 @@ const restaurants = [
             'Seelachsfilet',
             'Alaska-Seelachsfilet',
         ],
-        likes: '1,248',
+        likes: '2,248',
         avg_price: 10,
         featured: true,
     },
@@ -439,7 +451,7 @@ const restaurants = [
             'duck',
             'Chichen (nudeln&vegetables)',
         ],
-        likes: '390',
+        likes: '990',
         avg_price: 9,
         featured: true,
     },
@@ -1109,7 +1121,7 @@ const restaurants = [
         site: 'https://www.sushi-sano.de/speisekarte',
         address: 'Brunnstraße 6, 80331 München, Germany',
         phone: '089267490',
-        description: 'Sushi Sano is a sushi restaurant in Munich, Large Japanese restaurant & bar with stylish, minimalist decor, plus whisky & rum tastings.',
+        description: 'Sushi Sano is a sushi restaurant in Munich, Takaaki Sano was one of the first Japanese to bring sushi to Munich. Our philosophy is to create good quality sushi that is still affordable for our guests.',
         menu: [
             'GOI CUON TOM',
             'TOM COM',
@@ -1119,7 +1131,7 @@ const restaurants = [
             'KASHIWA',
         ],
         likes: '1,183',
-        avg_price: 25,
+        avg_price: 20,
         featured: true,
     },
     {
