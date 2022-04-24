@@ -14,14 +14,19 @@ const displayRestaurants = () => {
         restaurantsContainer.innerHTML = `<h2 class="section-title" >Sorry, no restaurants matched your search</h2>`;
         return;
     }
-    let text = '';
-    if (currentCategory == 'all')
-        text = filteredList.length + ' restaurants ';
-    else
-        text = filteredList.length + ' ' + currentCategory + ' restaurant';
+    let text1 = '';
+    let text2 = '';
+    if (currentCategory == 'all') {
+        text1 = 'best ';
+        text2 = filteredList.length + ' restaurants ';
+    }
+    else {
+        text1 = 'top ';
+        text2 = filteredList.length + ' ' + currentCategory + ' restaurant';
+    }
 
     restaurantsTitle.innerHTML = `<div class="section-title">
-        <h2>best <span class="featured-num">${text}</span> in Munich</h2>
+        <h2> ${text1}<span class="featured-num">${text2}</span> in Munich</h2>
     </div>`;
 
     restaurantsContainer.innerHTML = filteredList

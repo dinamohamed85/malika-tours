@@ -598,7 +598,7 @@ Navbar
 */
 /* add :not(.nav-logo) to img */
 .nav-logo{
-  height: 1.75rem;
+  height: 1.5rem;
 }
 .navbar {
   position: sticky;
@@ -622,7 +622,7 @@ Navbar
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 1rem 1rem;
+  padding: .75rem .75rem;
   /* padding: 0 0; */
 }
 .nav-toggle {
@@ -639,7 +639,7 @@ Navbar
 }
 .nav-link {
   position: relative;  
-  padding: 1rem 1rem;
+  padding: .75rem .75rem;
   /* padding-right: 1.5rem; */
   text-transform: capitalize;
   letter-spacing: var(--spacing);
