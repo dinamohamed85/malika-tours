@@ -20,10 +20,19 @@ const displayRestaurants = () => {
         text1 = 'best ';
         text2 = filteredList.length + ' restaurants ';
     }
+    else if (currentCategory == 'featured') {
+        text1 = 'featured ';
+        text2 = filteredList.length + ' restaurants ';
+    }
+    else if (currentCategory == 'cafes') {
+        text1 = 'top ';
+        text2 = filteredList.length + ' ' + currentCategory;
+    }
     else {
         text1 = 'top ';
         text2 = filteredList.length + ' ' + currentCategory + ' restaurant';
     }
+
 
     restaurantsTitle.innerHTML = `<div class="section-title">
         <h2> ${text1}<span class="featured-num">${text2}</span> in Munich</h2>
