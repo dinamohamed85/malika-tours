@@ -1170,7 +1170,7 @@ const tours = [
         icon: 'fa-regular fa-calendar-check',
         image: './images/tours/tour-45.jpeg',
         country: 'Germany',
-        date: 'September, 2022',
+        date: 'April & September, 2022',
         location: 'https://goo.gl/maps/QwciWUtpyVYStqSS7',
         site: 'https://www.oktoberfest.de/en',
         address: 'In the center of Munich about 10 min away via <strong>U5</strong> (Theresienwiese).',

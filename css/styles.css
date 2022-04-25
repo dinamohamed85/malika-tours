@@ -886,11 +886,11 @@ min-height:calc(100vh - 62px);
   color: var(--clr-white);
 }
 .list-container {
-  width: 92vw;
+  width: 93vw;
   margin: 1rem auto;
-  max-width: 1170px;
+  max-width: 1260px;
   display: grid;
-  gap: 3rem 2rem;
+  gap: 2rem 2rem;
   justify-items: center;
 }
 .item {
@@ -925,12 +925,12 @@ min-height:calc(100vh - 62px);
 
 @media screen and (min-width: 768px) {
   .item {
-    grid-template-columns: 17rem 1fr;
+    grid-template-columns: 1fr 1fr;
     gap: 0 1rem;
-    max-width: 40rem;
+    max-width: 50rem;
   }
   .item-photo {
-    height: 17rem;
+    height: 19rem;
   }
 }
 @media screen and (min-width: 1200px) {
@@ -938,7 +938,7 @@ min-height:calc(100vh - 62px);
     width: 99vw;
     grid-template-columns: 1fr 1fr;
   }
-  .item-photo {
-    height: 15rem;
+  .item {
+    grid-template-columns: 21rem 1fr;
   }
 }
