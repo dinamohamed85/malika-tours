@@ -66,7 +66,7 @@ const displayRestaurants = () => {
             <i class="fas fa-heart tour-love-icon"></i> ${likes}
             </p>
             <p><a href="${site}" target="_blank"><i
-            class="fa-solid fa-diamond-turn-right site-icon"></i> Menu</a></p>
+            class="fa-solid fa-utensils site-icon"></i> Menu</a></p>
         </div>
         </div>       
     </article>`;
