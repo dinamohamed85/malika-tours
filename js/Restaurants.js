@@ -78,7 +78,7 @@ const displayRestaurants = () => {
 // Filter Buttons
 const displayButtons = () => {
     const buttons = [
-        'all',
+        'all', 'featured',
         ...new Set(restaurants.map((item) => item.category)),
     ];
     // console.log(buttons);
@@ -106,7 +106,14 @@ window.addEventListener('DOMContentLoaded', () => {
                     currentCategory = el.dataset.id;
                     if (el.dataset.id === 'all') {
                         filteredList = [...restaurants];
-                    } else {
+                    }
+
+                    else if (el.dataset.id === 'featured') {
+                        filteredList = restaurants.filter((item) => {
+                            return item.featured
+                        });
+                    }
+                    else {
                         filteredList = restaurants.filter((item) => {
                             return item.category === el.dataset.id || item.menu.find((thing) => thing.toLowerCase().includes(el.textContent));;
                         });
