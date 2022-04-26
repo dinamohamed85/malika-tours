@@ -52,6 +52,16 @@ const displayRestaurants = () => {
             class="fa-solid fa-location-dot site-icon"></i>${title}</a></h4>
             <h4 class="item-price">${avg_price}€</h4>
         </header>
+        <div class="more-info">
+            <h5>Address :</h5>
+            <p>
+            ${address}
+            </p>
+            <h5>Phone :</h5>
+            <p>
+            ${phone}
+            </p>
+        </div>
         <p class="item-text">
             ${description}
         </p>
