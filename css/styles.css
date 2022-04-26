@@ -39,6 +39,8 @@ Variables
   --clr-grey-8: hsl(210, 31%, 80%);
   --clr-grey-9: hsl(212, 33%, 89%);
   --clr-grey-10: hsl(210, 36%, 96%);
+  --clr-grey-11: hsla(0, 1%, 47%, 0.651);
+  /* --clr-grey-11: rgba(0, 0, 0, 0.4); */
   --clr-white: #fff;
   --ff-primary: "Lato", sans-serif;
   --transition: all 0.3s linear;
@@ -913,7 +915,7 @@ min-height:calc(100vh - 62px);
   margin-bottom: 0.75rem;
 }
 .item-info p {
-  margin-bottom: 0.5rem;
+  margin-bottom: 0.25rem;
 }
 .item-price {
   color: var(--clr-gold);
@@ -927,7 +929,7 @@ min-height:calc(100vh - 62px);
   .item {
     grid-template-columns: 1fr 1fr;
     gap: 0 1rem;
-    max-width: 50rem;
+    max-width: 60rem;
   }
   .item-photo {
     height: 19rem;
@@ -939,7 +941,7 @@ min-height:calc(100vh - 62px);
     grid-template-columns: 1fr 1fr;
   }
   .item {
-    grid-template-columns: 21rem 1fr;
+    grid-template-columns: 20rem 1fr;
   }
 }
 .item-rate {
@@ -962,4 +964,8 @@ min-height:calc(100vh - 62px);
   top: 0;
   margin-bottom: 0;
   font-size: 2rem;
+}
+
+.more-info{  
+  color: var(--clr-grey-11);
 }

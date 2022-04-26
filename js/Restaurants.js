@@ -48,19 +48,15 @@ const displayRestaurants = () => {
         </div>
         <div class="item-info">
         <header>            
-            <h4><a href="${location}" target="_blank"><i
-            class="fa-solid fa-location-dot site-icon"></i>${title}</a></h4>
+            <h4>${title}</h4>
             <h4 class="item-price">${avg_price}€</h4>
         </header>
-        <div class="more-info">
-            <h5>Address :</h5>
-            <p>
-            ${address}
-            </p>
-            <h5>Phone :</h5>
-            <p>
-            ${phone}
-            </p>
+        <div >   
+            <p><a href="${location}" target="_blank"><i
+            class="fa-solid fa-location-dot site-icon"></i>
+            <span class="more-info">      ${address}</span></a> </p>    
+            <p> <i class="fa-solid fa-phone site-icon"></i> 
+            <span class="more-info">  ${phone}</span> </p>             
         </div>
         <p class="item-text">
             ${description}
