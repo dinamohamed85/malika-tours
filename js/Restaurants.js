@@ -37,9 +37,9 @@ const displayRestaurants = () => {
     restaurantsTitle.innerHTML = `<div class="section-title">
         <h2> ${text1}<span class="featured-num">${text2}</span> in Munich</h2>
     </div>`;
-    let count = 1;
+
     restaurantsContainer.innerHTML = filteredList
-        .map((item) => {
+        .map((item, index) => {
             const { id, title, category, icon, images, location, site, description, menu, likes, featured, avg_price, address, phone, rate } = item;
             return `<article class="item">
         <div class="tour-img-container">
@@ -48,10 +48,10 @@ const displayRestaurants = () => {
         </div>
         <div class="item-info">
         <header>            
-            <h4>${count++}- ${title}</h4>
+            <h4>${index + 1}- ${title}</h4>
             <h4 class="item-price">${avg_price}€</h4>
         </header>
-        <section >
+        <section>
             <p><a href="${location}" target="_blank"><i
             class="fa-solid fa-location-dot site-icon"></i>
             <span class="more-info">      ${address}</span></a> </p>    
