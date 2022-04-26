@@ -108,6 +108,7 @@ h4 {
 }
 p {
   font-size: 0.788rem;
+  margin-top: 0.25rem;
   margin-bottom: 0.5rem;
   color: var(--clr-grey-5);
 }

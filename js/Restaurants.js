@@ -51,13 +51,13 @@ const displayRestaurants = () => {
             <h4>${count++}- ${title}</h4>
             <h4 class="item-price">${avg_price}€</h4>
         </header>
-        <div >   
+        <section >
             <p><a href="${location}" target="_blank"><i
             class="fa-solid fa-location-dot site-icon"></i>
             <span class="more-info">      ${address}</span></a> </p>    
             <p> <i class="fa-solid fa-phone site-icon"></i> 
             <span class="more-info">  ${phone}</span> </p>             
-        </div>
+        </section>
         <p class="item-text">
             ${description}
         </p>
