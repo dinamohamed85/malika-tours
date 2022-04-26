@@ -348,7 +348,7 @@ const restaurants = [
         id: '14',
         order: '6',
         title: 'Restaurant Giannis -Ottobrunn',
-        category: 'featured',
+        category: 'other',
         icon: 'fa-solid fa-h',
         image: './images/restaurants/restaurant-14.jpeg',
         country: 'Germany',
@@ -573,7 +573,7 @@ const restaurants = [
         rate: 4.5,
         likes: '648',
         avg_price: 10,
-        featured: true,
+        featured: false,
     },
     {
         id: '23',
@@ -657,7 +657,7 @@ const restaurants = [
         rate: 4.0,
         likes: '707',
         avg_price: 13,
-        featured: true,
+        featured: false,
     },
     {
         id: '26',
@@ -736,7 +736,7 @@ const restaurants = [
         rate: 4.1,
         likes: '733',
         avg_price: 10,
-        featured: true,
+        featured: false,
     },
     {
         id: '29',
@@ -818,7 +818,7 @@ const restaurants = [
         rate: 3.8,
         likes: '1,167',
         avg_price: 10,
-        featured: true,
+        featured: false,
     },
     {
         id: '32',
@@ -847,7 +847,7 @@ const restaurants = [
         rate: 4.0,
         likes: '946',
         avg_price: 10,
-        featured: true,
+        featured: false,
     },
     {
         id: '33',
@@ -956,7 +956,7 @@ const restaurants = [
         rate: 4.3,
         likes: '658',
         avg_price: 7,
-        featured: true,
+        featured: false,
     },
     {
         id: '37',
@@ -1070,7 +1070,7 @@ const restaurants = [
         id: '41',
         order: '6',
         title: 'Andy s Krablergarten',
-        category: 'featured',
+        category: 'other',
         icon: 'fa-regular fa-burger',
         image: './images/restaurants/restaurant-41.jpeg',
         country: 'Germany',
@@ -1115,7 +1115,7 @@ const restaurants = [
             'steak'
         ],
         rate: 4.3,
-        likes: '3,882',
+        likes: '789',
         avg_price: 16,
         featured: true,
     },
@@ -1302,7 +1302,7 @@ const restaurants = [
         rate: 4.6,
         likes: '641',
         avg_price: 25,
-        featured: true,
+        featured: false,
     },
     {
         id: '50',
@@ -1328,7 +1328,7 @@ const restaurants = [
         rate: 4.1,
         likes: '652',
         avg_price: 12,
-        featured: true,
+        featured: false,
     },
     {
         id: '51',
@@ -1387,7 +1387,7 @@ const restaurants = [
         id: '53',
         order: '1',
         title: 'Cotidiano',
-        category: 'featured',
+        category: 'other',
         icon: 'fa-solid fa-mug-saucer',
         image: './images/restaurants/restaurant-53.jpeg',
         country: 'Germany',
@@ -1471,7 +1471,7 @@ const restaurants = [
         rate: 4.5,
         likes: '312',
         avg_price: 8,
-        featured: true,
+        featured: false,
     },
     {
         id: '56',
@@ -1578,7 +1578,7 @@ const restaurants = [
         rate: 4.6,
         likes: '904',
         avg_price: 20,
-        featured: true,
+        featured: false,
     },
     {
         id: '60',
@@ -1605,7 +1605,7 @@ const restaurants = [
         rate: 4.8,
         likes: '547',
         avg_price: 20,
-        featured: true,
+        featured: false,
     },
     {
         id: '61',
