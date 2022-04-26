@@ -40,9 +40,12 @@ const displayRestaurants = () => {
 
     restaurantsContainer.innerHTML = filteredList
         .map((item) => {
-            const { id, title, category, icon, image, location, site, description, menu, likes, featured, avg_price } = item;
+            const { id, title, category, icon, image, location, site, description, menu, likes, featured, avg_price, address, phone, rate } = item;
             return `<article class="item">
-        <img src="${image}" class="item-photo" />
+        <div class="tour-img-container">
+            <img src="${image}" class="item-photo" />
+            <i class="fa-solid fa-face-smile rate-icon"></i><p class="item-rate">${rate}</p>
+        </div>
         <div class="item-info">
         <header>            
             <h4><a href="${location}" target="_blank"><i

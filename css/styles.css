@@ -860,13 +860,13 @@ min-height:calc(100vh - 62px);
   color: red;
 }
 .featured-icon{
-  color: orange;
+  color: var(--clr-orange-1);
   position: absolute;
   left: 0;
   top: 0;
   margin-bottom: 0;
   font-size: 2rem;
-  opacity: 0.8;
+  /* opacity: 0.8; */
 }
 .featured-num{
   color: var(--clr-primary-5);
@@ -941,4 +941,25 @@ min-height:calc(100vh - 62px);
   .item {
     grid-template-columns: 21rem 1fr;
   }
+}
+.item-rate {
+  position: absolute;
+  right: 0;
+  top: 0;
+  background: var(--clr-grey-8);  
+  color: var(--clr-primary-1);
+  text-transform: capitalize;
+  padding: 0.2rem 1rem;
+  margin-bottom: 0;
+  opacity: 0.8;
+  font-size: 1rem;
+  font-weight: 900;
+}
+.rate-icon{
+  color: var(--clr-orange-1);
+  position: absolute;
+  left: 0;
+  top: 0;
+  margin-bottom: 0;
+  font-size: 2rem;
 }
