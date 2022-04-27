@@ -1483,7 +1483,7 @@ const tours = [
         date: 'february, 2021',
         location: 'https://goo.gl/maps/U3g2sKwJkbkLxUe88',
         site: 'http://www.kindermuseum-muenchen.de/',
-        address: 'In the Munich city center via <strong>U5 </strong>().',
+        address: 'In the Munich city center via <strong>U5 </strong>(Hauptbahnhof).',
         description: 'Educational museum with temporary, hands-on exhibitions for kids to experiment with & learn.',
         thingstodo: [
             'Interactive exhibitions',
@@ -1509,7 +1509,7 @@ const tours = [
         date: 'may, 2021',
         location: 'https://goo.gl/maps/orjUz8XBvLUJqF72A',
         site: 'https://www.pinakothek.de/besuch/alte-pinakothek',
-        address: 'In the Munich city center via <strong>U5 </strong>().',
+        address: 'In the Munich city center via <strong>U5 </strong>(Odeonsplatz).',
         description: 'Major art collection in a vast neoclassical building displaying about 900 paintings at any one time.',
         thingstodo: [
             'Art',
@@ -1534,7 +1534,7 @@ const tours = [
         date: 'may, 2021',
         location: 'https://goo.gl/maps/U2cPYoHwN1bpWvxL6',
         site: 'https://www.pinakothek-der-moderne.de/',
-        address: 'In the Munich city center via <strong>U5 </strong>().',
+        address: 'In the Munich city center via <strong>U5 </strong>(Odeonsplatz).',
         description: 'Vast, contemporary museum housing art, architecture, design & graphics of the 19th & 20th centuries.',
         thingstodo: [
             'Art',
@@ -1561,7 +1561,7 @@ const tours = [
         date: 'january, 2021',
         location: 'https://goo.gl/maps/bjnzWaBaSdNv4o8i6',
         site: 'https://www.lenbachhaus.de/',
-        address: 'In the Munich city center via <strong>U5 </strong>().',
+        address: 'close to the Munich city center awy 15 min via <strong>U2 </strong>(Königsplatz).',
         description: 'Modern & contemporary art museum with works by Kandinsky, Klee & the Blue Rider movement.',
         thingstodo: [
             'Art',
@@ -1588,7 +1588,7 @@ const tours = [
         date: 'may, 2021',
         location: 'https://goo.gl/maps/bEqvg9xkdw8AyN286',
         site: 'http://www.muenchen.de/sehenswuerdigkeiten/orte/120231.html',
-        address: 'In the Munich city center via <strong>U5 </strong>().',
+        address: 'In the Munich city center via <strong>U5 </strong>(Odeonsplatz).',
         description: 'City park with formal lawns & flower beds, court gardens of the Royal residence in the 17th century.',
         thingstodo: [
             'royal palace',
