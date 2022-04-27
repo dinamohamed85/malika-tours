@@ -232,7 +232,7 @@ const restaurants = [
         id: '8',
         order: '2',
         title: 'Taste my Burger',
-        category: 'halal',
+        category: 'burger',
         icon: 'fa-solid fa-h',
         images: [
             './images/restaurants/restaurant-8-0.jpeg',
