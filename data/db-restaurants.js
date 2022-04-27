@@ -17,13 +17,14 @@ const restaurants = [
         site: 'https://wolt.com/en/deu/munich/restaurant/bab-al-yemen',
         address: 'Thierschstraße 8, 80538 München',
         phone: '08921111789',
-        description: 'Bab Al Yemen is an arabic restaurant in the center of Munich',
+        description: 'Bab Al Yemen is an arabic restaurant in the center of Munich.',
         menu: [
             'Madghout Lamb',
             'Zurbian Lamb',
             'Madfon Chicken',
             'Madghout Chicken',
             'Lamb Sanouna',
+            'halal'
         ],
         rate: 4.4,
         likes: '222',
@@ -48,7 +49,7 @@ const restaurants = [
         site: 'https://mycarddigi.de/esspoint-neuaubing/menukarte?pro=1',
         address: 'Bodenseestraße 225 Neuaubing, 81243 München, Germany',
         phone: '08921111789',
-        description: 'EssPoint is a Turkish restaurant has many branches in Munich',
+        description: 'EssPoint is a Turkish restaurant has many branches in Munich.',
         menu: [
             'Pide',
             'Köfte',
@@ -252,6 +253,7 @@ const restaurants = [
             'Hula Hula',
             'Stinking Rose',
             'Evergreen',
+            'halal'
         ],
         rate: 4.6,
         likes: '2,398',
@@ -283,7 +285,8 @@ const restaurants = [
             'lambSkewers&Rice',
             'kebab&Rice',
             '½GrilledChicken&Rice',
-            'falafel'
+            'falafel',
+            'halal'
         ],
         rate: 3.9,
         likes: '2,678',
@@ -319,6 +322,7 @@ const restaurants = [
             'pasta',
             'pizza',
             'Steak',
+            'halal'
         ],
         rate: 4.6,
         likes: '2,664',
@@ -385,6 +389,7 @@ const restaurants = [
             'falafel',
             'breakfast',
             'Lebanese',
+            'halal'
         ],
         rate: 3.9,
         likes: '1,210',
@@ -417,6 +422,7 @@ const restaurants = [
             'lamb',
             'shawarma',
             'Kefta',
+            'halal'
         ],
         rate: 4.1,
         likes: '510',
@@ -739,6 +745,7 @@ const restaurants = [
             'Sambousek',
             'halal',
             'Lebanese',
+            'halal'
         ],
         rate: 4.4,
         likes: '1,013',
@@ -868,6 +875,7 @@ const restaurants = [
             'salad',
             'vegetarian',
             'Lebanese',
+            'halal'
         ],
         rate: 4.6,
         likes: '963',
@@ -901,6 +909,7 @@ const restaurants = [
             'Falafel',
             'foul',
             'Lebanese',
+            'halal'
         ],
         rate: 4.1,
         likes: '733',
@@ -937,6 +946,7 @@ const restaurants = [
             'Lammleber',
             'falafel',
             'Syrian',
+            'halal'
         ],
         rate: 3.9,
         likes: '239',
@@ -970,6 +980,7 @@ const restaurants = [
             'hummus',
             'falafel',
             'Syrian',
+            'halal'
         ],
         rate: 4.1,
         likes: '1,064',
@@ -1001,6 +1012,7 @@ const restaurants = [
             'Mutabbal',
             'falafel',
             'Syrian',
+            'halal'
         ],
         rate: 3.8,
         likes: '1,167',
@@ -1036,6 +1048,7 @@ const restaurants = [
             'Kebab Ruz',
             'mix grill',
             'Lebanese',
+            'halal'
         ],
         rate: 4.1,
         likes: '946',
