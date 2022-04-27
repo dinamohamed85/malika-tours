@@ -24,6 +24,10 @@ const displayRestaurants = () => {
         text1 = 'featured ';
         text2 = filteredList.length + ' restaurants ';
     }
+    else if (currentCategory == 'other') {
+        text1 = 'top ';
+        text2 = filteredList.length + ' diffrent' + ' restaurants ';
+    }
     else if (currentCategory == 'cafes & bakery') {
         text1 = 'top ';
         text2 = filteredList.length + ' ' + currentCategory;

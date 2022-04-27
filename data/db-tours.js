@@ -1582,7 +1582,7 @@ const tours = [
         id: '60',
         title: 'Hofgarten',
         category: 'parks',
-        icon: 'fas fa-archway',
+        icon: 'fa-solid fa-tree',
         image: './images/tours/tour-60.jpeg',
         country: 'Germany',
         date: 'may, 2021',
