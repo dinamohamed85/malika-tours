@@ -1,11 +1,18 @@
 # malika-tours-in-Bayern
-Simple web application about Malika Tours in Bayern ⛰️
+Simple web application about places and restaurants to visit in Munich.
+
+If you are living in Munich, here is your reference for interesting Outings 🎡 ⛱️ , Restaurants 🥘 , Shopping 🛍️ and more . Find nice places to visit with your family in Munich and cities around.
+
+Your guide to know good information about what is the activities that nice to explore.  ⛰️
+
 - Responsive Design. 
 - Flexbox for Columns Layouts.
 - Navbar. 
 - Sub Menu. 
 - Animation. 
 - External Icons from fontawesome.  
+- Modules
+- Search Option.
 
 To run Demo : https://explorey.netlify.app/
 
@@ -21,5 +28,15 @@ To run Demo : https://explorey.netlify.app/
   <td><img src='screenshots/shot4.png' width='100%' /></td>
   <td><img src='screenshots/shot5.png' width='100%' /></td>
   <td><img src='screenshots/shot6.png' width='100%' /></td>
+ </tr>
+  <tr>
+  <td><img src='screenshots/shot7.png' width='100%' /></td>
+  <td><img src='screenshots/shot8.png' width='100%' /></td>
+  <td><img src='screenshots/shot9.png' width='100%' /></td>
+ </tr>
+  <tr>
+  <td><img src='screenshots/shot10.png' width='100%' /></td>
+  <td><img src='screenshots/shot11.png' width='100%' /></td>
+  <td><img src='screenshots/shot12.png' width='100%' /></td>
  </tr>
 </table>

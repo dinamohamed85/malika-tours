@@ -18,7 +18,7 @@ const displayshopping = () => {
     let text2 = '';
     if (currentCategory == 'all') {
         text1 = 'best ';
-        text2 = filteredList.length + ' shopping ';
+        text2 = filteredList.length + ' places for shopping ';
     }
     else if (currentCategory == 'featured') {
         text1 = 'featured ';
@@ -26,7 +26,7 @@ const displayshopping = () => {
     }
     else if (currentCategory == 'other') {
         text1 = 'top ';
-        text2 = filteredList.length + ' diffrent' + ' shopping ';
+        text2 = filteredList.length + ' diffrent places for' + ' shopping ';
     }
     else if (currentCategory == 'cafes & bakery') {
         text1 = 'top ';
