@@ -2146,6 +2146,38 @@ const restaurants = [
         avg_price: 15,
         featured: false,
     },
+    {
+        id: '66',
+        order: '1',
+        title: 'Kabul Restaurant München',
+        category: 'halal',
+        icon: 'fa-solid fa-ellipsis',
+        images: [
+            './images/restaurants/restaurant-66-0.jpeg',
+            './images/restaurants/restaurant-66-1.jpeg',
+            './images/restaurants/restaurant-66-2.jpeg',
+            './images/restaurants/restaurant-66-3.jpeg',
+            './images/restaurants/restaurant-66-4.jpeg',
+        ],
+        country: 'Germany',
+        location: 'https://goo.gl/maps/n4rJM9M47zgcZkiu5',
+        site: 'https://cdn.website.dish.co/media/12/b5/3987630/Speisekarte.pdf',
+        address: 'Dachauer Str. 33, 80335 München',
+        phone: '08946227038',
+        description: 'Traditional Afghani specialties supplied in a laid-back setting with sidewalk tables.',
+        menu: [
+            'Borani Kadu',
+            'Sambosa',
+            'Quabeli Palau',
+            'Borani Badenjan',
+            'Quabeli Palau ba Kabab Morgh',
+            'Afghani'
+        ],
+        rate: 4.4,
+        likes: '1,026',
+        avg_price: 15,
+        featured: false,
+    },
 ];
 
 export default restaurants;
