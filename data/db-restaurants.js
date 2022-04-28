@@ -17,7 +17,7 @@ const restaurants = [
         site: 'https://wolt.com/en/deu/munich/restaurant/bab-al-yemen',
         address: 'Thierschstraße 8, 80538 München',
         phone: '08921111789',
-        description: 'Bab Al Yemen is an arabic restaurant in the center of Munich.',
+        description: 'Bab Al Yemen is an arabic restaurant in the center of Munich, Let yourself be inspired by our delicious Arabic delicacies! Everything is freshly prepared and our kitchen uses wonderful flavors in your dishes.',
         menu: [
             'Madghout Lamb',
             'Zurbian Lamb',
@@ -49,7 +49,7 @@ const restaurants = [
         site: 'https://mycarddigi.de/esspoint-neuaubing/menukarte?pro=1',
         address: 'Bodenseestraße 225 Neuaubing, 81243 München, Germany',
         phone: '08921111789',
-        description: 'EssPoint is a Turkish restaurant has many branches in Munich.',
+        description: 'EssPoint is a Turkish restaurant has many branches in Munich. EssPoint Pide & Grill is the original of the Pide. It is a family business run for several generations. We cook with love and heart. The fulfillment of your wishes, your needs and your satisfaction has been our top priority. All of our dishes are always freshly prepared for you with the best ingredients.',
         menu: [
             'Pide',
             'Köfte',
@@ -2103,7 +2103,7 @@ const restaurants = [
         menu: [
             'burger',
             'vegan',
-            'hit dog',
+            'hot dog',
             'noodles',
             'halal',
             'fast food',

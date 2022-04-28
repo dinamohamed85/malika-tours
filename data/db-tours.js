@@ -1595,8 +1595,6 @@ const tours = [
             'pavilion',
             'musicians',
             'Playground',
-            'Ducks',
-            'Picnic',
             'Strolling',
             'cafe',
         ],
