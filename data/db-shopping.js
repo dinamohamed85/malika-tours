@@ -203,7 +203,7 @@ const shopping = [
     },
     {
         id: '9',
-        title: 'Dutchman',
+        title: 'deichmann',
         category: 'shopes',
         icon: 'fa-solid fa-shop',
         images: [
