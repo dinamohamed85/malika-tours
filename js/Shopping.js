@@ -126,7 +126,7 @@ window.addEventListener('DOMContentLoaded', () => {
                     }
                     else {
                         filteredList = shopping.filter((item) => {
-                            return item.category === el.dataset.id || item.menu.find((thing) => thing.toLowerCase().includes(el.textContent));;
+                            return item.category === el.dataset.id || item.thingstodo.find((thing) => thing.toLowerCase().includes(el.textContent));;
                         });
                     }
                     displayshopping();
