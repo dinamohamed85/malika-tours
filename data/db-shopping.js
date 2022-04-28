@@ -216,7 +216,7 @@ const shopping = [
         phone: '08959976090',
         description: 'Urban shopping complex with national & international chain retailers, a food court & a game arcade.',
         thingstodo: [
-            'electronics',
+            'Shoe store',
         ],
         rate: 4.3,
         likes: '2,864',
@@ -237,7 +237,7 @@ const shopping = [
         phone: '08959976090',
         description: 'Urban shopping complex with national & international chain retailers, a food court & a game arcade.',
         thingstodo: [
-            'electronics',
+            'sport store',
         ],
         rate: 4.3,
         likes: '2,864',
@@ -258,7 +258,7 @@ const shopping = [
         phone: '08959976090',
         description: 'Urban shopping complex with national & international chain retailers, a food court & a game arcade.',
         thingstodo: [
-            'electronics',
+            'Clothing store',
         ],
         rate: 4.3,
         likes: '2,864',
