@@ -264,6 +264,27 @@ const shopping = [
         likes: '5,696',
         featured: true,
     },
+    {
+        id: '12',
+        title: 'RESERVED',
+        category: 'shopes',
+        icon: 'fa-solid fa-shop',
+        images: [
+            './images/shopping/shop-12.jpeg',
+        ],
+        country: 'Germany',
+        location: 'https://goo.gl/maps/918H4585kdyBV9Sw9',
+        site: 'https://www.reserved.com/re/en/',
+        address: 'Kaufingerstraße 15, 80331 München',
+        phone: '015226794717',
+        description: 'Reserved is a Polish apparel retailer headquartered in Gdańsk, Pomerania, Poland. It was founded in 1999 and remains the largest company of the LPP group, which has more than 1,700 retail stores located in over 20 countries.',
+        thingstodo: [
+            'Department store',
+        ],
+        rate: 4.1,
+        likes: '5,696',
+        featured: true,
+    },
 ];
 
 export default shopping;
