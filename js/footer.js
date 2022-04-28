@@ -13,10 +13,10 @@ const displayFooter = () => {
     <li>
         <a href="index.html" class="footer-link scroll-link">home</a>
     </li>
-    <a href="about.html" class="footer-link scroll-link">about</a>
-    <a href="index.html#featured" class="footer-link scroll-link">featured</a>
+    <a href="about.html" class="footer-link scroll-link">about</a>    
     <a href="index.html#services" class="footer-link scroll-link">services</a>
     <a href="index.html#gallery" class="footer-link scroll-link">gallery</a>
+    <a href="index.html#featured" class="footer-link scroll-link">featured</a>
     <a href="tours.html" class="footer-link scroll-link">Outings</a>
     <a href="restaurants.html" class="footer-link scroll-link">Restaurants</a>
     <a href="shopping.html" class="footer-link scroll-link">shopping</a>

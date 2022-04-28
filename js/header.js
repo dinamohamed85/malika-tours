@@ -25,9 +25,15 @@ const displayHeader = () => {
     <!-- end of nav header -->
     <!-- nav links -->
     <ul class="menu" id="menu">
-        <li>
         <!-- single link -->
+        <li>        
         <a class="nav-link" href="index.html" class="nav-icon"><i class="fa-solid fa-house menu-icon"></i>home</a>
+        </li>
+        <!-- end of single link -->
+        <!-- single link -->
+        <!-- single link -->
+        <li>        
+        <a class="nav-link" href="about.html" class="nav-icon"><i class="fa-solid fa-address-card menu-icon"></i>about</a>
         </li>
         <!-- end of single link -->
         <!-- single link -->

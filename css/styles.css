@@ -116,9 +116,6 @@ h4 {
 h5 {
   font-size: 0.767rem;
 }
-h5 {
-  font-size: 0.567rem;
-}
 p {
   font-size: 0.788rem;
   margin-top: 0.25rem;
@@ -690,9 +687,9 @@ Navbar
 }
 /* nav toggle functionality */
 .nav-icon {
-    margin-right:1.5rem;
+    margin-right: 1.25rem;
     color: var(--clr-primary-5);
-    font-size: 1.5rem;
+    font-size: 1.25rem;
     transition: var(--transition);
   }
 /* nav at bigger screen size */
@@ -723,7 +720,7 @@ Navbar
     padding: 0 0;
   } */
   .nav-link {
-    padding: 1rem 1.75rem;
+    padding: 1rem 1.25rem;
   }
   .nav-link:hover {
     color: var(--clr-primary-1);
