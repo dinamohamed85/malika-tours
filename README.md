@@ -1,4 +1,4 @@
-# malika-tours-in-Bayern
+# Bayern To Explore
 Simple web application about places and restaurants to visit in Munich.
 
 If you are living in Munich, here is your reference for interesting Outings 🎡 ⛱️ , Restaurants 🥘 , Shopping 🛍️ and more . Find nice places to visit with your family in Munich and cities around.
