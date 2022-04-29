@@ -763,6 +763,52 @@ const shopping = [
         likes: '3,222',
         featured: true,
     },
+    {
+        id: '35',
+        title: 'Verdi Supermarkt',
+        category: 'halal markets',
+        icon: 'fa-solid fa-shop',
+        images: [
+            './images/shopping/shop-35.jpeg',
+        ],
+        country: 'Germany',
+        location: 'https://goo.gl/maps/KNbUAaFgZcspHKR9A',
+        site: 'https://istanbulsupermarkt-store.business.site/',
+        address: 'Landwehrstraße 46, 80336 München',
+        phone: '089535487',
+        description: 'halal supermarket in munich.',
+        thingstodo: [
+            'supermarket',
+            'halal products',
+            'Hauptbahnhof',
+        ],
+        rate: 4.3,
+        likes: '2,232',
+        featured: true,
+    },
+    {
+        id: '36',
+        title: 'Hubi Supermarkt',
+        category: 'halal markets',
+        icon: 'fa-solid fa-shop',
+        images: [
+            './images/shopping/shop-36.jpeg',
+        ],
+        country: 'Germany',
+        location: 'https://goo.gl/maps/gG4961FEFA29Ve4F8',
+        site: 'https://istanbulsupermarkt-store.business.site/',
+        address: 'Schillerstraße 24, 80336 München',
+        phone: '08954880820',
+        description: 'halal supermarket in munich.',
+        thingstodo: [
+            'supermarket',
+            'halal products',
+            'Hauptbahnhof',
+        ],
+        rate: 4.1,
+        likes: '455',
+        featured: true,
+    },
 ];
 
 export default shopping;
