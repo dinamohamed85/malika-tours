@@ -502,12 +502,12 @@ const shopping = [
         featured: true,
     },
     {
-        id: '22',
+        id: '23',
         title: 'Bau market',
         category: 'shopes',
         icon: 'fa-solid fa-shop',
         images: [
-            './images/shopping/shop-22.jpeg',
+            './images/shopping/shop-23.jpeg',
         ],
         country: 'Germany',
         location: 'https://goo.gl/maps/PjGQFybRPzJcE4AJ8',
