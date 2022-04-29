@@ -348,6 +348,28 @@ const shopping = [
         likes: '1,025',
         featured: true,
     },
+    {
+        id: '16',
+        title: 'Ernstings Family',
+        category: 'shopes',
+        icon: 'fa-solid fa-shop',
+        images: [
+            './images/shopping/shop-16.jpeg',
+        ],
+        country: 'Germany',
+        location: 'https://goo.gl/maps/WBpi8jXQDoVZcefW6',
+        site: 'https://www.ernstings-family.de/',
+        address: 'Willy-Brandt-Platz 5, 81829 München',
+        phone: '025469899998',
+        description: 'leading companies in the young fashion business. Its product range consists of its own brands FSBN, FB SISTER and BLACK SQUAD (sports and streetwear), AMISU and SMOG (casual and eveningwear), CENSORED (lingerie and swimwear) and a wide range of ACCESSORIES. The own sports collection NEW YORKER ATHLETICS offers all GYMAHOLICS a functional and fashionable selection of sports styles.',
+        thingstodo: [
+            'Clothing store',
+            'Riem Arcaden'
+        ],
+        rate: 4.3,
+        likes: '511',
+        featured: true,
+    },
 ];
 
 export default shopping;
