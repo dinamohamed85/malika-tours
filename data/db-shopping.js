@@ -741,6 +741,28 @@ const shopping = [
         likes: '100,000',
         featured: true,
     },
+    {
+        id: '34',
+        title: 'gethalal',
+        category: 'Online',
+        icon: 'fa-solid fa-shop',
+        images: [
+            './images/shopping/shop-34.jpeg',
+        ],
+        country: 'Germany',
+        site: 'https://gethalal.de/',
+        description: 'GetHalal is a one-stop-online-shop for all Halal and fresh Groceries in Europe. fresh, healthy & halal steak, sausages, kebba, kofta, and more!',
+        thingstodo: [
+            'halal Online shopping',
+            'offers',
+            'Groceries',
+            'meat',
+            'shipping'
+        ],
+        rate: 4.4,
+        likes: '3,222',
+        featured: true,
+    },
 ];
 
 export default shopping;
