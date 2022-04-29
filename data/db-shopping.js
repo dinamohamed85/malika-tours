@@ -655,6 +655,92 @@ const shopping = [
         likes: '500,000',
         featured: true,
     },
+    {
+        id: '30',
+        title: 'Zalando',
+        category: 'Online',
+        icon: 'fa-solid fa-shop',
+        images: [
+            './images/shopping/shop-30.jpeg',
+        ],
+        country: 'Germany',
+        site: 'https://www.zalando.de',
+        description: 'Even more than you expect Fashion, Beauty, Designer and more.',
+        thingstodo: [
+            'Online shopping',
+            'Brands',
+            'shipping',
+            'returns'
+        ],
+        rate: 4.5,
+        likes: '200,000',
+        featured: true,
+    },
+    {
+        id: '31',
+        title: 'Shein',
+        category: 'Online',
+        icon: 'fa-solid fa-shop',
+        images: [
+            './images/shopping/shop-31.jpeg',
+        ],
+        country: 'Germany',
+        site: 'https://de.shein.com/',
+        description: 'Shop the latest fashion trends for women online now in our shop in Germany. Browse Our Curated Selection Of Women Clothing, kids Clothing.',
+        thingstodo: [
+            'Online shopping',
+            'Brands',
+            'shipping',
+            'kids'
+        ],
+        rate: 4.6,
+        likes: '100,000',
+        featured: true,
+    },
+    {
+        id: '32',
+        title: 'modanisa',
+        category: 'Online',
+        icon: 'fa-solid fa-shop',
+        images: [
+            './images/shopping/shop-32.jpeg',
+        ],
+        country: 'Germany',
+        site: 'https://www.modanisa.com/ar/',
+        description: 'Discover the latest hijab fashion and modest women dresses online at Modanisa.com, with great prices and a return guarantee.',
+        thingstodo: [
+            'Online shopping',
+            'hijab clothes',
+            'shipping',
+            'dresses',
+            'turkish'
+        ],
+        rate: 4.4,
+        likes: '300,000',
+        featured: true,
+    },
+    {
+        id: '33',
+        title: 'idealo',
+        category: 'Online',
+        icon: 'fa-solid fa-shop',
+        images: [
+            './images/shopping/shop-33.jpeg',
+        ],
+        country: 'Germany',
+        site: 'https://www.idealo.de/',
+        description: 'IDEAL0 - The No. 1 in price comparison. Germany big price comparison.Worry - free shopping.Transparency & topicality.Transparent offers.Features: price alarm clock, test reports, comprehensive filter and sorting functions.',
+        thingstodo: [
+            'Online shopping',
+            'offers',
+            'less prices',
+            'Brands',
+            'shipping'
+        ],
+        rate: 4.4,
+        likes: '100,000',
+        featured: true,
+    },
 ];
 
 export default shopping;
