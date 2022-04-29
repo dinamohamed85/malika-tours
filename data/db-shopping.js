@@ -566,6 +566,95 @@ const shopping = [
         likes: '989',
         featured: true,
     },
+    {
+        id: '26',
+        title: 'Istanbul Supermarkt',
+        category: 'halal markets',
+        icon: 'fa-solid fa-shop',
+        images: [
+            './images/shopping/shop-26.jpeg',
+        ],
+        country: 'Germany',
+        location: 'https://goo.gl/maps/aan82G3DtoYDnZbM7',
+        site: 'https://istanbulsupermarkt-store.business.site/',
+        address: 'Marbachstraße 1, Albert-Roßhaupter-Straße 9, 81369 München',
+        phone: '08974051370',
+        description: 'halal supermarket in munich.',
+        thingstodo: [
+            'supermarket',
+            'halal products',
+            'Harras',
+            'pasing'
+        ],
+        rate: 4.3,
+        likes: '889',
+        featured: true,
+    },
+    {
+        id: '27',
+        title: 'Burak Supermarkt',
+        category: 'halal markets',
+        icon: 'fa-solid fa-shop',
+        images: [
+            './images/shopping/shop-27.jpeg',
+        ],
+        country: 'Germany',
+        location: 'https://goo.gl/maps/LtGqJQmz5r621jfs5',
+        site: 'https://burakmarket.de/',
+        address: 'Neuherbergstraße 118, 80937 München',
+        phone: '08931232182',
+        description: 'halal supermarket in munich.',
+        thingstodo: [
+            'supermarket',
+            'halal products',
+            'Feldmoching',
+            'Giesing'
+        ],
+        rate: 4.3,
+        likes: '598',
+        featured: true,
+    },
+    {
+        id: '28',
+        title: 'Amazon',
+        category: 'Online',
+        icon: 'fa-solid fa-shop',
+        images: [
+            './images/shopping/shop-28.jpeg',
+        ],
+        country: 'Germany',
+        site: 'https://www.amazon.de/-/en',
+        description: 'Get Deals on Popular Items on Amazon. Browse & Discover Thousands of Brands. Read Customer Reviews and Find Best Sellers. Fast shipping. 1-click payment. Pay in installments. Package tracking. 30 days free returns. Low prices.',
+        thingstodo: [
+            'Online shopping',
+            'Brands',
+            'shipping',
+            'free returns'
+        ],
+        rate: 4.4,
+        likes: '1,000,000',
+        featured: true,
+    },
+    {
+        id: '29',
+        title: 'eBay Kleinanzeigen',
+        category: 'Online',
+        icon: 'fa-solid fa-shop',
+        images: [
+            './images/shopping/shop-29.jpeg',
+        ],
+        country: 'Germany',
+        site: 'https://www.ebay-kleinanzeigen.de/',
+        description: 'Post free ads with eBay Classifieds. Used or new, private or commercial - advertise now for free on Germany most visited ...',
+        thingstodo: [
+            'free ads',
+            'Used products',
+            'price less',
+        ],
+        rate: 4.6,
+        likes: '500,000',
+        featured: true,
+    },
 ];
 
 export default shopping;
