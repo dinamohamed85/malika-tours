@@ -483,7 +483,7 @@ const shopping = [
     {
         id: '22',
         title: 'V-Markt München',
-        category: 'shopes',
+        category: 'markets',
         icon: 'fa-solid fa-shop',
         images: [
             './images/shopping/shop-22.jpeg',
@@ -504,7 +504,7 @@ const shopping = [
     {
         id: '23',
         title: 'Bau market',
-        category: 'shopes',
+        category: 'markets',
         icon: 'fa-solid fa-shop',
         images: [
             './images/shopping/shop-23.jpeg',
@@ -520,6 +520,50 @@ const shopping = [
         ],
         rate: 4.4,
         likes: '235',
+        featured: true,
+    },
+    {
+        id: '24',
+        title: 'Real',
+        category: 'markets',
+        icon: 'fa-solid fa-shop',
+        images: [
+            './images/shopping/shop-24.jpeg',
+        ],
+        country: 'Germany',
+        location: 'https://goo.gl/maps/MNjSqqx1vYNpVsJSA',
+        site: 'https://www.real-markt.de/',
+        address: 'Margot-Kalinke-Straße 4, 80939 München',
+        phone: '089318810',
+        description: 'Current brochure ✓ discounts, offers, promotions ✓ opening hours ✓ services ✓ directions ✓ | real supermarket Munich ▻ Discover online now!',
+        thingstodo: [
+            'Supermarket',
+            'SUMA Center',
+        ],
+        rate: 4.1,
+        likes: '3,958',
+        featured: true,
+    },
+    {
+        id: '25',
+        title: 'NORMA Filiale',
+        category: 'markets',
+        icon: 'fa-solid fa-shop',
+        images: [
+            './images/shopping/shop-25.jpeg',
+        ],
+        country: 'Germany',
+        location: 'https://goo.gl/maps/5eCtDrW3Gezu1RNv8',
+        site: 'https://www.norma-online.de/de/angebote/',
+        address: 'Dieselstraße 2, 85757 Karlsfeld',
+        phone: '091123734733',
+        description: 'With the NORMA branch finder you can find your standard NORMA branches and their opening times.',
+        thingstodo: [
+            'Discount supermarket',
+            'halal products'
+        ],
+        rate: 4.2,
+        likes: '989',
         featured: true,
     },
 ];
