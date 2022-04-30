@@ -890,6 +890,27 @@ const shopping = [
         likes: '2,698',
         featured: true,
     },
+    {
+        id: '40',
+        title: 'Penny market',
+        category: 'markets',
+        icon: 'fa-solid fa-shop',
+        images: [
+            './images/shopping/shop-40.jpeg',
+        ],
+        country: 'Germany',
+        location: 'https://goo.gl/maps/LsScBjV4WwRNDXwj8',
+        site: 'https://www.penny.de/',
+        address: 'Sandstraße 37-39, 80335 München',
+        phone: '022120199959',
+        description: 'At PENNY.de you will find ✓ cheap offers ✓ good quality ✓ and at the best prices » Shop now & save money at the PENNY store.',
+        thingstodo: [
+            'Discount supermarket',
+        ],
+        rate: 4.1,
+        likes: '1,698',
+        featured: true,
+    },
 ];
 
 export default shopping;
