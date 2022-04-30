@@ -842,6 +842,7 @@ const shopping = [
             'hypermarket',
             'halal products',
             'pep mall',
+            'kids & toys'
         ],
         rate: 4.3,
         likes: '5,575',
