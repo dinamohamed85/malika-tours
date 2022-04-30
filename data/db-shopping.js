@@ -1008,6 +1008,29 @@ const shopping = [
         likes: '1,987',
         featured: true,
     },
+    {
+        id: '45',
+        title: 'Spielwaren Krömer',
+        category: 'kids & toys',
+        icon: 'fa-solid fa-shop',
+        images: [
+            './images/shopping/shop-45.jpeg',
+        ],
+        country: 'Germany',
+        location: 'https://goo.gl/maps/qUHZmZ5LTojgPLGG8',
+        site: 'https://spielwaren-kroemer.de/de/',
+        address: 'Albert-Schweitzer-Straße 78, 81735 München',
+        phone: '08962817740',
+        description: 'toy Krömer - Your specialist shop for toys and gifts 24x in Bavaria.',
+        thingstodo: [
+            'Toy store',
+            'legos',
+            'Reem Arkaden'
+        ],
+        rate: 4.2,
+        likes: '456',
+        featured: true,
+    },
 ];
 
 export default shopping;
