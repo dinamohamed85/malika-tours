@@ -841,7 +841,7 @@ const shopping = [
             'pep mall',
         ],
         rate: 4.3,
-        likes: '2,575',
+        likes: '5,575',
         featured: true,
     },
     {
@@ -867,6 +867,27 @@ const shopping = [
         ],
         rate: 4.1,
         likes: '3,698',
+        featured: true,
+    },
+    {
+        id: '39',
+        title: 'hit market',
+        category: 'markets',
+        icon: 'fa-solid fa-shop',
+        images: [
+            './images/shopping/shop-39.jpeg',
+        ],
+        country: 'Germany',
+        location: 'https://goo.gl/maps/qCywGEzh1F1TUnTv7',
+        site: 'https://www.hit.de/markt-siegburg.html',
+        address: 'Elsenheimerstraße 57, 80687 München',
+        phone: '0897408010',
+        description: 'Selected groceries and a wide range: HIT offers real variety. ☼ Convince yourself at the HIT store near you!',
+        thingstodo: [
+            'Hypermarket',
+        ],
+        rate: 4.3,
+        likes: '2,698',
         featured: true,
     },
 ];
