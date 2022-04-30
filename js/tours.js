@@ -17,14 +17,20 @@ const displayTours = () => {
         toursContainer.innerHTML = `<h2 class="section-title" >Sorry, no tours matched your search</h2>`;
         return;
     }
-    let text = '';
+    let text1 = '';
+    let text2 = 'to visit in Munich and cities around';
     if (currentCategory == 'all')
-        text = filteredTours.length + ' places ';
+        text1 = filteredTours.length + ' places ';
+
+    else if (currentCategory == 'cities') {
+        text1 = filteredTours.length + ' ' + currentCategory;
+        text2 = 'to visit in Munich arounds';
+    }
     else
-        text = filteredTours.length + ' ' + currentCategory;
+        text1 = filteredTours.length + ' ' + currentCategory;
 
     toursTitle.innerHTML = `<div class="tours-title">
-        <h2>best <span class="featured-num">${text}</span> to visit in Munich and cities around</h2>
+        <h2>best <span class="featured-num">${text1}</span> ${text2}</h2>
     </div>`;
 
     toursContainer.innerHTML = filteredTours
