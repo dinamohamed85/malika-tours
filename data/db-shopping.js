@@ -640,6 +640,7 @@ const shopping = [
             'Online shopping',
             'Brands',
             'shipping',
+            'kids & toys',
             'free returns'
         ],
         rate: 4.4,
@@ -981,6 +982,29 @@ const shopping = [
         ],
         rate: 4.4,
         likes: '1,001',
+        featured: true,
+    },
+    {
+        id: '44',
+        title: 'The LEGO® Store',
+        category: 'kids & toys',
+        icon: 'fa-solid fa-shop',
+        images: [
+            './images/shopping/shop-44.jpeg',
+        ],
+        country: 'Germany',
+        location: 'https://goo.gl/maps/f8cSknj5j3noLQjaA',
+        site: 'https://www.mueller.de/meine-filiale/',
+        address: 'https://www.lego.com/de-de/',
+        phone: '08994539969',
+        description: 'Retailer showcasing the brand colorful building sets & bricks, plus figurines & toys. ',
+        thingstodo: [
+            'Toy store',
+            'legos',
+            'Reem Arkaden'
+        ],
+        rate: 4.7,
+        likes: '1,987',
         featured: true,
     },
 ];
