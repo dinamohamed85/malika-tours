@@ -1073,6 +1073,48 @@ const shopping = [
         likes: '110',
         featured: true,
     },
+    {
+        id: '48',
+        title: 'Spielwaren Vordermaier',
+        category: 'kids & toys',
+        icon: 'fa-solid fa-shop',
+        images: [
+            './images/shopping/shop-48.jpeg',
+        ],
+        country: 'Germany',
+        location: 'https://goo.gl/maps/id1rxMbzkZLrHTFw9',
+        site: 'http://www.spielwaren-vordermaier.de/',
+        address: 'Bergstraße 2, 85521 Ottobrunn',
+        phone: '08923718683',
+        description: 'Various toys shop.',
+        thingstodo: [
+            'Toy store',
+        ],
+        rate: 4.2,
+        likes: '110',
+        featured: true,
+    },
+    {
+        id: '51',
+        title: 'Die Spielzeugkiste',
+        category: 'kids & toys',
+        icon: 'fa-solid fa-shop',
+        images: [
+            './images/shopping/shop-51.jpeg',
+        ],
+        country: 'Germany',
+        location: 'https://goo.gl/maps/o832PsbiYbupXcQ78',
+        site: 'https://www.diespielzeugkiste-solln.de/',
+        address: 'Wolfratshauser Str. 207, 81479 München',
+        phone: '08923549599',
+        description: 'Various toys shop.',
+        thingstodo: [
+            'Toy store',
+        ],
+        rate: 4.4,
+        likes: '50',
+        featured: true,
+    },
 ];
 
 export default shopping;
