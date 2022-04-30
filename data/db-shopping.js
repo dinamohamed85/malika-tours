@@ -768,7 +768,9 @@ const shopping = [
             'offers',
             'Groceries',
             'meat',
-            'shipping'
+            'shipping',
+            'online',
+            'halal markets'
         ],
         rate: 4.4,
         likes: '3,222',
@@ -906,6 +908,30 @@ const shopping = [
         description: 'At PENNY.de you will find ✓ cheap offers ✓ good quality ✓ and at the best prices » Shop now & save money at the PENNY store.',
         thingstodo: [
             'Discount supermarket',
+        ],
+        rate: 4.1,
+        likes: '1,698',
+        featured: true,
+    },
+    {
+        id: '41',
+        title: 'Almadinah Freising',
+        category: 'halal markets',
+        icon: 'fa-solid fa-shop',
+        images: [
+            './images/shopping/shop-41.jpeg',
+        ],
+        country: 'Germany',
+        location: 'https://goo.gl/maps/kDWnffDUDXQnGNRj6',
+        site: 'https://www.facebook.com/groups/300972558674205',
+        address: 'Vöttinger Str. 11, 85354 Freising',
+        phone: '01799676443',
+        description: 'Arabic Grocery, Meat, Fish.',
+        thingstodo: [
+            'supermarket',
+            'halal products',
+            'arabic',
+            'Freising',
         ],
         rate: 4.1,
         likes: '1,698',
