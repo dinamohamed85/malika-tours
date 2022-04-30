@@ -1042,7 +1042,7 @@ const shopping = [
         site: 'https://kunstundspiel.de/',
         address: 'Leopoldstraße 48, 80802 München',
         phone: '0893816270',
-        description: ' The children shop in Munich you just have to know art and play! ...of a great craft toy and clothing store for children in Munich',
+        description: 'The children shop in Munich you just have to know art and play! ...of a great craft toy and clothing store for children in Munich',
         thingstodo: [
             'Toy store',
             'clothing store',
@@ -1050,6 +1050,27 @@ const shopping = [
         ],
         rate: 4.6,
         likes: '367',
+        featured: true,
+    },
+    {
+        id: '47',
+        title: 'Playmobil',
+        category: 'kids & toys',
+        icon: 'fa-solid fa-shop',
+        images: [
+            './images/shopping/shop-47.jpeg',
+        ],
+        country: 'Germany',
+        location: 'https://goo.gl/maps/nL47B4JL82thNstJA',
+        site: 'https://funstores.playmobil.com/',
+        address: 'Pasinger Bahnhofspl. 5, 81241 München',
+        phone: '091196662390',
+        description: 'Various toys shop.',
+        thingstodo: [
+            'Toy store',
+        ],
+        rate: 4.2,
+        likes: '110',
         featured: true,
     },
 ];
