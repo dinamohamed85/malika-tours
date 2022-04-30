@@ -1095,6 +1095,27 @@ const shopping = [
         featured: true,
     },
     {
+        id: '49',
+        title: 'Das Spielzeug',
+        category: 'kids & toys',
+        icon: 'fa-solid fa-shop',
+        images: [
+            './images/shopping/shop-49.jpeg',
+        ],
+        country: 'Germany',
+        location: 'https://goo.gl/maps/id1rxMbzkZLrHTFw9',
+        site: 'http://www.spielwaren-vordermaier.de/',
+        address: 'http://www.dasspielzeug-muenchen.de/',
+        phone: '0896903789',
+        description: 'Various toys shop.',
+        thingstodo: [
+            'Toy store',
+        ],
+        rate: 4.6,
+        likes: '264',
+        featured: true,
+    },
+    {
         id: '51',
         title: 'Die Spielzeugkiste',
         category: 'kids & toys',
