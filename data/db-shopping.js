@@ -125,7 +125,7 @@ const shopping = [
             'Watches & Jewellery',
             'brands',
             'Sports',
-            'toys',
+            'kids & toys',
             'discount'
         ],
         rate: 4.2,
@@ -384,7 +384,7 @@ const shopping = [
     {
         id: '17',
         title: 'Smyths Toys',
-        category: 'shops',
+        category: 'kids & toys',
         icon: 'fa-solid fa-shop',
         images: [
             './images/shopping/shop-17.jpeg',
@@ -959,6 +959,28 @@ const shopping = [
         ],
         rate: 4.4,
         likes: '286',
+        featured: true,
+    },
+    {
+        id: '43',
+        title: 'obletter(Müller) karlsplatz',
+        category: 'kids & toys',
+        icon: 'fa-solid fa-shop',
+        images: [
+            './images/shopping/shop-43.jpeg',
+        ],
+        country: 'Germany',
+        location: 'https://goo.gl/maps/f8cSknj5j3noLQjaA',
+        site: 'https://www.mueller.de/meine-filiale/',
+        address: 'Karlspl. 11-12, 80335 München',
+        phone: '08955089510',
+        description: 'Obletter is a specialty toy shop founded by Josef Obletter in Munich then Purchase by Müller. toys, legos, puzzels and more. ',
+        thingstodo: [
+            'Toy store',
+            'karlsplatz'
+        ],
+        rate: 4.4,
+        likes: '1,001',
         featured: true,
     },
 ];
