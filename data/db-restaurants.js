@@ -581,7 +581,8 @@ const restaurants = [
             'salmon',
             'bread ',
             'coffee',
-            'cafes & bakery'
+            'cafes & bakery',
+            'breakfast buffet'
         ],
         rate: 4.1,
         likes: '8,812',
@@ -1997,7 +1998,7 @@ const restaurants = [
         ],
         country: 'Germany',
         location: 'https://goo.gl/maps/H9horShnL3A56ydn6',
-        site: 'https://www.oberpollinger.de/food-restaurants',
+        site: 'https://www.konditorei-widmann.de/konditorei/',
         address: 'Heiglhofstraße 11, 81377 München',
         phone: '0897146409',
         description: 'Polished cafe providing handmade pastries, cakes & chocolates, plus coffee & lunch fare.',
