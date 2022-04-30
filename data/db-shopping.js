@@ -1024,11 +1024,32 @@ const shopping = [
         description: 'toy Krömer - Your specialist shop for toys and gifts 24x in Bavaria.',
         thingstodo: [
             'Toy store',
-            'legos',
-            'Reem Arkaden'
         ],
         rate: 4.2,
         likes: '456',
+        featured: true,
+    },
+    {
+        id: '46',
+        title: 'Art and play',
+        category: 'kids & toys',
+        icon: 'fa-solid fa-shop',
+        images: [
+            './images/shopping/shop-46.jpeg',
+        ],
+        country: 'Germany',
+        location: 'https://goo.gl/maps/Mmp6XXh1dJevpDeUA',
+        site: 'https://kunstundspiel.de/',
+        address: 'Leopoldstraße 48, 80802 München',
+        phone: '0893816270',
+        description: ' The children shop in Munich you just have to know art and play! ...of a great craft toy and clothing store for children in Munich',
+        thingstodo: [
+            'Toy store',
+            'clothing store',
+            'children’s corner,'
+        ],
+        rate: 4.6,
+        likes: '367',
         featured: true,
     },
 ];
