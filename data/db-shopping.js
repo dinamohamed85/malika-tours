@@ -937,6 +937,30 @@ const shopping = [
         likes: '1,698',
         featured: true,
     },
+    {
+        id: '42',
+        title: 'Babylon GAZI Supermarkt',
+        category: 'halal markets',
+        icon: 'fa-solid fa-shop',
+        images: [
+            './images/shopping/shop-42.jpeg',
+        ],
+        country: 'Germany',
+        location: 'https://goo.gl/maps/iNFzy4iA5HggGtsz6',
+        site: 'https://ehalal.io/buy-halal-food/gazi/',
+        address: 'Berg-am-Laim-Straße 65, 81673 München',
+        phone: '017670788766',
+        description: 'Arabic Grocery, Meat, Fish.',
+        thingstodo: [
+            'supermarket',
+            'halal products',
+            'turkish',
+            'ostbahnhof',
+        ],
+        rate: 4.4,
+        likes: '286',
+        featured: true,
+    },
 ];
 
 export default shopping;
