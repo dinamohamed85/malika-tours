@@ -162,7 +162,7 @@ const shopping = [
     {
         id: '7',
         title: 'Media Market & Saturn',
-        category: 'shopes',
+        category: 'shops',
         icon: 'fa-solid fa-shop',
         images: [
             './images/shopping/shop-7.jpeg',
@@ -183,7 +183,7 @@ const shopping = [
     {
         id: '8',
         title: 'Primark',
-        category: 'shopes',
+        category: 'shops',
         icon: 'fa-solid fa-shop',
         images: [
             './images/shopping/shop-8.jpeg',
@@ -196,6 +196,9 @@ const shopping = [
         description: 'Discount fashion chain offering clothes and accessories for all ages, plus homewares.',
         thingstodo: [
             'Clothing store',
+            'ladies',
+            'Men',
+            'kids'
         ],
         rate: 4.1,
         likes: '6,854',
@@ -204,7 +207,7 @@ const shopping = [
     {
         id: '9',
         title: 'deichmann',
-        category: 'shopes',
+        category: 'shops',
         icon: 'fa-solid fa-shop',
         images: [
             './images/shopping/shop-9.jpeg',
@@ -225,7 +228,7 @@ const shopping = [
     {
         id: '10',
         title: 'Decathlon',
-        category: 'shopes',
+        category: 'shops',
         icon: 'fa-solid fa-shop',
         images: [
             './images/shopping/shop-10.jpeg',
@@ -246,7 +249,7 @@ const shopping = [
     {
         id: '11',
         title: 'Tk maxx',
-        category: 'shopes',
+        category: 'shops',
         icon: 'fa-solid fa-shop',
         images: [
             './images/shopping/shop-11.jpeg',
@@ -267,7 +270,7 @@ const shopping = [
     {
         id: '12',
         title: 'RESERVED',
-        category: 'shopes',
+        category: 'shops',
         icon: 'fa-solid fa-shop',
         images: [
             './images/shopping/shop-12.jpeg',
@@ -280,6 +283,9 @@ const shopping = [
         description: 'Check out new collecion - occasion essentials - new collection for ladies, Men, kids',
         thingstodo: [
             'Clothing store',
+            'ladies',
+            'Men',
+            'kids'
         ],
         rate: 4.1,
         likes: '5,696',
@@ -288,7 +294,7 @@ const shopping = [
     {
         id: '13',
         title: 'Zara',
-        category: 'shopes',
+        category: 'shops',
         icon: 'fa-solid fa-shop',
         images: [
             './images/shopping/shop-13.jpeg',
@@ -309,7 +315,7 @@ const shopping = [
     {
         id: '14',
         title: 'C&A',
-        category: 'shopes',
+        category: 'shops',
         icon: 'fa-solid fa-shop',
         images: [
             './images/shopping/shop-14.jpeg',
@@ -322,6 +328,11 @@ const shopping = [
         description: 'C&A stores in Deutschland ✓ Discover the latest fashions for women, men and children at C&A! Top quality ✓ Sustainable products.',
         thingstodo: [
             'Clothing store',
+            'most of malls',
+            'ladies',
+            'Men',
+            'kids'
+
         ],
         rate: 3.9,
         likes: '4,156',
@@ -330,7 +341,7 @@ const shopping = [
     {
         id: '15',
         title: 'New Yorker',
-        category: 'shopes',
+        category: 'shops',
         icon: 'fa-solid fa-shop',
         images: [
             './images/shopping/shop-15.jpeg',
@@ -351,7 +362,7 @@ const shopping = [
     {
         id: '16',
         title: 'Ernstings Family',
-        category: 'shopes',
+        category: 'shops',
         icon: 'fa-solid fa-shop',
         images: [
             './images/shopping/shop-16.jpeg',
@@ -373,7 +384,7 @@ const shopping = [
     {
         id: '17',
         title: 'Smyths Toys',
-        category: 'shopes',
+        category: 'shops',
         icon: 'fa-solid fa-shop',
         images: [
             './images/shopping/shop-17.jpeg',
@@ -395,7 +406,7 @@ const shopping = [
     {
         id: '18',
         title: 'Action -Dachau',
-        category: 'shopes',
+        category: 'shops',
         icon: 'fa-solid fa-shop',
         images: [
             './images/shopping/shop-18.jpeg',
@@ -420,7 +431,7 @@ const shopping = [
     {
         id: '19',
         title: 'Tedi',
-        category: 'shopes',
+        category: 'shops',
         icon: 'fa-solid fa-shop',
         images: [
             './images/shopping/shop-19.jpeg',
@@ -441,7 +452,7 @@ const shopping = [
     {
         id: '20',
         title: 'Wool worth',
-        category: 'shopes',
+        category: 'shops',
         icon: 'fa-solid fa-shop',
         images: [
             './images/shopping/shop-20.jpeg',
@@ -462,7 +473,7 @@ const shopping = [
     {
         id: '21',
         title: 'kik',
-        category: 'shopes',
+        category: 'shops',
         icon: 'fa-solid fa-shop',
         images: [
             './images/shopping/shop-21.jpeg',
@@ -831,6 +842,31 @@ const shopping = [
         ],
         rate: 4.3,
         likes: '2,575',
+        featured: true,
+    },
+    {
+        id: '38',
+        title: 'H&M',
+        category: 'shops',
+        icon: 'fa-solid fa-shop',
+        images: [
+            './images/shopping/shop-38.jpeg',
+        ],
+        country: 'Germany',
+        location: 'https://goo.gl/maps/aB9VE7UMJsXBfKMf6',
+        site: 'https://www2.hm.com/de_de',
+        address: 'Kaufingerstraße 18, 80331 München',
+        phone: '08006655900',
+        description: 'Chain retailer supplying on- trend clothing, swimwear, accessories & shoes.',
+        thingstodo: [
+            'Clothing store',
+            'most of malls',
+            'ladies',
+            'Men',
+            'kids'
+        ],
+        rate: 4.1,
+        likes: '3,698',
         featured: true,
     },
 ];

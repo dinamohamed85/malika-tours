@@ -24,9 +24,9 @@ const displayshopping = () => {
         text1 = 'featured ';
         text2 = filteredList.length + ' shopping ';
     }
-    else if (currentCategory == 'other') {
+    else if (currentCategory == 'Online') {
         text1 = 'top ';
-        text2 = filteredList.length + ' diffrent places for' + ' shopping ';
+        text2 = filteredList.length + ' ' + currentCategory + ' shopping ';
     }
     else if (currentCategory == 'cafes & bakery') {
         text1 = 'top ';
@@ -34,7 +34,7 @@ const displayshopping = () => {
     }
     else {
         text1 = 'top ';
-        text2 = filteredList.length + ' ' + currentCategory + ' for  shop';
+        text2 = filteredList.length + ' ' + currentCategory;
     }
 
 
