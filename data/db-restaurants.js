@@ -2285,6 +2285,37 @@ const restaurants = [
         avg_price: 20,
         featured: true,
     },
+    {
+        id: '70',
+        order: '6',
+        title: 'Umi Sushi',
+        category: 'sushi',
+        icon: 'fa-solid fa-shrimp',
+        images: [
+            './images/restaurants/restaurant-70-0.jpeg',
+            './images/restaurants/restaurant-70-1.jpeg',
+            './images/restaurants/restaurant-70-2.jpeg',
+            './images/restaurants/restaurant-70-3.jpeg',
+            './images/restaurants/restaurant-70-4.jpeg',
+        ],
+        country: 'Germany',
+        location: 'https://goo.gl/maps/2FJXnsrcpMpAfh3M9',
+        site: 'http://umi-sushi.net/',
+        address: 'Ismaninger Str. 45, 81675 München',
+        phone: '08941189490',
+        description: 'Small restaurant with a focus on modern sushi and a small selection of Chinese cuisine.',
+        menu: [
+            'Sashimi Salmon',
+            'Hosomaki Special',
+            'Hosomaki Tempura',
+            'Roll of Your Choice',
+            'Savo Tartare',
+        ],
+        rate: 4.6,
+        likes: '266',
+        avg_price: 20,
+        featured: true,
+    },
 ];
 
 export default restaurants;
