@@ -348,6 +348,7 @@ const tours = [
             'Stadium',
             'lakes',
             'Playground',
+            'without tickets'
         ],
         likes: '43,387',
         duration: 8,
@@ -373,6 +374,7 @@ const tours = [
             'Picnic',
             'Playground',
             'Bridge',
+            'without tickets'
         ],
         likes: '57,877',
         duration: 6,
@@ -398,6 +400,7 @@ const tours = [
             'Lake',
             'cafe',
             'Strolling',
+            'without tickets'
         ],
         likes: '22,332',
         duration: 5,
@@ -582,6 +585,7 @@ const tours = [
             'historic',
             'christmas market',
             'city',
+            'without tickets'
         ],
         likes: '90,668',
         duration: 6,
@@ -608,6 +612,7 @@ const tours = [
             'Strolling',
             'cafe',
             'picnic',
+            'without tickets'
         ],
         likes: '49,422',
         duration: 8,
@@ -634,6 +639,7 @@ const tours = [
             'Restaurant',
             'cafe',
             'Christmas market',
+            'without tickets'
         ],
         likes: '2,006',
         duration: 6,
@@ -712,6 +718,7 @@ const tours = [
             'cafe',
             'animals',
             'kids',
+            'without tickets'
         ],
         likes: '5,852',
         duration: 8,
@@ -737,6 +744,7 @@ const tours = [
             'Strolling',
             'Restaurant',
             'Riem Arcaden',
+            'without tickets'
         ],
         likes: '649',
         duration: 8,
@@ -788,6 +796,7 @@ const tours = [
             'cafe',
             'Strolling',
             'water playground',
+            'without tickets'
         ],
         likes: '8,438',
         duration: 6,
@@ -813,6 +822,7 @@ const tours = [
             'Grilling',
             'Strolling',
             'cafe',
+            'without tickets'
         ],
         likes: '425',
         duration: 6,
@@ -972,6 +982,7 @@ const tours = [
             'Picnic',
             'Strolling',
             'cafe',
+            'without tickets'
         ],
         likes: '3,948',
         duration: 6,
@@ -1298,6 +1309,7 @@ const tours = [
             'Strolling',
             'parks',
             'farm',
+            'without tickets'
         ],
         likes: '842',
         duration: 6,
@@ -1325,6 +1337,7 @@ const tours = [
             'Picnic',
             'Strolling',
             'kids',
+            'without tickets'
         ],
         likes: '228',
         duration: 6,
@@ -1597,8 +1610,36 @@ const tours = [
             'Playground',
             'Strolling',
             'cafe',
+            'without tickets'
         ],
         likes: '7,263',
+        duration: 6,
+        price: 0,
+        season: 'summer',
+        featured: false,
+    },
+    {
+        id: '61',
+        title: 'Luitpold Park',
+        category: 'without tickets',
+        icon: 'fa-solid fa-tree',
+        image: './images/tours/tour-61.jpeg',
+        country: 'Germany',
+        date: 'may, 2021',
+        location: 'https://goo.gl/maps/FrM8w3vGJ7pSDFFz9',
+        site: 'http://www.muenchen.de/sehenswuerdigkeiten/orte/120254.html',
+        address: 'In the north of Munich as it is about 25 min away via <strong>U2 </strong>(Scheidplatz).',
+        description: '33-hectare public park around a scenic hill made from WWII rubble with a hedge maze & restaurant.',
+        thingstodo: [
+            'several hills',
+            'winter sledding',
+            'Playground',
+            'big meadow',
+            'Strolling',
+            'restaurant',
+            'without tickets'
+        ],
+        likes: '3,032',
         duration: 6,
         price: 0,
         season: 'summer',
