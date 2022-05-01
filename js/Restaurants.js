@@ -47,12 +47,14 @@ const displayRestaurants = () => {
             const { id, title, category, icon, images, location, site, description, menu, likes, featured, avg_price, address, phone, rate } = item;
             return `<article class="item">
         <div class="tour-img-container">
-            <img src="${images[0]}" class="item-photo" />
+        <a href="${site}" target="_blank">
+            <img src="${images[0]}" class="item-photo" /></a>
             <i class="fa-solid fa-face-smile rate-icon"></i><p class="item-rate">${rate}</p>
         </div>
         <div class="item-info">
-        <header>            
-            <h4>${index + 1}- ${title}</h4>
+        <header>  
+        <a href="${location}" target="_blank">          
+            <h4>${index + 1}- ${title}</h4></a>
             <p>
             <i class="fas fa-heart tour-love-icon"></i> ${likes}
             </p>           
