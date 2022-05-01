@@ -1451,7 +1451,8 @@ const tours = [
             'indoor',
             'parks',
             'kids',
-            'amusement'
+            'amusement',
+            'winter'
         ],
         likes: '27,975',
         duration: 7,
