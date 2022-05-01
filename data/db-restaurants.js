@@ -2179,6 +2179,41 @@ const restaurants = [
         avg_price: 15,
         featured: false,
     },
+    {
+        id: '67',
+        order: '1',
+        title: 'My Simit -pep',
+        category: 'halal',
+        icon: 'fa-solid fa-ellipsis',
+        images: [
+            './images/restaurants/restaurant-67-0.jpeg',
+            './images/restaurants/restaurant-67-1.jpeg',
+            './images/restaurants/restaurant-67-2.jpeg',
+            './images/restaurants/restaurant-67-3.jpeg',
+            './images/restaurants/restaurant-67-4.jpeg',
+        ],
+        country: 'Germany',
+        location: 'https://goo.gl/maps/fUsaw3UsqrTPsz2EA',
+        site: 'https://www.facebook.com/pages/My-Simit/401038577346530',
+        address: 'Ollenhauerstraße 6, 81737 München',
+        phone: '015221099919',
+        description: 'Medium turkish cafe, bakery shop ,breakfast and  Pastry.',
+        menu: [
+            'kefta',
+            'chicken',
+            'bakery',
+            'Pastry shop',
+            'breakfast',
+            'cafes & bakery',
+            'turkish',
+            'halal',
+            'pep mall'
+        ],
+        rate: 4.6,
+        likes: '685',
+        avg_price: 8,
+        featured: false,
+    },
 ];
 
 export default restaurants;
