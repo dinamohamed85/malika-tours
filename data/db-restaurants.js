@@ -90,6 +90,8 @@ const restaurants = [
             'rice&Noodle',
             'salad',
             'fruits',
+            'Chinese buffet',
+            'all you can eat'
         ],
         rate: 4.2,
         likes: '1,818',
@@ -486,6 +488,8 @@ const restaurants = [
             'rice&Noodle',
             'salad',
             'fruits',
+            'Chinese buffet',
+            'all you can eat'
         ],
         rate: 4.4,
         likes: '1,458',
@@ -1413,6 +1417,8 @@ const restaurants = [
             'rice&Noodle',
             'salad',
             'fruits',
+            'Chinese buffet',
+            'all you can eat'
         ],
         rate: 4.1,
         likes: '1,498',
@@ -2243,6 +2249,40 @@ const restaurants = [
         likes: '275',
         avg_price: 8,
         featured: false,
+    },
+    {
+        id: '3',
+        order: '69',
+        title: 'China-Restaurant -Germering',
+        category: 'sea food',
+        icon: 'fa-solid fa-fish',
+        images: [
+            './images/restaurants/restaurant-69-0.jpeg',
+            './images/restaurants/restaurant-69-1.jpeg',
+            './images/restaurants/restaurant-69-2.jpeg',
+            './images/restaurants/restaurant-69-3.jpeg',
+            './images/restaurants/restaurant-69-4.jpeg',
+        ],
+        country: 'Germany',
+        location: 'https://goo.gl/maps/ZkbqvtVdKcLUKBNA6',
+        site: 'https://www.hu-germering.de/menue',
+        address: 'Münchener Str. 1, 82110 Germering',
+        phone: '08979086178',
+        description: 'Enjoy the world of Chinese cuisine with us and choose from the large selection of our specialties on our large, rich Asian buffet.',
+        menu: [
+            'fish',
+            'sushi',
+            'grill',
+            'rice&Noodle',
+            'salad',
+            'fruits',
+            'Chinese buffet',
+            'all you can eat'
+        ],
+        rate: 4.1,
+        likes: '1,355',
+        avg_price: 20,
+        featured: true,
     },
 ];
 
