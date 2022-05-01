@@ -53,7 +53,9 @@ const displayRestaurants = () => {
         <div class="item-info">
         <header>            
             <h4>${index + 1}- ${title}</h4>
-            <h4 class="item-price">${avg_price}€</h4>
+            <p>
+            <i class="fas fa-heart tour-love-icon"></i> ${likes}
+            </p>           
         </header>
         <section>
             <p><a href="${location}" target="_blank"><i
@@ -65,21 +67,21 @@ const displayRestaurants = () => {
         <p class="item-text">
             ${description}
         </p>
-        <div>
-            <h5>popular dishes :</h5>
-            <div class="tour-activtiy">
+        <div class="tour-footer item-text">                
+            <h5>popular dishes : <span class="item-price">${avg_price}€</span></h5>
+            <h5><a href="${site}" target="_blank"><i
+            class="fa-solid fa-utensils site-icon"></i>Menu</a>  </h5>              
+        </div>
+        <div class="tour-activtiy">
             ${menu.map((item) => {
                 return `<p class="activtiy">${item}</p>`
             }).join('')}            
-            </div>
         </div>
+        
         <!-- item footer -->
         <div class="tour-footer">
-            <p>
-            <i class="fas fa-heart tour-love-icon"></i> ${likes}
-            </p>
-            <p><a href="${site}" target="_blank"><i
-            class="fa-solid fa-utensils site-icon"></i> Menu</a></p>
+            
+            
         </div>
         </div>       
     </article>`;
