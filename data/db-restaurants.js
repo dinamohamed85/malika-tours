@@ -2214,6 +2214,36 @@ const restaurants = [
         avg_price: 8,
         featured: false,
     },
+    {
+        id: '68',
+        order: '1',
+        title: 'Melissa Patisserie -Goetheplatz',
+        category: 'cafes & bakery',
+        icon: 'fa-solid fa-ellipsis',
+        images: [
+            './images/restaurants/restaurant-68-0.jpeg',
+            './images/restaurants/restaurant-68-1.jpeg',
+            './images/restaurants/restaurant-68-2.jpeg',
+            './images/restaurants/restaurant-68-3.jpeg',
+            './images/restaurants/restaurant-68-4.jpeg',
+        ],
+        country: 'Germany',
+        location: 'https://goo.gl/maps/BJdzWQ36iz7Cuora6',
+        site: 'https://www.facebook.com/Melissa.MediterraneanPatisserie/',
+        address: 'Lindwurmstraße 12, 80337 München',
+        phone: '08959992665',
+        description: 'Medium greek cafe, cakes shop .',
+        menu: [
+            'Pastry shop',
+            'cafes & bakery',
+            'greek',
+            'Goetheplatz'
+        ],
+        rate: 4.4,
+        likes: '275',
+        avg_price: 8,
+        featured: false,
+    },
 ];
 
 export default restaurants;
