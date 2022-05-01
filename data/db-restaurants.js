@@ -1320,6 +1320,7 @@ const restaurants = [
             'meat',
             'Steak',
             'falafel',
+            'halal'
         ],
         rate: 4.9,
         likes: '263',
