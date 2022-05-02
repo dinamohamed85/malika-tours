@@ -355,6 +355,7 @@ const restaurants = [
             'ADANA KEBAP',
             'BEYTI KEBAP',
             'BEGENDILI KUZU LOKUM',
+            'steak',
             'linsensuppe',
             'halal',
         ],
@@ -455,6 +456,7 @@ const restaurants = [
             'Lammschulter',
             'Gebackene Auberginen',
             'Baklava',
+            'steak',
             'Greek'
         ],
         rate: 4.4,
@@ -681,6 +683,7 @@ const restaurants = [
             'Pide',
             'Kebap',
             'pizza ',
+            'steak',
             'halal',
         ],
         rate: 3.9,
@@ -1295,7 +1298,7 @@ const restaurants = [
         id: '40',
         order: '6',
         title: 'Bavarian Oriental',
-        category: 'burger',
+        category: 'other',
         icon: 'fa-regular fa-burger',
         images: [
             './images/restaurants/restaurant-40-0.jpeg',
