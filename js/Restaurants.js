@@ -74,9 +74,12 @@ const displayRestaurants = () => {
             <h5><a href="${site}" target="_blank"><i
             class="fa-solid fa-utensils site-icon"></i>Menu</a>  </h5>              
         </div>
+        ${featured ? `<i class="fa-solid fa-star featured-icon"></i>` : ``} 
         <div class="tour-activtiy">
-            ${menu.map((item) => {
-                return `<p class="activtiy">${item}</p>`
+            ${menu.map((item, text) => {
+
+                item == 'halal' ? text = `<p class="activtiy"><span class="tour-love-icon">${item}</span></p>` : text = `<p class="activtiy">${item}</p>`
+                return text;
             }).join('')}            
         </div>
         
