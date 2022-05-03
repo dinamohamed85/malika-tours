@@ -2149,7 +2149,8 @@ const restaurants = [
             'Kubideh',
             'Djudje Kabab',
             'Djudje Soltani',
-            'Persian'
+            'Persian',
+            'halal'
         ],
         rate: 4.7,
         likes: '678',
@@ -2442,7 +2443,7 @@ const restaurants = [
             'halal',
         ],
         rate: 4.3,
-        likes: '143',
+        likes: '226',
         avg_price: 16,
         featured: true,
     },
