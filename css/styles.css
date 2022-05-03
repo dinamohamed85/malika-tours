@@ -835,7 +835,7 @@ min-height:calc(100vh - 62px);
   position: relative;
   width: 98%;  
   margin: 1rem auto;
-  /* max-width: var(98%); */
+  max-width: var(--fixed-width);
   align-items: center;
   /* margin-left: .5rem; */
   background: var(--clr-primary-11);
