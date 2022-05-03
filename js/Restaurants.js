@@ -76,9 +76,18 @@ const displayRestaurants = () => {
         </div>
         ${featured ? `<i class="fa-solid fa-star featured-icon"></i>` : ``} 
         <div class="tour-activtiy">
-            ${menu.map((item, text) => {
+            ${menu.map((item) => {
 
-                item == 'halal' ? text = `<p class="activtiy"><span class="tour-love-icon">${item}</span></p>` : text = `<p class="activtiy">${item}</p>`
+                let text;
+
+                if (item == 'halal')
+                    text = `<p class="activtiy"><span class="tour-love-icon">${item}</span></p>`
+
+                else if (item == 'arabic')
+                    text = `<p class="activtiy"><span class="ar-icon">${item}</span></p>`
+
+                else text = `<p class="activtiy">${item}</p>`
+
                 return text;
             }).join('')}            
         </div>

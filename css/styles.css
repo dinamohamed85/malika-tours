@@ -985,7 +985,10 @@ min-height:calc(100vh - 62px);
   margin-bottom: 0;
   font-size: 1.75rem;
 }
-
 .more-info{  
   color: var(--clr-grey-11);
+}
+.ar-icon{
+  color: var(--clr-grey-8);
+  font-size: 1rem;
 }

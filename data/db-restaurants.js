@@ -24,6 +24,7 @@ const restaurants = [
             'Madfon Chicken',
             'Madghout Chicken',
             'Lamb Sanouna',
+            'arabic',
             'halal'
         ],
         rate: 4.4,
@@ -255,6 +256,7 @@ const restaurants = [
             'Hula Hula',
             'Stinking Rose',
             'Evergreen',
+            'arabic',
             'halal'
         ],
         rate: 4.6,
@@ -288,6 +290,7 @@ const restaurants = [
             'kebab&Rice',
             '½GrilledChicken&Rice',
             'falafel',
+            'arabic',
             'halal'
         ],
         rate: 3.9,
@@ -392,6 +395,7 @@ const restaurants = [
             'falafel',
             'breakfast',
             'Lebanese',
+            'arabic',
             'halal'
         ],
         rate: 3.9,
@@ -425,6 +429,7 @@ const restaurants = [
             'lamb',
             'shawarma',
             'Kefta',
+            'arabic',
             'halal'
         ],
         rate: 4.1,
@@ -752,6 +757,7 @@ const restaurants = [
             'Soujok',
             'Sambousek',
             'Lebanese',
+            'arabic',
             'halal'
         ],
         rate: 4.4,
@@ -883,6 +889,7 @@ const restaurants = [
             'salad',
             'vegetarian',
             'Lebanese',
+            'arabic',
             'halal'
         ],
         rate: 4.6,
@@ -917,6 +924,7 @@ const restaurants = [
             'Falafel',
             'foul',
             'Lebanese',
+            'arabic',
             'halal'
         ],
         rate: 4.1,
@@ -954,6 +962,7 @@ const restaurants = [
             'Lammleber',
             'falafel',
             'Syrian',
+            'arabic',
             'halal'
         ],
         rate: 3.9,
@@ -988,6 +997,7 @@ const restaurants = [
             'hummus',
             'falafel',
             'Syrian',
+            'arabic',
             'halal'
         ],
         rate: 4.1,
@@ -1020,6 +1030,7 @@ const restaurants = [
             'Mutabbal',
             'falafel',
             'Syrian',
+            'arabic',
             'halal'
         ],
         rate: 3.8,
@@ -1056,6 +1067,7 @@ const restaurants = [
             'Kebab Ruz',
             'mix grill',
             'Lebanese',
+            'arabic',
             'halal'
         ],
         rate: 4.1,
@@ -1322,6 +1334,7 @@ const restaurants = [
             'meat',
             'Steak',
             'falafel',
+            'arabic',
             'halal'
         ],
         rate: 4.9,
@@ -1332,7 +1345,7 @@ const restaurants = [
     {
         id: '41',
         order: '6',
-        title: 'Andy s Krablergarten',
+        title: 'Andy` s Krablergarten',
         category: 'other',
         icon: 'fa-solid fa-ellipsis',
         images: [
@@ -1397,7 +1410,7 @@ const restaurants = [
     {
         id: '43',
         order: '6',
-        title: ' Majestic',
+        title: 'Majestic',
         category: 'sea food',
         icon: 'fa-solid fa-fish',
         images: [
