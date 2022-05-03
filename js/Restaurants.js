@@ -2,6 +2,9 @@
 import restaurants from '../data/db-restaurants.js';
 let filteredList = [];
 const restaurantsContainer = document.querySelector('.list-container');
+const form = document.querySelector('.input-form');
+const searchInput = document.querySelector('.search-input');
+const clearButton = document.querySelector('.clear-btn');
 const categoriesDOM = document.querySelector('.categories');
 const restaurantsTitle = document.querySelector('.section-title');
 
@@ -128,6 +131,24 @@ window.addEventListener('DOMContentLoaded', () => {
             console.log('html selectors is true');
             displayRestaurants();
             displayButtons();
+
+            // Text Filter
+            form.addEventListener('keyup', () => {
+                const inputValue = searchInput.value.toLowerCase();
+                filteredList = restaurants.filter((item) => {
+                    return item.title.toLowerCase().includes(inputValue) || item.menu.find((item) => item.toLowerCase().includes(inputValue)) || item.category.toLowerCase().includes(inputValue);
+                });
+                currentCategory = ' place for ' + inputValue;
+                displayRestaurants();
+            });
+
+            // Text clear
+            clearButton.addEventListener('click', () => {
+                filteredList = [...restaurants];
+                searchInput.value = '';
+                currentCategory = '';
+                displayRestaurants();
+            })
 
             categoriesDOM.addEventListener('click', (e) => {
                 const el = e.target;
