@@ -37,7 +37,7 @@ const displayRestaurants = () => {
     }
     else {
         text1 = 'top ';
-        text2 = filteredList.length + ' ' + currentCategory + ' restaurant';
+        text2 = filteredList.length + ' ' + currentCategory + ' restaurants';
     }
 
 
@@ -138,7 +138,7 @@ window.addEventListener('DOMContentLoaded', () => {
                 filteredList = restaurants.filter((item) => {
                     return item.title.toLowerCase().includes(inputValue) || item.menu.find((item) => item.toLowerCase().includes(inputValue)) || item.category.toLowerCase().includes(inputValue);
                 });
-                currentCategory = ' place for ' + inputValue;
+                currentCategory = inputValue;
                 displayRestaurants();
             });
 
