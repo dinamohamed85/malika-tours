@@ -2336,7 +2336,7 @@ const restaurants = [
         site: 'https://www.mamas-persisch-muenchen.de/',
         address: 'Balanstraße 176, 81549 München',
         phone: '08923712138',
-        description: 'Simitçi Café is a turkish restaurant and cafe in Munich, is nice place to take your breakfast with menu variety.',
+        description: 'We are not a restaurant but more of a snack and delivery service. You can pick up Persian dishes from us and eat them on site. There are also seats available so that you can enjoy our homemade dishes.',
         menu: [
             'Tschelo - Kababe Kubideh',
             'Djudjeh Kabab',
@@ -2368,7 +2368,7 @@ const restaurants = [
         site: 'https://www.dehbaschi.de/men%C3%BC/tagesgericht/',
         address: 'Dachauer Str. 36, 80335 München',
         phone: '08955029630',
-        description: 'Simitçi Café is a turkish restaurant and cafe in Munich, is nice place to take your breakfast with menu variety.',
+        description: 'rich selection of specialties from the Persian cuisine.grilled specialties ensure a sour, salty variation. Or in combination with rice dishes for a sweet, sour and salty taste. Various vegetarian menus are also available as varied daily specials.',
         menu: [
             'Tschelo - Kababe Kubideh',
             'Djudjeh Kabab',
