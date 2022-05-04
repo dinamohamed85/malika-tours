@@ -2468,6 +2468,7 @@ const restaurants = [
             'Teiggebäck',
             'lunch dishes',
             'cafes & bakery',
+            'Marienplatz',
             'turkish',
             'halal',
         ],
