@@ -1709,7 +1709,7 @@ const tours = [
         date: 'April, 2021',
         location: 'https://goo.gl/maps/aafFi47RRByJKmAK6',
         site: 'https://www.big-jump.de/',
-        address: 'Close to the Munich city center as it is about 15 min away via <strong>S</strong> (Laim).',
+        address: 'In the north west  of Munich as it is about 1.5 hr away via <strong>train</strong> (Augsburg).',
         description: 'Trampolines with lots of action and fun! Jumpers from Augsburg, numerous disciplines. Master the obstacle course , fights on balance beams in the battle beam or plays dodgeball and volley jump. Fly through the air with the longest flying fox in southern Germany and discover your skills as a secret agent on the longest lazer maze course in Germany. Or simulate more than ten sports on a gigantic screen. It doesn’t matter whether it’s a children’s birthday party, Family outing, bachelor parties, team events.',
         thingstodo: [
             'volley jump',
