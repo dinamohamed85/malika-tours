@@ -231,7 +231,7 @@ const restaurants = [
         rate: 3.9,
         likes: '2,150',
         avg_price: 5,
-        featured: true,
+        featured: false,
     },
     {
         id: '8',
@@ -369,7 +369,7 @@ const restaurants = [
         rate: 4.4,
         likes: '1,029',
         avg_price: 14,
-        featured: true,
+        featured: false,
     },
     {
         id: '12',
@@ -439,7 +439,7 @@ const restaurants = [
         rate: 4.1,
         likes: '510',
         avg_price: 15,
-        featured: true,
+        featured: false,
     },
     {
         id: '14',
@@ -471,7 +471,7 @@ const restaurants = [
         rate: 4.4,
         likes: '687',
         avg_price: 25,
-        featured: true,
+        featured: false,
     },
     {
         id: '15',
@@ -536,7 +536,7 @@ const restaurants = [
         rate: 4.4,
         likes: '1,967',
         avg_price: 14,
-        featured: true,
+        featured: false,
     },
     {
         id: '17',
@@ -636,7 +636,7 @@ const restaurants = [
         rate: 4.7,
         likes: '316',
         avg_price: 14,
-        featured: true,
+        featured: false,
     },
     {
         id: '20',
@@ -700,7 +700,7 @@ const restaurants = [
         rate: 3.9,
         likes: '390',
         avg_price: 7,
-        featured: true,
+        featured: false,
     },
     {
         id: '22',
@@ -867,7 +867,7 @@ const restaurants = [
         rate: 4.5,
         likes: '1,405',
         avg_price: 8,
-        featured: true,
+        featured: false,
     },
     {
         id: '27',
@@ -1009,7 +1009,7 @@ const restaurants = [
         rate: 4.1,
         likes: '1,064',
         avg_price: 10,
-        featured: true,
+        featured: false,
     },
     {
         id: '31',
@@ -1113,7 +1113,7 @@ const restaurants = [
         rate: 4.4,
         likes: '1,561',
         avg_price: 12,
-        featured: true,
+        featured: false,
     },
     {
         id: '34',
@@ -1515,7 +1515,7 @@ const restaurants = [
         rate: 4.6,
         likes: '1,188',
         avg_price: 25,
-        featured: true,
+        featured: false,
     },
     {
         id: '46',
@@ -1547,7 +1547,7 @@ const restaurants = [
         rate: 3.9,
         likes: '1,498',
         avg_price: 25,
-        featured: true,
+        featured: false,
     },
     {
         id: '47',
@@ -1580,7 +1580,7 @@ const restaurants = [
         rate: 4.3,
         likes: '1,294',
         avg_price: 25,
-        featured: true,
+        featured: false,
     },
     {
         id: '48',
@@ -1611,7 +1611,7 @@ const restaurants = [
         rate: 4.3,
         likes: '1,183',
         avg_price: 20,
-        featured: true,
+        featured: false,
     },
     {
         id: '49',
@@ -1743,7 +1743,7 @@ const restaurants = [
         rate: 4.1,
         likes: '1,511',
         avg_price: 5,
-        featured: true,
+        featured: false,
     },
     {
         id: '53',
@@ -1816,7 +1816,7 @@ const restaurants = [
         rate: 4.3,
         likes: '752',
         avg_price: 8,
-        featured: true,
+        featured: false,
     },
     {
         id: '55',
@@ -1884,7 +1884,7 @@ const restaurants = [
         rate: 4.1,
         likes: '1,450',
         avg_price: 5,
-        featured: true,
+        featured: false,
     },
     {
         id: '57',
@@ -1916,7 +1916,7 @@ const restaurants = [
         rate: 4.1,
         likes: '1,955',
         avg_price: 5,
-        featured: true,
+        featured: false,
     },
     {
         id: '58',
@@ -1950,7 +1950,7 @@ const restaurants = [
         rate: 4.1,
         likes: '2,165',
         avg_price: 5,
-        featured: true,
+        featured: false,
     },
     {
         id: '59',
@@ -2114,7 +2114,7 @@ const restaurants = [
         rate: 4.2,
         likes: '1,444',
         avg_price: 8,
-        featured: false,
+        featured: true,
     },
     {
         id: '64',
@@ -2153,7 +2153,7 @@ const restaurants = [
         id: '65',
         order: '1',
         title: 'Tahdig',
-        category: 'other',
+        category: 'Persian',
         icon: 'fa-solid fa-ellipsis',
         images: [
             './images/restaurants/restaurant-65-0.jpeg',
@@ -2213,7 +2213,7 @@ const restaurants = [
         rate: 4.4,
         likes: '1,026',
         avg_price: 15,
-        featured: false,
+        featured: true,
     },
     {
         id: '67',
@@ -2248,7 +2248,7 @@ const restaurants = [
         rate: 4.6,
         likes: '685',
         avg_price: 8,
-        featured: false,
+        featured: true,
     },
     {
         id: '68',
@@ -2311,7 +2311,7 @@ const restaurants = [
         rate: 4.1,
         likes: '1,355',
         avg_price: 20,
-        featured: true,
+        featured: false,
     },
     {
         id: '70',
@@ -2342,7 +2342,7 @@ const restaurants = [
         rate: 4.6,
         likes: '266',
         avg_price: 20,
-        featured: true,
+        featured: false,
     },
     {
         id: '72',
@@ -2376,7 +2376,7 @@ const restaurants = [
         rate: 4.2,
         likes: '784',
         avg_price: 16,
-        featured: true,
+        featured: false,
     },
     {
         id: '73',
@@ -2408,7 +2408,7 @@ const restaurants = [
         rate: 4.7,
         likes: '495',
         avg_price: 16,
-        featured: true,
+        featured: false,
     },
     {
         id: '74',
@@ -2440,7 +2440,7 @@ const restaurants = [
         rate: 4.3,
         likes: '226',
         avg_price: 16,
-        featured: true,
+        featured: false,
     },
     {
         id: '75',
