@@ -1646,6 +1646,33 @@ const tours = [
         season: 'summer',
         featured: false,
     },
+    {
+        id: '62',
+        title: 'Circus Universal Feraro',
+        category: 'events',
+        icon: 'fa-regular fa-calendar-check',
+        image: './images/tours/tour-62.jpeg',
+        country: 'Germany',
+        date: 'May, 2022',
+        location: 'https://goo.gl/maps/X5pPsyZmufCtu5KR8',
+        site: 'https://www.circus-feraro.de/',
+        address: 'Predazzoallee, 85399 Hallbergmoos. In the east north of Munich about 35 min away of Munich center via <strong>S8</strong> (Hallbergmoos) then <strong>Bus 692</strong> (Hallbergmoos, Sportpark).',
+        description: 'Circus Universal Feraro (animals) 6.5.22 - 15.5.22 in Hallbergmoos, 0160 6500175. We present you a 2-hour circus program in and above the ring.Breathtaking acrobatics, exquisite animal training and clowning.Treat yourself and your family to a few wonderful hours and experience our performance.Coming soon in: Garching , Erding , Ebersberg , Wartenberg , Mainburg , Abensberg ,Dingolfing ,Landau on the Isar',
+        thingstodo: [
+            'Small Cozy Circus',
+            'Entertainment',
+            'Clowns',
+            'Artists',
+            'snacks',
+            'animals',
+            'kids',
+        ],
+        likes: '788',
+        duration: 2,
+        price: 10,
+        season: 'winter',
+        featured: false,
+    },
 ];
 
 export default tours;
