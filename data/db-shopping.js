@@ -329,7 +329,7 @@ const shopping = [
         description: 'C&A stores in Deutschland ✓ Discover the latest fashions for women, men and children at C&A! Top quality ✓ Sustainable products.',
         thingstodo: [
             'Clothing store',
-            'most of malls',
+            'most of mall',
             'ladies',
             'Men',
             'kids'
@@ -865,7 +865,7 @@ const shopping = [
         description: 'Chain retailer supplying on- trend clothing, swimwear, accessories & shoes.',
         thingstodo: [
             'Clothing store',
-            'most of malls',
+            'most of mall',
             'ladies',
             'Men',
             'kids'
