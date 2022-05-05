@@ -1766,7 +1766,7 @@ const tours = [
         location: 'https://goo.gl/maps/X5pPsyZmufCtu5KR8',
         site: 'https://www.facebook.com/CircusBaldoniKaiser/',
         address: '015226501541. 85640 Putzbrunn. In the south east of Munich about 35 min away of Munich center via <strong>Bus55|Bus212</strong> (Wernh-von-braun-str)',
-        description: 'Circus Universal Feraro 6.5.22 - 15.5.22 in Putzbrunn. the Circus BALDONI will soon be making a guest appearance in your city. Experience a colorful circus cocktail with breathtaking top artistry, heart-warming clowns and species-appropriate animal training.',
+        description: 'Circus Baldoni Kaiser 6.5.22 - 15.5.22 in Putzbrunn. the Circus BALDONI will soon be making a guest appearance in your city. Experience a colorful circus cocktail with breathtaking top artistry, heart-warming clowns and species-appropriate animal training.',
         thingstodo: [
             'Small Cozy Circus',
             'Entertainment',
