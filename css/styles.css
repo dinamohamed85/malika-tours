@@ -385,7 +385,7 @@ Featured Tours
   position: relative;
 }
 .tour-img {
-  height: 12rem;
+  height: 16rem;
   object-fit: cover;
 }
 .tour-date {
@@ -922,7 +922,7 @@ min-height:calc(100vh - 62px);
 }
 .item-photo {
   object-fit: cover;
-  height: 18rem;
+  height: 19rem;
   border: 0.20rem solid var(--clr-orange-1);
   border-radius: var(--radius);
 }
