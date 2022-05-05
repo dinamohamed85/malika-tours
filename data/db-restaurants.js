@@ -457,7 +457,7 @@ const restaurants = [
         country: 'Germany',
         location: 'https://goo.gl/maps/c3yuuerZDrq5qHSu6',
         site: 'https://www.giannis-gusto.de/speisekarte',
-        address: 'Rosenheimer Landstraße 88, 85521 Ottobrunn, Germany',
+        address: 'Rosenheimer Landstraße 88, 85521 Ottobrunn,München',
         phone: '08963879567',
         description: 'Giannis is a Greek restaurant in Munich, nice kitchen for meat, chicken and fish dishes and dessert.',
         menu: [
@@ -2345,6 +2345,38 @@ const restaurants = [
         featured: false,
     },
     {
+        id: '71',
+        order: '6',
+        title: 'Taverna Limani',
+        category: 'other',
+        icon: 'fa-solid fa-ellipsis',
+        images: [
+            './images/restaurants/restaurant-71-0.jpeg',
+            './images/restaurants/restaurant-71-1.jpeg',
+            './images/restaurants/restaurant-71-2.jpeg',
+            './images/restaurants/restaurant-71-3.jpeg',
+            './images/restaurants/restaurant-71-4.jpeg',
+        ],
+        country: 'Germany',
+        location: 'https://goo.gl/maps/sKfCVA6dWU7zxG5v7',
+        site: 'https://taverna-limani.de/speisekarte/',
+        address: 'Rotdornstraße 2, 81547 München',
+        phone: '08969804072',
+        description: 'Classic dishes & lava-stone grills in an airy dining room with industrial fittings & exposed bricks.',
+        menu: [
+            'Rinderfilet Grill',
+            'Lammschulter',
+            'Souvlaki',
+            'Baklava',
+            'steak',
+            'Greek'
+        ],
+        rate: 4.7,
+        likes: '1,412',
+        avg_price: 18,
+        featured: false,
+    },
+    {
         id: '72',
         order: '1',
         title: 'Dehbaschi',
@@ -2477,6 +2509,7 @@ const restaurants = [
         avg_price: 8.9,
         featured: true,
     },
+
 ];
 
 export default restaurants;
