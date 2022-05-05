@@ -1288,6 +1288,31 @@ const shopping = [
         likes: '3,847',
         featured: true,
     },
+    {
+        id: '57',
+        title: 'Hofstatt',
+        category: 'malls',
+        icon: 'fa-solid fa-shop',
+        images: [
+            './images/shopping/shop-57.jpeg',
+        ],
+        country: 'Germany',
+        location: 'https://goo.gl/maps/xCkyihj3siRmy7zQA',
+        site: 'http://www.hofstatt.info/',
+        address: 'Sendlinger Str. 10, 80331 München',
+        phone: '08914333650',
+        description: 'Contemporary shopping mall featuring brand-name clothing & accessory boutiques & restaurants.',
+        thingstodo: [
+            'food',
+            'market',
+            'shopping',
+            'cafes',
+            'Edeka'
+        ],
+        rate: 4.2,
+        likes: '3,440',
+        featured: true,
+    },
 ];
 
 export default shopping;
