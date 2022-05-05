@@ -2113,7 +2113,7 @@ const restaurants = [
         ],
         rate: 4.2,
         likes: '1,444',
-        avg_price: 8,
+        avg_price: 13,
         featured: true,
     },
     {
