@@ -259,9 +259,10 @@ const shopping = [
         site: 'https://www.tkmaxx.de/',
         address: 'Kaufingerstraße 1-5, 80331 München, Germany',
         phone: '0892554170',
-        description: 'Retail chain featuring stylish brand-name apparel, shoes & accessories, plus housewares.',
+        description: 'shopping original brand with low price.',
         thingstodo: [
             'Department store',
+            'discounts'
         ],
         rate: 4.1,
         likes: '5,696',
@@ -661,7 +662,7 @@ const shopping = [
         thingstodo: [
             'free ads',
             'Used products',
-            'price less',
+            'less prices',
         ],
         rate: 4.6,
         likes: '500,000',
@@ -1176,6 +1177,32 @@ const shopping = [
         ],
         rate: 4.4,
         likes: '50',
+        featured: true,
+    },
+    {
+        id: '53',
+        title: 'Ingolstadt Village',
+        category: 'shops',
+        icon: 'fa-solid fa-shop',
+        images: [
+            './images/shopping/shop-53.jpeg',
+        ],
+        country: 'Germany',
+        location: 'https://goo.gl/maps/WM1YrzCHiTY4BQAq9',
+        site: 'https://www.thebicestercollection.com/ingolstadt-village/de/ihr-besuch/',
+        address: 'Otto-Hahn-Straße 1, 85055 Ingolstadt',
+        phone: '08418863100',
+        description: 'At Ingolstadt Village Enjoy luxury open-air shopping with more than 110 boutiques from designer brands, original brands with low price.',
+        thingstodo: [
+            'shopping',
+            'brands',
+            'fast food',
+            'cafes',
+            'weekend',
+            'discounts',
+        ],
+        rate: 4.2,
+        likes: '11,708',
         featured: true,
     },
 ];
