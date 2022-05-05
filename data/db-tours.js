@@ -1652,7 +1652,7 @@ const tours = [
         title: 'Circus Universal Feraro',
         category: 'events',
         icon: 'fa-regular fa-calendar-check',
-        image: './images/toursMay/tour-62.jpeg',
+        image: './images/tours/tour-62.jpeg',
         country: 'Germany',
         date: 'April-September, 2022',
         location: 'https://goo.gl/maps/X5pPsyZmufCtu5KR8',
