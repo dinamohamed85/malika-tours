@@ -1205,6 +1205,33 @@ const shopping = [
         likes: '11,708',
         featured: true,
     },
+    {
+        id: '54',
+        title: 'Mira Einkaufszentrum',
+        category: 'malls',
+        icon: 'fa-solid fa-shop',
+        images: [
+            './images/shopping/shop-54.jpeg',
+        ],
+        country: 'Germany',
+        location: 'https://goo.gl/maps/z8B4sGMsX97hCga76',
+        site: 'https://www.olympia-einkaufszentrum.de/',
+        address: 'Schleißheimer Str. 506, 80933 München',
+        phone: '08938888190',
+        description: '3 floors of shops & restaurants in a contemporary enclosed space with a colorful facade.',
+        thingstodo: [
+            'food court',
+            'Woolworth',
+            'Deichmann',
+            'Lotto Toto',
+            'dm',
+            'Aldi',
+            'rewe',
+        ],
+        rate: 3.9,
+        likes: '3,847',
+        featured: true,
+    },
 ];
 
 export default shopping;
