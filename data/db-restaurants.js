@@ -2538,7 +2538,7 @@ const restaurants = [
         ],
         rate: 4.2,
         likes: '3,655',
-        avg_price: 8,
+        avg_price: 15,
         featured: true,
     },
     {
@@ -2573,7 +2573,40 @@ const restaurants = [
         avg_price: 16,
         featured: true,
     },
-
+    {
+        id: '78',
+        order: '1',
+        title: 'Khanittha Im Werksviertel',
+        category: 'other',
+        icon: 'fa-solid fa-ellipsis',
+        images: [
+            './images/restaurants/restaurant-78-0.jpeg',
+            './images/restaurants/restaurant-78-1.jpeg',
+            './images/restaurants/restaurant-78-2.jpeg',
+            './images/restaurants/restaurant-78-3.jpeg',
+            './images/restaurants/restaurant-78-4.jpeg',
+        ],
+        country: 'Germany',
+        location: 'https://goo.gl/maps/inrdDyavT47cZ9cb6',
+        site: 'https://khanittha-werksviertel.de/media/menu.pdf',
+        address: 'Atelierstraße 14, 81671 München',
+        phone: '01786091312',
+        description: 'Typical Thai street food like rolls, satay & spicy curries, served in a bright, airy venue.',
+        menu: [
+            'rice',
+            'vegetables',
+            'meat',
+            'chicken',
+            'noodles',
+            'soups',
+            'ostbahnhof',
+            'Thai'
+        ],
+        rate: 4.2,
+        likes: '1,444',
+        avg_price: 8,
+        featured: true,
+    },
 ];
 
 export default restaurants;
