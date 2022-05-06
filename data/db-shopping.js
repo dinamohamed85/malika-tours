@@ -1622,24 +1622,25 @@ const shopping = [
     },
     {
         id: '70',
-        title: 'Forumstar Supermarkt',
+        title: 'Lider Supermarkt',
         category: 'halal markets',
         icon: 'fa-solid fa-shop',
         images: [
             './images/shopping/shop-70.jpeg',
         ],
         country: 'Germany',
-        location: 'https://g.page/forumstar-supermarkt?share',
-        site: 'https://www.forumstar.de/',
-        address: 'Aubinger Str. 49, 81243 München, Germany',
-        phone: '08982969119',
+        location: 'https://goo.gl/maps/MnkEtgh18Sehzu5h8',
+        site: '',
+        facebook: 'https://www.facebook.com/lider.supermarkt/',
+        address: 'Valpichlerstraße 58, 80686 München, Germany',
+        phone: '08937419807',
         description: 'halal supermarket in munich.',
         thingstodo: [
             'Türkisch supermarket',
             'halal products',
             'meat',
             'fish',
-            'Westkreuz'
+            'Laimer Platz'
         ],
         rate: 4.3,
         likes: '407',
