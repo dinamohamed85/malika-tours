@@ -65,7 +65,7 @@ const displayshopping = () => {
             ${description}
         </p>
         <div>
-            <h5>Activities to do :</h5>
+            <h5>Things to do :</h5>
             <div class="tour-activtiy">
             ${thingstodo.map((item) => {
                 return `<p class="activtiy">${item}</p>`

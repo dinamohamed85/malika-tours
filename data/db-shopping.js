@@ -1313,6 +1313,84 @@ const shopping = [
         likes: '3,440',
         featured: true,
     },
+    {
+        id: '58',
+        title: 'Freshland Supermarkt',
+        category: 'halal markets',
+        icon: 'fa-solid fa-shop',
+        images: [
+            './images/shopping/shop-58.jpeg',
+        ],
+        country: 'Germany',
+        location: 'https://goo.gl/maps/aan82G3DtoYDnZbM7',
+        site: 'https://freshlandsupermarkt.de/',
+        address: 'Arnulfstraße 199, 80634 München',
+        phone: '08918008818',
+        description: 'halal supermarket in munich.',
+        thingstodo: [
+            'supermarket',
+            'halal products',
+            'meat',
+            'fish',
+            'briefzentrum'
+
+        ],
+        rate: 4.7,
+        likes: '365',
+        featured: true,
+    },
+    {
+        id: '59',
+        title: 'Dolphin Market',
+        category: 'halal markets',
+        icon: 'fa-solid fa-shop',
+        images: [
+            './images/shopping/shop-59.jpeg',
+        ],
+        country: 'Germany',
+        location: 'https://goo.gl/maps/aan82G3DtoYDnZbM7',
+        site: 'http://www.dolphinmarket.de/',
+        address: 'Gröbenzeller Str. 2, 80997 München',
+        phone: '08989223662',
+        description: 'halal supermarket in munich.',
+        thingstodo: [
+            'supermarket',
+            'halal products',
+            'meat',
+            'fish',
+            'moosach'
+
+        ],
+        rate: 4.3,
+        likes: '265',
+        featured: true,
+    },
+    {
+        id: '60',
+        title: 'Oasis Supermarkt',
+        category: 'halal markets',
+        icon: 'fa-solid fa-shop',
+        images: [
+            './images/shopping/shop-60.jpeg',
+        ],
+        country: 'Germany',
+        location: 'https://goo.gl/maps/zT3aHuXEdLYGrqme7',
+        site: 'http://www.dolphinmarket.de/',
+        address: 'Landwehrstraße 9, 80336 München',
+        phone: '01573 9855685',
+        description: 'halal supermarket in munich.',
+        thingstodo: [
+            'supermarket',
+            'halal products',
+            'meat',
+            'fish',
+            'sendlinger tor'
+
+        ],
+        rate: 4.1,
+        likes: '202',
+        featured: true,
+    },
 ];
 
 export default shopping;
