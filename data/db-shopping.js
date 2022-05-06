@@ -1462,11 +1462,86 @@ const shopping = [
             'halal products',
             'meat',
             'fish',
-            'feldmoching/milbertshofen'
+            'feldmoching/Milbertshofen'
 
         ],
         rate: 4.4,
         likes: '233',
+        featured: true,
+    },
+    {
+        id: '64',
+        title: 'prima Market',
+        category: 'fish',
+        icon: 'fa-solid fa-shop',
+        images: [
+            './images/shopping/shop-64.jpeg',
+        ],
+        country: 'Germany',
+        location: 'https://goo.gl/maps/L54WYrPGdCekzgKW9',
+        site: 'https://monolith-gruppe.net/',
+        address: 'Schlüsselbergstraße 13, 81673 München',
+        phone: '08943519384',
+        description: 'halal supermarket in munich.',
+        thingstodo: [
+            'supermarket',
+            'fish',
+            'innsbrucker ring'
+
+        ],
+        rate: 4.1,
+        likes: '1,213',
+        featured: true,
+    },
+    {
+        id: '65',
+        title: 'Bayram Supermarkt',
+        category: 'fish',
+        icon: 'fa-solid fa-shop',
+        images: [
+            './images/shopping/shop-65.jpeg',
+        ],
+        country: 'Germany',
+        location: 'https://goo.gl/maps/L54WYrPGdCekzgKW9',
+        site: 'https://www.bayram-supermarkt.de/',
+        address: 'Steinkirchner Str. 31, 81475 München',
+        phone: '08931901440',
+        description: 'halal supermarket in munich.',
+        thingstodo: [
+            'halal products',
+            'meat',
+            'fish',
+            'innsbrucker ring'
+
+        ],
+        rate: 4.3,
+        likes: '177',
+        featured: true,
+    },
+    {
+        id: '66',
+        title: 'Güney Cavusoglu Supermarkt',
+        category: 'halal markets',
+        icon: 'fa-solid fa-shop',
+        images: [
+            './images/shopping/shop-66.jpeg',
+        ],
+        country: 'Germany',
+        location: 'https://goo.gl/maps/RtJxXeZ12HcQJsWb6',
+        site: 'http://www.gcavusoglu.de/',
+        address: 'Implerstraße 23, 81371 München',
+        phone: '08972630099',
+        description: 'halal supermarket in munich.',
+        thingstodo: [
+            'supermarket',
+            'halal products',
+            'meat',
+            'fish',
+            'implerstraße'
+
+        ],
+        rate: 4.4,
+        likes: '533',
         featured: true,
     },
 ];
