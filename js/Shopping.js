@@ -46,8 +46,9 @@ const displayshopping = () => {
         .map((item, index) => {
             const { id, title, category, icon, images, location, site, description, likes, featured, address, phone, rate, thingstodo, facebook } = item;
             return `<article class="item">
-        <div class="tour-img-container">
-            <img src="${images[0]}" class="item-photo" />           
+        <div class="tour-img-container">            
+            <a href="${location}" target="_blank">
+            <img src="${images[0]}" class="item-photo" />   </a>        
         </div>
         <div class="item-info">
         <header>            
