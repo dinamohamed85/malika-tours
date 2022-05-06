@@ -1502,7 +1502,7 @@ const shopping = [
             './images/shopping/shop-65.jpeg',
         ],
         country: 'Germany',
-        location: 'https://goo.gl/maps/L54WYrPGdCekzgKW9',
+        location: 'https://goo.gl/maps/xggGqTxK3LWbGkDk8',
         site: 'https://www.bayram-supermarkt.de/',
         address: 'Steinkirchner Str. 31, 81475 München',
         phone: '08931901440',
