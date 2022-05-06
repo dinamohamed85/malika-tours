@@ -1595,6 +1595,31 @@ const shopping = [
         likes: '117',
         featured: true,
     },
+    {
+        id: '69',
+        title: 'Forumstar Supermarkt',
+        category: 'halal markets',
+        icon: 'fa-solid fa-shop',
+        images: [
+            './images/shopping/shop-69.jpeg',
+        ],
+        country: 'Germany',
+        location: 'https://g.page/forumstar-supermarkt?share',
+        site: 'https://www.forumstar.de/',
+        address: 'Aubinger Str. 49, 81243 München, Germany',
+        phone: '08982969119',
+        description: 'halal supermarket in munich.',
+        thingstodo: [
+            'Türkisch supermarket',
+            'halal products',
+            'meat',
+            'fish',
+            'Westkreuz'
+        ],
+        rate: 4.3,
+        likes: '407',
+        featured: true,
+    },
 ];
 
 export default shopping;
