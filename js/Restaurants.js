@@ -82,7 +82,6 @@ const displayRestaurants = () => {
             ${menu.map((item) => {
 
                 let text;
-
                 if (item == 'halal')
                     text = `<p class="activtiy"><span class="tour-love-icon">${item}</span></p>`
 
