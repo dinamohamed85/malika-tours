@@ -1472,7 +1472,7 @@ const shopping = [
     {
         id: '64',
         title: 'prima Market',
-        category: 'fish',
+        category: 'fish market',
         icon: 'fa-solid fa-shop',
         images: [
             './images/shopping/shop-64.jpeg',
@@ -1496,7 +1496,7 @@ const shopping = [
     {
         id: '65',
         title: 'Bayram Supermarkt',
-        category: 'fish',
+        category: 'fish market',
         icon: 'fa-solid fa-shop',
         images: [
             './images/shopping/shop-65.jpeg',
@@ -1511,7 +1511,7 @@ const shopping = [
             'halal products',
             'meat',
             'fish',
-            'innsbrucker ring'
+            'Fürstenried West'
 
         ],
         rate: 4.3,
@@ -1602,6 +1602,31 @@ const shopping = [
         icon: 'fa-solid fa-shop',
         images: [
             './images/shopping/shop-69.jpeg',
+        ],
+        country: 'Germany',
+        location: 'https://g.page/forumstar-supermarkt?share',
+        site: 'https://www.forumstar.de/',
+        address: 'Aubinger Str. 49, 81243 München, Germany',
+        phone: '08982969119',
+        description: 'halal supermarket in munich.',
+        thingstodo: [
+            'Türkisch supermarket',
+            'halal products',
+            'meat',
+            'fish',
+            'Westkreuz'
+        ],
+        rate: 4.3,
+        likes: '407',
+        featured: true,
+    },
+    {
+        id: '70',
+        title: 'Forumstar Supermarkt',
+        category: 'halal markets',
+        icon: 'fa-solid fa-shop',
+        images: [
+            './images/shopping/shop-70.jpeg',
         ],
         country: 'Germany',
         location: 'https://g.page/forumstar-supermarkt?share',
