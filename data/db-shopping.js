@@ -1546,16 +1546,16 @@ const shopping = [
     },
     {
         id: '67',
-        title: 'Cavusoglu Supermarkt ',
+        title: 'Cavusoglu Supermarkt',
         category: 'halal markets',
         icon: 'fa-solid fa-shop',
         images: [
             './images/shopping/shop-67.jpeg',
         ],
         country: 'Germany',
-        location: 'https://goo.gl/maps/RtJxXeZ12HcQJsWb6',
+        location: 'https://goo.gl/maps/kNoDqTMxAAyevC5t8',
         site: 'https://www.facebook.com/Cavusoglu-1-S%C3%BCpermarket-1615183208724231',
-        address: 'Goethestraße 15, 80336 München, Germany',
+        address: 'Goethestraße 15, 80336 München',
         phone: '089592404',
         description: 'halal supermarket in munich.',
         thingstodo: [
@@ -1568,6 +1568,31 @@ const shopping = [
         ],
         rate: 4.1,
         likes: '398',
+        featured: true,
+    },
+    {
+        id: '68',
+        title: 'Türkischer Halal Supermarket',
+        category: 'halal markets',
+        icon: 'fa-solid fa-shop',
+        images: [
+            './images/shopping/shop-68.jpeg',
+        ],
+        country: 'Germany',
+        location: 'https://goo.gl/maps/okqEMWV5mUerKbEF6',
+        site: 'https://www.facebook.com/Cavusoglu-1-S%C3%BCpermarket-1615183208724231',
+        address: 'Pasinger Marienpl 457, 81241 München',
+        phone: '',
+        description: 'halal supermarket in munich.',
+        thingstodo: [
+            'Türkisch supermarket',
+            'halal products',
+            'meat',
+            'fish',
+            'am  knie'
+        ],
+        rate: 4.3,
+        likes: '117',
         featured: true,
     },
 ];
