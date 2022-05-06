@@ -1545,10 +1545,10 @@ const shopping = [
         site: 'https://monolith-gruppe.net/',
         facebook: 'https://www.facebook.com/monolithgruppe/',
         address: 'Schlüsselbergstraße 13, 81673 München',
-        phone: '08943519384',
+        phone: '08943519384 , +4922739495400',
         description: 'halal supermarket in munich.',
         thingstodo: [
-            'supermarket',
+            'russian supermarket',
             'fish',
             'innsbrucker ring'
 
