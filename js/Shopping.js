@@ -44,14 +44,20 @@ const displayshopping = () => {
 
     shoppingContainer.innerHTML = filteredList
         .map((item, index) => {
-            const { id, title, category, icon, images, location, site, description, likes, featured, address, phone, rate, thingstodo } = item;
+            const { id, title, category, icon, images, location, site, description, likes, featured, address, phone, rate, thingstodo, facebook } = item;
             return `<article class="item">
         <div class="tour-img-container">
             <img src="${images[0]}" class="item-photo" />           
         </div>
         <div class="item-info">
         <header>            
-            <h4><a href="${site}" target="_blank"><i class="fa-solid fa-earth-europe site-icon"></i>${index + 1}- ${title}</a></h4>
+            <h4>
+            ${site ? ` <a href="${site}" target="_blank"><i class="fa-solid fa-earth-europe site-icon"></i>${index + 1}- ${title}</a>` : `${index + 1}- ${title}`}
+            </h4>
+            <p>  
+            ${facebook ? `<a href="${facebook}" target="_blank"><i
+            class="fa-brands fa-facebook-square facebook-icon"></i></a> ` : ``}           
+            </p>   
         </header>
         <section>
         ${location ? `<p><a href="${location}" target="_blank"><i

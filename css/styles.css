@@ -992,3 +992,8 @@ min-height:calc(100vh - 62px);
   color: var(--clr-grey-8);
   font-size: 1rem;
 }
+.facebook-icon {
+  margin-right: 0.25rem;
+  font-size: 1.25rem;
+  transition: var(--transition);
+}
