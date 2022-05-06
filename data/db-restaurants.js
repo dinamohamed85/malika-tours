@@ -15,8 +15,8 @@ const restaurants = [
         country: 'Germany',
         location: 'https://goo.gl/maps/AgxFSnuRnJyRFsCRA',
         site: 'https://wolt.com/en/deu/munich/restaurant/bab-al-yemen',
-        address: 'Thierschstraße 8, 80538 München',
-        phone: '08921111789',
+        address: 'Landwehrstraße 8, 80336 München',
+        phone: '01743556000',
         description: 'Bab Al Yemen is an arabic restaurant in the center of Munich, Let yourself be inspired by our delicious Arabic delicacies! Everything is freshly prepared and our kitchen uses wonderful flavors in your dishes.',
         menu: [
             'Madghout Lamb',
@@ -1664,8 +1664,8 @@ const restaurants = [
         country: 'Germany',
         location: 'https://goo.gl/maps/1q5RZxUKLcZFnSZt7',
         site: 'https://wolt.com/en/deu/munich/restaurant/goa-restaurant',
-        address: 'Landwehrstraße 8, 80336 München',
-        phone: '01743556000',
+        address: 'Thierschstraße 8, 80538 München',
+        phone: '08921111789',
         description: 'Restaurant Goa is an indian restaurant in Munich, Wide range of Indian dishes served in a medium- sized, brightly decorated space with Indian motifs.',
         menu: [
             'Mango Chicken',
