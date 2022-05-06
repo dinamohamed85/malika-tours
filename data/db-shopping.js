@@ -1406,7 +1406,7 @@ const shopping = [
             './images/shopping/shop-59.jpeg',
         ],
         country: 'Germany',
-        location: 'https://goo.gl/maps/aan82G3DtoYDnZbM7',
+        location: 'https://g.page/dolphin-ohg?share',
         site: 'http://www.dolphinmarket.de/',
         facebook: '',
         address: 'Gröbenzeller Str. 2, 80997 München',
