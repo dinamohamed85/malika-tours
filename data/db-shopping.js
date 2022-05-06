@@ -1544,6 +1544,32 @@ const shopping = [
         likes: '533',
         featured: true,
     },
+    {
+        id: '67',
+        title: 'Cavusoglu Supermarkt ',
+        category: 'halal markets',
+        icon: 'fa-solid fa-shop',
+        images: [
+            './images/shopping/shop-67.jpeg',
+        ],
+        country: 'Germany',
+        location: 'https://goo.gl/maps/RtJxXeZ12HcQJsWb6',
+        site: 'https://www.facebook.com/Cavusoglu-1-S%C3%BCpermarket-1615183208724231',
+        address: 'Goethestraße 15, 80336 München, Germany',
+        phone: '089592404',
+        description: 'halal supermarket in munich.',
+        thingstodo: [
+            'asian supermarket',
+            'halal products',
+            'meat',
+            'fish',
+            'hauptbahnhof'
+
+        ],
+        rate: 4.1,
+        likes: '398',
+        featured: true,
+    },
 ];
 
 export default shopping;
