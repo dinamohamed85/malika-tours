@@ -35,7 +35,7 @@ const shopping = [
         country: 'Germany',
         location: 'https://goo.gl/maps/Nutra2ER4EBfeuoX8',
         site: 'https://www.riemarcaden.de/',
-        address: 'Willy-Brandt-Platz 5, 81829 München, Germany',
+        address: 'Willy-Brandt-Platz 5, 81829 München',
         phone: '089930060',
         description: 'Expansive mall featuring global & national retail shops, restaurants, services & a grocery store.',
         thingstodo: [
@@ -60,7 +60,7 @@ const shopping = [
         country: 'Germany',
         location: 'https://goo.gl/maps/QxSM9wTPfmcu9ApS9',
         site: 'https://www.pep-muenchen.de/',
-        address: 'Thomas-Dehler-Straße 10, 81737 München, Germany',
+        address: 'Thomas-Dehler-Straße 10, 81737 München',
         phone: '08007734089',
         description: 'Bright mall with local shops & international chain stores, plus casual restaurants & food counters.',
         thingstodo: [
@@ -88,7 +88,7 @@ const shopping = [
         country: 'Germany',
         location: 'https://goo.gl/maps/8TbBESMfyDooGGXV7',
         site: 'https://www.pasing-arcaden.de/',
-        address: 'Pasinger Bahnhofspl. 5, 81241 München, Germany',
+        address: 'Pasinger Bahnhofspl. 5, 81241 München',
         phone: '0892885175512',
         description: 'The Pasing Arcaden is a shopping mall located in Munich district of Pasing.The first section of the Pasing Arcaden was opened on the 15 of March 2011. It is located near the Pasing train station, in the west of Munich.',
         thingstodo: [
@@ -116,7 +116,7 @@ const shopping = [
         country: 'Germany',
         location: 'https://goo.gl/maps/HWDSHVLeuGBkeiVp9',
         site: 'https://www.galeria.de/on/demandware.store/Sites-Galeria-Site/de/Stores-Details?StoreID=001414',
-        address: 'Kaufingerstraße 1-5, 80331 München, Germany',
+        address: 'Kaufingerstraße 1-5, 80331 München',
         phone: '089231851',
         description: 'Galeria Kaufhof GmbH is a German department store chain whose headquarters are in Cologne. It has been a member of the International Association of Department Stores from 1930 to 2010, with various CEOs acting as presidents of the Association over time',
         thingstodo: [
@@ -143,7 +143,7 @@ const shopping = [
         country: 'Germany',
         location: 'https://goo.gl/maps/MRTDZCVMEKa1uyvR9',
         site: 'https://www.xn--forum-schwanthalerhhe-zec.de/',
-        address: 'Theresienhöhe 5, 80339 München, Germany',
+        address: 'Theresienhöhe 5, 80339 München',
         phone: '08959976090',
         description: 'Urban shopping complex with national & international chain retailers, a food court & a game arcade.',
         thingstodo: [
@@ -236,7 +236,7 @@ const shopping = [
         country: 'Germany',
         location: 'https://goo.gl/maps/VYyt8RkjvFCypUMZ7',
         site: 'https://www.decathlon.de/',
-        address: 'Elisenstraße 3 Haupteingang über, Luisenstraße, 80335 München, Germany',
+        address: 'Elisenstraße 3 Haupteingang über, Luisenstraße, 80335 München',
         phone: '089515538610',
         description: 'Decathlon S.A.is a French sporting goods retailer.With over 1697 stores in 60 countries and regions, it is the largest sporting goods retailer in the world.',
         thingstodo: [
@@ -257,7 +257,7 @@ const shopping = [
         country: 'Germany',
         location: 'https://goo.gl/maps/fCm74MsLdcLdLDEF9',
         site: 'https://www.tkmaxx.de/',
-        address: 'Kaufingerstraße 1-5, 80331 München, Germany',
+        address: 'Kaufingerstraße 1-5, 80331 München',
         phone: '0892554170',
         description: 'shopping original brand with low price.',
         thingstodo: [
@@ -1606,7 +1606,7 @@ const shopping = [
         country: 'Germany',
         location: 'https://g.page/forumstar-supermarkt?share',
         site: 'https://www.forumstar.de/',
-        address: 'Aubinger Str. 49, 81243 München, Germany',
+        address: 'Aubinger Str. 49, 81243 München',
         phone: '08982969119',
         description: 'halal supermarket in munich.',
         thingstodo: [
@@ -1632,7 +1632,7 @@ const shopping = [
         location: 'https://goo.gl/maps/MnkEtgh18Sehzu5h8',
         site: '',
         facebook: 'https://www.facebook.com/lider.supermarkt/',
-        address: 'Valpichlerstraße 58, 80686 München, Germany',
+        address: 'Valpichlerstraße 58, 80686 München',
         phone: '08937419807',
         description: 'halal supermarket in munich.',
         thingstodo: [
@@ -1644,6 +1644,58 @@ const shopping = [
         ],
         rate: 4.3,
         likes: '407',
+        featured: true,
+    },
+    {
+        id: '71',
+        title: 'Hakan`s Metzgerei',
+        category: 'halal markets',
+        icon: 'fa-solid fa-shop',
+        images: [
+            './images/shopping/shop-71.jpeg',
+        ],
+        country: 'Germany',
+        location: 'https://goo.gl/maps/9kb7tNGPUVLzCGBC8',
+        site: '',
+        facebook: '',
+        address: 'Landsberger Str. 493, 81241 München',
+        phone: '08978020914',
+        description: 'halal supermarket in munich.',
+        thingstodo: [
+            'Türkisch supermarket',
+            'halal products',
+            'meat',
+            'fish',
+            'Pasing'
+        ],
+        rate: 4.8,
+        likes: '81',
+        featured: true,
+    },
+    {
+        id: '72',
+        title: 'Tuna Kasap Metzgerei',
+        category: 'halal markets',
+        icon: 'fa-solid fa-shop',
+        images: [
+            './images/shopping/shop-72.jpeg',
+        ],
+        country: 'Germany',
+        location: 'https://g.page/tuna_kasap?share',
+        site: 'https://tuna-muenchen.de/',
+        facebook: 'https://m.facebook.com/Tuna-Kasap-M%C3%BCnih-2181096228800965/',
+        address: 'Schleißheimer Str. 443, 80935 München',
+        phone: '01706609258',
+        description: 'halal supermarket in munich.',
+        thingstodo: [
+            'Türkisch supermarket',
+            'halal products',
+            'meat',
+            'fish',
+            'Dülferstraße'
+        ],
+        rate: 4.6,
+        likes: '100',
         featured: true,
     },
 ];
