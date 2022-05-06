@@ -1516,7 +1516,7 @@ const shopping = [
         country: 'Germany',
         location: 'https://goo.gl/maps/L54WYrPGdCekzgKW9',
         site: '',
-        facebook: 'https://www.facebook.com/%D8%A7%D8%B3%D9%88%D8%A7%D9%82-%D8%A7%D9%84%D8%B3%D9%86%D8%AF%D8%A8%D8%A7%D8%AF-Sindbad-Market-1494922420811340/',
+        facebook: '',
         address: 'Schleißheimer Str. 302, 80809 München',
         phone: '08935658430',
         description: 'halal supermarket in munich.',
