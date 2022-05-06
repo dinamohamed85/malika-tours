@@ -1375,9 +1375,9 @@ const shopping = [
         ],
         country: 'Germany',
         location: 'https://goo.gl/maps/zT3aHuXEdLYGrqme7',
-        site: 'http://www.dolphinmarket.de/',
+        site: 'https://www.facebook.com/OasisSupermarkt/',
         address: 'Landwehrstraße 9, 80336 München',
-        phone: '01573 9855685',
+        phone: '015739855685',
         description: 'halal supermarket in munich.',
         thingstodo: [
             'supermarket',
@@ -1389,6 +1389,84 @@ const shopping = [
         ],
         rate: 4.1,
         likes: '202',
+        featured: true,
+    },
+    {
+        id: '61',
+        title: 'Zamzam',
+        category: 'halal markets',
+        icon: 'fa-solid fa-shop',
+        images: [
+            './images/shopping/shop-61.jpeg',
+        ],
+        country: 'Germany',
+        location: 'https://goo.gl/maps/yMQQTW1ZKrQnCYUy7',
+        site: 'https://zamzam-supermarket.business.site/',
+        address: 'Cosimastraße 117, 81925 München',
+        phone: '08993083857',
+        description: 'halal supermarket in munich.',
+        thingstodo: [
+            'supermarket',
+            'halal products',
+            'meat',
+            'fish',
+            'prinz-Eugen-Park'
+
+        ],
+        rate: 4.5,
+        likes: '109',
+        featured: true,
+    },
+    {
+        id: '62',
+        title: 'Can Supermarkt',
+        category: 'halal markets',
+        icon: 'fa-solid fa-shop',
+        images: [
+            './images/shopping/shop-62.jpeg',
+        ],
+        country: 'Germany',
+        location: 'https://goo.gl/maps/tkjY4JxbyunT3EMs8',
+        site: 'http://www.cansupermarkt.de/',
+        address: 'Goethestraße 21, 80336 München',
+        phone: '08989051727',
+        description: 'halal supermarket in munich.',
+        thingstodo: [
+            'supermarket',
+            'halal products',
+            'meat',
+            'fish',
+            'hauptbahnhof'
+
+        ],
+        rate: 4.3,
+        likes: '95',
+        featured: true,
+    },
+    {
+        id: '63',
+        title: 'Sindbad Market',
+        category: 'halal markets',
+        icon: 'fa-solid fa-shop',
+        images: [
+            './images/shopping/shop-63.jpeg',
+        ],
+        country: 'Germany',
+        location: 'https://goo.gl/maps/L54WYrPGdCekzgKW9',
+        site: 'https://www.facebook.com/%D8%A7%D8%B3%D9%88%D8%A7%D9%82-%D8%A7%D9%84%D8%B3%D9%86%D8%AF%D8%A8%D8%A7%D8%AF-Sindbad-Market-1494922420811340/',
+        address: 'Schleißheimer Str. 302, 80809 München',
+        phone: '08935658430',
+        description: 'halal supermarket in munich.',
+        thingstodo: [
+            'supermarket',
+            'halal products',
+            'meat',
+            'fish',
+            'feldmoching/milbertshofen'
+
+        ],
+        rate: 4.4,
+        likes: '233',
         featured: true,
     },
 ];
