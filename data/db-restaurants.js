@@ -1664,8 +1664,8 @@ const restaurants = [
         country: 'Germany',
         location: 'https://goo.gl/maps/1q5RZxUKLcZFnSZt7',
         site: 'https://wolt.com/en/deu/munich/restaurant/goa-restaurant',
-        address: 'Thierschstraße 8, 80538 München',
-        phone: '08921111789',
+        address: 'Landwehrstraße 8, 80336 München',
+        phone: '01743556000',
         description: 'Restaurant Goa is an indian restaurant in Munich, Wide range of Indian dishes served in a medium- sized, brightly decorated space with Indian motifs.',
         menu: [
             'Mango Chicken',
