@@ -2061,6 +2061,7 @@ const shopping = [
             'fitness Equipment',
             'sports',
             'low prices',
+            'Stiglmaierplatz',
             'second hand',
         ],
         rate: 4.4,
