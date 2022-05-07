@@ -76,11 +76,14 @@ const displayshopping = () => {
             <div class="tour-activtiy">
             ${thingstodo.map((item) => {
                 let text;
-                if (item.includes('halal'))
+                if (item == 'halal')
                     text = `<p class="activtiy"><span class="tour-love-icon">${item}</span></p>`
 
                 else if (item == 'arabic')
                     text = `<p class="activtiy"><span class="ar-icon">${item}</span></p>`
+
+                else if (item == 'heringe')
+                    text = `<p class="activtiy"><span class="site-icon">${item}</span></p>`
 
                 else text = `<p class="activtiy">${item}</p>`
 

@@ -574,7 +574,8 @@ const shopping = [
         description: 'Current brochure ✓ discounts, offers, promotions ✓ opening hours ✓ services ✓ directions ✓ | real supermarket Munich ▻ Discover online now!',
         thingstodo: [
             'hyper market',
-            'Heringe',
+            'fish market',
+            'heringe',
             'discounts',
             'SUMA Center',
         ],
@@ -884,7 +885,8 @@ const shopping = [
         thingstodo: [
             'hypermarket',
             'kids & toys',
-            'Heringe',
+            'fish market',
+            'heringe',
             'discounts',
             'halal products',
             'pep mall',
@@ -936,7 +938,8 @@ const shopping = [
         description: 'Selected groceries and a wide range: HIT offers real variety. ☼ Convince yourself at the HIT store near you!',
         thingstodo: [
             'Hypermarket',
-            'Heringe',
+            'fish market',
+            'heringe',
         ],
         rate: 4.3,
         likes: '2,698',
@@ -1564,7 +1567,7 @@ const shopping = [
         description: 'russian supermarket in munich.',
         thingstodo: [
             'fish',
-            'Heringe',
+            'heringe',
             'innsbrucker ring',
             'russian'
         ],
@@ -1859,6 +1862,7 @@ const shopping = [
         description: 'Fishmonger & bistro serving a range of fish & seafood dishes, including regional specialities.',
         thingstodo: [
             'fish',
+            'heringe',
             'Marienplatz',
         ],
         rate: 4.5,
@@ -1882,6 +1886,7 @@ const shopping = [
         description: 'fresh fish market and restaurant to cook tasty fish dishes for you.',
         thingstodo: [
             'fish',
+            'heringe',
             'Goetheplatz',
         ],
         rate: 4.5,
@@ -1928,6 +1933,7 @@ const shopping = [
         description: 'Selected with a passion for quality: Bulk consumers and restaurateurs will find what they are looking for in METRO`s food and non- food wholesale trade!, public people can enter if they have the card.',
         thingstodo: [
             'hyper market',
+            'heringe',
             'discounts',
             'fish market',
             'Brunnthal, Zusestraße',
@@ -1953,6 +1959,7 @@ const shopping = [
         description: 'Selected with a passion for quality: Bulk consumers and restaurateurs will find what they are looking for in METRO`s food and non- food wholesale trade!, public people can enter if they have the card.',
         thingstodo: [
             'hyper market',
+            'heringe',
             'discounts',
             'fish market',
             'Ostbahnhof',
@@ -1978,7 +1985,8 @@ const shopping = [
         description: 'The REWE supermarkets belong to the REWE Group, one of the leading trade and tourism groups in Europe. In the European grocery.',
         thingstodo: [
             'supermarket',
-            'Heringe',
+            'fish market',
+            'heringe',
             'Marienplatz',
         ],
         rate: 4.3,
@@ -2002,7 +2010,7 @@ const shopping = [
         description: 'russian supermarket in munich.',
         thingstodo: [
             'fish',
-            'Heringe',
+            'heringe',
             'Westpark',
             'russian'
         ],
