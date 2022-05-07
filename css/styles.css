@@ -922,7 +922,7 @@ min-height:calc(100vh - 62px);
 }
 .item-photo {
   object-fit: cover;
-  height: 18rem;
+  height: 17rem;
   border: 0.20rem solid var(--clr-orange-1);
   border-radius: var(--radius);
 }
@@ -996,4 +996,8 @@ min-height:calc(100vh - 62px);
   margin-right: 0.25rem;
   font-size: 1.25rem;
   transition: var(--transition);
+}
+.more-desc{
+  color: var(--clr-grey-8);
+  /* font-size: 1rem; */
 }

@@ -18,6 +18,7 @@ const restaurants = [
         address: 'Landwehrstraße 8, 80336 München',
         phone: '01743556000',
         description: 'Bab Al Yemen is an arabic restaurant in the center of Munich, Let yourself be inspired by our delicious Arabic delicacies! Everything is freshly prepared and our kitchen uses wonderful flavors in your dishes.',
+        more: '',
         menu: [
             'Madghout Lamb',
             'Zurbian Lamb',
@@ -51,6 +52,7 @@ const restaurants = [
         address: 'Bodenseestraße 225 Neuaubing, 81243 München, Germany',
         phone: '08921111789',
         description: 'EssPoint is a Turkish restaurant has many branches in Munich. EssPoint Pide & Grill is the original of the Pide. It is a family business run for several generations. We cook with love and heart. The fulfillment of your wishes, your needs and your satisfaction has been our top priority. All of our dishes are always freshly prepared for you with the best ingredients.',
+        more: '',
         menu: [
             'Pide',
             'Köfte',
@@ -85,6 +87,7 @@ const restaurants = [
         address: 'Maria-Probst-Straße 22, 80939 München',
         phone: '08931888848',
         description: 'Gourmet Tempel is a Large, modern venue for Chinese buffet meals, with a sushi counter & a chocolate fountain in Munich.',
+        more: '',
         menu: [
             'fish',
             'sushi',
@@ -103,7 +106,7 @@ const restaurants = [
     {
         id: '4',
         order: '1',
-        title: 'Deli Tadka Indian Street Food',
+        title: 'DeliTadka',
         category: 'indian',
         icon: 'fa-solid fa-turkish-lira-sign',
         images: [
@@ -116,9 +119,10 @@ const restaurants = [
         country: 'Germany',
         location: 'https://goo.gl/maps/7szbuToGezbYA1ju6',
         site: 'https://delitadka.de/en/menu/134',
-        address: 'Willy-Brandt-Platz 5 Riem Arcaden, 81829 München',
+        address: 'Willy-Brandt-Platz 5, 81829 München  -Riem Arcaden',
         phone: '08938342888',
-        description: 'Deli indian street food is its mix of Indian street food and traditional curry dishes.',
+        description: 'Deli indian street food is its mix of Indian street food and traditional curry dishes. ',
+        more: 'PEP Mall , Pasing Arcaden , Riem Arcaden --Open till 8:00 pm. <p class="more-desc">Werksviertel-Mitte , Westend --Open till 10:00 pm.</p>',
         menu: [
             'Chicken Tikka',
             'Chicken Masala',
@@ -131,7 +135,7 @@ const restaurants = [
         ],
         rate: 4.4,
         likes: '836',
-        avg_price: 8,
+        avg_price: 8.5,
         featured: true,
     },
     {
@@ -153,6 +157,7 @@ const restaurants = [
         address: 'Augustenstraße 4, 80333 München',
         phone: '08951556699',
         description: 'Ramen noodles, sushi & snacks, plus lunch sets , in a compact, casual setup.',
+        more: '',
         menu: [
             'Dragon',
             'tiger roll',
@@ -185,6 +190,7 @@ const restaurants = [
         address: 'Therese-Giehse-Allee 18, 81739 München',
         phone: '08932609862',
         description: 'Simitçi Café is a turkish restaurant and cafe in Munich, is nice place to take your breakfast with menu variety.',
+        more: '',
         menu: [
             'popular breakfast for groups',
             'tomato&egg pan',
@@ -219,6 +225,7 @@ const restaurants = [
         address: 'Pasinger Bahnhofspl. 6, 81241 München',
         phone: '089217562410',
         description: 'Alex cafe is a great place to drink your cafe with CheeseCake',
+        more: '',
         menu: [
             'breakfast Buffet',
             'desserts',
@@ -252,6 +259,7 @@ const restaurants = [
         address: 'Heßstraße 90, 80797 München',
         phone: '08954328827',
         description: 'Taste my Burger is an arabic restaurant in Munich, Vibrant grill joint for hefty burgers with halal beef & cosmopolitan sauces like curry or wasabi.',
+        more: '',
         menu: [
             'Cheese burger',
             'Yakuza',
@@ -285,6 +293,7 @@ const restaurants = [
         address: 'Schwanthalerstraße 2, 80336 München',
         phone: '08954349908',
         description: 'Sindbad is arabic restaurant in Munich, No-frills pick for Middle Eastern doner kebabs, falafels & meat skewers, to eat in or take out.',
+        more: '',
         menu: [
             'Meat Kebab',
             'tikka meat',
@@ -319,6 +328,7 @@ const restaurants = [
         address: 'Franz-Mader-Straße 11, 80992 München',
         phone: '08921597735',
         description: 'Moosacher Paradies is a Bosnian restaurant in Munich, Down-to-earth restaurant offering homestyle dishes, including sausages, steaks & pasta.',
+        more: '',
         menu: [
             'Spaghetti Bolognese',
             'Risotto „Kalb“',
@@ -356,6 +366,7 @@ const restaurants = [
         address: 'Thalkirchner Str. 145, 81371 München',
         phone: '08926018384',
         description: 'Restaurant Myra is a Turkish restaurant in Munich, Mediterranean cuisine with a focus on Turkish food, with a stylish interior & summer terrace.',
+        more: '',
         menu: [
             'KASAP KÖFTE',
             'ADANA KEBAP',
@@ -390,6 +401,7 @@ const restaurants = [
         address: 'Kaulbachstraße 86, 80802 München',
         phone: '089333738',
         description: 'Arabesk is a Lebanese Arabic restaurant in Munich, Couscous, falafel & meaty dishes, plus Lebanese wines, in an ornate, ocher-walled restaurant.',
+        more: '',
         menu: [
             'Kefta Halabieh',
             'lahm meschwi',
@@ -426,6 +438,7 @@ const restaurants = [
         address: 'Schwanthalerstraße 26, 80336 München',
         phone: '089 55196726',
         description: 'Al Qaswaa is a Moroccan arabic restaurant in Munich, Meze platters, grilled meats & tagines, plus Moroccan tea, in an easygoing, colorful restaurant.',
+        more: '',
         menu: [
             'tajine',
             'kebabs',
@@ -460,6 +473,7 @@ const restaurants = [
         address: 'Rosenheimer Landstraße 88, 85521 Ottobrunn,München',
         phone: '08963879567',
         description: 'Giannis is a Greek restaurant in Munich, nice kitchen for meat, chicken and fish dishes and dessert.',
+        more: '',
         menu: [
             'Rinderfilet Grill',
             'Lammschulter',
@@ -492,6 +506,7 @@ const restaurants = [
         address: 'Rosenheimer Landstraße 90, 85521 Ottobrunn',
         phone: '08966059862',
         description: 'Spacious restaurant with a patio offering a buffet featuring Chinese, Mongolian & other Asian fare.',
+        more: '',
         menu: [
             'fish',
             'sushi',
@@ -526,6 +541,7 @@ const restaurants = [
         address: 'Prinzregentenpl. 13, 81675 München, Germany',
         phone: '08947084844',
         description: 'Classic Indian vegetarian, meat & fish curries served in rustic basement with traditional textiles.',
+        more: '',
         menu: [
             'Tandoori-Chicken',
             'chicken Tikka',
@@ -557,6 +573,7 @@ const restaurants = [
         address: 'Viktualienmarkt, 80331 München',
         phone: '089221186',
         description: 'Nordsee is a German fast-food restaurant chain specialising in seafood. In addition to selling raw and smoked seafood, the company also sells a wide variety of meals and products prepared from seafood such as Fischbrötchen, salads, and canned seafood.',
+        more: '',
         menu: [
             'shrimp-box',
             'Garnelen-Ciabatta',
@@ -589,6 +606,7 @@ const restaurants = [
         address: 'Neuhauser Str. 18, 80331 München',
         phone: '08921111789',
         description: 'A classy food court is located on the top floor (fifth floor)',
+        more: '',
         menu: [
             'egg',
             'chesse',
@@ -623,6 +641,7 @@ const restaurants = [
         address: 'Mitterlängstraße 26, 82178 Puchheim, Germany',
         phone: '08970950860',
         description: 'K´AFALTI is a Turkish restaurant in Munich, You feel like a little trip to Istanbu,  great breakfast worth tasting, also try the mega burgers and grilled chichen salad.',
+        more: '',
         menu: [
             'Chichen salad',
             'Chefs burger',
@@ -657,6 +676,7 @@ const restaurants = [
         address: 'Willy-Brandt-Platz 5, 81829 München',
         phone: '08945109785',
         description: 'Good Asian food, It is value for money. the quantity is fine.',
+        more: '',
         menu: [
             'shrimp (rice&vegetables)',
             'Chichen (rice&vegetables)',
@@ -687,6 +707,7 @@ const restaurants = [
         address: 'Albert-Schweitzer-Straße 62, 81735 München',
         phone: '08989043211',
         description: 'Köfte House a Turkish restaurant in Munich, all about dying for meat and grilling. Starting with köfte, the entrecote steak, T-bone steak, lamb chops',
+        more: '',
         menu: [
             'Köfte',
             'Döner',
@@ -721,6 +742,7 @@ const restaurants = [
         address: 'Flurstraße 32, 81675 München',
         phone: '08941559681',
         description: 'Dehli Palace is a good indian restaurant, delicious food for reasonable prices, beautiful ambiance and friendly service.',
+        more: '',
         menu: [
             'Tandoori-Chicken',
             'Murg Tikka',
@@ -752,6 +774,7 @@ const restaurants = [
         address: 'Haimhauserstraße 7, 80802 München',
         phone: '08933088297',
         description: 'Restaurant Ksara is a Lebanese arabic restaurant in Munich, Traditional Lebanese meze dishes, meat grills & wines, served in an old-school eatery.',
+        more: '',
         menu: [
             'Farrouge',
             'Masa',
@@ -790,6 +813,7 @@ const restaurants = [
         address: 'Dachauer Str. 50, 80335 München',
         phone: '08959947986',
         description: 'Persian dishes, including kebabs, served in a traditional dining room with patterned furnishings.',
+        more: '',
         menu: [
             'Kabab Tekka',
             'gheimeh bademjoon',
@@ -824,6 +848,7 @@ const restaurants = [
         address: 'Brienner Str. 10, 80333 München',
         phone: '08928674557',
         description: 'Indian restaurant, Spicy curries, vegetarian dishes & meats from a tandoor oven in a low-lit, family-run restaurant.',
+        more: '',
         menu: [
             'Chicken',
             'meat',
@@ -856,6 +881,7 @@ const restaurants = [
         address: 'Herzogstraße 1b, 80803 München',
         phone: '089394341',
         description: 'Indian restaurant, Comfortable, traditionally decorated Indian restaurant offering a typical range of popular dishes, lunch menu monday–friday, 11:30 – 14:30 clock ((half price)).',
+        more: '',
         menu: [
             'Chicken Biryani',
             'Chicken Vindaloo',
@@ -888,6 +914,7 @@ const restaurants = [
         address: 'Westenriederstraße 9, 80331 München',
         phone: '08923237881',
         description: 'Sababa is a Lebanese arabic restaurant in Munich, No-frills, compact restaurant fixing up Middle Eastern staples including falafel, hummus & shawarma.',
+        more: '',
         menu: [
             'shawarma',
             'hummus',
@@ -922,6 +949,7 @@ const restaurants = [
         address: 'Leonrodstraße 45, 80636 München',
         phone: '0891235661',
         description: 'Al Shaam is Lebanese arabic restaurant in Munich, Traditional restaurant focusing on Lebanese delicacies including grilled meats, flatbreads & dips.',
+        more: '',
         menu: [
             'kebab',
             'schisch tawouk',
@@ -957,6 +985,7 @@ const restaurants = [
         address: 'Schwanthalerstraße 6, 80336 München',
         phone: '015770910732',
         description: 'Karam is a syrian Arabic restaurant in Munich, Excellent flavour overall with the right balance of sauce and checken, meat, falafel.., fresh bread using for sandwiches.',
+        more: '',
         menu: [
             'mix grill',
             'Shawarma',
@@ -995,6 +1024,7 @@ const restaurants = [
         address: 'Herzog-Heinrich-Straße 38, 80336 München',
         phone: '08954403014',
         description: 'Crispy & more is a Syrian Arabic restaurant in Munich, Quick, casual stop for Syrian-style shawarma, falafel & fried specialities like chicken & samosas.',
+        more: '',
         menu: [
             'Shawarma',
             'Broust Chicken',
@@ -1030,6 +1060,7 @@ const restaurants = [
         address: 'Landwehrstraße 25, 80336 München',
         phone: '0162 8158599',
         description: 'Bab Al Hara is a Syrian Arabic restaurant in Munich, Syrian-style shawarma wraps & falafels with dips & a range of salads to eat in or take out.',
+        more: '',
         menu: [
             'Shawarma',
             'Broust chicken',
@@ -1063,6 +1094,7 @@ const restaurants = [
         address: 'Schillerstraße 34, 80336 München',
         phone: '08954541822',
         description: 'Derya is a Lebanese Arabic restaurant in Munich, Meze platters & kebabs, plus rice dishes & baklava sweets in a traditionally decorated space.',
+        more: '',
         menu: [
             'Kuzi Fleisch',
             'Lahm Makli',
@@ -1100,6 +1132,7 @@ const restaurants = [
         address: 'Bayerstraße 91, 80335 München',
         phone: '08959992960',
         description: 'Sultanahmet Koftecisi is a turkish restaurant in Munich, nice atmosphere with good service and well mannered staff. Some of the staff can speak Arabic, make sure to try the tea that is offered after meals.',
+        more: '',
         menu: [
             'Köfte',
             'Burger',
@@ -1134,6 +1167,7 @@ const restaurants = [
         address: '21-24 Stachus, 80335 München',
         phone: '01746385327',
         description: 'Mustafas Gemüse Kebap is a turkish Fast food restaurant in Munich, Takeout spot for kebabs stuffed with hand-cut chicken or fried veggies, plus spicy or yogurt sauces.',
+        more: '',
         menu: [
             'döner sandwich',
             'doner box',
@@ -1169,6 +1203,7 @@ const restaurants = [
         address: 'Alfred-Arndt-Straße 1, 80807 München',
         phone: '017688142979',
         description: 'Ali Gemüse Döner is a turkish Fast food restaurant in Munich, this kebab rocks. Super delicious, great souce and a nice combination of veggies and meat!.',
+        more: '',
         menu: [
             'döner sandwich',
             'doner box',
@@ -1203,6 +1238,7 @@ const restaurants = [
         address: 'U-Bahn Passagen, Münchner Freiheit 7, 80802 München',
         phone: '01717162411',
         description: 'Oliva Döner is a turkish Fast food restaurant in Munich, eat something quickly (especially vegetarians or vegans) , doner kebab shops, The meat is crispy, the kebabs are well seasoned, richly topped and prepared with love.',
+        more: '',
         menu: [
             'döner sandwich',
             'doner box',
@@ -1237,6 +1273,7 @@ const restaurants = [
         address: 'Humboldtstraße 20, 81543 München',
         phone: '08989056963',
         description: 'Türkitch Kebap is a turkish Fast food restaurant in Munich, Small venue prepping a variety of kebabs with a choice of sauces, plus falafel sandwiches & salads.',
+        more: '',
         menu: [
             'döner sandwich',
             'doner box',
@@ -1271,6 +1308,7 @@ const restaurants = [
         address: 'Tal 10, 80331 München',
         phone: '08974038422',
         description: 'Hans im Glück is a Hamburger restaurant in Munich, Exceptional choice of burgers even in vegetarian section. Awesome food, brilliant environment, little bit small in size but it is fine.',
+        more: '',
         menu: [
             'beef burger',
             'Cheese burger',
@@ -1303,6 +1341,7 @@ const restaurants = [
         address: 'Willy-Brandt-Platz 5, 81829 München',
         phone: '08937417072',
         description: 'Five Guys is a Hamburger restaurant in Munich, Fast-food chain with made-to-order burgers, fries & hot dogs, plus free peanuts while you wait.',
+        more: '',
         menu: [
             'beef burger',
             'Cheese burger',
@@ -1335,6 +1374,7 @@ const restaurants = [
         address: 'Schleißheimer Str. 188, 80797 München',
         phone: '01722834063',
         description: 'Bavarian Oriental a Oriental arabic restaurant in Munich, Fresh homemade bowls, hummus, baba ganoush, falafel, tzatziki, stuffed vine leaves, olives, fresh feta cheese, dates from Iran & baklava. We also offer our delicacies in the form of catering .',
+        more: '',
         menu: [
             'Philly Cheese',
             'Cheese burger',
@@ -1372,6 +1412,7 @@ const restaurants = [
         address: 'Thalkirchner Str. 2, 80337 München',
         phone: '08926019148',
         description: 'Andy s Krablergarten is a German schnitzel restaurant in Munich, Relaxed restaurant & beer garden serving hearty Bavarian sides, grills & schnitzels.',
+        more: '',
         menu: [
             'puten schnitzel ',
             'kalb schnitzel',
@@ -1403,6 +1444,7 @@ const restaurants = [
         address: 'Volkartstraße 24, 80634 München, Germany',
         phone: '089131850',
         description: 'Pardi is a Turkish restaurant in Munich, Modern venue with a terrace, offering Turkish food, grilled meat & seafood, plus pasta.',
+        more: '',
         menu: [
             'Şiş Kebap',
             'Lammfleischfilets',
@@ -1438,6 +1480,7 @@ const restaurants = [
         address: 'Kistlerhofstraße 251, 81379 München, Germany',
         phone: '08978017660',
         description: 'Majestic is a sea food restaurant in Munich, Cavernous, old-world locale offering sushi, a Mongolian grill & a pan-Asian buffet.',
+        more: '',
         menu: [
             'fish',
             'sushi',
@@ -1472,6 +1515,7 @@ const restaurants = [
         address: 'Hauptstraße 16, 82319 Starnberg, Germany',
         phone: '08151971109',
         description: 'Tokyo Sushi is a sushi restaurant in Munich, Classic & creative rolls, plus grilled skewers & small plates, in simple, wood-accented surrounds.',
+        more: '',
         menu: [
             'Dragon',
             'tiger roll',
@@ -1504,6 +1548,7 @@ const restaurants = [
         address: 'Schleißheimer Str. 182, 80797 München',
         phone: '08930666770',
         description: 'Javi Sushi is a sushi restaurant in Munich, Sushi, noodle bowls & coconut curries in a strikingly designed venue with East Asian art & foliage.',
+        more: '',
         menu: [
             'GOI CUON TOM',
             'TOM COM',
@@ -1536,6 +1581,7 @@ const restaurants = [
         address: 'Münchner Freiheit, Münchener Freiheit 4, 80802 München',
         phone: '08938666766',
         description: 'Fujikaiten Sushi is a sushi restaurant in Munich, Sushi, with an all-you-can-eat option, plus pan-Asian dishes, in a dramatic, red-hued space.',
+        more: '',
         menu: [
             'Dragon rolle',
             'futo - Maki',
@@ -1568,6 +1614,7 @@ const restaurants = [
         address: 'Klenzestraße 71, 80469 München',
         phone: '0892010992',
         description: 'Sushi+Soul Sushi is a sushi restaurant in Munich, Large Japanese restaurant & bar with stylish, minimalist decor, plus whisky & rum tastings.',
+        more: '',
         menu: [
             'Kimchi',
             'Maki',
@@ -1601,6 +1648,7 @@ const restaurants = [
         address: 'Brunnstraße 6, 80331 München, Germany',
         phone: '089267490',
         description: 'Sushi Sano is a sushi restaurant in Munich, Takaaki Sano was one of the first Japanese to bring sushi to Munich. Our philosophy is to create good quality sushi that is still affordable for our guests.',
+        more: '',
         menu: [
             'Nigiri Box',
             'California-maki',
@@ -1632,6 +1680,7 @@ const restaurants = [
         address: 'Christophstraße 7A, 80538 München',
         phone: '08920042507',
         description: 'Lu Bu Soul Food is a sushi restaurant in Munich, Casual restaurant with a covered terrace featuring Vietnamese classics & a sushi counter.',
+        more: '',
         menu: [
             'Mittagsmenü',
             'Tiger Roll',
@@ -1667,6 +1716,7 @@ const restaurants = [
         address: 'Thierschstraße 8, 80538 München',
         phone: '08921111789',
         description: 'Restaurant Goa is an indian restaurant in Munich, Wide range of Indian dishes served in a medium- sized, brightly decorated space with Indian motifs.',
+        more: '',
         menu: [
             'Mango Chicken',
             'Chicken Korma',
@@ -1699,6 +1749,7 @@ const restaurants = [
         address: 'Marienplatz 18, 80331 München',
         phone: '0892317003320',
         description: 'Rischart is a traditional Munich company. The family business was founded in 1883 by Max Rischart and today employs around 500 people. Around 8 million customers shop in the 16 branches every year.',
+        more: '',
         menu: [
             'Bakery',
             'breakfast',
@@ -1732,6 +1783,7 @@ const restaurants = [
         address: 'Schützenstraße 14, 80335 München',
         phone: '08959946818',
         description: 'Coffee Fellows is a German coffeeshop chain founded in 1999 in Munich, Bavaria, Germany by Kathrin Tewes and co-managed by her and her husband.',
+        more: '',
         menu: [
             'breakfast',
             'Snacks',
@@ -1764,6 +1816,7 @@ const restaurants = [
         address: 'Gärtnerpl. 6, 80469 München',
         phone: '089215436360',
         description: 'Cotidiano is an italian restaurant in Munich, is all day restaurant. The place to relax, arrive, feel good. The place to meet friends',
+        more: '',
         menu: [
             'Bakery',
             'breakfast',
@@ -1801,6 +1854,7 @@ const restaurants = [
         address: 'Stemplingeranger 4, 81737 München, Germany',
         phone: '08940287820',
         description: 'Sultan Backparadies is a Restaurant - Cafe - Bakery - Confectionery - Turkish and Mediterranean cuisine. Baklava from our own production, tarts & cakes. Birthday cakes, wedding cakes, catering & party service',
+        more: '',
         menu: [
             'popular breakfast for groups',
             'tomato&egg pan',
@@ -1837,6 +1891,7 @@ const restaurants = [
         address: 'Großhaderner Str. 6, 81375 München',
         phone: '08946220600',
         description: 'Café Grosshadern is a Turkish bakery in Munich, It is nice to try delicious coffee. Many guests underline that the staff is appealing at Café Grosshadern - Bäckerei & Tortenwelt. Prompt service is something clients like here',
+        more: '',
         menu: [
             'popular breakfast for groups',
             'tomato&egg pan',
@@ -1872,6 +1927,7 @@ const restaurants = [
         address: 'Odeonspl. 15-16, 80539 München',
         phone: '08921665850',
         description: 'Seattle-based coffeehouse chain known for its signature roasts, light bites and WiFi availability.',
+        more: '',
         menu: [
             'Veganes Sandwich',
             'Strawberry Cheesecake',
@@ -1905,6 +1961,7 @@ const restaurants = [
         address: 'Münchner Freiheit 20, 80802 München',
         phone: '08933007990',
         description: 'The International cuisine is good at this cafe.Try perfectly cooked club sandwiches, roulade and ravioli at Café Münchner Freiheit.Based on the guests opinions, waiters serve tasty ice cream, Sachertorte and ice cream cakes here.',
+        more: '',
         menu: [
             'bakery',
             'coffee',
@@ -1937,6 +1994,7 @@ const restaurants = [
         address: 'Brienner Str. 11, 80333 München',
         phone: '0892428750',
         description: 'Modern coffeehouse in a grand 19th-century building, specializing in cakes & gourmet chocolates.',
+        more: '',
         menu: [
             'Tea Biscuits',
             'Tiramisu',
@@ -1971,6 +2029,7 @@ const restaurants = [
         address: 'Schneckenburgerstraße 31, 81675 München',
         phone: '089475834',
         description: 'Sophisticated setting for lavish selections of sashimi & sushi, with set plates & sake rice wine.',
+        more: '',
         menu: [
             'Sushi Rollen',
             'tiger roll',
@@ -2003,6 +2062,7 @@ const restaurants = [
         address: 'Buttermelcherstraße 2A, 80469 München',
         phone: '08923889796',
         description: 'RInformal destination with outside seating, offering Asian specialties & a take-out option.',
+        more: '',
         menu: [
             'california roll',
             'hawaii roll',
@@ -2036,6 +2096,7 @@ const restaurants = [
         address: 'Heiglhofstraße 11, 81377 München',
         phone: '0897146409',
         description: 'Polished cafe providing handmade pastries, cakes & chocolates, plus coffee & lunch fare.',
+        more: '',
         menu: [
             'ice cream ',
             'tortes',
@@ -2067,6 +2128,7 @@ const restaurants = [
         address: 'Ollenhauerstraße 6, 81737 München',
         phone: '08963896099',
         description: 'What could be nicer than a creamy ice cream before, during or after shopping? That is what we thought too and that is why we pep with our Gelati ice cream parlour.',
+        more: '',
         menu: [
             'ice cream',
             'waffles',
@@ -2101,6 +2163,7 @@ const restaurants = [
         address: 'Münchner Freiheit 7, 80802 München',
         phone: '089248817588',
         description: 'Relaxed venue for spicy Thai curries, soups & stir-fried noodles, with wooden tables & a terrace.',
+        more: '',
         menu: [
             'rice',
             'vegetables',
@@ -2135,6 +2198,7 @@ const restaurants = [
         address: 'Zweibrückenstraße 4, 80331 München',
         phone: '08923887632',
         description: 'We love street food.On our travels through the world we brought only the best for you.Crunchy fries from Belgium, juicy burgers from Chicago',
+        more: '',
         menu: [
             'burger',
             'vegan',
@@ -2168,6 +2232,7 @@ const restaurants = [
         address: 'Thierschstraße 35, 80538 München',
         phone: '08924293180',
         description: 'Traditional Persian food & drinks are served at this warm, unpretentious restaurant.',
+        more: '',
         menu: [
             'Tahdig & Gheimeh',
             'Gheimeh',
@@ -2201,6 +2266,7 @@ const restaurants = [
         address: 'Dachauer Str. 33, 80335 München',
         phone: '08946227038',
         description: 'Traditional Afghani specialties supplied in a laid-back setting with sidewalk tables.',
+        more: '',
         menu: [
             'Borani Kadu',
             'Sambosa',
@@ -2234,6 +2300,7 @@ const restaurants = [
         address: 'Ollenhauerstraße 6, 81737 München',
         phone: '015221099919',
         description: 'Medium turkish cafe, bakery shop ,breakfast and  Pastry.',
+        more: '',
         menu: [
             'kefta',
             'chicken',
@@ -2268,7 +2335,8 @@ const restaurants = [
         site: 'https://www.facebook.com/Melissa.MediterraneanPatisserie/',
         address: 'Lindwurmstraße 12, 80337 München',
         phone: '08959992665',
-        description: 'Medium greek cafe, cakes shop .',
+        description: 'Medium greek cafe, cakes shop.',
+        more: '',
         menu: [
             'Pastry shop',
             'cafes & bakery',
@@ -2298,6 +2366,7 @@ const restaurants = [
         address: 'Münchener Str. 1, 82110 Germering',
         phone: '08979086178',
         description: 'Enjoy the world of Chinese cuisine with us and choose from the large selection of our specialties on our large, rich Asian buffet.',
+        more: '',
         menu: [
             'fish',
             'sushi',
@@ -2332,6 +2401,7 @@ const restaurants = [
         address: 'Ismaninger Str. 45, 81675 München',
         phone: '08941189490',
         description: 'Small restaurant with a focus on modern sushi and a small selection of Chinese cuisine.',
+        more: '',
         menu: [
             'Sashimi Salmon',
             'Hosomaki Special',
@@ -2363,6 +2433,7 @@ const restaurants = [
         address: 'Rotdornstraße 2, 81547 München',
         phone: '08969804072',
         description: 'Classic dishes & lava-stone grills in an airy dining room with industrial fittings & exposed bricks.',
+        more: '',
         menu: [
             'Rinderfilet Grill',
             'Lammschulter',
@@ -2395,6 +2466,7 @@ const restaurants = [
         address: 'Dachauer Str. 36, 80335 München',
         phone: '08955029630',
         description: 'rich selection of specialties from the Persian cuisine.grilled specialties ensure a sour, salty variation. Or in combination with rice dishes for a sweet, sour and salty taste. Various vegetarian menus are also available as varied daily specials.',
+        more: '',
         menu: [
             'Grills',
             'Tschelo Kubideh',
@@ -2429,6 +2501,7 @@ const restaurants = [
         address: 'Nymphenburger Str. 152a, 80634 München',
         phone: '08997330099',
         description: 'Unpretentious Persian eatery with a terrace dishing up grilled meats, meat skewers, hummus & more.',
+        more: '',
         menu: [
             'Bakhtiari',
             'Djudjeh Kabab',
@@ -2461,6 +2534,7 @@ const restaurants = [
         address: 'Karlstraße 54A, 80333 München',
         phone: '08954329928',
         description: 'Traditional Persian specialties prepared in a down-to-earth environment with sidewalk seating.',
+        more: '',
         menu: [
             'Tschelo - Kababe Kubideh',
             'Djudjeh Kabab',
@@ -2493,6 +2567,7 @@ const restaurants = [
         address: 'Hotterstraße 16, 80331 München',
         phone: '08996051949',
         description: 'Turkish specialties & vegan options served in a down-to-earth venue that has a terrace.',
+        more: '',
         menu: [
             'popular breakfast for groups',
             'tomato&egg pan',
@@ -2528,6 +2603,7 @@ const restaurants = [
         address: 'Maximilianstraße 15, 80539 München',
         phone: '0894522880',
         description: 'Brenner Opengrill is an italian restaurant in Munich, Italian cuisine in an impressively pillared chamber with modern decor, serving all day, plus bar.',
+        more: '',
         menu: [
             'grills',
             'burger',
@@ -2560,6 +2636,7 @@ const restaurants = [
         address: 'Balanstraße 176, 81549 München',
         phone: '08923712138',
         description: 'We are not a restaurant but more of a snack and delivery service. You can pick up Persian dishes from us and eat them on site. There are also seats available so that you can enjoy our homemade dishes.',
+        more: '',
         menu: [
             'Zereshk Polo',
             'Gheymeh mit Auberginen',
@@ -2592,6 +2669,7 @@ const restaurants = [
         address: 'Atelierstraße 14, 81671 München',
         phone: '01786091312',
         description: 'Typical Thai street food like rolls, satay & spicy curries, served in a bright, airy venue.',
+        more: '',
         menu: [
             'rice',
             'vegetables',
@@ -2605,6 +2683,40 @@ const restaurants = [
         rate: 4.2,
         likes: '1,444',
         avg_price: 8,
+        featured: true,
+    },
+    {
+        id: '79',
+        order: '1',
+        title: 'Werksviertel-Mitte',
+        category: 'other',
+        icon: 'fa-solid fa-ellipsis',
+        images: [
+            './images/restaurants/restaurant-79-0.jpeg',
+            './images/restaurants/restaurant-79-1.jpeg',
+            './images/restaurants/restaurant-79-2.jpeg',
+            './images/restaurants/restaurant-79-3.jpeg',
+            './images/restaurants/restaurant-79-4.jpeg',
+        ],
+        country: 'Germany',
+        location: 'https://goo.gl/maps/oDcwTXkorEqKHq3j9',
+        site: 'https://werksviertel-mitte.de/',
+        address: 'Atelierstraße 1, 81671 München',
+        phone: '08941320',
+        description: 'Work, experience, learn, eat, celebrate and experience - a diverse urban quarter is being created here.',
+        more: '',
+        menu: [
+            'Syrien',
+            'Thailand',
+            'Italien',
+            'indian',
+            'Hawaii',
+            'mexican',
+            'ostbahnhof',
+        ],
+        rate: 4.5,
+        likes: '1,236',
+        avg_price: 7,
         featured: true,
     },
 ];

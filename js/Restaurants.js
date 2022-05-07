@@ -47,7 +47,7 @@ const displayRestaurants = () => {
 
     restaurantsContainer.innerHTML = filteredList
         .map((item, index) => {
-            const { id, title, category, icon, images, location, site, description, menu, likes, featured, avg_price, address, phone, rate } = item;
+            const { id, title, category, icon, images, location, site, description, menu, likes, featured, avg_price, address, phone, rate, more } = item;
             return `<article class="item">
         <div class="tour-img-container">
         <a href="${site}" target="_blank">
@@ -71,6 +71,7 @@ const displayRestaurants = () => {
         </section>
         <p class="item-text">
             ${description}
+            ${more ? `<p class="more-desc">${more} </p>` : ``} 
         </p>
         <div class="tour-footer item-text">                
             <h5>popular dishes : <span class="item-price">${avg_price}€</span></h5>
