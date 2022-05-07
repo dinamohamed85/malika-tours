@@ -1567,7 +1567,6 @@ const shopping = [
             'Heringe',
             'innsbrucker ring',
             'russian'
-
         ],
         rate: 4.1,
         likes: '1,213',
@@ -1984,6 +1983,31 @@ const shopping = [
         ],
         rate: 4.3,
         likes: '2,985',
+        featured: true,
+    },
+    {
+        id: '81',
+        title: 'Eximas Feinkost Russkij magasin',
+        category: 'fish market',
+        icon: 'fa-solid fa-shop',
+        images: [
+            './images/shopping/shop-81.jpeg',
+        ],
+        country: 'Germany',
+        location: 'https://goo.gl/maps/UcimfoontkSys6Dq5',
+        site: 'https://nicelocal.com.de/munich/shops/eximas_feinkost_russkij_magasin_russische_spezialitaeten_munchen/',
+        facebook: 'https://www.facebook.com/pages/Eximas-Feinkost-Russische-Spezialit%C3%A4ten/219180898920353',
+        address: 'Krüner Str. 75, 81373 München',
+        phone: '08997390343',
+        description: 'russian supermarket in munich.',
+        thingstodo: [
+            'fish',
+            'Heringe',
+            'Westpark',
+            'russian'
+        ],
+        rate: 4.3,
+        likes: '566',
         featured: true,
     },
 ];
