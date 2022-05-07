@@ -131,7 +131,7 @@ const shopping = [
             'brands',
             'Sports',
             'kids & toys',
-            'discount'
+            'discounts'
         ],
         rate: 4.2,
         likes: '17,645',
@@ -574,6 +574,7 @@ const shopping = [
         description: 'Current brochure ✓ discounts, offers, promotions ✓ opening hours ✓ services ✓ directions ✓ | real supermarket Munich ▻ Discover online now!',
         thingstodo: [
             'hyper market',
+            'discounts',
             'SUMA Center',
         ],
         rate: 4.1,
@@ -882,6 +883,7 @@ const shopping = [
         thingstodo: [
             'hypermarket',
             'kids & toys',
+            'discounts',
             'halal products',
             'pep mall',
         ],
@@ -953,6 +955,7 @@ const shopping = [
         phone: '022120199959',
         description: 'At PENNY.de you will find ✓ cheap offers ✓ good quality ✓ and at the best prices » Shop now & save money at the PENNY store.',
         thingstodo: [
+            'discounts',
             'Discount supermarket',
         ],
         rate: 4.1,
