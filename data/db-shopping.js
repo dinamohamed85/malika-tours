@@ -2057,7 +2057,9 @@ const shopping = [
         phone: '089597074',
         description: 'Second Hand Sports Buys,Sells and trades sports and fitness Equipment..',
         thingstodo: [
-            'free ads',
+            'bikes',
+            'fitness Equipment',
+            'sports',
             'low prices',
             'second hand',
         ],
