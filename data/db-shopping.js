@@ -780,7 +780,7 @@ const shopping = [
         description: 'IDEAL0 - The No. 1 in price comparison. Germany big price comparison.Worry - free shopping.Transparency & topicality.Transparent offers.Features: price alarm clock, test reports, comprehensive filter and sorting functions.',
         thingstodo: [
             'Online shopping',
-            'offers',
+            'discounts',
             'less prices',
             'Brands',
             'shipping'
@@ -802,7 +802,7 @@ const shopping = [
         facebook: 'https://www.facebook.com/GetHalalDE/',
         description: 'GetHalal is an arabic one-stop-online-shop for all Halal and fresh Groceries in Europe. fresh, healthy & halal steak, sausages, kebba, kofta, and more!',
         thingstodo: [
-            'offers',
+            'discounts',
             'Groceries',
             'meat',
             'shipping',
@@ -1824,7 +1824,7 @@ const shopping = [
         facebook: 'https://www.facebook.com/mozzaikgmbh/',
         description: 'mozzaik is an arabic company to create a service linking the Middle East and Europe, by providing products at the lowest prices, directly to your.',
         thingstodo: [
-            'offers',
+            'discounts',
             'Groceries',
             'meat',
             'shipping',
@@ -1903,6 +1903,30 @@ const shopping = [
         ],
         rate: 4.5,
         likes: '986',
+        featured: true,
+    },
+    {
+        id: '78',
+        title: 'metro',
+        category: 'markets -Brunnthal',
+        icon: 'fa-solid fa-shop',
+        images: [
+            './images/shopping/shop-78.jpeg',
+        ],
+        country: 'Germany',
+        location: 'https://goo.gl/maps/8uuEr48rp6FpgVFf7',
+        site: 'https://www.metro.de/',
+        facebook: 'https://www.facebook.com/metro.deutschland',
+        address: 'Zusestraße 6, 85649 Brunnthal',
+        phone: '0892420790',
+        description: 'Selected with a passion for quality: Bulk consumers and restaurateurs will find what they are looking for in METRO`s food and non- food wholesale trade!, public people can enter if they has the card.',
+        thingstodo: [
+            'hyper market',
+            'discounts',
+            'Brunnthal, Zusestraße',
+        ],
+        rate: 4.1,
+        likes: '1,958',
         featured: true,
     },
 ];
