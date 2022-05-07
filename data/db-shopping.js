@@ -696,7 +696,7 @@ const shopping = [
         thingstodo: [
             'free ads',
             'second hand',
-            'less prices',
+            'low prices',
         ],
         rate: 4.6,
         likes: '500,000',
@@ -784,7 +784,7 @@ const shopping = [
         thingstodo: [
             'Online shopping',
             'discounts',
-            'less prices',
+            'low prices',
             'Brands',
             'shipping'
         ],
@@ -1246,7 +1246,7 @@ const shopping = [
     {
         id: '53',
         title: 'Ingolstadt Village',
-        category: 'shops',
+        category: 'malls',
         icon: 'fa-solid fa-shop',
         images: [
             './images/shopping/shop-53.jpeg',
@@ -2039,6 +2039,30 @@ const shopping = [
         ],
         rate: 4.3,
         likes: '1,985',
+        featured: true,
+    },
+    {
+        id: '83',
+        title: 'Second Hand Sports',
+        category: 'shops',
+        icon: 'fa-solid fa-shop',
+        images: [
+            './images/shopping/shop-83.jpeg',
+        ],
+        country: 'Germany',
+        location: 'https://g.page/secondhandsports_de?share',
+        site: 'http://www.secondhandsports.de/',
+        facebook: 'https://www.facebook.com/Dentonsports/',
+        address: 'Nymphenburger Str. 25, 80335 München',
+        phone: '089597074',
+        description: 'Second Hand Sports Buys,Sells and trades sports and fitness Equipment..',
+        thingstodo: [
+            'free ads',
+            'low prices',
+            'second hand',
+        ],
+        rate: 4.4,
+        likes: '416',
         featured: true,
     },
 ];
