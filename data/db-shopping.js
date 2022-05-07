@@ -574,6 +574,7 @@ const shopping = [
         description: 'Current brochure ✓ discounts, offers, promotions ✓ opening hours ✓ services ✓ directions ✓ | real supermarket Munich ▻ Discover online now!',
         thingstodo: [
             'hyper market',
+            'Heringe',
             'discounts',
             'SUMA Center',
         ],
@@ -883,6 +884,7 @@ const shopping = [
         thingstodo: [
             'hypermarket',
             'kids & toys',
+            'Heringe',
             'discounts',
             'halal products',
             'pep mall',
@@ -934,6 +936,7 @@ const shopping = [
         description: 'Selected groceries and a wide range: HIT offers real variety. ☼ Convince yourself at the HIT store near you!',
         thingstodo: [
             'Hypermarket',
+            'Heringe',
         ],
         rate: 4.3,
         likes: '2,698',
@@ -1561,6 +1564,7 @@ const shopping = [
         description: 'russian supermarket in munich.',
         thingstodo: [
             'fish',
+            'Heringe',
             'innsbrucker ring',
             'russian'
 
@@ -1956,6 +1960,30 @@ const shopping = [
         ],
         rate: 4.4,
         likes: '858',
+        featured: true,
+    },
+    {
+        id: '80',
+        title: 'Rewe City',
+        category: 'markets',
+        icon: 'fa-solid fa-shop',
+        images: [
+            './images/shopping/shop-80.jpeg',
+        ],
+        country: 'Germany',
+        location: 'https://goo.gl/maps/BKt5KjRfFwYqNJdZ8',
+        site: 'https://www.rewe.de/',
+        facebook: 'https://www.facebook.com/Rewe/',
+        address: 'Tal 13, 80331 München',
+        phone: '08929168375',
+        description: 'The REWE supermarkets belong to the REWE Group, one of the leading trade and tourism groups in Europe. In the European grocery.',
+        thingstodo: [
+            'supermarket',
+            'Heringe',
+            'Marienplatz',
+        ],
+        rate: 4.3,
+        likes: '2,985',
         featured: true,
     },
 ];
