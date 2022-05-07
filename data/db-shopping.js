@@ -1922,7 +1922,7 @@ const shopping = [
         facebook: 'https://www.facebook.com/metro.deutschland',
         address: 'Zusestraße 6, 85649 Brunnthal',
         phone: '0892420790',
-        description: 'Selected with a passion for quality: Bulk consumers and restaurateurs will find what they are looking for in METRO`s food and non- food wholesale trade!, public people can enter if they has the card.',
+        description: 'Selected with a passion for quality: Bulk consumers and restaurateurs will find what they are looking for in METRO`s food and non- food wholesale trade!, public people can enter if they have the card.',
         thingstodo: [
             'hyper market',
             'discounts',
@@ -1947,7 +1947,7 @@ const shopping = [
         facebook: 'https://www.facebook.com/hambergermuenchen/',
         address: 'Friedenstraße 16, 81671 München',
         phone: '089413060',
-        description: 'Selected with a passion for quality: Bulk consumers and restaurateurs will find what they are looking for in METRO`s food and non- food wholesale trade!, public people can enter if they has the card.',
+        description: 'Selected with a passion for quality: Bulk consumers and restaurateurs will find what they are looking for in METRO`s food and non- food wholesale trade!, public people can enter if they have the card.',
         thingstodo: [
             'hyper market',
             'discounts',
