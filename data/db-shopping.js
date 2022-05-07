@@ -1907,8 +1907,8 @@ const shopping = [
     },
     {
         id: '78',
-        title: 'metro',
-        category: 'markets -Brunnthal',
+        title: 'metro -Brunnthal',
+        category: 'markets',
         icon: 'fa-solid fa-shop',
         images: [
             './images/shopping/shop-78.jpeg',
