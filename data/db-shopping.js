@@ -2012,7 +2012,7 @@ const shopping = [
         facebook: 'https://www.facebook.com/people/Fischh%C3%A4usl-am-Wiener-Platz/100063588459849/',
         address: 'Wiener Platz 9, 81667 München',
         phone: '01785101805 ',
-        description: 'Fisch Hausl. We are a small fish stall on the market at Wiener Platz and we try to offer you the fresh fish every day.',
+        description: 'Fisch Hausl. a small fish stall on the market at Wiener Platz and we try to offer you the fresh fish every day.',
         thingstodo: [
             'fresh fish',
             'Wiener Platz',
@@ -2310,10 +2310,10 @@ const shopping = [
         facebook: 'https://www.facebook.com/kurtfischundfeinkost/',
         address: 'Aidenbachstraße 142, 81479 München, Germany',
         phone: '08945203221 ',
-        description: 'Fisch Hausl. We are a small fish stall on the market at Wiener Platz and we try to offer you the fresh fish every day.',
+        description: 'Kurt Fisch & Feinkost. Fish retail and wholesale ,Quality and freshness is our strength.',
         thingstodo: [
             'fresh fish',
-            'Wiener Platz',
+            'Siemenswerke',
         ],
         rate: 5,
         likes: '93',
