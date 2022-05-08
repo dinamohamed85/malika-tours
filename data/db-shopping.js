@@ -2388,6 +2388,53 @@ const shopping = [
         likes: '11,837',
         featured: true,
     },
+    {
+        id: '97',
+        title: 'lidl',
+        category: 'markets',
+        icon: 'fa-solid fa-shop',
+        images: [
+            './images/shopping/shop-97.jpeg',
+        ],
+        country: 'Germany',
+        location: 'https://goo.gl/maps/7zSpmHXvUYxa67gF9',
+        site: 'https://www.lidl.de/',
+        facebook: 'https://www.facebook.com/lidl',
+        address: 'Schwanthalerstraße 31, 80336 München',
+        phone: '08004353361',
+        description: 'lidl. Top quality at an affordable price » Great branch offers ✓ Large permanent range in the online shop ✓ Kitchen ✓ DIY store ✓ Sleeping.',
+        thingstodo: [
+            'supermarket',
+            'online',
+            'hauptbahnhof',
+        ],
+        rate: 4.1,
+        likes: '1,930',
+        featured: true,
+    },
+    {
+        id: '98',
+        title: 'aldi',
+        category: 'markets',
+        icon: 'fa-solid fa-shop',
+        images: [
+            './images/shopping/shop-98.jpeg',
+        ],
+        country: 'Germany',
+        location: 'https://goo.gl/maps/pjQzidxqLgWKz5n4A',
+        site: 'https://www.aldi-sued.de/de/homepage.html',
+        facebook: 'https://www.facebook.com/ALDI.SUED',
+        address: 'Rundfunkplatz 4, 80335 München',
+        phone: '08008002534',
+        description: 'aldi. Discover our large range✓High quality✓Actions & offers ✓Recipes ✓Product information ✓Advice.',
+        thingstodo: [
+            'supermarket',
+            'hauptbahnhof',
+        ],
+        rate: 4.3,
+        likes: '930',
+        featured: true,
+    },
 ];
 
 export default shopping;
