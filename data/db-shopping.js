@@ -2319,6 +2319,29 @@ const shopping = [
         likes: '93',
         featured: true,
     },
+    {
+        id: '94',
+        title: 'Maier Manfred Fluß- u. Seefische',
+        category: 'fish market',
+        icon: 'fa-solid fa-shop',
+        images: [
+            './images/shopping/shop-94.jpeg',
+        ],
+        country: 'Germany',
+        location: 'https://goo.gl/maps/gkDbYTtg8D9vqHBB9',
+        site: 'https://www.fisch-maier.de/',
+        facebook: '',
+        address: 'Westenriederstraße 9, 80331 München-Altstadt',
+        phone: '089298022 ',
+        description: 'Maier Manfred Fluß-. The range consists of fresh and smoked sea fish from all over the world, shellfish and crustaceans and the native freshwater fish. As one of the few fishmongers, the Maier company still offers various types of live fish. "It doesn`t get any fresher!", Delicatessen salads and delicious generously filled fish rolls and a platter service for your celebrations complete the offer.',
+        thingstodo: [
+            'fresh fish',
+            'Marienplatz',
+        ],
+        rate: 5,
+        likes: '93',
+        featured: true,
+    },
 ];
 
 export default shopping;
