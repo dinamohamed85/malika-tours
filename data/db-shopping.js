@@ -2458,6 +2458,29 @@ const shopping = [
         likes: '689',
         featured: true,
     },
+    {
+        id: '100',
+        title: 'EDEKA',
+        category: 'markets',
+        icon: 'fa-solid fa-shop',
+        images: [
+            './images/shopping/shop-100.jpeg',
+        ],
+        country: 'Germany',
+        location: 'https://goo.gl/maps/DTgs42SwV8hHjcdc7',
+        site: 'https://www.edeka.de/',
+        facebook: 'https://www.facebook.com/EDEKA',
+        address: 'Implerstraße 17, 81371 München',
+        phone: '08972016000',
+        description: 'EDEKA. Quality, freshness, variety, expert advice and "love for food".',
+        thingstodo: [
+            'supermarket',
+            'Hauptbahnhof'
+        ],
+        rate: 4.2,
+        likes: '489',
+        featured: true,
+    },
 ];
 
 export default shopping;
