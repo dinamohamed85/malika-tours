@@ -129,6 +129,7 @@ const restaurants = [
             'Lamm Tikka',
             'Tikka Taka Tak',
             'Mango-Lassi',
+            'kids meal',
             'indian',
             'halal',
 

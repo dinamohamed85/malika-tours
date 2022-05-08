@@ -182,6 +182,7 @@ const shopping = [
         description: 'Europe leading retail company number 1 electronics store! Huge selection of brands at the lowest price ✓ Over 250 markets ✓ Secure and flexible means of payment.',
         thingstodo: [
             'Electronics store',
+            'online',
         ],
         rate: 4.1,
         likes: '12,948',
@@ -577,6 +578,7 @@ const shopping = [
         thingstodo: [
             'hyper market',
             'fish market',
+            'online',
             'heringe',
             'discounts',
             'SUMA Center',
@@ -663,7 +665,7 @@ const shopping = [
     {
         id: '28',
         title: 'Amazon',
-        category: 'Online',
+        category: 'online',
         icon: 'fa-solid fa-shop',
         images: [
             './images/shopping/shop-28.jpeg',
@@ -673,7 +675,7 @@ const shopping = [
         facebook: 'https://www.facebook.com/Amazon.de/',
         description: 'Get Deals on Popular Items on Amazon. Browse & Discover Thousands of Brands. Read Customer Reviews and Find Best Sellers. Fast shipping. 1-click payment. Pay in installments. Package tracking. 30 days free returns. Low prices.',
         thingstodo: [
-            'Online shopping',
+            'online shopping',
             'Brands',
             'shipping',
             'kids & toys',
@@ -686,7 +688,7 @@ const shopping = [
     {
         id: '29',
         title: 'eBay Kleinanzeigen',
-        category: 'Online',
+        category: 'online',
         icon: 'fa-solid fa-shop',
         images: [
             './images/shopping/shop-29.jpeg',
@@ -707,7 +709,7 @@ const shopping = [
     {
         id: '30',
         title: 'Zalando',
-        category: 'Online',
+        category: 'online',
         icon: 'fa-solid fa-shop',
         images: [
             './images/shopping/shop-30.jpeg',
@@ -717,7 +719,7 @@ const shopping = [
         facebook: 'https://www.facebook.com/Zalando/',
         description: 'Even more than you expect Fashion, Beauty, Designer and more.',
         thingstodo: [
-            'Online shopping',
+            'online shopping',
             'Brands',
             'shipping',
             'returns'
@@ -729,7 +731,7 @@ const shopping = [
     {
         id: '31',
         title: 'Shein',
-        category: 'Online',
+        category: 'online',
         icon: 'fa-solid fa-shop',
         images: [
             './images/shopping/shop-31.jpeg',
@@ -739,7 +741,7 @@ const shopping = [
         facebook: 'https://www.facebook.com/SHEINOFFICIAL/',
         description: 'Shop the latest fashion trends for women online now in our shop in Germany. Browse Our Curated Selection Of Women Clothing, kids Clothing.',
         thingstodo: [
-            'Online shopping',
+            'online shopping',
             'Brands',
             'shipping',
             'kids'
@@ -751,7 +753,7 @@ const shopping = [
     {
         id: '32',
         title: 'modanisa',
-        category: 'Online',
+        category: 'online',
         icon: 'fa-solid fa-shop',
         images: [
             './images/shopping/shop-32.jpeg',
@@ -761,7 +763,7 @@ const shopping = [
         facebook: 'https://www.facebook.com/modanisaENG/',
         description: 'Discover the latest hijab fashion and modest women dresses online at Modanisa.com, with great prices and a return guarantee.',
         thingstodo: [
-            'Online shopping',
+            'online shopping',
             'hijab clothes',
             'shipping',
             'dresses',
@@ -774,7 +776,7 @@ const shopping = [
     {
         id: '33',
         title: 'idealo',
-        category: 'Online',
+        category: 'online',
         icon: 'fa-solid fa-shop',
         images: [
             './images/shopping/shop-33.jpeg',
@@ -784,7 +786,7 @@ const shopping = [
         facebook: 'https://www.facebook.com/idealoDE/',
         description: 'IDEAL0 - The No. 1 in price comparison. Germany big price comparison.Worry - free shopping.Transparency & topicality.Transparent offers.Features: price alarm clock, test reports, comprehensive filter and sorting functions.',
         thingstodo: [
-            'Online shopping',
+            'online shopping',
             'discounts',
             'low prices',
             'Brands',
@@ -797,7 +799,7 @@ const shopping = [
     {
         id: '34',
         title: 'gethalal',
-        category: 'Online',
+        category: 'online',
         icon: 'fa-solid fa-shop',
         images: [
             './images/shopping/shop-34.jpeg',
@@ -891,6 +893,7 @@ const shopping = [
             'heringe',
             'discounts',
             'halal products',
+            'online',
             'pep mall',
         ],
         rate: 4.3,
@@ -1824,7 +1827,7 @@ const shopping = [
     {
         id: '74',
         title: 'mozzaik',
-        category: 'Online',
+        category: 'online',
         icon: 'fa-solid fa-shop',
         images: [
             './images/shopping/shop-74.jpeg',
@@ -2219,7 +2222,7 @@ const shopping = [
     },
     {
         id: '90',
-        title: ' Müller -PEP',
+        title: 'Müller -PEP',
         category: 'shops',
         icon: 'fa-solid fa-shop',
         images: [
@@ -2241,6 +2244,31 @@ const shopping = [
         ],
         rate: 4.1,
         likes: '2,982',
+        featured: true,
+    },
+    {
+        id: '91',
+        title: 'DM',
+        category: 'shops',
+        icon: 'fa-solid fa-shop',
+        images: [
+            './images/shopping/shop-91.jpeg',
+        ],
+        country: 'Germany',
+        location: 'https://goo.gl/maps/iariPHC1T7sY1hhQ8',
+        site: 'https://www.dm.de/',
+        facebook: 'https://www.facebook.com/dm.Deutschland',
+        address: 'Sendlinger Str. 12a, 80331 München',
+        phone: '08923077607',
+        description: 'DM. dm-drogerie markt is a retail chain store , offering cosmetics, healthcare supplies, household products and healthy food and beverages.',
+        thingstodo: [
+            'vitamins',
+            'cosmetics',
+            'online',
+            'Marienplatz'
+        ],
+        rate: 4.2,
+        likes: '956',
         featured: true,
     },
 ];
