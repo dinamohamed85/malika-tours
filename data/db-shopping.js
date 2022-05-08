@@ -2271,6 +2271,31 @@ const shopping = [
         likes: '956',
         featured: true,
     },
+    {
+        id: '92',
+        title: 'ROSSMANN',
+        category: 'shops',
+        icon: 'fa-solid fa-shop',
+        images: [
+            './images/shopping/shop-92.jpeg',
+        ],
+        country: 'Germany',
+        location: 'https://goo.gl/maps/4brT8HzkPn8Xpb736',
+        site: 'https://www.rossmann.de/de/',
+        facebook: 'https://www.facebook.com/rossmann.gmbh',
+        address: 'Schwanthalerstraße 27 / 29, 80336 München',
+        phone: '08951265892',
+        description: 'ROSSMANN. In the ROSSMANN drugstore you will find low prices and a huge selection: the large range of household goods, drugstore items, perfumery, make-up and more!',
+        thingstodo: [
+            'vitamins',
+            'perfumery',
+            'cosmetics',
+            'Hauptbahnhof'
+        ],
+        rate: 4.1,
+        likes: '732',
+        featured: true,
+    },
 ];
 
 export default shopping;
