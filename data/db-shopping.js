@@ -2435,6 +2435,29 @@ const shopping = [
         likes: '930',
         featured: true,
     },
+    {
+        id: '99',
+        title: 'Netto Marken-Discount',
+        category: 'markets',
+        icon: 'fa-solid fa-shop',
+        images: [
+            './images/shopping/shop-99.jpeg',
+        ],
+        country: 'Germany',
+        location: 'https://goo.gl/maps/bQ4Ugi82pnCjdDqs8',
+        site: 'https://www.netto-online.de/',
+        facebook: 'https://www.facebook.com/nettomarkendiscount/',
+        address: 'Aschauer Str. 19, 81549 München',
+        phone: '091123734733',
+        description: 'Netto. Great value for money in the Netto Marken-Discount ✓ Great branch offers.',
+        thingstodo: [
+            'Discount supermarket',
+            'Giesing'
+        ],
+        rate: 4.1,
+        likes: '689',
+        featured: true,
+    },
 ];
 
 export default shopping;
