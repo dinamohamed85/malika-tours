@@ -1930,7 +1930,7 @@ const shopping = [
             './images/shopping/shop-78.jpeg',
         ],
         country: 'Germany',
-        location: 'https://goo.gl/maps/8uuEr48rp6FpgVFf7',
+        location: 'https://goo.gl/maps/XrmXH56hFFNyahWQ9',
         site: 'https://www.metro.de/',
         facebook: 'https://www.facebook.com/metro.deutschland',
         address: 'Zusestraße 6, 85649 Brunnthal',
