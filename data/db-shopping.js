@@ -2194,6 +2194,29 @@ const shopping = [
         likes: '152',
         featured: true,
     },
+    {
+        id: '89',
+        title: 'Hugenduble',
+        category: 'shops',
+        icon: 'fa-solid fa-shop',
+        images: [
+            './images/shopping/shop-89.jpeg',
+        ],
+        country: 'Germany',
+        location: 'https://g.page/hugendubel-karlsplatz?share',
+        site: 'https://www.hugendubel.de/de/',
+        facebook: 'https://www.facebook.com/HugendubelBuchhandlungen/',
+        address: 'Karlspl. 11-12, 80335 München',
+        phone: '08930757575',
+        description: 'Hugenduble. Large selection of books, eBooks, eReaders, audio books, music, films and toys.',
+        thingstodo: [
+            'book store',
+            'Marienplatz'
+        ],
+        rate: 4.5,
+        likes: '3,572',
+        featured: true,
+    },
 ];
 
 export default shopping;
