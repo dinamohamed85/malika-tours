@@ -1433,7 +1433,7 @@ const shopping = [
         thingstodo: [
             'supermarket',
             'meat',
-            'fish',
+            'fish market',
             'moosach',
             'turkish',
             'halal',
