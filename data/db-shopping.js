@@ -2217,6 +2217,32 @@ const shopping = [
         likes: '3,572',
         featured: true,
     },
+    {
+        id: '90',
+        title: ' Müller -PEP',
+        category: 'shops',
+        icon: 'fa-solid fa-shop',
+        images: [
+            './images/shopping/shop-90.jpeg',
+        ],
+        country: 'Germany',
+        location: 'https://goo.gl/maps/QY5j34QDmPCCfc8t8',
+        site: 'https://www.mueller.de/',
+        facebook: 'https://www.facebook.com/mueller.deutschland/',
+        address: 'Ollenhauerstraße 6, 81737 München',
+        phone: '089121400590',
+        description: 'Müller. find a large selection of branded products in perfumery, (natural) cosmetics, make-up and cosmetic treatments. kids section for toys , school supplies list.',
+        thingstodo: [
+            'perfumery',
+            'cosmetics',
+            'toys kids',
+            'school supplies list',
+            'PEP Mall'
+        ],
+        rate: 4.1,
+        likes: '2,982',
+        featured: true,
+    },
 ];
 
 export default shopping;
