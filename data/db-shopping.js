@@ -2160,7 +2160,7 @@ const shopping = [
         facebook: 'https://www.facebook.com/veromodagermany/?brand_redir=169089169813888',
         address: 'Kaufingerstraße 9, 80331 München',
         phone: '08923000068',
-        description: 'Fashionable clothing and accessories for all occasions from VERO MODA®. Shop the latest trends from VERO MODA®. Affordable fashion for women.',
+        description: 'VERO MODA. Fashionable clothing and accessories for all occasions from VERO MODA®. Shop the latest trends from VERO MODA®. Affordable fashion for women.',
         thingstodo: [
             'Clothing store',
             'women',
@@ -2168,6 +2168,30 @@ const shopping = [
         ],
         rate: 4.1,
         likes: '269',
+        featured: true,
+    },
+    {
+        id: '88',
+        title: 'only',
+        category: 'shops',
+        icon: 'fa-solid fa-shop',
+        images: [
+            './images/shopping/shop-88.jpeg',
+        ],
+        country: 'Germany',
+        location: 'https://g.page/ONLY-Neuhauser?share',
+        site: 'http://de.only.com/',
+        facebook: 'https://www.facebook.com/ONLYDACH/?brand_redir=30659884904',
+        address: 'Neuhauser Str. 5, 80331 München',
+        phone: '08924223455',
+        description: 'only. Cool fashion for cool fashionistas! Shop the latest women`s clothing .',
+        thingstodo: [
+            'Clothing store',
+            'women',
+            'Marienplatz'
+        ],
+        rate: 4.1,
+        likes: '152',
         featured: true,
     },
 ];
