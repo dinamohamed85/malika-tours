@@ -72,7 +72,7 @@ const restaurants = [
         id: '3',
         order: '1',
         title: 'Gourmet Tempel',
-        category: 'sea food',
+        category: 'seafood',
         icon: 'fa-solid fa-fish',
         images: [
             './images/restaurants/restaurant-3-0.jpeg',
@@ -492,7 +492,7 @@ const restaurants = [
         id: '15',
         order: '6',
         title: 'asia garden -Ottobrunn',
-        category: 'sea food',
+        category: 'seafood',
         icon: 'fa-solid fa-fish',
         images: [
             './images/restaurants/restaurant-15-0.jpeg',
@@ -559,7 +559,7 @@ const restaurants = [
         id: '17',
         order: '6',
         title: 'NordSee',
-        category: 'sea food',
+        category: 'seafood',
         icon: 'fa-solid fa-fish',
         images: [
             './images/restaurants/restaurant-17-0.jpeg',
@@ -662,7 +662,7 @@ const restaurants = [
         id: '20',
         order: '6',
         title: 'Haiky asian food',
-        category: 'sea food',
+        category: 'seafood',
         icon: 'fa-solid fa-fish',
         images: [
             './images/restaurants/restaurant-20-0.jpeg',
@@ -1466,7 +1466,7 @@ const restaurants = [
         id: '43',
         order: '6',
         title: 'Majestic',
-        category: 'sea food',
+        category: 'seafood',
         icon: 'fa-solid fa-fish',
         images: [
             './images/restaurants/restaurant-43-0.jpeg',
@@ -1480,7 +1480,7 @@ const restaurants = [
         site: 'https://www.restaurant-majestic.de/Unsere-Speisen-und-Getraenkekarte/',
         address: 'Kistlerhofstraße 251, 81379 München, Germany',
         phone: '08978017660',
-        description: 'Majestic is a sea food restaurant in Munich, Cavernous, old-world locale offering sushi, a Mongolian grill & a pan-Asian buffet.',
+        description: 'Majestic is a seafood restaurant in Munich, Cavernous, old-world locale offering sushi, a Mongolian grill & a pan-Asian buffet.',
         more: '',
         menu: [
             'fish',
@@ -2352,7 +2352,7 @@ const restaurants = [
         id: '3',
         order: '69',
         title: 'China-Restaurant -Germering',
-        category: 'sea food',
+        category: 'seafood',
         icon: 'fa-solid fa-fish',
         images: [
             './images/restaurants/restaurant-69-0.jpeg',
@@ -2718,6 +2718,30 @@ const restaurants = [
         rate: 4.5,
         likes: '1,236',
         avg_price: 7,
+        featured: true,
+    },
+    {
+        id: '80',
+        title: 'Fisch Witte',
+        category: 'seafood',
+        icon: 'fa-solid fa-shop',
+        images: [
+            './images/restaurants/restaurant-80-0.jpeg',
+        ],
+        country: 'Germany',
+        location: 'https://goo.gl/maps/eyWfM78YhiwQfobG7',
+        site: 'http://www.fisch-witte.de/',
+        facebook: 'https://www.instagram.com/fischwitte/?hl=de',
+        address: 'Viktualienmarkt 9, 80331 München',
+        phone: '089222640',
+        description: 'Fishmonger & bistro serving a range of fish & seafood dishes, including regional specialities.',
+        menu: [
+            'fish',
+            'heringe',
+            'Marienplatz',
+        ],
+        rate: 4.5,
+        likes: '1,010',
         featured: true,
     },
 ];
