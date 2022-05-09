@@ -2599,6 +2599,7 @@ const shopping = [
             'BETTENRID',
             'Happy Lagerverkauf',
             'baby one',
+            'lidl',
             'outlet',
             'Brunnthal, Zusestraße'
         ],
