@@ -274,6 +274,7 @@ const shopping = [
         description: 'shopping original brand with low price.',
         thingstodo: [
             'Department store',
+            'outlet',
             'discounts'
         ],
         rate: 4.1,
@@ -1269,6 +1270,7 @@ const shopping = [
             'fast food',
             'cafes',
             'weekend',
+            'outlet',
             'discounts',
         ],
         rate: 4.2,
@@ -2143,6 +2145,7 @@ const shopping = [
             'women',
             'men',
             'junior',
+            'outlet',
             'Brunnthal, Zusestraße'
         ],
         rate: 4.3,
@@ -2479,6 +2482,34 @@ const shopping = [
         ],
         rate: 4.2,
         likes: '489',
+        featured: true,
+    },
+    {
+        id: '86',
+        title: 'Nike Factory Store',
+        category: 'outlet',
+        icon: 'fa-solid fa-shop',
+        images: [
+            './images/shopping/shop-86.jpeg',
+        ],
+        country: 'Germany',
+        location: 'https://goo.gl/maps/XbmeSEhigTAXH7Ky8',
+        site: 'https://www.nike.com/de/',
+        facebook: 'https://www.facebook.com/nike',
+        address: 'Zusestraße 5, 85649 Brunnthal',
+        phone: '08967847590',
+        description: 'Nike Factory Store -Outlet. Chain retailer selling a range of Nike athletic footwear, apparel & accessories for adults & kids.',
+        thingstodo: [
+            'Shoe store',
+            'Sporting goods store',
+            'women',
+            'men',
+            'kids',
+            'outlet',
+            'Brunnthal, Zusestraße'
+        ],
+        rate: 4.3,
+        likes: '1,786',
         featured: true,
     },
 ];
