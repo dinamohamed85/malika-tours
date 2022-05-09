@@ -2485,12 +2485,12 @@ const shopping = [
         featured: true,
     },
     {
-        id: '86',
+        id: '100',
         title: 'Nike Factory Store',
         category: 'outlet',
         icon: 'fa-solid fa-shop',
         images: [
-            './images/shopping/shop-86.jpeg',
+            './images/shopping/shop-101.jpeg',
         ],
         country: 'Germany',
         location: 'https://goo.gl/maps/XbmeSEhigTAXH7Ky8',
