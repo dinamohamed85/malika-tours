@@ -519,7 +519,7 @@ const restaurants = [
             'all you can eat'
         ],
         rate: 4.4,
-        likes: '1,458',
+        likes: '1,958',
         avg_price: 20,
         featured: true,
     },

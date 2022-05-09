@@ -439,13 +439,13 @@ const shopping = [
         facebook: 'https://www.facebook.com/Action-1945692172327118/',
         address: 'Fraunhoferstraße 5, 85221 Dachau',
         phone: '021130146100',
-        description: '6000+ products for decoration, cleaning, sports, care, pets and more ✓ For less than you expect ✓ Always close by.',
+        description: '6000+ products for decoration, cleaning, sports, care, pets and more ✓ For less than you expect ✓ Always close by.you find branches in "Dachau","Starnberg","Geretsried","Erding"..',
         thingstodo: [
             'Variety store',
-            'Dachau',
-            'Starnberg',
-            'Geretsried',
-            'Erding'
+            'decoration',
+            'accessories',
+            'kids & toys',
+            'low prices',
         ],
         rate: 4.3,
         likes: '1,361',
@@ -465,9 +465,13 @@ const shopping = [
         facebook: 'https://www.facebook.com/TEDi.Deutschland/',
         address: 'Landsberger Str. 517, 81241 München',
         phone: '0231555770',
-        description: '6000+ products for decoration, cleaning, sports, care, pets and more ✓ For less than you expect ✓ Always close by.',
+        description: 'products for decoration, cleaning, sports, care, pets and more ✓ For less than you expect ✓ Always close by.',
         thingstodo: [
             'Home goods store',
+            'decoration',
+            'accessories',
+            'kids & toys',
+            'low prices',
         ],
         rate: 4.1,
         likes: '897',
@@ -490,6 +494,10 @@ const shopping = [
         description: 'Top prices and a surprising range of products are our top priorities. Our products are tested in terms of minimum standards, product quality.',
         thingstodo: [
             'Department store',
+            'decoration',
+            'accessories',
+            'kids & toys',
+            'low prices',
         ],
         rate: 4.2,
         likes: '786',
@@ -512,6 +520,10 @@ const shopping = [
         description: 'Discover our current range in the KiK shop. Fashion, accessories, decoration and much more at great prices!',
         thingstodo: [
             'Department store',
+            'decoration',
+            'accessories',
+            'kids & toys',
+            'low prices',
         ],
         rate: 4.1,
         likes: '786',
@@ -2241,6 +2253,7 @@ const shopping = [
         thingstodo: [
             'perfumery',
             'cosmetics',
+            'vitamins',
             'toys kids',
             'school supplies list',
             'PEP Mall'
@@ -2265,8 +2278,9 @@ const shopping = [
         phone: '08923077607',
         description: 'DM. dm-drogerie markt is a retail chain store , offering cosmetics, healthcare supplies, household products and healthy food and beverages.',
         thingstodo: [
-            'vitamins',
+            'perfumery',
             'cosmetics',
+            'vitamins',
             'online',
             'Marienplatz'
         ],
@@ -2290,9 +2304,10 @@ const shopping = [
         phone: '08951265892',
         description: 'ROSSMANN. In the ROSSMANN drugstore you will find low prices and a huge selection: the large range of household goods, drugstore items, perfumery, make-up and more!',
         thingstodo: [
-            'vitamins',
             'perfumery',
             'cosmetics',
+            'vitamins',
+            'discounts',
             'Hauptbahnhof'
         ],
         rate: 4.1,
