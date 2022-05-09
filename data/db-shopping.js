@@ -2569,6 +2569,43 @@ const shopping = [
         likes: '896',
         featured: true,
     },
+    {
+        id: '104',
+        title: 'Outlet -Brunnthal',
+        category: 'outlet',
+        icon: 'fa-solid fa-shop',
+        images: [
+            './images/shopping/shop-104.jpeg',
+        ],
+        country: 'Germany',
+        location: 'https://goo.gl/maps/XbmeSEhigTAXH7Ky8',
+        site: 'https://www.nike.com/de/',
+        facebook: 'https://www.facebook.com/nike',
+        address: 'Zusestraße , 85649 Brunnthal',
+        phone: '08967847590',
+        description: 'Outlet -Brunnthal. Brunnthal retail park is fully let. The tenants include Nike Factory , Adidas & Reebok , s.Oliver , Spielplatzkind ,S chiesser , Gerry Weber , BETTENRID , Happy Lagerverkauf (shoes), Trachten Moser and Vino. locations in the Munich region in the south-east of the state capital.',
+        thingstodo: [
+            'clothing stores',
+            'Sporting goods stores',
+            'women',
+            'men',
+            'kids',
+            'Nike',
+            'Adidas & Reebok',
+            's.Oliver',
+            'Spielplatzkind',
+            'S chiesser',
+            'Gerry Weber',
+            'BETTENRID',
+            'Happy Lagerverkauf',
+            'baby one',
+            'outlet',
+            'Brunnthal, Zusestraße'
+        ],
+        rate: 4.3,
+        likes: '3,325',
+        featured: true,
+    },
 ];
 
 export default shopping;
