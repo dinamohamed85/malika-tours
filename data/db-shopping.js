@@ -2583,7 +2583,7 @@ const shopping = [
         facebook: 'https://www.facebook.com/nike',
         address: 'Zusestraße , 85649 Brunnthal',
         phone: '08967847590',
-        description: 'Outlet -Brunnthal. Brunnthal retail park is fully let. The tenants include Nike Factory , Adidas & Reebok , s.Oliver , Spielplatzkind ,S chiesser , Gerry Weber , BETTENRID , Happy Lagerverkauf (shoes), Trachten Moser and Vino. locations in the Munich region in the south-east of the state capital.',
+        description: 'Outlet -Brunnthal. Brunnthal retail park is fully let. The tenants include Nike Factory , Adidas & Reebok , s.Oliver , Spielplatzkind ,S chiesser , Gerry Weber , BETTENRID , Happy Lagerverkauf (shoes), Trachten Moser and Vino. locations in the Munich region in the south-east of the state capital. find Restaurants : Kentucky Fried Chicken, L`Osteria Brunnthal Eugen- Sänger - Ring, McDonald, ...',
         thingstodo: [
             'clothing stores',
             'Sporting goods stores',
