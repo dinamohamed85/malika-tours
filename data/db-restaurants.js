@@ -2744,6 +2744,39 @@ const restaurants = [
         likes: '1,010',
         featured: true,
     },
+    {
+        id: '81',
+        order: '1',
+        title: 'Chopan',
+        category: 'halal',
+        icon: 'fa-solid fa-ellipsis',
+        images: [
+            './images/restaurants/restaurant-81-0.jpeg',
+            './images/restaurants/restaurant-82-1.jpeg',
+            './images/restaurants/restaurant-82-2.jpeg',
+            './images/restaurants/restaurant-82-3.jpeg',
+            './images/restaurants/restaurant-82-4.jpeg',
+        ],
+        country: 'Germany',
+        location: 'https://g.page/ChopanAmGasteig?share',
+        site: 'https://chopan-am-gasteig.de/speisekarte',
+        address: 'Rosenheimer Str. 8, 81669 München',
+        phone: '08944118571',
+        description: 'Rich lamb stews, rice dishes & fried dumplings in a warmly painted space with carved wood accents.',
+        more: '',
+        menu: [
+            'Mixed Grill Plate',
+            'Kabab-e-Tekka',
+            'Kababe Morgh ba Tschalau',
+            'Quabeli Palau Bidune Goscht',
+            'Afghani',
+            'halal'
+        ],
+        rate: 4.6,
+        likes: '1,298',
+        avg_price: 16,
+        featured: true,
+    },
 ];
 
 export default restaurants;
