@@ -2229,6 +2229,7 @@ const shopping = [
         description: 'Hugenduble. Large selection of books, eBooks, eReaders, audio books, music, films and toys.',
         thingstodo: [
             'book store',
+            'school bags',
             'Marienplatz'
         ],
         rate: 4.5,
@@ -2256,6 +2257,7 @@ const shopping = [
             'vitamins',
             'toys kids',
             'school supplies list',
+            'school bags',
             'PEP Mall'
         ],
         rate: 4.1,
