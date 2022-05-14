@@ -18,7 +18,7 @@ const displayother = () => {
     let text2 = '';
     if (currentCategory == 'all') {
         text1 = 'best ';
-        text2 = filteredList.length + ' places for other ';
+        text2 = filteredList.length + ' services ';
     }
     else if (currentCategory == 'featured') {
         text1 = 'featured ';
@@ -26,7 +26,7 @@ const displayother = () => {
     }
     else if (currentCategory == 'Online') {
         text1 = 'top ';
-        text2 = filteredList.length + ' ' + currentCategory + ' other ';
+        text2 = filteredList.length + ' ' + currentCategory + '  ';
     }
     else if (currentCategory == 'cafes & bakery') {
         text1 = 'top ';
