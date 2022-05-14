@@ -146,7 +146,9 @@ const other = [
         phone: '+4989325061',
         description: 'The Islamic Center Munich wants to help the Muslims living here to practice their religion, to deepen their awareness of faith and their willingness to serve their fellow human beings, but also to contribute to a better understanding of Islam and Muslims. As one of the outstanding Muslim institutions in Germany, the Islamic Center has an impact far beyond the Munich area.',
         thingstodo: [
-
+            'pray',
+            'Eid prayer',
+            'zakat Elmal',
         ],
         rate: 4.7,
         likes: '3,264',
@@ -194,7 +196,7 @@ const other = [
         phone: '089332488',
         description: 'Fachärztin für Augenheilkunde im Augenzentrum Nymphenburger Höfe von Prof. Dr. Koss & Kollegen',
         thingstodo: [
-
+            'Dr. ophthalmology'
         ],
         rate: 4.8,
         likes: '3,372',
