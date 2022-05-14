@@ -2778,6 +2778,35 @@ const restaurants = [
         avg_price: 16,
         featured: true,
     },
+    {
+        id: '82',
+        order: '1',
+        title: 'Meat in Bun',
+        category: 'burger',
+        icon: 'fa-solid fa-ellipsis',
+        images: [
+            './images/restaurants/restaurant-82-0.jpeg',
+            './images/restaurants/restaurant-82-1.jpeg',
+            './images/restaurants/restaurant-82-2.jpeg',
+            './images/restaurants/restaurant-82-3.jpeg',
+            './images/restaurants/restaurant-82-4.jpeg',
+        ],
+        country: 'Germany',
+        location: 'https://goo.gl/maps/wRMNLoZLTKKZhuqe7',
+        site: 'https://chopan-am-gasteig.de/speisekarte',
+        address: 'Kapuzinerstraße 31, 80337 München, Germany',
+        phone: '+498953297750',
+        description: 'Artisanal burgers & wraps, plus sides like homemade coleslaw, in functional, modern quarters.',
+        more: '',
+        menu: [
+            'burger',
+            'halal'
+        ],
+        rate: 4.5,
+        likes: '1,118',
+        avg_price: 9,
+        featured: true,
+    },
 ];
 
 export default restaurants;
