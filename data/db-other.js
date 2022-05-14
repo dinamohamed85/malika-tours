@@ -75,7 +75,7 @@ const other = [
     {
         id: '4',
         title: 'Nesto Torten',
-        category: 'torta',
+        category: 'food homemade',
         icon: 'fa-solid fa-shop',
         images: [
             './images/other/other-4.jpeg',
