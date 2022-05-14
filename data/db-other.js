@@ -26,7 +26,7 @@ const other = [
     },
     {
         id: '2',
-        title: 'useful apps',
+        title: 'payBack',
         category: 'useful apps',
         icon: 'fa-solid fa-shop',
         images: [
@@ -48,6 +48,7 @@ const other = [
         likes: '267,198',
         featured: true,
     },
+
 ];
 
 export default other;
