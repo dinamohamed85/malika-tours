@@ -196,9 +196,7 @@ const other = [
         phone: '089332488',
         description: 'Fachärztin für Augenheilkunde im Augenzentrum Nymphenburger Höfe von Prof. Dr. Koss & Kollegen',
         thingstodo: [
-            'buy',
-            'colect bonus',
-            'buy for free',
+
         ],
         rate: 4.8,
         likes: '3,372',
