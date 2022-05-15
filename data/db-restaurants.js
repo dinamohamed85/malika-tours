@@ -2812,6 +2812,40 @@ const restaurants = [
         avg_price: 9,
         featured: true,
     },
+    {
+        id: '83',
+        order: '1',
+        title: 'Sesam Falafel',
+        category: 'halal',
+        icon: 'fa-solid fa-ellipsis',
+        images: [
+            './images/restaurants/restaurant-83-0.jpeg',
+            './images/restaurants/restaurant-83-1.jpeg',
+            './images/restaurants/restaurant-83-2.jpeg',
+            './images/restaurants/restaurant-83-3.jpeg',
+            './images/restaurants/restaurant-83-4.jpeg',
+        ],
+        country: 'Germany',
+        location: 'https://g.page/sesam-falafel?share',
+        site: 'https://wolt.com/en/deu/munich/restaurant/sesam-falafel',
+        address: 'Tal 32, 80331 München, Germany',
+        phone: '+4917683010375',
+        description: 'Falafel, shawarma & Middle Eastern spreads prepared in a small, wood-accented counter-serve place.',
+        more: '',
+        menu: [
+            'Falafel Halloumi Sandwich',
+            'Shawarma Sandwich with Veal',
+            'Shawarma Plate',
+            'Falafel Halloumi Plate',
+            'Falafel Shawarma Plate',
+            'arabic',
+            'halal'
+        ],
+        rate: 4.8,
+        likes: '1,038',
+        avg_price: 7,
+        featured: true,
+    },
 ];
 
 export default restaurants;
