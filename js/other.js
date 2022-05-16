@@ -18,7 +18,7 @@ const displayother = () => {
     let text2 = '';
     if (currentCategory == 'all') {
         text1 = 'best ';
-        text2 = filteredList.length + ' services ';
+        text2 = filteredList.length + ' places ';
     }
     else if (currentCategory == 'featured') {
         text1 = 'featured ';
@@ -72,7 +72,7 @@ const displayother = () => {
             ${description}
         </p>
         <div>
-            <h5>Things to do :</h5>
+            <h5>about :</h5>
             <div class="tour-activtiy">
             ${thingstodo.map((item) => {
                 let text;

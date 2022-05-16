@@ -274,6 +274,14 @@ const shopping = [
         description: 'shopping original brand with low price.',
         thingstodo: [
             'Department store',
+            'Cosmetics',
+            'perfumes',
+            'shoes',
+            'clothes',
+            'bags',
+            'kids',
+            'sport clothes',
+            'scarf',
             'outlet',
             'discounts'
         ],
