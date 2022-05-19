@@ -24,13 +24,13 @@ const displayother = () => {
         text1 = 'featured ';
         text2 = filteredList.length + ' other ';
     }
-    else if (currentCategory == 'Online') {
+    else if (currentCategory == 'useful apps') {
         text1 = 'top ';
-        text2 = filteredList.length + ' ' + currentCategory + '  ';
+        text2 = filteredList.length + ' ' + currentCategory + ' you need ';
     }
-    else if (currentCategory == 'cafes & bakery') {
+    else if (currentCategory == 'food homemade') {
         text1 = 'top ';
-        text2 = filteredList.length + ' ' + currentCategory;
+        text2 = filteredList.length + ' ' + currentCategory + ' service';
     }
     else {
         text1 = 'top ';
@@ -48,13 +48,15 @@ const displayother = () => {
             return `<article class="item">
         <div class="tour-img-container"> 
         ${location ? `<a href="${location}" target="_blank">
-            <img src="${images[0]}" class="item-photo" /></a> ` : `<a href = "${site}" target = "_blank" > <img src="${images[0]}" class="item-photo" /></a>`}              
+            <img src="${images[0]}" class="item-photo" /></a> ` : 
+            `<a href = "${site}" target = "_blank" > <img src="${images[0]}" class="item-photo" /></a>`}              
         </div>
         <div class="item-info">
         <header>            
-            <h4>
-            ${site ? ` <a href="${site}" target="_blank"><i class="fa-solid fa-earth-europe site-icon"></i>${index + 1}- ${title}</a>` : `${index + 1}- ${title}`}
-            </h4>
+            <h3>
+            ${site ? `<a href="${site}" target="_blank"><i class="fa-solid fa-earth-europe site-icon"></i>${index + 1}- ${title}</a>` :
+                    `<a href="${facebook}" target="_blank"><i class="fa-solid fa-earth-europe site-icon"></i>${index + 1}- ${title}</a>`}
+            </h3>
             <p>  
             ${facebook ? `<a href="${facebook}" target="_blank"><i
             class="fa-brands fa-facebook-square facebook-icon"></i></a> ` : ``}           
