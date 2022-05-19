@@ -22,7 +22,7 @@ const displayother = () => {
     }
     else if (currentCategory == 'featured') {
         text1 = 'featured ';
-        text2 = filteredList.length + ' other ';
+        text2 = filteredList.length + ' places ';
     }
     else if (currentCategory == 'useful apps') {
         text1 = 'top ';
