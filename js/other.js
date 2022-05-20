@@ -47,9 +47,11 @@ const displayother = () => {
             const { id, title, category, icon, images, location, site, description, likes, featured, address, phone, rate, thingstodo, facebook } = item;
             return `<article class="item">
         <div class="tour-img-container"> 
-        ${location ? `<a href="${location}" target="_blank">
-            <img src="${images[0]}" class="item-photo" /></a> ` : 
-            `<a href = "${site}" target = "_blank" > <img src="${images[0]}" class="item-photo" /></a>`}              
+        ${location ? `<a href="${location}" target="_blank"><img src="${images[0]}" class="item-photo"/></a>` 
+        : site ? `<a href = "${site}" target = "_blank"><img src="${images[0]}" class="item-photo"/></a>` 
+        : facebook ? `<a href = "${facebook}" target = "_blank"><img src="${images[0]}" class="item-photo"/></a>`
+        : `<img src="${images[0]}" class="item-photo"/>`} 
+
         </div>
         <div class="item-info">
         <header>            
@@ -83,10 +85,7 @@ const displayother = () => {
 
                 else if (item == 'arabic')
                     text = `<p class="activtiy"><span class="ar-icon">${item}</span></p>`
-
-                else if (item == 'heringe')
-                    text = `<p class="activtiy"><span class="site-icon">${item}</span></p>`
-
+               
                 else text = `<p class="activtiy">${item}</p>`
 
                 return text;
