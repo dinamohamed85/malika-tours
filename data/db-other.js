@@ -12,7 +12,7 @@ const other = [
         site: 'https://www.augenarzt-muc.de/ueber-uns/aerzte/dr-sobhy/',
         facebook: 'https://www.facebook.com/augenarzt.muenchen/',
         termin: 'https://www.jameda.de/muenchen/aerzte/augenaerzte/dr-nahla-sobhy/uebersicht/81429241_1/',
-        address: 'Nymphenburger Str. 4, 80335 Munich- Augenärzte im Augenzentrum NH München',
+        address: 'Nymphenburger Str. 4, 80335 Munich- Augenärzte im Augenzentrum NH',
         phone: '089332488',
         description: 'Fachärztin für Augenheilkunde im Augenzentrum Nymphenburger Höfe von Prof. Dr. Koss & Kollegen',
         thingstodo: [
@@ -126,7 +126,7 @@ const other = [
         site: 'http://www.dar-ev.de/',
         facebook: 'https://www.facebook.com/darev2012',
         address: 'Elisabethpl. 4, 80796 München , Astrid-Lindgren-Straße 1, 81829 München',
-        phone: 'https://app.dar-ev.de/de',
+        termin: 'https://app.dar-ev.de/de',
         description: 'We seek to create a conscious, integrated and positively influential Muslim generation in German society',
         thingstodo: [
             'learn arabic language',

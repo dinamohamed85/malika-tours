@@ -414,7 +414,7 @@ Featured Tours
   margin-bottom: 0.75rem;
   line-height: 1.25;
 }
-.tour-title p,a:visited {
+.tour-title p,a,a:visited {
   color: var(--clr-grey-4);
 }
 .tour-title p {
