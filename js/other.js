@@ -76,7 +76,7 @@ const displayother = () => {
             ${description}
         </p>
         <div>
-            <h5>about :</h5>
+            <h5>things to do :</h5>
             <div class="tour-activtiy">
             ${thingstodo.map((item) => {
                 let text;
