@@ -739,12 +739,13 @@ min-height:calc(100vh - 62px);
   display: flex;
   justify-content:space-between;
   flex-wrap: wrap;  
-  gap: 1rem;
+  gap: .5rem;
   align-items: center;
   margin-bottom: 1rem;
 }
 .tour-activtiy p {
-  line-height: .25rem;  
+  line-height: .25rem; 
+  margin-top: .25rem; 
   margin-bottom: .25rem;
   text-transform: capitalize;
   color: var(--clr-orange-1);
