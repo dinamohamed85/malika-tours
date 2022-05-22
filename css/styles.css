@@ -745,7 +745,7 @@ min-height:calc(100vh - 62px);
 }
 .tour-activtiy p {
   line-height: .25rem;  
-  /* margin-top: .25rem; */
+  margin-bottom: .25rem;
   text-transform: capitalize;
   color: var(--clr-orange-1);
   font-weight: 700;
