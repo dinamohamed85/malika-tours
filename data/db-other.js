@@ -12,7 +12,8 @@ const other = [
         site: 'https://www.augenarzt-muc.de/ueber-uns/aerzte/dr-sobhy/',
         facebook: 'https://www.facebook.com/augenarzt.muenchen/',
         termin: 'https://www.jameda.de/muenchen/aerzte/augenaerzte/dr-nahla-sobhy/uebersicht/81429241_1/',
-        address: 'Nymphenburger Str. 4, 80335 Munich- Augenärzte im Augenzentrum NH',
+        address1: 'Nymphenburger Str. 4, 80335 München',
+        address2: '- Augenärzte im Augenzentrum NH',
         phone: '089332488',
         description: 'Fachärztin für Augenheilkunde im Augenzentrum Nymphenburger Höfe von Prof. Dr. Koss & Kollegen',
         thingstodo: [
@@ -35,7 +36,7 @@ const other = [
         site: 'https://zahn-zone.de/',
         facebook: '',
         termin: 'https://www.doctolib.de/zahnmedizin/muenchen/mohamed-eltair',
-        address: 'Mühlbaurstraße 36, 81677, München',
+        address1: 'Mühlbaurstraße 36, 81677, Munich',
         phone: '089/479646',
         description: 'Dr. Mohamed Eltair ,Zahnarzt at Zahnarztpraxis Zahn Zone',
         thingstodo: [
@@ -62,7 +63,7 @@ const other = [
         site: 'https://www.zahnarzt-markt-schwaben.de/praxis/abdelrahim',
         facebook: 'https://www.instagram.com/zahnmedizin_am_marktplatz/',
         termin: 'https://www.zahnarzt-markt-schwaben.de/kontakt',
-        address: 'Marktpl. 17, 85570 Markt Schwaben',
+        address1: 'Marktpl. 17, 85570 Markt Schwaben, Munich',
         phone: '08121-6080',
         description: 'Dr. Ahmed Abdelrahim ,Zahnarzt at Zahnmedizin am Marktplatz  -Matthias Moldan M.Sc. & Kollegen.',
         more: 'M.Sc. (Univ. Kairo) Zahnarzt (angestellt), Master of Science – Kinderzahnheilkunde (M.Sc. / Univ. Kairo).',
@@ -88,7 +89,7 @@ const other = [
         site: 'https://www.ab-physiotherapie.de/',
         facebook: 'https://www.instagram.com/zahnmedizin_am_marktplatz/',
         termin: 'https://www.ab-physiotherapie.de',
-        address: 'Tegernseer Landstraße 135, 81539 München',
+        address1: 'Tegernseer Landstraße 135, 81539 München',
         phone: '08969797282',
         description: 'Dr. Ahmed Belayachi, We are a group practice for physiotherapy and rehabilitation with three independent physiotherapists, Tom Reich, Michael Hebauer and Ahmed Belayachi.',
         more: 'We see each of our patients holistically and try to provide the best possible and individually tailored therapy in a family environment. Individual care and professional treatment are essential for us.',
@@ -125,7 +126,8 @@ const other = [
         location: 'https://goo.gl/maps/Nr4jnCEDyJbWPiTR6',
         site: 'http://www.dar-ev.de/',
         facebook: 'https://www.facebook.com/darev2012',
-        address: 'Elisabethpl. 4, 80796 München , Astrid-Lindgren-Straße 1, 81829 München',
+        address1: 'Elisabethpl. 4, 80796 München ',
+        address2:'Astrid-Lindgren-Straße 1, 81829 München',
         termin: 'https://app.dar-ev.de/de',
         description: 'We seek to create a conscious, integrated and positively influential Muslim generation in German society',
         thingstodo: [
@@ -151,7 +153,7 @@ const other = [
         location: 'https://goo.gl/maps/yVok6t8p3aw8TySP7',
         site: 'https://www.islamisches-zentrum-muenchen.de/',
         facebook: 'https://www.facebook.com/islamischeszentrummuenchen',
-        address: 'Wallnerstraße 1, 80939 München, Germany',
+        address1: 'Wallnerstraße 1, 80939 München',
         phone: '+4989325061',
         description: 'The Islamic Center Munich wants to help the Muslims living here to practice their religion, to deepen their awareness of faith and their willingness to serve their fellow human beings, but also to contribute to a better understanding of Islam and Muslims. As one of the outstanding Muslim institutions in Germany, the Islamic Center has an impact far beyond the Munich area.',
         thingstodo: [
@@ -176,7 +178,7 @@ const other = [
         location: '',
         site: '',
         facebook: 'https://www.facebook.com/groups/376823237021474',
-        address: '',
+        address1: '',
         phone: '',
         description: 'Egyptian Bakery in Munich 🇪🇬.',
         thingstodo: [
@@ -209,7 +211,7 @@ const other = [
         location: '',
         site: '',
         facebook: 'https://www.facebook.com/Nestotorten',
-        address: '',
+        address1: '',
         phone: '',
         description: '3D cake passion.',
         thingstodo: [
@@ -234,7 +236,7 @@ const other = [
         location: 'https://play.google.com/store/apps/details?id=de.payback.client.android&hl=en_US&gl=US',
         site: 'https://www.payback.de/',
         facebook: 'https://www.facebook.com/PAYBACK.Deutschland',
-        address: 'Theresienhöhe 12, 80339 München',
+        address1: 'Theresienhöhe 12, 80339 München',
         phone: '+49089997410',
         description: 'PAYBACK is the leading bonus Aplication in Germany.',
         thingstodo: [
@@ -258,7 +260,7 @@ const other = [
         location: 'https://goo.gl/maps/NYCnQ37c7vVMwz516',
         site: 'https://www.ikea.com/de/de/stores/muenchen-brunnthal',
         facebook: 'https://www.facebook.com/IKEAdeutschland',
-        address: 'Brunnthaler Str. 1, 82024 Taufkirchen',
+        address1: 'Brunnthaler Str. 1, 82024 Taufkirchen',
         phone: '061929399999',
         description: 'IKEA. Scandinavian chain selling ready-to-assemble furniture, plus housewares, in a warehouse-like space.',
         thingstodo: [
@@ -282,7 +284,7 @@ const other = [
         location: 'https://goo.gl/maps/C1T5QtkbR49EFZiA6',
         site: 'https://www.fit-star.de/fitnessstudio/muenchen-neuhausen/',
         facebook: 'https://www.facebook.com/FITSTAR.Muenchen/',
-        address: 'Dachauer Str. 92, 80335 München',
+        address1: 'Dachauer Str. 92, 80335 München',
         phone: '+498954726606',
         description: 'Fitness training of the highest quality! Devices from the world market leader, open 24/7, course program, drinks flat rate, and much more from 19.90 euros.',
         thingstodo: [
@@ -307,7 +309,7 @@ const other = [
         location: '',
         site: 'https://www.amazon.de/dp/B0157B9372?ref_=cm_sw_r_cp_ud_dp_X0FJNJ7X15ZZ48REBPJ5',
         facebook: '',
-        address: '',
+        address1: '',
         phone: '',
         description: 'Maxxi Clean Gel Paste Oven Cleaner, 500 ml, With Oven and Grill Cleaning Brush, Dissolves the Most Stubborn Encrustations, Cleans By Itself Without Heating Up, No Odours + Bonus Maxxi Clean Antibac Fleece ',
         thingstodo: [

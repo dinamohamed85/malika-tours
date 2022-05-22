@@ -44,7 +44,7 @@ const displayother = () => {
 
     otherContainer.innerHTML = filteredList
         .map((item, index) => {
-            const { id, title, category, icon, images, location, site, description, likes, featured, address, phone, rate, thingstodo, facebook,termin } = item;
+            const { id, title, category, icon, images, location, site, description, likes, featured, address1,address2, phone, rate, thingstodo, facebook,termin } = item;
             return `<article class="item">
         <div class="tour-img-container"> 
         ${location ? `<a href="${location}" target="_blank"><img src="${images[0]}" class="item-photo"/></a>` 
@@ -66,8 +66,8 @@ const displayother = () => {
         </header>
         <section class="tour-activtiy">
         <p>${location ? `<a href="${location}" target="_blank"><i
-            class="fa-solid fa-location-dot site-icon"></i>${address}</a> ` : ``} </p>
-          
+            class="fa-solid fa-location-dot site-icon"></i>${address1}</a> ` : ``} </p>
+            ${address2 ? `<a href="${location}" target="_blank">${address2}</a> ` : ``} </p>
             <p> ${phone ? ` <i class="fa-solid fa-phone site-icon"></i>${phone} ` : ``} </p> 
             <p>${termin ? `<a href="${termin}" target="_blank"><i class="fa-solid fa-calendar-check site-icon"></i>Appointment</a>` : ``}</p> 
         </section>

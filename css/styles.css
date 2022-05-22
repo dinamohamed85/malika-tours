@@ -118,8 +118,7 @@ h5 {
 }
 p {
   font-size: 0.788rem;
-  margin-top: 0.25rem;
-  margin-bottom: 0.5rem;
+  margin-bottom: 0.25rem;
   color: var(--clr-grey-5);
 }
 @media screen and (min-width: 800px) {
@@ -742,7 +741,7 @@ min-height:calc(100vh - 62px);
   flex-wrap: wrap;  
   gap: 1rem;
   align-items: center;
-  margin-bottom: 1.5rem;
+  margin-bottom: 1rem;
 }
 .tour-activtiy p {
   line-height: 0;
@@ -930,8 +929,9 @@ min-height:calc(100vh - 62px);
   display: flex;
   justify-content: space-between;
   border-bottom: 0.5px dotted var(--clr-grey-5);
+  margin-bottom: 0.5rem;
 }
-.item-info h4 {
+.item-info h3 {
   margin-bottom: 0.75rem;
 }
 .item-info p {
