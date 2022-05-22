@@ -17,12 +17,12 @@ const displayother = () => {
     let text1 = '';
     let text2 = '';
     if (currentCategory == 'all') {
-        text1 = 'best ';
-        text2 = filteredList.length + ' places ';
+        text1 = 'important ';
+        text2 = filteredList.length + ' things  ';
     }
     else if (currentCategory == 'featured') {
         text1 = 'featured ';
-        text2 = filteredList.length + ' places ';
+        text2 = filteredList.length + ' things ';
     }
     else if (currentCategory == 'useful apps') {
         text1 = 'top ';

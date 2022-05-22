@@ -54,9 +54,9 @@ const displayHeader = () => {
         </li>
         <li><a href="shopping.html" class="nav-link" class="nav-icon"><i class="fa-solid fa-bag-shopping menu-icon"></i>Shopping</a>
         </li>
-        <li><a href="other.html" class="nav-link" class="nav-icon"><i class="fa-solid fa-user-doctor  menu-icon"></i>Other</a>
+        <li><a href="other.html" class="nav-link" class="nav-icon"><i class="fa-solid fa-user-doctor  menu-icon"></i>Doctors -other</a>
         </li>
-
+        </li>
     </ul>
     <!-- end of nav links -->   
     </div>`;

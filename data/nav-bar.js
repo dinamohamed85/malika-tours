@@ -1,4 +1,4 @@
-const sublinks = [
+const sublinks-old = [
     {
         page: 'Outings',
         links: [
@@ -57,4 +57,4 @@ const sublinks = [
     },
 ];
 
-export default sublinks;
+export default sublinks-old;
