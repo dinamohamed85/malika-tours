@@ -113,7 +113,7 @@ const other = [
         rate: 4.9,
         likes: '326',
         featured: true,
-    },
+    },    
     {
         id: '30',
         title: 'DAR e.V. Zahr Elyasmin',

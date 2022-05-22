@@ -68,7 +68,7 @@ const displayother = () => {
         <p>${location ? `<a href="${location}" target="_blank"><i
             class="fa-solid fa-location-dot site-icon"></i>${address1}</a> ` : ``} </p>
             ${address2 ? `<a href="${location}" target="_blank">${address2}</a> ` : ``} </p>
-            <p> ${phone ? ` <i class="fa-solid fa-phone site-icon"></i>${phone} ` : ``} </p> 
+            <p>${phone ? `<i class="fa-solid fa-phone site-icon"></i>${phone} ` : ``} </p> 
             <p>${termin ? `<a href="${termin}" target="_blank"><i class="fa-solid fa-calendar-check site-icon"></i>Appointment</a>` : ``}</p> 
         </section>
         <p class="item-text">
@@ -76,20 +76,21 @@ const displayother = () => {
         </p>
         <div>
             <h5>things to do :</h5>
-            <div class="tour-activtiy">
+            <section class="tour-activtiy">
             ${thingstodo.map((item) => {
                 let text;
                 if (item == 'halal')
-                    text = `<p class="activtiy"><span class="tour-love-icon">${item}</span></p>`
+                    text = `<p><span class="tour-love-icon">${item}</span></p>`
 
                 else if (item == 'arabic')
-                    text = `<p class="activtiy"><span class="ar-icon">${item}</span></p>`
+                    text = `<p><span class="ar-icon">${item}</span></p>`
                
-                else text = `<p class="activtiy">${item}</p>`
+                else text = `<p>${item}</p>`
 
                 return text;
-            }).join('')}            
-            </div>
+            }).join('')} 
+                      
+            </section>
         </div>
         <!-- item footer -->
         <div class="tour-footer">
