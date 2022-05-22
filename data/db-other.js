@@ -112,7 +112,7 @@ const other = [
         rate: 4.9,
         likes: '326',
         featured: true,
-    },   
+    },     
     {
         id: '5',
         title: 'Dr. Fadi dadoush',
@@ -145,9 +145,33 @@ const other = [
             'spirometry'
         ],
         rate: 4.3,
-        likes: '113',
+        likes: '313',
         featured: true,
     }, 
+    {
+        id: '6',
+        title: 'Dr. med. Yasir Al Diek',
+        category: 'arabic doctors',
+        icon: 'fa-solid fa-shop',
+        images: [
+            './images/other/other-6.jpeg',
+        ],
+        country: 'Germany',
+        location: 'https://goo.gl/maps/hXaSSHYgPPoufep39',
+        site: 'http://praxis-daadoush.de/',
+        facebook: '',
+        termin: 'https://www.doctolib.de/allgemeinmedizin/muenchen/fadi-daadoush',
+        address1: 'Schillerstraße 7, 80336 München',
+        phone: '0895438552',
+        description: 'Dr. med. Yasir Al Diek, .',
+        more: '',
+        thingstodo: [
+            'internal medicine',
+        ],
+        rate: 4.5,
+        likes: '136',
+        featured: true,
+    },  
     {
         id: '30',
         title: 'DAR e.V. Zahr Elyasmin',
