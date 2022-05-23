@@ -260,8 +260,8 @@ const other = [
         termin: 'https://www.doctolib.de/frauenarzt/muenchen/sumeyya-sidki',
         address1: 'Luisenstraße 27, 80333 München',
         phone: '089555488',
-        description: 'Dr. med. Sumeyya Sidki, Obstetrician and gynecologist.Obstetrics and Gynecology Specialist Complementary medicine in gynecology comprehensive gynecological tumors',
-        more: '',
+        description: 'Dr. med. Sumeyya Sidki, Obstetrician and gynecologist, Gynäkologie in Königsplatz.',
+        more: 'Obstetrics and Gynecology Specialist Complementary medicine in gynecology comprehensive gynecological tumors.',
         thingstodo: [
             'Obstetrician & gynecologist',
         ],
