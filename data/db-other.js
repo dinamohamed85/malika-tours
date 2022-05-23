@@ -15,7 +15,7 @@ const other = [
         address1: 'Nymphenburger Str. 4, 80335 München',
         address2: '- Augenärzte im Augenzentrum NH',
         phone: '089332488',
-        email:'',
+        email:'info@augenarzt-muc.de',
         description: 'Fachärztin für Augenheilkunde im Augenzentrum Nymphenburger Höfe von Prof. Dr. Koss & Kollegen',
         thingstodo: [
             'Dr. ophthalmology'
@@ -39,7 +39,7 @@ const other = [
         termin: 'https://www.doctolib.de/zahnmedizin/muenchen/mohamed-eltair',
         address1: 'Mühlbaurstraße 36, 81677, Munich',
         phone: '089/479646',
-        email:'',
+        email:'zahnzone@gmail.com',
         description: 'Dr. Mohamed Eltair ,Zahnarzt at Zahnarztpraxis Zahn Zone',
         thingstodo: [
             'dentist',
@@ -67,7 +67,7 @@ const other = [
         termin: 'https://www.zahnarzt-markt-schwaben.de/kontakt',
         address1: 'Marktpl. 17, 85570 Markt Schwaben, München',
         phone: '08121-6080',
-        email:'',
+        email:'info@zahnarzt-markt-schwaben.de',
         description: 'Dr. Ahmed Abdelrahim ,Zahnarzt at Zahnmedizin am Marktplatz  -Matthias Moldan M.Sc. & Kollegen.',
         more: 'M.Sc. (Univ. Kairo) Zahnarzt (angestellt), Master of Science – Kinderzahnheilkunde (M.Sc. / Univ. Kairo).',
         thingstodo: [
@@ -94,7 +94,7 @@ const other = [
         termin: 'https://www.doctolib.de/zahnmedizin/muenchen/ahmed-aljawad',
         address1: 'Rosenkavalierpl. 9, 81925 München',
         phone: '08996013930',
-        email:'',
+        email:'info(at)kinderzahn-bogenhausen.de',
         description: 'Dr. Ahmed Aljawad ,Kinderzahn Bogenhausen.Beautiful and healthy children`s teeth play a particularly important role in our lives. They are there to smile, eat, talk, sing, whistle and help you develop a strong personality.',
         more: '',
         thingstodo: [
@@ -158,7 +158,7 @@ const other = [
         termin: 'https://noventi-borino.de/le/5453-physiotherapie-wellness-an-der-universitaet',
         address1: 'Adalbertstraße 8A, 80799 München',
         phone: '08924402523',
-        email:'',
+        email:'info@physiouni.de',
         description: 'Dr. Waleed Elkashe, Physiotherapie an der Universität',
         more: '',
         thingstodo: [
@@ -183,7 +183,7 @@ const other = [
         termin: 'https://www.doctolib.de/allgemeinmedizin/muenchen/fadi-daadoush',
         address1: 'Ungererstraße 169, 80805 München',
         phone: '089363445',
-        email:'',
+        email:'info@praxis-daadoush.de',
         description: 'Dr. Fadi dadoush, Internistischen Praxis München, Specialist in internal medicine  Additional qualification in emergency medicine chiropractor.',
         more: '',
         thingstodo: [
