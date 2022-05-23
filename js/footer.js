@@ -25,7 +25,7 @@ const displayFooter = () => {
     <ul class="footer-icons">
     <!-- single icon -->
     <li>
-        <a href="https://www.facebook.com/dina.mohamed85" target="_blank" class="footer-icon"><i
+        <a href="https://www.facebook.com/lifebetterinmunich" target="_blank" class="footer-icon"><i
             class="fab fa-facebook"></i></a>
     </li>
     <!-- end of single icon -->
