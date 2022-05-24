@@ -395,7 +395,7 @@ const other = [
         address1: 'Sanatoriumsplatz 2, 81545 München',
         phone: '089/6210-2500',
         email:'',
-        description: 'Dr. Mohamed Salem, Obstetrician-Gynecologist (OBGYN) , Klinikum Harlaching Frauenklinik.',
+        description: 'Dr. Mohamed Salem, Obstetrician-Gynecologist (OBGYN) , Klinikum Harlaching Frauenklinik. Senior Physician, Coordinator Gynecological Cancer Center South.',
         more: '',
         thingstodo: [
             'Obstetrician & gynecologist',            
