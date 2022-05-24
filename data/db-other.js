@@ -364,7 +364,7 @@ const other = [
         address1: 'Theatinerstraße 36, 80333 München',
         phone: '089221113',
         email:'praxisteam@frauenarztmuenchen.com',
-        description: 'Dr. med. Omar Qattawi, Obstetrician and gynecologist , Gynaeko Logikum.',
+        description: 'Dr. med. Omar Qattawi, Obstetrician-Gynecologist (OBGYN) , Gynaeko Logikum.  MD Specialist in gynecology, obstetrics, prenatal diagnostics & preventive medicine',
         more: '',
         thingstodo: [
             'Obstetrician & gynecologist',
