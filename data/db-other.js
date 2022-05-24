@@ -18,7 +18,8 @@ const other = [
         email:'info@augenarzt-muc.de',
         description: 'Fachärztin für Augenheilkunde im Augenzentrum Nymphenburger Höfe von Prof. Dr. Koss & Kollegen',
         thingstodo: [
-            'Dr. ophthalmology'
+            'Dr. ophthalmology',
+            'Augenärztin'
         ],
         rate: 4.8,
         likes: '3,372',
@@ -47,6 +48,7 @@ const other = [
             'Aesthetic, dentistry',
             'Bleaching, Inlays, Amalgam',
             'Prostheses, Crowns, Bridges',
+            'Zahnarzt'
         ],
         rate: 4.8,
         likes: '2,500',
@@ -73,7 +75,8 @@ const other = [
         thingstodo: [
             'dentist',
             'Endodontics',
-            'pediatric dentistry'
+            'pediatric dentistry',
+            'Zahnarzt'
         ],
         rate: 4.4,
         likes: '956',
@@ -99,7 +102,8 @@ const other = [
         more: '',
         thingstodo: [
             'dentist',
-            'pediatric dentistry'
+            'pediatric dentistry',
+            'Zahnarzt'
         ],
         rate: 4.8,
         likes: '589',
@@ -123,8 +127,7 @@ const other = [
         email:'info@ab-physiotherapie.de',
         description: 'Dr. Ahmed Belayachi, We are a group practice for physiotherapy and rehabilitation with three independent physiotherapists, Tom Reich, Michael Hebauer and Ahmed Belayachi.',
         more: 'We see each of our patients holistically and try to provide the best possible and individually tailored therapy in a family environment. Individual care and professional treatment are essential for us.',
-        thingstodo: [
-            'Physiotherapy',
+        thingstodo: [            
             'Proprioceptive Neuromuscular Facilitation',
             'Manual lymphdrainage',
             'Manual therapy',
@@ -138,6 +141,7 @@ const other = [
             'electrotherapy',
             'sling table therapy',
             'Medical flossing',
+            'Physiotherapy',
         ],
         rate: 4.9,
         likes: '326',
@@ -198,7 +202,8 @@ const other = [
             'electrocardiography',
             'ultrasound',
             'ultrasonography',
-            'spirometry'
+            'spirometry',
+            'hausarzt'
         ],
         rate: 4.3,
         likes: '313',
@@ -224,6 +229,7 @@ const other = [
         more: '',
         thingstodo: [
             'General practitioner',
+            'hausarzt'
         ],
         rate: 4.5,
         likes: '136',
@@ -249,6 +255,7 @@ const other = [
         more: '',
         thingstodo: [
             'General practitioner',
+            'hausarzt'
         ],
         rate: 4.1,
         likes: '99',
@@ -279,7 +286,8 @@ const other = [
             'Ergometry',
             'LZ-RR',
             'ECG',
-            'LZ ECG'
+            'LZ ECG',
+            'hausarzt'
         ],
         rate: 4.2,
         likes: '299',
@@ -305,6 +313,7 @@ const other = [
         more: 'Obstetrics and Gynecology Specialist Complementary medicine in gynecology comprehensive gynecological tumors.',
         thingstodo: [
             'Obstetrician & gynecologist',
+            'frauenärztin'
         ],
         rate: 4.1,
         likes: '99',
@@ -333,11 +342,43 @@ const other = [
             '3D ultrasound',
             'Homeopathic accompaniment',
             'Psychosomatic basic care',
+            'frauenärztin'
         ],
         rate: 4.1,
         likes: '97',
         featured: true,
-    },   
+    }, 
+    {
+        id: '13',
+        title: 'Dr. med. Omar Qattawi',
+        category: 'arabic doctors',
+        icon: 'fa-solid fa-shop',
+        images: [
+            './images/other/other-13.jpeg',
+        ],
+        country: 'Germany',
+        location: 'https://goo.gl/maps/HHjNvCSwxjtTGu97A',
+        site: 'https://www.frauenarztmuenchen.com/',
+        facebook: 'https://www.instagram.com/frauenarzt.muenchen/',
+        termin: 'https://www.doctolib.de/frauenarzt/muenchen/omar-qattawi',
+        address1: 'Theatinerstraße 36, 80333 München',
+        phone: '089221113',
+        email:'praxisteam@frauenarztmuenchen.com',
+        description: 'Dr. med. Omar Qattawi, Obstetrician and gynecologist , Gynaeko Logikum.',
+        more: '',
+        thingstodo: [
+            'Obstetrician & gynecologist',
+            'ULTRASONOGRAPHY',
+            'gynecological check-ups',
+            'ONCOLOGY',
+            'contraception',
+            'GENETIC DIAGNOSTICS',
+            'frauenarzt'
+        ],
+        rate: 4.7,
+        likes: '619',
+        featured: true,
+    },     
     {
         id: '30',
         title: 'DAR e.V. Zahr Elyasmin',
