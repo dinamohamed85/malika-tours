@@ -687,7 +687,7 @@ const restaurants = [
         ],
         rate: 3.9,
         likes: '990',
-        avg_price: 9,
+        avg_price: 8,
         featured: true,
     },
     {
