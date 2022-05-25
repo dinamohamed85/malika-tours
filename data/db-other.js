@@ -373,8 +373,8 @@ const other = [
             'Psychosomatic basic care',
             'frauenärztin'
         ],
-        rate: 4.1,
-        likes: '97',
+        rate: 4.5,
+        likes: '100',
         featured: true,
     }, 
     {
@@ -483,6 +483,32 @@ const other = [
         thingstodo: [
             'Psychotherapy',            
             'Psychologischer'
+        ],
+        rate: 4.7,
+        likes: '68',
+        featured: true,
+    },  
+    {
+        id: '18',
+        title: 'Dr. Mona Gad',
+        category: 'arabic doctors',
+        icon: 'fa-solid fa-shop',
+        images: [
+            './images/other/other-18.jpeg',
+        ],
+        country: 'Germany',
+        location: 'https://goo.gl/maps/r3iesCVJVq2VkKKQ7',
+        site: 'https://stadt.muenchen.de/infos/bildungsberatungpaedgogischesinstitut.html',
+        facebook: '',
+        termin: '',
+        address1: 'goethestraße 53  münchen 80336',
+        phone: '+49 89 23326874',
+        email:'mona.gad@muenchen.de',
+        description: 'Dr. Mona Gad, PhD Beratung in Deutsch, Arabisch. schulberatung, Landeshauptstadt München Referat für Bildung und Sport. Pädagogisches Institut-Zentrum für Kommunales Bildungsmanagement Bildungsberatung International. Educational Institute Municipal Education Administration Center International Educational Guidance, Educational consultant in Munich, ',
+        more: 'Montag, Mittwoch und Donnerstag',
+        thingstodo: [
+            'school counseling',            
+            'schulberatung'
         ],
         rate: 4.7,
         likes: '68',
