@@ -510,8 +510,8 @@ const other = [
             'school counseling',            
             'schulberatung'
         ],
-        rate: 4.7,
-        likes: '68',
+        rate: 4.5,
+        likes: '948',
         featured: true,
     },     
     {
