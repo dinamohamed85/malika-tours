@@ -1872,6 +1872,33 @@ const tours = [
         season: 'summer',
         featured: true,
     },
+    {
+        id: '70',
+        title: 'Chiemsee',
+        category: 'lakes',
+        icon: 'fa-solid fa-water',
+        image: './images/tours/tour-70.jpeg',
+        country: 'Germany',
+        date: 'june, 2021',
+        location: 'https://goo.gl/maps/T6j8HtXXUNQJisZB6',
+        site: 'https://www.muenchen.de/int/en/culture-leisure/sport-fitness/chiemsee.html',
+        address: 'In the southeast of Bavaria as it is about 50 min away by <strong>Car</strong> (83209 Ammersee) or 1.5 hr via <strong>Train</strong>.',
+        description: 'Picturesque lake for swimming & boating, featuring 3 islands, one with a Benedictine nunnery.',
+        thingstodo: [
+            'ship & boat',
+            'rent bike',
+            'strolling',
+            'Picnic',            
+            'cafe',
+            'small sandy beach',
+            'swimming',
+        ],
+        likes: '1,401',
+        duration: 8,
+        price: 3,
+        season: 'summer',
+        featured: true,
+    },
 ];
 
 export default tours;

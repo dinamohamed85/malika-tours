@@ -2630,7 +2630,7 @@ const shopping = [
         rate: 4.3,
         likes: '3,325',
         featured: true,
-    },
+    },  
 ];
 
 export default shopping;
