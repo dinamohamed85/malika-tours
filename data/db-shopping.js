@@ -331,6 +331,8 @@ const shopping = [
         description: 'Spanish fashion chain offering on-trend house-brand clothing, shoes & accessories.',
         thingstodo: [
             'Clothing store',
+            'kids',
+            'online'
         ],
         rate: 3.9,
         likes: '4,156',
