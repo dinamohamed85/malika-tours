@@ -1071,7 +1071,10 @@ const tours = [
             'cafe',
             'Restaurant',
             'kids',
-            'city',
+            'Mountains',
+            'Partenkirchen',
+            'Eibsee',
+            'Zugspitze'
         ],
         likes: '5,975',
         duration: 12,

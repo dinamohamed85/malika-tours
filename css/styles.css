@@ -1000,5 +1000,4 @@ min-height:calc(100vh - 62px);
 }
 .more-desc{
   color: var(--clr-grey-8);
-  /* font-size: 1rem; */
 }
