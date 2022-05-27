@@ -44,7 +44,7 @@ const displayother = () => {
 
     otherContainer.innerHTML = filteredList
         .map((item, index) => {
-            const { id, title, category, icon, images, location, site, description, more,likes, featured, address1,address2, phone, rate, thingstodo, facebook,termin,email } = item;
+            const { id, title, category, icon, images, location, site, description, more,likes, featured, address1,address2, phone, rate, thingstodo, facebook,instagram,termin,email } = item;
             return `<article class="item">
         <div class="tour-img-container"> 
         ${location ? `<a href="${location}" target="_blank"><img src="${images[0]}" class="item-photo"/></a>` 
