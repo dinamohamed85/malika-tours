@@ -1646,6 +1646,7 @@ const tours = [
             'big meadow',
             'Strolling',
             'restaurant',
+            'parks',
             'no tickets'
         ],
         likes: '3,032',
