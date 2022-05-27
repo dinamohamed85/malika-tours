@@ -44,11 +44,11 @@ const displayshopping = () => {
 
     shoppingContainer.innerHTML = filteredList
         .map((item, index) => {
-            const { id, title, category, icon, images, location, site, description, likes, featured, address, phone, rate, thingstodo, facebook } = item;
+            const { id, title, category, icon, images, location, site, description, likes, featured, address, phone, rate, thingstodo, facebook ,instagram,more} = item;
             return `<article class="item">
         <div class="tour-img-container"> 
-        ${location ? `<a href="${location}" target="_blank">
-            <img src="${images[0]}" class="item-photo" /></a> ` : `<a href = "${site}" target = "_blank" > <img src="${images[0]}" class="item-photo" /></a>`}              
+        ${site ? `<a href="${site}" target="_blank">
+            <img src="${images[0]}" class="item-photo" /></a> ` : `<a href = "${location}" target = "_blank" > <img src="${images[0]}" class="item-photo" /></a>`}              
         </div>
         <div class="item-info">
         <header>            
@@ -57,19 +57,22 @@ const displayshopping = () => {
             </h4>
             <p>  
             ${facebook ? `<a href="${facebook}" target="_blank"><i
-            class="fa-brands fa-facebook-square facebook-icon"></i></a> ` : ``}           
+            class="fa-brands fa-facebook-square facebook-icon"></i></a> ` : ``}  
+            ${instagram ? `<a href="${instagram}" target="_blank"><i
+            class="fa-brands fa-instagram-square facebook-icon"></i></a> ` : ``}          
             </p>   
         </header>
         <section>
         ${location ? `<p><a href="${location}" target="_blank"><i
             class="fa-solid fa-location-dot site-icon"></i>
-            <span class="more-info">      ${address}</span></a> </p>    
-            <p> <i class="fa-solid fa-phone site-icon"></i> 
-            <span class="more-info">  ${phone}</span> </p> ` : ``} 
+            <span class="more-info">      ${address}</span></a> </p> ` : ``}
+        ${phone ? `<p> <i class="fa-solid fa-phone site-icon"></i>
+            <span class="more-info">  ${phone}</span> </p> `  : ``}
                         
         </section>
         <p class="item-text">
             ${description}
+            ${more ? `<p class="more-desc">${more} </p>` : ``} 
         </p>
         <div>
             <h5>Things to do :</h5>

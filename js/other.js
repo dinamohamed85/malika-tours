@@ -61,7 +61,9 @@ const displayother = () => {
             </h3>
             <p>  
             ${facebook ? `<a href="${facebook}" target="_blank"><i
-            class="fa-brands fa-facebook-square facebook-icon"></i></a> ` : ``}           
+            class="fa-brands fa-facebook-square facebook-icon"></i></a> ` : ``} 
+            ${instagram ? `<a href="${instagram}" target="_blank"><i
+            class="fa-brands fa-instagram-square facebook-icon"></i></a> ` : ``}           
             </p>   
         </header>
         <section class="tour-activtiy">
