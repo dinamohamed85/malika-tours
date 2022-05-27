@@ -2770,12 +2770,12 @@ const restaurants = [
         address: 'Rosenheimer Str. 8, 81669 München',
         phone: '08944118571',
         description: 'Rich lamb stews, rice dishes & fried dumplings in a warmly painted space with carved wood accents.',
-        more: '',
+        more: 'Branches : Schwabing , Gasteig , Hauptbahnhof',
         menu: [
             'Mixed Grill Plate',
             'Kabab-e-Tekka',
             'Kababe Morgh ba Tschalau',
-            'Quabeli Palau Bidune Goscht',
+            'Quabeli Palau Bidune Goscht',           
             'Afghani',
             'halal'
         ],
@@ -2917,6 +2917,7 @@ const restaurants = [
             'fresh drinks',
             'tea',
             'indian',
+            'Münchner Freiheit',
             'halal',
         ],
         rate: 4.1,
