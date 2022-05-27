@@ -21,7 +21,7 @@ const tours = [
             'grillzone',
             'ice-cream',
             'cafe',
-            'no tickets',
+            'free tickets',
         ],
         likes: '6,911',
         duration: 10,
@@ -80,7 +80,7 @@ const tours = [
             'Snacks',
             'small sandy beach',
             'Swimming',
-            'no tickets',
+            'free tickets',
         ],
         likes: '4,311',
         duration: 10,
@@ -354,7 +354,7 @@ const tours = [
             'Stadium',
             'lakes',
             'Playground',
-            'no tickets'
+            'free tickets'
         ],
         likes: '43,387',
         duration: 8,
@@ -380,7 +380,7 @@ const tours = [
             'Picnic',
             'Playground',
             'Bridge',
-            'no tickets'
+            'free tickets'
         ],
         likes: '57,877',
         duration: 6,
@@ -406,7 +406,7 @@ const tours = [
             'Lake',
             'cafe',
             'Strolling',
-            'no tickets'
+            'free tickets'
         ],
         likes: '22,332',
         duration: 5,
@@ -591,7 +591,7 @@ const tours = [
             'historic',
             'christmas market',
             'city',
-            'no tickets'
+            'free tickets'
         ],
         likes: '90,668',
         duration: 6,
@@ -618,7 +618,7 @@ const tours = [
             'Strolling',
             'cafe',
             'picnic',
-            'no tickets'
+            'free tickets'
         ],
         likes: '49,422',
         duration: 8,
@@ -645,7 +645,7 @@ const tours = [
             'Restaurant',
             'cafe',
             'Christmas market',
-            'no tickets'
+            'free tickets'
         ],
         likes: '2,006',
         duration: 6,
@@ -724,7 +724,7 @@ const tours = [
             'cafe',
             'animals',
             'kids',
-            'no tickets'
+            'free tickets'
         ],
         likes: '5,852',
         duration: 8,
@@ -751,7 +751,7 @@ const tours = [
             'Restaurant',
             'lakes',
             'Riem Arcaden',
-            'no tickets'
+            'free tickets'
         ],
         likes: '649',
         duration: 8,
@@ -803,7 +803,7 @@ const tours = [
             'cafe',
             'Strolling',
             'water playground',
-            'no tickets'
+            'free tickets'
         ],
         likes: '8,438',
         duration: 6,
@@ -830,7 +830,7 @@ const tours = [
             'cafe',
             'small sandy beach',
             'swimming',
-            'no tickets',
+            'free tickets',
 
         ],
         likes: '425',
@@ -911,7 +911,7 @@ const tours = [
             'picnic',
             'Taste my Burger',
             'kids',
-            'no tickets',
+            'free tickets',
         ],
         likes: '1,309',
         duration: 3,
@@ -992,7 +992,7 @@ const tours = [
             'Picnic',
             'Strolling',
             'cafe',
-            'no tickets'
+            'free tickets'
         ],
         likes: '3,948',
         duration: 6,
@@ -1323,7 +1323,7 @@ const tours = [
             'Strolling',
             'parks',
             'farm',
-            'no tickets'
+            'free tickets'
         ],
         likes: '842',
         duration: 6,
@@ -1351,7 +1351,7 @@ const tours = [
             'Picnic',
             'Strolling',
             'kids',
-            'no tickets'
+            'free tickets'
         ],
         likes: '228',
         duration: 6,
@@ -1625,7 +1625,7 @@ const tours = [
             'Playground',
             'Strolling',
             'cafe',
-            'no tickets'
+            'free tickets'
         ],
         likes: '7,263',
         duration: 6,
@@ -1636,7 +1636,7 @@ const tours = [
     {
         id: '61',
         title: 'Luitpold Park',
-        category: 'no tickets',
+        category: 'free tickets',
         icon: 'fa-solid fa-tree',
         image: './images/tours/tour-61.jpeg',
         country: 'Germany',
@@ -1653,7 +1653,7 @@ const tours = [
             'Strolling',
             'restaurant',
             'parks',
-            'no tickets'
+            'free tickets'
         ],
         likes: '3,032',
         duration: 6,
@@ -1763,7 +1763,7 @@ const tours = [
             'playground',
             'animals',
             'kids',
-            'no tickets'
+            'free tickets'
         ],
         likes: '483',
         duration: 8,
