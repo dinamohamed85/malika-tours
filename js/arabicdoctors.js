@@ -23,18 +23,10 @@ const displayarabicdoctors = () => {
     else if (currentCategory == 'featured') {
         text1 = 'featured ';
         text2 = filteredList.length + ' things ';
-    }
-    else if (currentCategory == 'useful apps') {
-        text1 = 'top ';
-        text2 = filteredList.length + ' ' + currentCategory + ' you need ';
-    }
-    else if (currentCategory == 'food homemade') {
-        text1 = 'top ';
-        text2 = filteredList.length + ' ' + currentCategory + ' service';
-    }
+    }   
     else {
         text1 = 'top ';
-        text2 = filteredList.length + ' ' + currentCategory;
+        text2 = filteredList.length + ' ' + currentCategory + ' doctors';
     }
 
 
