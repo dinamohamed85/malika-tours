@@ -1907,6 +1907,33 @@ const tours = [
         featured: true,
     },
     {
+        id: '71',
+        title: 'HIGH FIVE',
+        category: 'events',
+        icon: 'fa-regular fa-calendar-check',
+        image: './images/tours/tour-71.jpeg',
+        country: 'Germany',
+        date: 'April, 2022',
+        location: 'https://goo.gl/maps/hwZTj7YiXCt1A6rCA',
+        site: 'https://www.wearehighfive.com/',
+        facebook:'https://www.facebook.com/wearehighfive/',
+        address: 'HIGH FIVE. they are moving between 5 different locations during the week.',
+        description:'HIGH FIVE is an organization that teaches children and youth new skills through various training programs throughout the year and helps them learn new and diverse sports 🏈🏀⛷🏂⛹🏻 ♂️ and offers these activities for free 👌   throughout the year, during weekdays in different areas in Munich You can find out about these places through their website 👇🏻 and go regularly and participate for the children in the existing activities We tried with them basketball 🏀 and skateboard 🏂, and it was an interesting and useful experience because they teach the children teamwork and participation and how to discover their skill',
+        more: 'locations :- MONDAY :Giesing / Candidplatz, TUESDAY: Neuperlach / A-K-A Steinplatz, WEDNESDAY: Riem / Riemer Park, THURSDAY: Neuaubing / Wiesentfelserstr. ',
+        thingstodo: [            
+            'basketball',
+            'Skateboard ',
+            'sport',
+            'kids',
+            'free tickets'
+        ],
+        likes: '1,962',
+        duration: 2,
+        price: 0,
+        season: 'winter',
+        featured: false,
+    },
+    {
         id: '110',
         title: 'halal restaurants',
         category: 'halal restaurants',
@@ -1940,6 +1967,7 @@ const tours = [
         price: 6,
         featured: true,
     }, 
+   
 ];
 
 export default tours;
