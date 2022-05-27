@@ -16,8 +16,9 @@ const other = [
         address2: '- Augenärzte im Augenzentrum NH',
         phone: '089332488',
         email:'info@augenarzt-muc.de',
-        description: 'Fachärztin für Augenheilkunde im Augenzentrum Nymphenburger Höfe von Prof. Dr. Koss & Kollegen',
+        description: 'Fachärztin für Augenheilkunde im Augenzentrum Nymphenburger Höfe von Prof. Dr. Koss & Kollegen.',
         thingstodo: [
+            'Arabic doctors in Munich',
             'Dr. ophthalmology',
             'Augenärztin'
         ],
@@ -504,9 +505,10 @@ const other = [
         address1: 'goethestraße 53  münchen 80336',
         phone: '+49 89 23326874',
         email:'mona.gad@muenchen.de',
-        description: 'Dr. Mona Gad, PhD Beratung in Deutsch, Arabisch. schulberatung, Landeshauptstadt München Referat für Bildung und Sport. Pädagogisches Institut-Zentrum für Kommunales Bildungsmanagement Bildungsberatung International. Educational Institute Municipal Education Administration Center International Educational Guidance, Educational consultant in Munich, ',
+        description: 'Dr. Mona Gad, PhD Beratung in Deutsch, Arabisch. schulberatung, Landeshauptstadt München Referat für Bildung und Sport. Pädagogisches Institut-Zentrum für Kommunales Bildungsmanagement Bildungsberatung International. Educational Institute Municipal Education Administration Center International Educational Guidance, Educational consultant in Munich.',
         more: 'Montag, Mittwoch und Donnerstag',
         thingstodo: [
+            'Arabic doctors in Munich',
             'school counseling',            
             'schulberatung'
         ],

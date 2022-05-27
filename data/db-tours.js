@@ -10,8 +10,9 @@ const tours = [
         location: 'https://goo.gl/maps/MXqL54V1TmHgckZaA',
         site: 'http://www.bayregio-starnberger-see.de',
         address: 'Close to the Munich city center as it is about 25 min away via <strong>S6</strong> (Starnberg).',
-        description: 'Starnberger is Germany s second- largest body of fresh water.',
+        description: 'Starnberger is Germany second- largest body of fresh water. places to visit in Munich and cities around.',
         thingstodo: [
+            'lakes in Munich',
             'ship & boat',
             'swimming pool',
             'strolling',
@@ -41,6 +42,7 @@ const tours = [
         address: 'Regensberg is a city in eastern Bavaria as it is about 2 hr away Munich via <strong>Train</strong> or 1.5 hr by<strong>Car</strong> (93059 Regensburg).',
         description: 'Regensberg is among the top sights and travel attractions.',
         thingstodo: [
+            'cities in Munich',
             'Danube river',
             'Ship',
             'Dom',
@@ -68,6 +70,7 @@ const tours = [
         address: 'Close to the Munich city center as it is about 30 min away via <strong>S8 </strong>Herrsching then take the <strong>Badebus</strong> (langwieder).',
         description: 'Langwiedersee is composed of three lakes west of Munich in Bavaria.',
         thingstodo: [
+            'lakes in Munich',
             'Boat',
             'Landscape',
             'Playground',
