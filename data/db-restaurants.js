@@ -17,7 +17,7 @@ const restaurants = [
         site: 'https://wolt.com/en/deu/munich/restaurant/bab-al-yemen',
         address: 'Landwehrstraße 8, 80336 München',
         phone: '01743556000',
-        description: 'Bab Al Yemen is an arabic restaurant in the center of Munich, Let yourself be inspired by our delicious Arabic delicacies! Everything is freshly prepared and our kitchen uses wonderful flavors in your dishes.',
+        description: 'Bab Al Yemen is an arabic halal restaurant in the center of Munich, Let yourself be inspired by our delicious Arabic delicacies! Everything is freshly prepared and our kitchen uses wonderful flavors in your dishes.',
         more: '',
         menu: [
             'Madghout Lamb',
@@ -26,6 +26,8 @@ const restaurants = [
             'Madghout Chicken',
             'Lamb Sanouna',
             'arabic',
+            'restaurant',
+            'food',
             'halal'
         ],
         rate: 4.4,
