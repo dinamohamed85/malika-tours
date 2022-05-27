@@ -14,7 +14,7 @@ Your guide to know good information about what is the activities that nice to ex
 - Modules
 - Search Option.
 
-To run Demo : https://explorey.netlify.app/
+To run Demo : https://explory24.com/
 
 ## Screenshots 🎉
 
