@@ -2697,8 +2697,8 @@ const shopping = [
         instagram: 'https://www.instagram.com/munich.explory24/',
         address: 'Munich',
         phone: '',
-        description: 'Here is your Guide to find 42 top Halal Restaurants in Munich.',
-        more:'Arabic, Halal.',
+        description: 'Here you can find 42 top Halal Restaurants in Munich.',
+        more:'Arabic, Turkish, Halal.',
         thingstodo: [
             'Halal restaurants',
             'Turkish food',

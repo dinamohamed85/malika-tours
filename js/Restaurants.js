@@ -47,12 +47,13 @@ const displayRestaurants = () => {
 
     restaurantsContainer.innerHTML = filteredList
         .map((item, index) => {
-            const { id, title, category, icon, images, location, site, description, menu, likes, featured, avg_price, address, phone, rate, more } = item;
+            const { id, title, category, icon, images, location, site, description, menu, likes, featured, avg_price, address, phone, rate, more,facebook,instagram } = item;
             return `<article class="item">
         <div class="tour-img-container">
         <a href="${site}" target="_blank">
             <img src="${images[0]}" class="item-photo" /></a>
             <i class="fa-solid fa-face-smile rate-icon"></i><p class="item-rate">${rate}</p>
+            
         </div>
         <div class="item-info">
         <header>  
@@ -60,7 +61,13 @@ const displayRestaurants = () => {
             <h4>${index + 1}- ${title}</h4></a>
             <p>
             <i class="fas fa-heart tour-love-icon"></i> ${likes}
-            </p>           
+            </p>  
+            <p>  
+            ${facebook ? `<a href="${facebook}" target="_blank"><i
+            class="fa-brands fa-facebook-square facebook-icon"></i></a> ` : ``}  
+            ${instagram ? `<a href="${instagram}" target="_blank"><i
+            class="fa-brands fa-instagram-square facebook-icon"></i></a> ` : ``}          
+            </p>            
         </header>
         <section>
             <p><a href="${location}" target="_blank"><i
