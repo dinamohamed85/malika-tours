@@ -20,7 +20,7 @@ const displayFooter = () => {
     <a href="tours.html" class="footer-link scroll-link">Outings</a>
     <a href="halalrestaurants.html" class="footer-link scroll-link">halal Restaurants</a>
     <a href="shopping.html" class="footer-link scroll-link">shopping</a>
-    <a href="other.html" class="footer-link scroll-link">arabic doctors</a>
+    <a href="arabicdoctors.html" class="footer-link scroll-link">arabic doctors</a>
     </ul>
     <!-- footer icons -->
     <ul class="footer-icons">
