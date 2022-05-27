@@ -50,7 +50,7 @@ const displayHeader = () => {
             class="fa-solid fa-person-walking-luggage menu-icon"></i>Outings</a>
         </li>
         <li><a href="halalrestaurants.html" class="nav-link" class="nav-icon"><i
-            class="fa-solid fa-utensils menu-icon"></i>Restaurants</a>
+            class="fa-solid fa-utensils menu-icon"></i>Halal Restaurants</a>
         </li>
         <li><a href="shopping.html" class="nav-link" class="nav-icon"><i class="fa-solid fa-bag-shopping menu-icon"></i>Shopping</a>
         </li>
