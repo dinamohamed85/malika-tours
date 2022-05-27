@@ -2688,7 +2688,7 @@ const shopping = [
         category: 'halal restaurants',
         icon: 'fa-solid fa-shop',
         images: [
-            './images/shopping/shop-110.jpeg',
+            './images/restaurants/restaurant-110-0.jpeg',
         ],
         country: 'Germany',
         location: 'https://goo.gl/maps/KPZarMewVcNLxJUB7',

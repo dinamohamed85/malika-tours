@@ -2923,7 +2923,7 @@ const restaurants = [
         likes: '1,069',
         avg_price: 11,
         featured: true,
-    },
+    },     
 ];
 
 export default restaurants;

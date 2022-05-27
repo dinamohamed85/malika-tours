@@ -38,7 +38,7 @@ const displayTours = () => {
             const { id, title, category, icon, image, country, date, location, site, address, description, thingstodo, likes, duration, season, featured, price } = tour;
             return `<article class="tour-card" data-id="${id}">
             <div class="tour-img-container">
-            <a href="${location}" target="_blank">
+            <a href="${site}" target="_blank">
                 <img src="${image}" class="tour-img" alt="" /></a>
             <p class="tour-date">${date}</p>
             ${featured ? `<i class="fa-solid fa-star featured-icon"></i>` : ``} 
