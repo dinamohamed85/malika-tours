@@ -17,8 +17,8 @@ const displayarabicdoctors = () => {
     let text1 = '';
     let text2 = '';
     if (currentCategory == 'all') {
-        text1 = 'important ';
-        text2 = filteredList.length + ' things  ';
+        text1 = 'top ';
+        text2 = filteredList.length + ' Arabic Doctors  ';
     }
     else if (currentCategory == 'featured') {
         text1 = 'featured ';
