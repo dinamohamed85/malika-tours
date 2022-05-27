@@ -794,11 +794,11 @@ min-height:calc(100vh - 62px);
   color: var(--grey-700);
 }
 
-@media screen and (min-width: 868px) {
+/* @media screen and (min-width: 868px) {
   .tours {
     grid-template-columns: 17rem 1fr;
   }
-}
+} */
 @media screen and (min-width: 992px) { 
   .tours-container {
     display: grid;
