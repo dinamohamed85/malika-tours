@@ -131,7 +131,7 @@ const tours = [
         address: 'In the south of Bavaria as it is about 50 min away via <strong>S7</strong> (Wolfratshausen) or 40 min by <strong>Car</strong> (82515 Wolfratshausen).',
         description: 'Nature reserve style zoo with animals grouped in large enclosures, as per their geographic spread.',
         thingstodo: [
-            'Amusement Park',
+            'Amusement Park in Munich',
             'Roller Coaster',
             'Story Scenes',
             'Restaurant',
@@ -157,6 +157,7 @@ const tours = [
         address: 'In the Munich city center via <strong>U3</strong> (Tierpark).',
         description: 'Forest setting for kids rides & attractions with fairytale themes, plus playgrounds toy trains.',
         thingstodo: [
+            'zoo in Munich',
             'Animals',
             'Roller Coaster',
             'cafe',
@@ -186,7 +187,7 @@ const tours = [
         description: 'Year-round double chair lift up Blomberg Mountain to hiking trails, a toboggan run & ski slopes.',
         thingstodo: [
             'Slides',
-            'Mountains',
+            'Mountains in Munich',
             'Chairlift',
             'Hiking',
             'Snacks',
@@ -297,7 +298,7 @@ const tours = [
         address: 'Close to the Munich city center as it is about 30 min away via <strong>S8 </strong>(Neuaubing).',
         description: 'Nice entertainment for older and younger children. Good food quality (for an indoor play area), clean and well maintained.',
         thingstodo: [
-            'Indoor Playground',
+            'Indoor Playground in Munich',
             'Maze',
             'Slides',
             'Tramboline',
@@ -324,7 +325,7 @@ const tours = [
         address: 'In the west of Bavaria as it is about 1 hr away by <strong>Car</strong> (89312 Günzburg) or 2 hr via <strong>Train</strong>.',
         description: 'Family leisure park with thrill rides & an aquarium, plus German landmarks built from Lego.',
         thingstodo: [
-            'Lego City',
+            'Lego City in Munich',
             'Ninjago',
             'Playground',
             'Restaurant',
@@ -351,6 +352,7 @@ const tours = [
         address: 'Close to the Munich city center as it is about 20 min away via <strong>U3|U8</strong> (Olympiazentrum | Petuelring).',
         description: 'Huge Olympic park complex with a stadium, guided tours, sea life center, rock museum concerts.',
         thingstodo: [
+            'parks in Munich',
             'Tower',
             'Sea Life',
             'Stadium',
@@ -429,6 +431,7 @@ const tours = [
         address: 'Close to the Munich city center as it is about 20 min away via <strong>U3|U8 </strong>(Olympiazentrum).',
         description: 'Family - friendly exhibits with a variety of sea creatures(most offer play areas & group packages).',
         thingstodo: [
+            'museums in Munich',
             'Aquarium',
             'Marine Life',
             'Sharks',
@@ -534,7 +537,7 @@ const tours = [
         address: 'In the south of Bavaria as it is about 1 hr away by <strong> Car</strong> (83250 Marquartstein) or 1.5 hr via <strong>Train</strong>.',
         description: 'Family theme park with slides & rides set in forest & mountain scenery, plus Bavarian cuisine.',
         thingstodo: [
-            'Farm',
+            'Farms in Munich',
             'Animals',
             'Playground',
             'Restaurant',
@@ -670,12 +673,14 @@ const tours = [
         address: 'In the Munich city center via <strong>S</strong> (Hackerbrücke).',
         description: 'Circular building hosting pop & rock concerts, plus winter home of circus troupe.',
         thingstodo: [
+            'Circus in Munich',
             'Lion',
             'Clown',
             'Acrobats',
             'Snacks',
             'animals',
             'kids',
+            'events'
         ],
         likes: '4,426',
         duration: 3,
@@ -856,7 +861,7 @@ const tours = [
         address: 'In the east of Munich about 15 min away via <strong>U5</strong>(Mischaelibad).',
         description: 'Big place to ski in the winter, also to learn skiing with the trainers.',
         thingstodo: [
-            'Skiing',
+            'Skiing in Munich',
             'Ski Course',
             'Vibes',
             'Restaurant',
@@ -882,7 +887,7 @@ const tours = [
         address: 'In the east of Munich city center as it is about 15 min away via <strong>U4</strong> (Arabellapark) or by <strong>Tram 37</strong>(Cosimabad).',
         description: 'Wave swimmingpool, has heated outdoor swimming pool, has nice area for samll kids to play with the water, nice place in the winter to have fun.',
         thingstodo: [
-            'Swimming Pool',
+            'Swimming Pools in Munich',
             'Waves',
             'Jacuzzi',
             'Baby area',
