@@ -1149,7 +1149,8 @@ const tours = [
         country: 'Germany',
         date: 'April, 2022',
         location: 'https://goo.gl/maps/hwZTj7YiXCt1A6rCA',
-        site: 'https://de-de.facebook.com/people/Circus-Sorento/100046369466190/',
+        site: '',
+        facebook:'https://de-de.facebook.com/people/Circus-Sorento/100046369466190/',
         address: 'In the east of Munich about 25 min away via <strong>U5</strong> (Quiddestraße).',
         description: 'Small cozy circus (family circus) that really tries is worth especially with small children to watch great artist and clown show(no animals).',
         thingstodo: [
@@ -1176,7 +1177,8 @@ const tours = [
         country: 'Germany',
         date: 'April-September, 2022',
         location: 'https://goo.gl/maps/Gj52nzAWDXbroKqBA',
-        site: 'https://www.facebook.com/flippy.huepfburgenland',
+        site: '',
+        facebook:'https://www.facebook.com/flippy.huepfburgenland',
         address: 'Follow the Facebook page to know the location of the event when happened closest to you.',
         description: 'The perfect trip destination for the whole family, take the opportunity for a fun family trip, As always, a lot of bouncy castle game fun and action modules await you.', thingstodo: [
             'Bouncy Castles',
@@ -1780,7 +1782,8 @@ const tours = [
         country: 'Germany',
         date: 'April-September, 2022',
         location: 'https://goo.gl/maps/RTKvhQRE8auZChP29',
-        site: 'https://www.facebook.com/CircusBaldoniKaiser/',
+        site: '',
+        facebook:'https://www.facebook.com/CircusBaldoniKaiser/',
         address: '015226501541. 85640 Putzbrunn. In the south east of Munich about 35 min away of Munich center via <strong>Bus55|Bus212</strong> (Wernh-von-braun-str)',
         description: 'Circus Baldoni Kaiser 6.5.22 - 15.5.22 in Putzbrunn. the Circus BALDONI will soon be making a guest appearance in your city. Experience a colorful circus cocktail with breathtaking top artistry, heart-warming clowns and species-appropriate animal training.',
         thingstodo: [
@@ -1808,7 +1811,8 @@ const tours = [
         country: 'Germany',
         date: 'April-September, 2022',
         location: 'https://goo.gl/maps/mK5qPm4jNbznojTeA',
-        site: 'https://www.facebook.com/abenteuerlanddobolino',
+        site: '',
+        facebook:'https://www.facebook.com/abenteuerlanddobolino',
         address: 'Follow the Facebook page to know the location of the event when happened closest to you.',
         description: 'The perfect trip destination for the whole family, take the opportunity for a fun family trip, As always, a lot of bouncy castle game fun and action modules await you.', thingstodo: [
             'Bouncy Castles',
