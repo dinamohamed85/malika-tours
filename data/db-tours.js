@@ -12,6 +12,7 @@ const tours = [
         address: 'Close to the Munich city center as it is about 25 min away via <strong>S6</strong> (Starnberg).',
         description: 'Starnberger is Germany second- largest body of fresh water. places to visit in Munich and cities around.',
         thingstodo: [
+            'places to visit in munich',
             'lakes in Munich',
             'ship & boat',
             'swimming pool',
@@ -2053,7 +2054,7 @@ const tours = [
         price: 0,
         season: 'winter',
         featured: false,
-    },
+    },    
     {
         id: '110',
         title: 'halal restaurants',
@@ -2087,8 +2088,7 @@ const tours = [
         duration: 2,
         price: 6,
         featured: true,
-    }, 
-   
+    },    
 ];
 
 export default tours;
