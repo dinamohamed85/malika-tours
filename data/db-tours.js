@@ -2050,7 +2050,7 @@ const tours = [
         facebook:'https://www.facebook.com/events/355305343233342?acontext=%7B%22event_action_history%22%3A[%7B%22mechanism%22%3A%22search_results%22%2C%22surface%22%3A%22search%22%7D]%2C%22ref_notif_type%22%3Anull%7D',
         address: 'Neubaugebiet Gleisharfe Fritz-Bauer-Straße 81249 München. <strong>S8</strong> (Neuaubing)',
         description:'Weltspieltag 2022. World play day. takes place every year before the Corona virus, and it is very sweet and organized, and there are many different activities for children, whether sports games or recreational scientific activities, handicrafts, drawing and coloring. You can come and enjoy and simplify your beautiful children without money or prior registration 😍  👇🏻.',
-        more: 'Today at 12 AM - 11 PM  Weltspieltag 2022 . ',
+        more: '28 Mai 2022. 10 am - 6 pm',
         thingstodo: [            
             'sports',
             'games',
