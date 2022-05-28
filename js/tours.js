@@ -24,11 +24,11 @@ const displayTours = () => {
 
     else if (currentCategory == 'cities') {
         text1 = filteredTours.length + ' ' + currentCategory;
-        text2 = 'to visit in Munich arounds';
+        text2 = 'to visit in Bayern';
     }
     else if (currentCategory == 'free tickets') {
             text1 = filteredTours.length + ' places with ' + currentCategory;
-            text2 = 'to visit in Munich arounds';
+            text2 = 'to visit in Munich.';
     }
     else
         text1 = filteredTours.length + ' ' + currentCategory +' places';

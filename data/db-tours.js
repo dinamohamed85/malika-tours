@@ -44,7 +44,7 @@ const tours = [
         description: 'Regensberg is among the top sights and travel attractions.',
         thingstodo: [
             'places to visit in bayern',
-            'cities in Munich',
+            'cities to visit in Bayern',
             'Danube river',
             'Ship',
             'Dom',
@@ -505,6 +505,7 @@ const tours = [
         address: 'In the south of Bavaria as it is about 2 hr away by <strong>Car</strong> (87645 Schwangau) or 2.5 hr via <strong>Train</strong>.',
         description: 'Turreted fairytale, 19th-century, hilltop castle built for King Ludwig II, with tours of furnished rooms.',
         thingstodo: [
+            'cities to visit in Bayern',
             'Castle',
             'Füssen',
             'Mountains',
@@ -586,6 +587,7 @@ const tours = [
         address: 'In the Munich city center via <strong>U3|S</strong> (Marienplatz).',
         description: 'City-center square & transport hub with towering St. Peters church, 2 town halls & a toy museum, christmas market.',
         thingstodo: [
+            'cities to visit in Bayern',
             'Rathaus',
             'Shopping',
             'cafe',
@@ -1069,6 +1071,7 @@ const tours = [
         address: 'In the south of Bavaria about 1.5 hr away by <strong>Car</strong> (Garmisch-Partenkirchen) or 2 hr via<strong>Train</strong>.',
         description: 'Well-known alpine destination with a ski resort, glaciers & cable car rides offering scenic views.',
         thingstodo: [
+            'cities to visit in Bayern',
             'Mountain peak',
             'Chairlift',
             'Rack train',
@@ -1238,6 +1241,7 @@ const tours = [
         address: 'In the east of Bavarian about 1.30 hr away by <strong>Car</strong> (1010 Wien, Austria) or 5 hr via <strong>Train</strong>.',
         description: 'Salzburg is an Austrian city on the border of Germany, with views of the Eastern Alps.The city is divided by the Salzach River, with medieval and baroque buildings of the pedestrian Altstadt(Old City) on its left bank.',
         thingstodo: [
+            'cities to visit in Bayern',
             'Fortress Hohensalzburg',
             'Mirabell Palace',
             'Mozarts Birthplace',
@@ -1264,6 +1268,7 @@ const tours = [
         address: 'In the east of Bavarian about 2 hr away by <strong>Car</strong> (94032 Passau) or 3 hr via <strong> Train</strong>.',
         description: 'Passau, a German city on the Austrian border, lies at the confluence of the Danube, Inn and Ilz rivers. Known as the Three Rivers City, its overlooked by the Veste Oberhaus, a 13th-century hilltop fortress housing a city museum and observation tower.',
         thingstodo: [
+            'cities to visit in Bayern',
             'Three River Conjunction',
             'Veste Oberhaus',
             'Ship',
@@ -1290,6 +1295,7 @@ const tours = [
         address: 'In the west of Bavarian about 3 hr away by <strong>Car</strong> (97070 Würzburg) or 5 hr via <strong>Train</strong>.',
         description: 'Würzburg is a city in Bavaria region.Its known for lavish baroque and rococo architecture, particularly the 18th - century Residenz palace.',
         thingstodo: [
+            'cities to visit in Bayern',
             'Residenz Palace',
             'Old Main Bridge',
             'Franconian city',
@@ -2055,7 +2061,36 @@ const tours = [
         price: 0,
         season: 'winter',
         featured: false,
-    },    
+    }, 
+    {
+        id: '76',
+        title: 'Nürnberg',
+        category: 'cities',
+        icon: 'fa-solid fa-water',
+        image: './images/tours/tour-76.jpeg',
+        country: 'Germany',
+        date: 'September, 2021',
+        location: 'https://goo.gl/maps/u7K6XCmT64HFCvFRA',
+        site: 'https://www.nuernberg.de/internet/stadtportal/index.html',
+        address: 'Nürnberg is a city in the north Bavaria as it is about 2.5 hr away Munich via <strong>Train</strong> or 2 hr by<strong>Car</strong> (90403 Nürnberg).',
+        description: 'Nürnberg is the second-largest city of the German state of Bavaria after its capital Munich, and its 518,370 inhabitants make it the 14th-largest city in Germany.Wikipedia.',
+        thingstodo: [
+            'cities to visit in Bayern',
+            'Altstadt - St. Sebald',
+            'Imperial Castle of Nuremberg',
+            'Germanisches Nationalmuseum',
+            'Albrecht Dürer`s House',
+            'Nuremberg Zoo',
+            'New Museum - Nuremberg State Museum of Art and Design',
+            'Toy Museum',
+            'Dutzendteich lake'
+        ],
+        likes: '28,544',
+        duration: 10,
+        price: 10,
+        season: 'summer',
+        featured: true,
+    },
     {
         id: '110',
         title: 'halal restaurants',

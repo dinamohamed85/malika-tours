@@ -8,7 +8,7 @@ const other = [
             './images/other/other-30.jpeg',
         ],
         country: 'Germany',
-        location: 'https://goo.gl/maps/Nr4jnCEDyJbWPiTR6',
+        location: 'https://goo.gl/maps/54hcNGYRcybzZGss6',
         site: 'http://www.dar-ev.de/',
         facebook: 'https://www.facebook.com/darev2012',
         address1: 'Elisabethpl. 4, 80796 München ',
