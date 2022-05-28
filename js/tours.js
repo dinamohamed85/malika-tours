@@ -26,8 +26,12 @@ const displayTours = () => {
         text1 = filteredTours.length + ' ' + currentCategory;
         text2 = 'to visit in Munich arounds';
     }
+    else if (currentCategory == 'free tickets') {
+            text1 = filteredTours.length + ' places with ' + currentCategory;
+            text2 = 'to visit in Munich arounds';
+    }
     else
-        text1 = filteredTours.length + ' ' + currentCategory;
+        text1 = filteredTours.length + ' ' + currentCategory +' places';
 
     toursTitle.innerHTML = `<div class="tours-title">
         <h2>best <span class="featured-num">${text1}</span> ${text2}</h2>
