@@ -43,6 +43,7 @@ const tours = [
         address: 'Regensberg is a city in eastern Bavaria as it is about 2 hr away Munich via <strong>Train</strong> or 1.5 hr by<strong>Car</strong> (93059 Regensburg).',
         description: 'Regensberg is among the top sights and travel attractions.',
         thingstodo: [
+            'places to visit in bayern',
             'cities in Munich',
             'Danube river',
             'Ship',
