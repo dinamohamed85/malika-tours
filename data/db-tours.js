@@ -2172,7 +2172,7 @@ const tours = [
             'places to visit in munich',
             'lakes in Munich',
             'ship & boat trip',
-            'swimming pool',
+            'swimming',
             'strolling',
             'bike',
             'Picnic',
