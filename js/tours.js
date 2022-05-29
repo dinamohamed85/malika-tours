@@ -24,14 +24,22 @@ const displayTours = () => {
 
     else if (currentCategory == 'cities') {
         text1 = filteredTours.length + ' ' + currentCategory;
-        text2 = 'to visit in Bayern';
+    }    
+    else if (currentCategory == 'kids' || currentCategory == 'swimming') {
+        text1 = filteredTours.length + ' places for ' + currentCategory;
     }
-    else if (currentCategory == 'free tickets') {
-            text1 = filteredTours.length + ' places with ' + currentCategory;
-            text2 = 'to visit in Munich.';
+    else if (currentCategory == 'animals'|| currentCategory == 'free tickets') {
+        text1 = filteredTours.length + ' places has ' + currentCategory;
     }
-    else
-        text1 = filteredTours.length + ' ' + currentCategory +' places';
+    else if (currentCategory == 'winter') {
+        text1 = filteredTours.length + ' places in ' + currentCategory;
+    }
+    else if (currentCategory == 'indoor') {
+        text1 = filteredTours.length +' '+ currentCategory +' place '  ;
+    }
+    else 
+        text1 = filteredTours.length +' '+ currentCategory;
+        text2 = 'to visit in Munich.'; 
 
     toursTitle.innerHTML = `<div class="tours-title">
         <h2>best <span class="featured-num">${text1}</span> ${text2}</h2>
