@@ -153,7 +153,7 @@ window.addEventListener('DOMContentLoaded', () => {
                         filteredTours = [...tours];
                     } else {
                         filteredTours = tours.filter((tour) => {
-                            return tour.category === el.dataset.id || tour.thingstodo.find((item) => item.toLowerCase().includes(el.textContent));
+                            return tour.category === el.dataset.id || tour.thingstodo.find((item) => item.toLowerCase()==el.textContent);
                         });
                     }
                     searchInput.value = '';
