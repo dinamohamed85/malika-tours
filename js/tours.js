@@ -18,13 +18,19 @@ const displayTours = () => {
         return;
     }
     let text1 = '';
-    let text2 = 'to visit in Munich and cities around';
-    if (currentCategory == 'all')
+    let text2 = 'to visit in Munich and arounds';
+    if (currentCategory == 'all'){
         text1 = filteredTours.length + ' places ';
-
+        text2 = 'to visit in Munich and cities around';
+    }
     else if (currentCategory == 'cities') {
         text1 = filteredTours.length + ' ' + currentCategory;
-    }    
+        text2 = 'to visit in Bayern'; 
+    }  
+    else if (currentCategory == 'lakes') {
+        text1 = filteredTours.length + ' ' + currentCategory;
+        text2 = 'to visit in Munich and Bayern'; 
+    }   
     else if (currentCategory == 'kids' || currentCategory == 'swimming') {
         text1 = filteredTours.length + ' places for ' + currentCategory;
     }
@@ -38,8 +44,7 @@ const displayTours = () => {
         text1 = filteredTours.length +' '+ currentCategory +' place '  ;
     }
     else 
-        text1 = filteredTours.length +' '+ currentCategory;
-        text2 = 'to visit in Munich'; 
+        text1 = filteredTours.length +' '+ currentCategory;    
 
     toursTitle.innerHTML = `<div class="tours-title">
         <h2>top <span class="featured-num">${text1}</span> ${text2}</h2>
