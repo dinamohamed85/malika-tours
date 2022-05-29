@@ -39,10 +39,10 @@ const displayTours = () => {
     }
     else 
         text1 = filteredTours.length +' '+ currentCategory;
-        text2 = 'to visit in Munich.'; 
+        text2 = 'to visit in Munich'; 
 
     toursTitle.innerHTML = `<div class="tours-title">
-        <h2>best <span class="featured-num">${text1}</span> ${text2}</h2>
+        <h2>top <span class="featured-num">${text1}</span> ${text2}</h2>
     </div>`;
 
     toursContainer.innerHTML = filteredTours
