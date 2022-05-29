@@ -1331,6 +1331,7 @@ const tours = [
             'Picnic',
             'Strolling',
             'cafe',
+            'lakes',
             'free tickets'
         ],
         likes: '3,948',
