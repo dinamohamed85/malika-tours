@@ -907,6 +907,7 @@ const tours = [
             'big meadow',
             'Strolling',
             'restaurant',
+            'winter',
             'parks',
             'free tickets'
         ],
