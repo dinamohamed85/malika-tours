@@ -71,7 +71,7 @@ const displayTours = () => {
             <p>  ${more ? `<p class="more-desc">${more} </p>` : ``} 
             </p>
             <div>
-                <h4> Activities to do :</h4>
+                <h4> Activities to do in <span class="featured-num">${title}</span> :</h4>
                 <div class="tour-activtiy">
                 ${thingstodo.map((thing) => {
                 return `<p class="activtiy">${thing}</p>`
