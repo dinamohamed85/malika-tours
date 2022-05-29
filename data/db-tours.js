@@ -589,11 +589,11 @@ const tours = [
         featured: true,
     }, 
     {
-        id: '210',
+        id: '211',
         title: 'Feldmochinger See',
         category: 'lakes',
         icon: 'fa-solid fa-water',
-        image: './images/tours/2-lakes/tour-10.jpeg',
+        image: './images/tours/2-lakes/tour-11.jpeg',
         country: 'Germany',
         date: 'July, 2021',
         location: 'https://goo.gl/maps/7MVpNHcaZNp1RiU47',
@@ -876,6 +876,7 @@ const tours = [
             'Lake',
             'cafe',
             'Strolling',
+            'lakes',
             'free tickets'
         ],
         likes: '22,332',
