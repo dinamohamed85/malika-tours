@@ -121,6 +121,7 @@ const displayButtons = () => {
     const buttons = [
         'all', 'featured',
         ...new Set(restaurants.map((item) => item.category)),
+        'halal markets'
     ];
     // console.log(buttons);
     categoriesDOM.innerHTML = buttons
@@ -133,9 +134,19 @@ const getListBycategory = (category) => {
     if(category =='all'){
         filteredList = [...restaurants];
     }
+    else if (category == 'featured') {
+        filteredList = restaurants.filter((item) => {
+            return item.featured
+        });
+    }    
+    else if (category == 'halal markets') {
+        //open shopping.html with halal markets
+        console.log('open halal markets page ');
+        window.open('shopping.html','_self');
+    }
     else{
         filteredList = restaurants.filter((item) => {
-            return item.category == category || item.menu.find((el) => el.toLowerCase() == category);;
+            return item.category == category || item.menu.find((el) => el.toLowerCase() == category);
         });
     }
 };
@@ -182,20 +193,8 @@ window.addEventListener('DOMContentLoaded', () => {
                 const el = e.target;
                 if (el.classList.contains('category-btn')) {
                     currentCategory = el.dataset.id;
-                    if (el.dataset.id === 'all') {
-                        filteredList = [...restaurants];
-                    }
 
-                    else if (el.dataset.id === 'featured') {
-                        filteredList = restaurants.filter((item) => {
-                            return item.featured
-                        });
-                    }
-                    else {
-                        filteredList = restaurants.filter((item) => {
-                            return item.category === el.dataset.id || item.menu.find((thing) => thing.toLowerCase().includes(el.textContent));;
-                        });
-                    }
+                    getListBycategory(currentCategory);
                     displayRestaurants();
                 }
             });

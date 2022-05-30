@@ -121,6 +121,7 @@ const displayButtons = () => {
     const buttons = [
         'all','featured',
         ...new Set(tours.map((tour) => tour.category)),
+        'halal restaurants'
     ];
     // console.log(buttons);
     categoriesDOM.innerHTML = buttons
@@ -138,6 +139,11 @@ const getListBycategory = (category) => {
         filteredTours = tours.filter((tour) => {
             return tour.featured;
         });
+    }
+    else if (category === 'halal restaurants') {
+        //open halalrestaurants.html
+        console.log('open halal restaurants page');
+        window.open('halalrestaurants.html','_self');
     }
     else{
         filteredTours = tours.filter((tour) => {
@@ -192,7 +198,6 @@ window.addEventListener('DOMContentLoaded', () => {
                     displayTours();
                 }
             });
-
         }
         else
             throw new Error(

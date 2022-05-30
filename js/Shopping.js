@@ -114,6 +114,7 @@ const displayButtons = () => {
     const buttons = [
         'all', 'featured',
         ...new Set(shopping.map((item) => item.category)),
+        'halal restaurants'
     ];
     // console.log(buttons);
     categoriesDOM.innerHTML = buttons
@@ -126,6 +127,16 @@ const displayButtons = () => {
 const getListBycategory = (category) => {
     if(category =='all'){
         filteredList = [...shopping];
+    }
+    else if (currentCategory == 'featured') {
+        filteredList = shopping.filter((item) => {
+            return item.featured
+        });
+    }
+    else if (category == 'halal restaurants') {
+        //open halalrestaurants.html
+        console.log('open halal restaurants page');
+        window.open('halalrestaurants.html','_self');
     }
     else{
         filteredList = shopping.filter((item) => {
@@ -157,22 +168,9 @@ window.addEventListener('DOMContentLoaded', () => {
             categoriesDOM.addEventListener('click', (e) => {
                 const el = e.target;
                 if (el.classList.contains('category-btn')) {
-                    currentCategory = el.dataset.id;
-                    if (el.dataset.id === 'all') {
-                        filteredList = [...shopping];
-                    }
-
-                    else if (el.dataset.id === 'featured') {
-                        filteredList = shopping.filter((item) => {
-                            return item.featured
-                        });
-                    }
-                    else {
-                        filteredList = shopping.filter((item) => {
-                            return item.category === el.dataset.id || item.thingstodo.find((thing) => thing.toLowerCase().includes(el.textContent));;
-                        });
-                    }
-                    displayshopping();
+                   currentCategory = el.dataset.id;
+                   getListBycategory(currentCategory);
+                   displayshopping();
                 }
             });
         }
