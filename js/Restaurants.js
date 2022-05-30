@@ -51,7 +51,7 @@ const displayRestaurants = () => {
             return `<article class="item">
         <div class="tour-img-container">
         <a href="${site}" target="_blank">
-            <img src="${images[0]}" class="item-photo" /></a>
+            <img src="${images[0]}" class="item-photo" alt="${title}"/></a>
             <i class="fa-solid fa-face-smile rate-icon"></i><p class="item-rate">${rate}</p>
             
         </div>

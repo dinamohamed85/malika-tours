@@ -39,10 +39,10 @@ const displayarabicdoctors = () => {
             const { id, title, category, icon, images, location, site, description, more,likes, featured, address1,address2, phone, rate, thingstodo, facebook,instagram,termin,email } = item;
             return `<article class="item">
         <div class="tour-img-container"> 
-        ${location ? `<a href="${location}" target="_blank"><img src="${images[0]}" class="item-photo"/></a>` 
-        : site ? `<a href = "${site}" target = "_blank"><img src="${images[0]}" class="item-photo"/></a>` 
-        : facebook ? `<a href = "${facebook}" target = "_blank"><img src="${images[0]}" class="item-photo"/></a>`
-        : `<img src="${images[0]}" class="item-photo"/>`} 
+        ${location ? `<a href="${location}" target="_blank"><img src="${images[0]}" class="item-photo" alt="${title}"/></a>` 
+        : site ? `<a href = "${site}" target = "_blank"><img src="${images[0]}" class="item-photo" alt="${title}"/></a>` 
+        : facebook ? `<a href = "${facebook}" target = "_blank"><img src="${images[0]}" class="item-photo" alt="${title}"/></a>`
+        : `<img src="${images[0]}" class="item-photo" alt="${title}"/>`} 
 
         </div>
         <div class="item-info">

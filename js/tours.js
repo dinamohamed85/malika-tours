@@ -17,10 +17,16 @@ const displayTours = () => {
         toursContainer.innerHTML = `<h2 class="section-title" >Sorry, no tours matched your search</h2>`;
         return;
     }
+    let text0 = 'top ';
     let text1 = '';
     let text2 = 'to visit in Munich and arounds';
-    if (currentCategory == 'all'){
+    if (currentCategory == 'all' ){
+        text0 = 'best ';
         text1 = filteredTours.length + ' places ';
+        text2 = 'to visit in Munich and cities around';
+    }
+    else if ( currentCategory == 'featured'){        
+        text1 = filteredTours.length + ' ' + ' places ';
         text2 = 'to visit in Munich and cities around';
     }
     else if (currentCategory == 'cities') {
@@ -47,7 +53,7 @@ const displayTours = () => {
         text1 = filteredTours.length +' '+ currentCategory;    
 
     toursTitle.innerHTML = `<div class="tours-title">
-        <h2>top <span class="featured-num">${text1}</span> ${text2}</h2>
+        <h2>${text0} <span class="featured-num">${text1}</span> ${text2}</h2>
     </div>`;
 
     toursContainer.innerHTML = filteredTours
@@ -56,7 +62,7 @@ const displayTours = () => {
             return `<article class="tour-card" data-id="${id}">
             <div class="tour-img-container">
             <a href="${site}" target="_blank">
-                <img src="${image}" class="tour-img" alt="" /></a>
+                <img src="${image}" class="tour-img" alt="${title}" /></a>
             <p class="tour-date">${date}</p>
             ${featured ? `<i class="fa-solid fa-star featured-icon"></i>` : ``} 
             </div>
@@ -111,7 +117,7 @@ const displayButtons = () => {
     searchInput.value = '';
 
     const buttons = [
-        'all',
+        'all','featured',
         ...new Set(tours.map((tour) => tour.category)),
     ];
     // console.log(buttons);
@@ -156,7 +162,13 @@ window.addEventListener('DOMContentLoaded', () => {
                     currentCategory = el.dataset.id;
                     if (el.dataset.id === 'all') {
                         filteredTours = [...tours];
-                    } else {
+                    } 
+                    else if (el.dataset.id === 'featured') {
+                        filteredTours = tours.filter((tour) => {
+                            return tour.featured
+                        });
+                    }
+                    else {
                         filteredTours = tours.filter((tour) => {
                             return tour.category === el.dataset.id || tour.thingstodo.find((item) => item.toLowerCase()==el.textContent);
                         });

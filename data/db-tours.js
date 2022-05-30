@@ -119,7 +119,7 @@ const tours = [
         duration: 10,
         price: 10,
         season: 'summer',
-        featured: true,
+        featured: false,
     },
     {
         id: '105',
@@ -287,7 +287,7 @@ const tours = [
         duration: 10,
         price: 10,
         season: 'summer',
-        featured: true,
+        featured: false,
     }, 
     {
         id: '201',
@@ -410,7 +410,7 @@ const tours = [
         duration: 10,
         price: 10,
         season: 'summer',
-        featured: false,
+        featured: true,
     },
     {
         id: '205',
@@ -438,7 +438,7 @@ const tours = [
         duration: 10,
         price: 3,
         season: 'summer',
-        featured: true,
+        featured: false,
     },
     {
         id: '206',
@@ -556,7 +556,7 @@ const tours = [
         duration: 8,
         price: 0,
         season: 'summer',
-        featured: true,
+        featured: false,
     },  
     {
         id: '210',
@@ -586,7 +586,7 @@ const tours = [
         duration: 10,
         price: 10,
         season: 'summer',
-        featured: true,
+        featured: false,
     }, 
     {
         id: '211',
@@ -612,7 +612,7 @@ const tours = [
         duration: 10,
         price: 10,
         season: 'summer',
-        featured: true,
+        featured: false,
     }, 
     {
         id: '301',
@@ -1476,7 +1476,7 @@ const tours = [
         duration: 3,
         price: 7,
         season: 'winter',
-        featured: true,
+        featured: false,
     },
     {
         id: '705',
@@ -2203,7 +2203,7 @@ const tours = [
         duration: 3,
         price: 5,
         season: 'winter',
-        featured: true,
+        featured: false,
     },
     {
         id: '506',
@@ -2323,7 +2323,7 @@ const tours = [
         date: '',
         duration: 2,
         price: 6,
-        featured: true,
+        featured: false,
     },    
 ];
 

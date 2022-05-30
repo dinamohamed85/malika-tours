@@ -48,7 +48,7 @@ const displayshopping = () => {
             return `<article class="item">
         <div class="tour-img-container"> 
         ${site ? `<a href="${site}" target="_blank">
-            <img src="${images[0]}" class="item-photo" /></a> ` : `<a href = "${location}" target = "_blank" > <img src="${images[0]}" class="item-photo" /></a>`}              
+            <img src="${images[0]}" class="item-photo" alt="${title}"/></a> ` : `<a href = "${location}" target = "_blank" > <img src="${images[0]}" class="item-photo" /></a>`}              
         </div>
         <div class="item-info">
         <header>            
