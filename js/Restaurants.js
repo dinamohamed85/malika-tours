@@ -133,7 +133,7 @@ const getListBycategory = (category) => {
     }
     else{
         filteredList = restaurants.filter((item) => {
-            return item.category == category;
+            return item.category == category || item.menu.find((el) => el.toLowerCase() == category);;
         });
     }
 };
@@ -170,7 +170,7 @@ window.addEventListener('DOMContentLoaded', () => {
 
             // Text clear
             clearButton.addEventListener('click', () => {
-                filteredList = [...restaurants];
+                getListBycategory(currentCategory);
                 searchInput.value = '';
                 currentCategory = '';
                 displayRestaurants();
@@ -181,7 +181,7 @@ window.addEventListener('DOMContentLoaded', () => {
                 if (el.classList.contains('category-btn')) {
                     currentCategory = el.dataset.id;
                     if (el.dataset.id === 'all') {
-                        filteredList = [...restaurants];
+                        getListBycategory(currentCategory);
                     }
 
                     else if (el.dataset.id === 'featured') {
