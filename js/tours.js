@@ -128,10 +128,30 @@ const displayButtons = () => {
         .join('');
 };
 
-window.addEventListener('DOMContentLoaded', () => {
-
-    try {
+const getListBycategory = (category) => {
+    if(category =='all'){
         filteredTours = [...tours];
+    }
+    else{
+        filteredTours = tours.filter((tour) => {
+            return tour.category ==category
+        });
+    }
+};
+
+
+window.addEventListener('DOMContentLoaded', () => {
+    const queryString = window.location.search;
+    try {   
+        if(queryString){
+            console.log(queryString);
+            const urlParams = new URLSearchParams(queryString);
+            if(urlParams.get('category'))
+            currentCategory = urlParams.get('category');
+            console.log(currentCategory);
+        }
+
+        getListBycategory(currentCategory);
 
         if (toursContainer && form && searchInput && clearButton && categoriesDOM && toursTitle) {
             console.log('html selectors is true');
@@ -150,7 +170,7 @@ window.addEventListener('DOMContentLoaded', () => {
 
             // Text clear
             clearButton.addEventListener('click', () => {
-                filteredTours = [...tours];
+                getListBycategory(category);
                 searchInput.value = '';
                 currentCategory = '';
                 displayTours();
@@ -161,7 +181,7 @@ window.addEventListener('DOMContentLoaded', () => {
                 if (el.classList.contains('category-btn')) {
                     currentCategory = el.dataset.id;
                     if (el.dataset.id === 'all') {
-                        filteredTours = [...tours];
+                        getListBycategory('all');
                     } 
                     else if (el.dataset.id === 'featured') {
                         filteredTours = tours.filter((tour) => {
