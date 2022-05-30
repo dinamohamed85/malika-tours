@@ -551,6 +551,7 @@ const restaurants = [
             'chicken vindaloo',
             'botti kabab',
             'Swagat teller',
+            'halal'
         ],
         rate: 4.4,
         likes: '1,967',
@@ -753,6 +754,7 @@ const restaurants = [
             'Mughlai Lamm',
             'Mughlai Ente',
             'Hariyali Kebab',
+            'halal',
         ],
         rate: 4.5,
         likes: '648',
@@ -860,6 +862,7 @@ const restaurants = [
             'tandoor',
             'Basmati ',
             'vegetarian',
+            'halal'
         ],
         rate: 4.1,
         likes: '707',
@@ -893,6 +896,7 @@ const restaurants = [
             'Chicken Masala',
             'Malai Tikka',
             'Chicken Tikka',
+            'halal'
         ],
         rate: 4.5,
         likes: '1,405',
@@ -1731,7 +1735,8 @@ const restaurants = [
             'Chicken Tikka Masala',
             'Butter Chicken',
             'Lamb Kashmiri',
-            'Palak Paneer'
+            'Palak Paneer',
+            'halal'
         ],
         rate: 4.1,
         likes: '652',

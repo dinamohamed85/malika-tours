@@ -8,7 +8,7 @@ const clearButton = document.querySelector('.clear-btn');
 const categoriesDOM = document.querySelector('.categories');
 const restaurantsTitle = document.querySelector('.section-title');
 
-let currentCategory = 'all';
+let currentCategory = 'halal';
 
 const displayRestaurants = () => {
 
@@ -181,7 +181,7 @@ window.addEventListener('DOMContentLoaded', () => {
                 if (el.classList.contains('category-btn')) {
                     currentCategory = el.dataset.id;
                     if (el.dataset.id === 'all') {
-                        getListBycategory(currentCategory);
+                        filteredList = [...restaurants];
                     }
 
                     else if (el.dataset.id === 'featured') {
