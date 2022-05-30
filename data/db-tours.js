@@ -2241,7 +2241,7 @@ const tours = [
         icon: 'fa-regular fa-calendar-check',
         image: './images/tours/9-events/tour-8.jpeg',
         country: 'Germany',
-        date: 'Mai, 2022',
+        date: '28 Mai, 2022',
         location: 'https://goo.gl/maps/ZbTcrAVsrpjWVUrR7',
         site: 'https://spielkultur.de/Veranstaltungen/weltspieltag/',
         facebook:'https://www.facebook.com/events/355305343233342?acontext=%7B%22event_action_history%22%3A[%7B%22mechanism%22%3A%22search_results%22%2C%22surface%22%3A%22search%22%7D]%2C%22ref_notif_type%22%3Anull%7D',
@@ -2263,8 +2263,7 @@ const tours = [
         price: 0,
         season: 'winter',
         featured: false,
-    },     
-  
+    },   
     {
         id: '1201',
         title: 'Skischule&Snowboardschule Ost',
