@@ -5,7 +5,7 @@ const shoppingContainer = document.querySelector('.list-container');
 const categoriesDOM = document.querySelector('.categories');
 const shoppingTitle = document.querySelector('.section-title');
 
-let currentCategory = 'all';
+let currentCategory = 'halal markets';
 
 const displayshopping = () => {
 
@@ -123,11 +123,31 @@ const displayButtons = () => {
         .join('');
 };
 
+const getListBycategory = (category) => {
+    if(category =='all'){
+        filteredList = [...shopping];
+    }
+    else{
+        filteredList = shopping.filter((item) => {
+            return item.category == category || item.thingstodo.find((el) => el.toLowerCase() == category);;
+        });
+    }
+};
+
 window.addEventListener('DOMContentLoaded', () => {
 
-    try {
+    const queryString = window.location.search;
+    try {   
+        if(queryString){
+            console.log(queryString);
+            const urlParams = new URLSearchParams(queryString);
+            if(urlParams.get('category'))
+            currentCategory = urlParams.get('category');
+            console.log(currentCategory);
+        }
 
-        filteredList = [...shopping];
+        getListBycategory(currentCategory);
+
         if (shoppingContainer && categoriesDOM && shoppingTitle) {
             shoppingTitle.innerHTML = '';
             console.log('html selectors is true');

@@ -8,7 +8,7 @@ const categoriesDOM = document.querySelector('.categories');
 const toursTitle = document.querySelector('.tours-title');
 
 
-let currentCategory = 'all';
+let currentCategory = 'featured';
 
 const displayTours = () => {
 
@@ -81,7 +81,9 @@ const displayTours = () => {
             </div>
             <p>
             ${phone ? `<p> <i class="fa-solid fa-phone site-icon"></i>
-            <span class="more-info">  ${phone}</span> </p> `  : ``}
+            <span class="more-info">  ${phone}</span> </p> `  : ``} 
+            </p>  
+            <p>
             ${address}               
             </p>            
             <p>
@@ -132,6 +134,11 @@ const getListBycategory = (category) => {
     if(category =='all'){
         filteredTours = [...tours];
     }
+    else if (category === 'featured') {
+        filteredTours = tours.filter((tour) => {
+            return tour.featured;
+        });
+    }
     else{
         filteredTours = tours.filter((tour) => {
             return tour.category == category || tour.thingstodo.find((item) => item.toLowerCase()== category);;
@@ -179,19 +186,8 @@ window.addEventListener('DOMContentLoaded', () => {
                 const el = e.target;
                 if (el.classList.contains('category-btn')) {
                     currentCategory = el.dataset.id;
-                    if (el.dataset.id === 'all') {
-                        getListBycategory('all');
-                    } 
-                    else if (el.dataset.id === 'featured') {
-                        filteredTours = tours.filter((tour) => {
-                            return tour.featured
-                        });
-                    }
-                    else {
-                        filteredTours = tours.filter((tour) => {
-                            return tour.category == el.dataset.id || tour.thingstodo.find((item) => item.toLowerCase()==el.textContent);
-                        });
-                    }
+                    getListBycategory(currentCategory);
+
                     searchInput.value = '';
                     displayTours();
                 }

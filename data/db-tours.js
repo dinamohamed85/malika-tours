@@ -607,6 +607,7 @@ const tours = [
             'Snacks',
             'Strolling',           
             'Swimming',
+            'free tickets'
         ],
         likes: '1,665',
         duration: 10,
@@ -1277,11 +1278,11 @@ const tours = [
         description: 'Huge technology museum with original artifacts & interactive energy, transport & astronomy displays.',
         thingstodo: [
             'Physics',
-            'Planetarium',
-            'Technology',
+            'Planetarium',            
             'Restaurant',
             'kids',
             'indoor',
+            'Technology Museum',
         ],
         likes: '25,231',
         duration: 4,
