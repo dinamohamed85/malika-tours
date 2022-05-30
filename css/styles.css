@@ -812,6 +812,7 @@ min-height:calc(100vh - 62px);
   }
 }
 .categories {
+  margin: .5rem auto;
   display: flex;
   justify-content: center;
   flex-wrap: wrap;

@@ -56,7 +56,7 @@ const displayRestaurants = () => {
             
         </div>
         <div class="item-info">
-        <header > 
+        <header> 
             <h4> 
                 <a href="${location}" target="_blank">          
                    ${index + 1}- ${title}
