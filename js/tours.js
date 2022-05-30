@@ -17,43 +17,42 @@ const displayTours = () => {
         toursContainer.innerHTML = `<h2 class="section-title" >Sorry, no tours matched your search</h2>`;
         return;
     }
-    let text0 = 'top ';
+    let text0 = filteredTours.length  ;
     let text1 = '';
     let text2 = 'to visit in Munich and arounds';
-    if (currentCategory == 'all' ){
-        text0 = 'best ';
-        text1 = filteredTours.length + ' places ';
-        text2 = 'to visit in Munich and cities around';
+
+    if (currentCategory == 'all' ){       
+        text2 = ' best places  to visit in Munich and cities around';
     }
-    else if ( currentCategory == 'featured'){        
-        text1 = filteredTours.length + ' ' + ' places ';
-        text2 = 'to visit in Munich and cities around';
+    else if ( currentCategory == 'featured'){     
+        text1 = ' top places ';
+        text2 = ' to visit in Munich and cities around';
     }
     else if (currentCategory == 'cities') {
-        text1 = filteredTours.length + ' ' + currentCategory;
-        text2 = 'to visit in Bayern'; 
+        text1 = ' top ' + currentCategory ;
+        text2 = ' to visit in Bayern'; 
     }  
     else if (currentCategory == 'lakes') {
-        text1 = filteredTours.length + ' ' + currentCategory;
-        text2 = 'to visit in Munich and Bayern'; 
+        text1 = ' top ' + currentCategory;
+        text2 = ' to visit in Munich and Bayern'; 
     }   
     else if (currentCategory == 'kids' || currentCategory == 'swimming') {
-        text1 = filteredTours.length + ' places for ' + currentCategory;
+        text1 = ' top places for ' + currentCategory;
     }
     else if (currentCategory == 'animals'|| currentCategory == 'free tickets') {
-        text1 = filteredTours.length + ' places has ' + currentCategory;
+        text1 =  ' top places has '+ currentCategory;
     }
     else if (currentCategory == 'winter') {
-        text1 = filteredTours.length + ' places in ' + currentCategory;
+        text1 = ' top places in '+ currentCategory;
     }
     else if (currentCategory == 'indoor') {
-        text1 = filteredTours.length +' '+ currentCategory +' place '  ;
+        text1 = ' '+ currentCategory +' place '  ;
     }
     else 
-        text1 = filteredTours.length +' '+ currentCategory;    
+        text1 = ' top '+ currentCategory;    
 
     toursTitle.innerHTML = `<div class="tours-title">
-        <h2>${text0} <span class="featured-num">${text1}</span> ${text2}</h2>
+        <h2> ${text0}<span class="featured-num">${text1}</span> ${text2}</h2>
     </div>`;
 
     toursContainer.innerHTML = filteredTours
