@@ -973,7 +973,7 @@ min-height:calc(100vh - 62px);
   background: var(--clr-grey-8);  
   color: var(--clr-primary-1);
   text-transform: capitalize;
-  padding: 0.2rem 1rem;
+  padding: 0.25rem 1.25rem;
   margin-bottom: 0;
   opacity: 0.8;
   font-size: 1rem;
