@@ -56,18 +56,20 @@ const displayRestaurants = () => {
             
         </div>
         <div class="item-info">
-        <header>  
-        <a href="${location}" target="_blank">          
-            <h4>${index + 1}- ${title}</h4></a>
+        <header > 
+            <h4> 
+                <a href="${location}" target="_blank">          
+                   ${index + 1}- ${title}
+                </a>
+            </h4>
             <p>
-            <i class="fas fa-heart tour-love-icon"></i> ${likes}
-            </p>  
-            <p>  
+                <i class="fas fa-heart tour-love-icon"></i> ${likes}
+            </p>         
             ${facebook ? `<a href="${facebook}" target="_blank"><i
             class="fa-brands fa-facebook-square facebook-icon"></i></a> ` : ``}  
             ${instagram ? `<a href="${instagram}" target="_blank"><i
-            class="fa-brands fa-instagram-square facebook-icon"></i></a> ` : ``}          
-            </p>            
+            class="fa-brands fa-instagram-square facebook-icon"></i></a> ` : ``}            
+                      
         </header>
         <section>
             <p><a href="${location}" target="_blank"><i
