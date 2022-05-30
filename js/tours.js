@@ -134,11 +134,10 @@ const getListBycategory = (category) => {
     }
     else{
         filteredTours = tours.filter((tour) => {
-            return tour.category ==category
+            return tour.category == category || tour.thingstodo.find((item) => item.toLowerCase()== category);;
         });
     }
 };
-
 
 window.addEventListener('DOMContentLoaded', () => {
     const queryString = window.location.search;
@@ -190,7 +189,7 @@ window.addEventListener('DOMContentLoaded', () => {
                     }
                     else {
                         filteredTours = tours.filter((tour) => {
-                            return tour.category === el.dataset.id || tour.thingstodo.find((item) => item.toLowerCase()==el.textContent);
+                            return tour.category == el.dataset.id || tour.thingstodo.find((item) => item.toLowerCase()==el.textContent);
                         });
                     }
                     searchInput.value = '';

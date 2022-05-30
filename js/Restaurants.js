@@ -127,12 +127,31 @@ const displayButtons = () => {
         })
         .join('');
 };
+const getListBycategory = (category) => {
+    if(category =='all'){
+        filteredList = [...restaurants];
+    }
+    else{
+        filteredList = restaurants.filter((item) => {
+            return item.category == category;
+        });
+    }
+};
 
 window.addEventListener('DOMContentLoaded', () => {
 
-    try {
+    const queryString = window.location.search;
+    try {   
+        if(queryString){
+            console.log(queryString);
+            const urlParams = new URLSearchParams(queryString);
+            if(urlParams.get('category'))
+            currentCategory = urlParams.get('category');
+            console.log(currentCategory);
+        }
 
-        filteredList = [...restaurants];
+        getListBycategory(currentCategory);
+
         if (restaurantsContainer && categoriesDOM && restaurantsTitle) {
             restaurantsTitle.innerHTML = '';
             console.log('html selectors is true');

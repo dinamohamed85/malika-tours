@@ -627,7 +627,7 @@ const tours = [
         address: 'In the Munich city center via <strong>U3|U6</strong> (Gislastraße).',
         description: 'Expansive, 18th-century, urban park with 78km of cycling/jogging trails & a lakeside beer garden.',
         thingstodo: [
-            'lakes',
+            'small lakes',
             'Surfing',
             'Playground',
             'Strolling',
@@ -656,10 +656,9 @@ const tours = [
         thingstodo: [
             'Palace',
             'Garden',
-            'Lake',
+            'small Lakes',
             'cafe',
             'Strolling',
-            'lakes',
             'free tickets'
         ],
         likes: '22,332',
@@ -671,7 +670,7 @@ const tours = [
     {
         id: '303',
         title: 'Isar River',
-        category: 'parks',
+        category: 'lakes',
         icon: 'fa-solid fa-water',
         image: './images/tours/3-parks/tour-3.jpeg',
         country: 'Germany',
@@ -687,7 +686,7 @@ const tours = [
             'Playground',
             'Bridge',
             'free tickets',
-            'lakes'
+            'parks'
         ],
         likes: '57,877',
         duration: 6,
@@ -712,7 +711,7 @@ const tours = [
             'Tower',
             'Sea Life',
             'Stadium',
-            'lakes',
+            'small lakes',
             'Playground',
             'free tickets'
         ],
@@ -736,7 +735,7 @@ const tours = [
         description: 'Fruit bowls & cakes with berries at a family-friendly site with strawberry picking & kids games.',
         thingstodo: [
             'Picnic',
-            'lakes',
+            'small lakes',
             'Playground',
             'cafe',
             'Strolling',
@@ -852,7 +851,7 @@ const tours = [
             'Picnic',
             'Strolling',
             'cafe',
-            'lakes',
+            'small lakes',
             'free tickets'
         ],
         likes: '3,948',
