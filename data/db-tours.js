@@ -13,7 +13,7 @@ const tours = [
         description: 'Garmisch. Well-known alpine destination with a ski resort, glaciers & cable car rides offering scenic views.',
         thingstodo: [
             'cities to visit in Bayern',
-            'Zugspitze',
+            '<strong>Zugspitze</strong>',
             'Eibsee',
             'Linderhof Palace',
             'Partnachklamm-Hiking',  

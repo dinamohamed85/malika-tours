@@ -72,8 +72,8 @@ const displayTours = () => {
                 <h4><a href="${site}" target="_blank"><i
                     class="fa-solid fa-earth-europe site-icon"></i>${title}</a></h4>
                 <p><a href="${location}" target="_blank"><i
-                    class="fa-solid fa-location-dot site-icon"></i>
-                    ${country}</a> </p>
+                    class="fa-solid fa-diamond-turn-right site-icon"></i>
+                    Location</a> </p>
                 ${facebook ? `<p> <a href="${facebook}" target="_blank"><i
                 class="fa-brands fa-facebook-square facebook-icon"></i></a> </p>` : ``} 
                 ${instagram ? `<p> <a href="${instagram}" target="_blank"><i
