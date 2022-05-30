@@ -27,7 +27,7 @@ const tours = [
             'Mountains',
             'Partenkirchen',            
         ],
-        likes: '5,975',
+        likes: '25,975',
         duration: 12,
         price: 26,
         season: 'winter',
