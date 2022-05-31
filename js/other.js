@@ -70,7 +70,7 @@ const displayother = () => {
         <p>${location ? `<a href="${location}" target="_blank"><i
             class="fa-solid fa-location-dot site-icon"></i>${address1}</a> ` : ``} </p>
             ${address2 ? `<a href="${location}" target="_blank">${address2}</a> ` : ``} </p>
-            <p>${phone ? `<i class="fa-solid fa-phone site-icon"></i>${phone} ` : ``} </p> 
+            <p>${phone ? `<i class="fa-solid fa-phone phone-icon"></i>${phone} ` : ``} </p> 
             <p>${termin ? `<a href="${termin}" target="_blank"><i class="fa-solid fa-calendar-day site-icon"></i>Appointment</a>` : ``}</p> 
             <p>${email ? `<i class="fa-solid fa-envelope-open site-icon"></i>${email}` : ``}</p> 
         </section>

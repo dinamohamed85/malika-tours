@@ -89,7 +89,7 @@ const displayTours = () => {
              
             </section>
             <p>
-            ${phone ? `<p> <i class="fa-solid fa-phone site-icon"></i>
+            ${phone ? `<p> <i class="fa-solid fa-phone phone-icon"></i>
             <span class="more-info">  ${phone}</span> </p> `  : ``} 
             </p>  
             <p>

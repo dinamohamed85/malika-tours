@@ -75,7 +75,7 @@ const displayRestaurants = () => {
             <p><a href="${location}" target="_blank"><i
             class="fa-solid fa-location-dot site-icon"></i>
             <span class="more-info">      ${address}</span></a> </p>    
-            <p> <i class="fa-solid fa-phone site-icon"></i> 
+            <p> <i class="fa-solid fa-phone phone-icon"></i> 
             <span class="more-info">  ${phone}</span> </p>             
         </section>
         <p class="item-text">

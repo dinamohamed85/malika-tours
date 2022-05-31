@@ -994,7 +994,8 @@ const tours = [
         date: 'March, 2021',
         location: 'https://goo.gl/maps/XaVqJ6GYJ6TFx3Xt5',
         site: 'http://www.maerchenwald-isartal.de',
-        address: '',
+        address: 'Kräuterstraße 39, 82515 Wolfratshausen,',
+        phone:'081713855838',
         addressdesc: 'In the south of Bavaria as it is about 50 min away via <strong>S7</strong> (Wolfratshausen) or 40 min by <strong>Car</strong> (82515 Wolfratshausen).',
         description: 'Nature reserve style zoo with animals grouped in large enclosures, as per their geographic spread.',
         thingstodo: [
@@ -2242,8 +2243,8 @@ const tours = [
         location: 'https://g.page/phoenixbad?share',
         site: 'http://www.phoenixbad.de/',
         address: '',
-        addressdesc: 'Haidgraben 121, 85521 Ottobrunn, In the east of the Munich as it is about 30 min away via <strong>U5</strong> (Neuperlach Süd) then <strong>Bus 210</strong>(Taufkirchen, Lilienthalstr).',
         phone:'0896607870',
+        addressdesc: 'Haidgraben 121, 85521 Ottobrunn, In the east of the Munich as it is about 30 min away via <strong>U5</strong> (Neuperlach Süd) then <strong>Bus 210</strong>(Taufkirchen, Lilienthalstr).',        
         description: 'Diverse sauna landscape and spa with a sophisticated atmosphere, sports and adventure pool for the whole family with a 5 m diving tower and 2 giant slides.',
         thingstodo: [
             'SwimmingPool',
