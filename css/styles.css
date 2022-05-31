@@ -175,15 +175,13 @@ p {
 .section {
   padding: 1rem .156rem;  
 }
+
 .section-title {
   margin: 0 auto;
-  width: 80vw;
+  width: 90vw;
   text-align: center;
-  margin-bottom: 1.5rem;
-  margin-top: 1rem;
-}
-.section-title h2 {
-  text-transform: uppercase;
+  margin-bottom: 1rem;
+  margin-top: 0rem;
 }
 .section-title span {
   color: var(--clr-primary-5);
@@ -782,13 +780,13 @@ min-height:calc(100vh - 62px);
 .tours {
   width: var(--fluid-width);
   display: grid;
-  grid-gap: .5rem;
-  margin: .5rem auto;
+  grid-gap: .2rem;
+  margin: .1rem auto;
   max-width: var(--max-width);
 }
 .filters-container h5 {
   font-weight: 500;
-  margin: 1.5rem 0 0.5rem;
+  margin: 1rem 0 0.5rem;
   font-size: 0.85rem;
 }
 .tours-container {

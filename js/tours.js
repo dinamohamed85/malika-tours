@@ -51,7 +51,7 @@ const displayTours = () => {
     else 
         text1 = ' top '+ currentCategory;    
 
-    toursTitle.innerHTML = `<div class="tours-title">
+    toursTitle.innerHTML = `<div class="section-title">
         <h2> ${text0}<span class="featured-num">${text1}</span> ${text2}</h2>
     </div>`;
 
