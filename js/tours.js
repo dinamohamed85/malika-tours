@@ -85,11 +85,11 @@ const displayTours = () => {
             <a href="${location}" target="_blank">
             <span class="more-info"><i
             class="fa-solid fa-diamond-turn-right site-icon"></i>
-            Location </span></a></p>` : ``}  
+            Address </span></a></p>` : ``}  
              
             </section>
             <p>
-            ${phone ? `<p> <i class="fa-solid fa-phone phone-icon"></i>
+            ${phone ? `<p> <i class="fa-solid fa-phone phone-icon" alt="phone"></i>
             <span class="more-info">  ${phone}</span> </p> `  : ``} 
             </p>  
             <p>
