@@ -993,7 +993,8 @@ min-height:calc(100vh - 62px);
   margin-bottom: 0;
   font-size: 1.75rem;
 }
-.more-info{  
+.more-info{ 
+  font-size: .856rem; 
   color: var(--clr-grey-11);
 }
 .ar-icon{

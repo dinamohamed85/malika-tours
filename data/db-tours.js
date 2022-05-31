@@ -9,7 +9,7 @@ const tours = [
         date: 'February, 2021',
         location: 'https://goo.gl/maps/gWdGisnoK9TuW2LGA',
         site: 'https://zugspitze.de/en',
-        address:'Olympiastraße 31,  82467 Garmisch-Partenkirchen',
+        address:'Olympiastraße 31,82467 Garmisch-Partenkirchen',
         addressdesc: 'Garmisch In the south of Bavaria about 1.5 hr away by <strong>Car</strong> (Garmisch-Partenkirchen) or 2 hr via<strong>Train</strong>.',
         description: 'Garmisch. Well-known alpine destination with a ski resort, glaciers & cable car rides offering scenic views.',
         thingstodo: [
@@ -77,7 +77,7 @@ const tours = [
         date: 'Mai, 2021',
         location: 'https://goo.gl/maps/CxQ5KFEDUJeBnyX38',
         site: 'https://www.lindau.de/en/',
-        address:'Bregenzer Straße 6–12 (Reutin) 88131 Lindau (Bodensee)',
+        address:'Bregenzer Straße 6–12(Reutin)88131 Lindau(Bodensee)',
         addressdesc: 'Lindau is a city in the south of Bavaria as it is about 3 hr away Munich via <strong>Train</strong> or 2.25 hr by<strong>Car</strong> (88131 Lindau).',
         description: 'Lindau is a town on Lake Constance (or Bodensee) in Bavaria, Germany, known for its old town on Lindau island. The harbor has a Bavarian Lion statue and a stone lighthouse with lake and mountain views. On the harborfront Seepromenade, the 12th-century Mangturm is a former watchtower with a pointed, tiled roof. Near restaurant-lined Maximilianstrasse, the Gothic Altes Rathaus (Old Town Hall) has a painted facade.Google.',
         thingstodo: [
