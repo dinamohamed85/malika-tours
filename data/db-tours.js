@@ -651,6 +651,7 @@ const tours = [
         date: 'May, 2021',
         location: 'https://goo.gl/maps/ZA43nNzeaSaaS8yv6',
         site: 'https://www.muenchen.de/sehenswuerdigkeiten/orte/120242.html',
+        address: 'Englischer Garten, 80538 München',
         addressdesc: 'In the Munich city center via <strong>U3|U6</strong> (Gislastraße).',
         description: 'Expansive, 18th-century, urban park with 78km of cycling/jogging trails & a lakeside beer garden.',
         thingstodo: [
@@ -662,7 +663,7 @@ const tours = [
             'picnic',
             'free tickets'
         ],
-        likes: '49,422',
+        likes: '50,422',
         duration: 8,
         price: 0,
         season: 'summer',
@@ -676,8 +677,9 @@ const tours = [
         image: './images/tours/3-parks/tour-2.jpeg',
         country: 'Germany',
         date: 'March, 2021',
-        location: 'https://goo.gl/maps/YP34oEdeSoquzk7E8',
+        location: 'https://goo.gl/maps/YP34oEdeSoquzk7E8',        
         site: 'http://www.schloss-nymphenburg.de',
+        address: 'Neuhausen-Nymphenburg, 80638 München',
         addressdesc: 'In the Munich city center via <strong>S3</strong> (Laim).',
         description: 'Classical English-style palace park with neat flowerbeds, ornamental pool & secluded wooded area.',
         thingstodo: [
@@ -704,9 +706,12 @@ const tours = [
         date: 'May, 2021',
         location: 'https://goo.gl/maps/inoGtm9tdanbrP687',
         site: 'https://www.muenchen.de/int/en/culture-leisure/sport-fitness/lakes-munich/isar.html',
+        address: 'Isar, 81541 München, Isarauen, 81379',
         addressdesc: 'In the Munich city center via <strong>U2</strong> (Fraunhoferstraße).',
         description: 'The Isar is a river in Tyrol, Austria and Bavaria, Germany, which is not navigable for watercraft above raft size.',
         thingstodo: [
+            'Flaucher',
+            'Isar Gate',
             'Swimming',
             'Strolling',
             'Picnic',
@@ -731,6 +736,7 @@ const tours = [
         date: 'April, 2021',
         location: 'https://goo.gl/maps/bCjtavy6cYgDNiR89',
         site: 'https://www.olympiapark.de/de/olympiapark-muenchen',
+        address: 'Spiridon-Louis-Ring 21, 80809 München',
         addressdesc: 'Close to the Munich city center as it is about 20 min away via <strong>U3|U8</strong> (Olympiazentrum | Petuelring).',
         description: 'Huge Olympic park complex with a stadium, guided tours, sea life center, rock museum concerts.',
         thingstodo: [
@@ -758,6 +764,7 @@ const tours = [
         date: 'June, 2021',
         location: 'https://goo.gl/maps/2GGBwpDosCRvAHbD6',
         site: 'http://www.muenchen.de/sehenswuerdigkeiten/orte/120259.html',
+        address: '81373 Munich',
         addressdesc: 'Close to the Munich city center as it is about 15 min away via <strong>S7</strong> (Harras) or <strong>U6</strong>(Westpark) or U5(westendstraße).',
         description: 'Fruit bowls & cakes with berries at a family-friendly site with strawberry picking & kids games.',
         thingstodo: [
@@ -785,6 +792,7 @@ const tours = [
         date: 'April, 2021',
         location: 'https://goo.gl/maps/9A9aawc6fx6Z4eps5',
         site: 'https://www.muenchen.de/sehenswuerdigkeiten/orte/120223.html',
+        address: 'Hirschgarten 1, 80639 München',
         addressdesc: 'Close to the Munich city center as it is about 15 min away via <strong>S</strong> (Laim).',
         description: 'Venerable restaurant with a charming vibe featuring traditional Bavarian fare & a huge beer garden.',
         thingstodo: [
@@ -812,6 +820,7 @@ const tours = [
         date: 'April, 2021',
         location: 'https://goo.gl/maps/7hffUyjWd2iji3F68',
         site: 'http://www.hellabrunn.de',
+        address: 'Tierparkstraße 30, 81543 München, Germany',
         addressdesc: 'In the Munich city center via <strong>U3</strong> (Tierpark).',
         description: 'Forest setting for kids rides & attractions with fairytale themes, plus playgrounds toy trains.',
         thingstodo: [
@@ -841,6 +850,7 @@ const tours = [
         date: 'April, 2021',
         location: 'https://goo.gl/maps/AFk9fCbLquSPqzfM8',
         site: 'http://www.wildpark-poing.de',
+        address: 'Wildparkstraße 32, 85586 Poing, Germany',
         addressdesc: 'In the east of Munich as it is about 40 min away via <strong>S2 </strong>(Erding).',
         description: 'Wildpark Poing. Huge wildlife park with nature trails through free roaming animals, plus zoo & bird of prey shows.',
         thingstodo: [
@@ -869,6 +879,7 @@ const tours = [
         date: 'September, 2021',
         location: 'https://goo.gl/maps/gthLYmRbvYL9EwnV8',
         site: 'http://www.muenchen.de/sehenswuerdigkeiten/orte/120226.html',
+        address: 'Feichtstr. 19, 81735 München',
         addressdesc: 'In the east of Munich about 15 min away via <strong>U5</strong> (Michaelibad).',
         description: 'This 56-hectare park offers playgrounds & sports courts, plus jogging trails, a lake & picnic areas.',
         thingstodo: [
@@ -897,6 +908,7 @@ const tours = [
         date: 'May, 2021',
         location: 'https://goo.gl/maps/7hGc2vX7XR8CzNuD9',
         site: 'http://www.muenchen.de/sehenswuerdigkeiten/orte/120265.html',
+        address: 'Maßmannstraße 8, 80333 München',
         addressdesc: 'lose to the Munich city center as it is about 10 min away via <strong>U2</strong> (Theresienstraße).',
         description: 'Green public park featuring skate ramps, a bocce ball court & grassy lawns for picnicking.',
         thingstodo: [
@@ -924,6 +936,7 @@ const tours = [
         date: 'may, 2021',
         location: 'https://goo.gl/maps/FrM8w3vGJ7pSDFFz9',
         site: 'http://www.muenchen.de/sehenswuerdigkeiten/orte/120254.html',
+        address: 'Brunnerstraße 2, 80804 München',
         addressdesc: 'In the north of Munich as it is about 25 min away via <strong>U2 </strong>(Scheidplatz).',
         description: '33-hectare public park around a scenic hill made from WWII rubble with a hedge maze & restaurant.',
         thingstodo: [
@@ -953,6 +966,7 @@ const tours = [
         date: 'may, 2021',
         location: 'https://goo.gl/maps/bEqvg9xkdw8AyN286',
         site: 'http://www.muenchen.de/sehenswuerdigkeiten/orte/120231.html',
+        address: 'Hofgartenstraße 1, 80538 München',
         addressdesc: 'In the Munich city center via <strong>U5 </strong>(Odeonsplatz).',
         description: 'City park with formal lawns & flower beds, court gardens of the Royal residence in the 17th century.',
         thingstodo: [
@@ -980,6 +994,7 @@ const tours = [
         date: 'March, 2021',
         location: 'https://goo.gl/maps/XaVqJ6GYJ6TFx3Xt5',
         site: 'http://www.maerchenwald-isartal.de',
+        address: '',
         addressdesc: 'In the south of Bavaria as it is about 50 min away via <strong>S7</strong> (Wolfratshausen) or 40 min by <strong>Car</strong> (82515 Wolfratshausen).',
         description: 'Nature reserve style zoo with animals grouped in large enclosures, as per their geographic spread.',
         thingstodo: [
@@ -1006,6 +1021,7 @@ const tours = [
         date: 'June, 2021',
         location: 'https://goo.gl/maps/ozS3235txbXnqTidA',
         site: 'http://www.blombergbahn.com',
+        address: '',
         addressdesc: 'In the south of Munich as it is about 45 min away by <strong>Car</strong> (83646 Wackersberg)',
         description: 'Year-round double chair lift up Blomberg Mountain to hiking trails, a toboggan run & ski slopes.',
         thingstodo: [
@@ -1032,6 +1048,7 @@ const tours = [
         date: 'june, 2021',
         location: 'https://goo.gl/maps/hr5jSXNuFtMZSmmF8',
         site: 'http://www.bayern-park.de',
+        address: '',
         addressdesc: 'In the east of Bavaria as it is about 1 hr away by <strong>Car</strong> (94419 Reisbach)or 2 hr via <strong>Train</strong>.',
         description: 'Rollercoaster & water slide- filled attraction with regular, family - friendly themed events.',
         thingstodo: [
@@ -1059,6 +1076,7 @@ const tours = [
         date: 'December, 2021',
         location: 'https://goo.gl/maps/3NJ1QM5NwjbjCxMX9',
         site: 'http://www.wichtel-werk.de',
+        address: '',
         addressdesc: 'Close to the Munich city center as it is about 30 min away via <strong>S8 </strong>(Neuaubing).',
         description: 'Nice entertainment for older and younger children. Good food quality (for an indoor play area), clean and well maintained.',
         thingstodo: [
@@ -1086,6 +1104,7 @@ const tours = [
         date: 'July, 2021',
         location: 'https://goo.gl/maps/xVvvTx7EfFKv4JxUA',
         site: 'https://www.legoland.de',
+        address: '',
         addressdesc: 'In the west of Bavaria as it is about 1 hr away by <strong>Car</strong> (89312 Günzburg) or 2 hr via <strong>Train</strong>.',
         description: 'Family leisure park with thrill rides & an aquarium, plus German landmarks built from Lego.',
         thingstodo: [
@@ -1114,6 +1133,7 @@ const tours = [
         date: 'January, 2021',
         location: 'https://goo.gl/maps/wkCnZwVeYD1tTN3J9',
         site: 'https://www.visitsealife.com/de/muenchen',
+        address: '',
         addressdesc: 'Close to the Munich city center as it is about 20 min away via <strong>U3|U8 </strong>(Olympiazentrum).',
         description: 'Family - friendly exhibits with a variety of sea creatures(most offer play areas & group packages).',
         thingstodo: [
@@ -1141,6 +1161,7 @@ const tours = [
         date: 'June, 2021',
         location: 'https://goo.gl/maps/sf19jtt6LDz7sQHg6',
         site: 'https://www.skylinepark.de',
+        address: '',
         addressdesc: 'In the west of Bavaria as it is about 1 hr away by <strong>Car</strong> (86871 Rammingen) or 2 hr via <strong> Train</strong>.',
         description: 'Family - friendly exhibits with a variety of sea creatures(most offer play areas & group packages).',
         thingstodo: [
@@ -1166,6 +1187,7 @@ const tours = [
         date: 'December, 2021',
         location: 'https://goo.gl/maps/TYEhBgXtQVkkVdTD9',
         site: 'https://www.jimmys-funpark.de',
+        address: '',
         addressdesc: 'In the west of Munich as it is about 45 min away by <strong>Car</strong> (86453 Dasing) or 1.5 hr via <strong>Train</strong>',
         description: 'fun time with my kids. Is an fine place for kids, one needs to spend an entire day over there. different options.Good eateries top with cheap menu options.',
         thingstodo: [
@@ -1192,6 +1214,7 @@ const tours = [
         date: 'November, 2021',
         location: 'https://maps.app.goo.gl/5zPpaECJ4KQYbucA8',
         site: 'http://www.maerchenpark.de',
+        address: '',
         addressdesc: 'In the south of Bavaria as it is about 1 hr away by <strong> Car</strong> (83250 Marquartstein) or 1.5 hr via <strong>Train</strong>.',
         description: 'Family theme park with slides & rides set in forest & mountain scenery, plus Bavarian cuisine.',
         thingstodo: [
@@ -1219,6 +1242,7 @@ const tours = [
         date: 'February, 2021',
         location: 'https://goo.gl/maps/T3PWoVsUq1dymoiC6',
         site: 'http://www.alpsee-bergwelt.de',
+        address: '',
         addressdesc: 'In the south of Bavaria as it is about 2 hr away by <strong>Car</strong> (87509 Immenstadt) or 2.5 hr via <strong> Train</strong>.',
         description: 'Thrilling Alpine roller coaster twisting & zigzagging down a forested mountainside.',
         thingstodo: [
@@ -1245,6 +1269,7 @@ const tours = [
         date: 'March, 2021',
         location: 'https://goo.gl/maps/3Dx3Yqkzyw3PJB8aA',
         site: 'http://www.muenchen.de/sehenswuerdigkeiten/orte/120324.html',
+        address: '',
         addressdesc: 'In the Munich city center via <strong>U3|U6</strong> (Münchner Freiheit).',
         description: 'Bustling square featuring shops, pubs, Restaurant & an annual Christmas market.',
         thingstodo: [
@@ -1272,6 +1297,7 @@ const tours = [
         date: 'March, 2021',
         location: 'https://goo.gl/maps/vdEzDA6HwZcVRyhp8',
         site: 'https://www.circus-krone.com/de',
+        address: '',
         addressdesc: 'In the Munich city center via <strong>S</strong> (Hackerbrücke).',
         description: 'Circular building hosting pop & rock concerts, plus winter home of circus troupe.',
         thingstodo: [
@@ -1300,6 +1326,7 @@ const tours = [
         date: 'December, 2021',
         location: 'https://goo.gl/maps/kcJd6yWHjtSN7xTRA',
         site: 'http://www.deutsches-museum.de',
+        address: '',
         addressdesc: 'In the Munich city center via <strong>S</strong> (Isartor).',
         description: 'Huge technology museum with original artifacts & interactive energy, transport & astronomy displays.',
         thingstodo: [
@@ -1326,6 +1353,7 @@ const tours = [
         date: 'June, 2021',
         location: 'https://goo.gl/maps/3q5DcANWs3RxkKuA6',
         site: 'https://www.hofreiter.de/beerencaf%C3%A9/',
+        address: '',
         addressdesc: 'Purpurweidenweg, 81249 München , Feldmochinger Str., 80995 München, Close to the Munich city center as it is about 20 min away via <strong>S3</strong> (Lochhausen).',
         description: 'Fruit bowls & cakes with berries at a family-friendly site with strawberry picking & kids games.',
         thingstodo: [
@@ -1352,6 +1380,7 @@ const tours = [
         date: 'November, 2021',
         location: 'https://goo.gl/maps/SzogdQp9txXTovVf8',
         site: 'https://www.swm.de/baeder/schwimmen-sauna/cosimawellenbad',
+        address: '',
         addressdesc: 'In the east of Munich city center as it is about 15 min away via <strong>U4</strong> (Arabellapark) or by <strong>Tram 37</strong>(Cosimabad).',
         description: 'Wave swimmingpool, has heated outdoor swimming pool, has nice area for samll kids to play with the water, nice place in the winter to have fun.',
         thingstodo: [
@@ -1379,6 +1408,7 @@ const tours = [
         date: 'January, 2021',
         location: 'https://goo.gl/maps/6NUMSSEG6NVLtJAv9',
         site: 'http://www.cocoloco-gruenwald.de',
+        address: '',
         addressdesc: 'In the south of Munich city center as it is about 30 min away via <strong>U1</strong> (Wetterseinplatz) or <strong>S</strong>(Rosenheimer Platz) then <strong>Tram 25</strong>    (Grünwald, Ludwig).',
         description: 'Good place to have your children run around, climb, use slides. Perfect for bad weather. Heads up- you can only eat/drink food that you buy there.',
         thingstodo: [
@@ -1406,6 +1436,7 @@ const tours = [
         date: 'December, 2021',
         location: 'https://goo.gl/maps/XA88JJaChhFUC9Ug7',
         site: 'https://www.swm.de/baeder/schwimmen-sauna/westbad',
+        address: '',
         addressdesc: 'Close to the Munich city center as it is about 20 min away via <strong>U5</strong> (Laimer Platz) then <strong>Bus 57</strong>(Westbad).',
         description: 'One of the great Swimming Pool in Munich ,clean, good service,cool prizes. different Swimming Pools, Great Sauna World.',
         thingstodo: [
@@ -1433,6 +1464,7 @@ const tours = [
         date: 'January, 2021',
         location: 'https://goo.gl/maps/twTw98TxZd1NzDSv7',
         site: 'http://erdino.de',
+        address: '',
         addressdesc: 'In the east of Munich city center as it is about 30 min away via <strong>S2</strong> (Erding) then <strong>Bus 512</strong> (Trindl - keller) or <strong>S8</strong>(München) then <strong>Bus 515</strong>(Robert - Bosch).',
         description: 'Fine place with a big play area and a lot of attractions activities with affordable price.',
         thingstodo: [
@@ -1458,6 +1490,7 @@ const tours = [
         date: 'July, 2021',
         location: 'https://goo.gl/maps/6Mx2GomGo3YtANNa9',
         site: 'https://www.swm.de/baeder/schwimmen-sauna/michaelibad',
+        address: '',
         addressdesc: 'In the east of Munich about 15 min away via <strong>U5</strong> (Michaelibad).',
         description: 'Large space that never feels busy, outdoor & indoor pool with good facilities.',
         thingstodo: [
@@ -1488,6 +1521,7 @@ const tours = [
         date: 'November, 2021',
         location: 'https://goo.gl/maps/FTdJEMCEgTAMEbwz9',
         site: 'https://www.mathaeser.de',
+        address: '',
         addressdesc: 'In the center of Munich city center as it is about 10 min away via <strong>S</strong> (KarlsPatz).',
         description: 'Cinema complex with 14 screens showing the latest releases, plus Restaurant, shopping & ice-cream.',
         thingstodo: [
@@ -1514,6 +1548,7 @@ const tours = [
         date: 'October, 2021',
         location: 'https://goo.gl/maps/tghrceSF7q5ruRmA7',
         site: 'http://www.smaek.de',
+        address: '',
         addressdesc: 'In the center of Munich about 15 min away via <strong>U2</strong> (Königsplatz) or from Hauptbahnhof <strong>Bus 100</strong>(Technische Universität).',
         description: 'Archeological museum dedicated to Egypt, featuring 2,000+ artifacts spanning 5,000 years of history.',
         thingstodo: [
@@ -1544,6 +1579,7 @@ const tours = [
         location: 'https://goo.gl/maps/hwZTj7YiXCt1A6rCA',
         site: '',
         facebook:'https://de-de.facebook.com/people/Circus-Sorento/100046369466190/',
+        address: '',
         addressdesc: 'In the east of Munich about 25 min away via <strong>U5</strong> (Quiddestraße).',
         description: 'Small cozy circus (family circus) that really tries is worth especially with small children to watch great artist and clown show(no animals).',
         thingstodo: [
@@ -1572,6 +1608,7 @@ const tours = [
         location: 'https://goo.gl/maps/Gj52nzAWDXbroKqBA',
         site: '',
         facebook:'https://www.facebook.com/flippy.huepfburgenland',
+        address: '',
         addressdesc: 'Follow the Facebook page to know the location of the event when happened closest to you.',
         description: 'The perfect trip destination for the whole family, take the opportunity for a fun family trip, As always, a lot of bouncy castle game fun and action modules await you.', thingstodo: [
             'Bouncy Castles',
@@ -1598,6 +1635,7 @@ const tours = [
         date: 'April & September, 2022',
         location: 'https://goo.gl/maps/QwciWUtpyVYStqSS7',
         site: 'https://www.oktoberfest.de/en',
+        address: '',
         addressdesc: 'In the center of Munich about 10 min away via <strong>U5</strong> (Theresienwiese).',
         description: 'With over six million guests a year, the Oktoberfest is the largest public festival in the world.The Oktoberfest 2022 is currently being planned.',
         thingstodo: [
@@ -1626,6 +1664,7 @@ const tours = [
         date: 'October, 2021',
         location: 'https://goo.gl/maps/8YAXtNiJdmqzg2dm7',
         site: 'https://www.neubiberg.de/umweltgarten',
+        address: '',
         addressdesc: 'In the south of Munich about 20 min by <strong>S7</strong>(Neubiberg).',
         description: 'Nice little garden with animals including geese, bunnies, goats and ponies. Also a playground is there with slide, swings and other equipment.',
         thingstodo: [
@@ -1657,6 +1696,7 @@ const tours = [
         date: 'June, 2021',
         location: 'https://goo.gl/maps/D4if4oRXYsZpsEh48',
         site: 'https://spielplatzliebe.de/spielplatz-freiham-pumuckl-quartier/',
+        address: '',
         addressdesc: 'In the north of Munich about 25 min by <strong>S8</strong>(Freiham).',
         description: 'Big and modern playground, for smaller and bigger kids, climb the rocks, wooden beams or the rope and go down those awesome slides!',
         thingstodo: [
@@ -1685,6 +1725,7 @@ const tours = [
         date: 'December, 2021',
         location: 'https://goo.gl/maps/5ge5wpw7ddskeQdg9',
         site: 'https://www.maxxarena.com/',
+        address: '',
         addressdesc: 'Close to the Munich city center as it is about 30 min away via <strong>S2 </strong>(Erding/Heimstetten).',
         description: 'Indoor entertainment zone with a laser maze, a trampoline room, blacklight golf & a climbing wall.',
         thingstodo: [
@@ -1714,6 +1755,7 @@ const tours = [
         date: 'April, 2021',
         location: 'https://goo.gl/maps/Lam4YFYRphMgYKFJ9',
         site: 'http://www.juxundtollerei.com/',
+        address: '',
         addressdesc: 'in the east of Munich city center as it is about 35 min away via <strong>S2 </strong>(Erding/Grub(Oberbay)).',
         description: 'Indoor Playground zone with a Maze, a trampoline, Slides.',
         thingstodo: [
@@ -1740,6 +1782,7 @@ const tours = [
         date: 'march, 2021',
         location: 'https://goo.gl/maps/XhnoWzJqmcabwUTUA',
         site: 'https://www.letzfetz-indoor.de/',
+        address: '',
         addressdesc: 'in the north of Munich as it is about 45 min away via <strong>S1 </strong>(Eching).',
         description: 'Indoor Playground zone with a Maze, a trampoline, Slides.',
         thingstodo: [
@@ -1766,6 +1809,7 @@ const tours = [
         date: 'July, 2021',
         location: 'https://goo.gl/maps/LbTxJyqfyeMDaHyT8',
         site: 'https://www.therme-erding.de/en/',
+        address: '',
         addressdesc: 'In the east of Munich about 15 min away via <strong>S2</strong> (Erding, Therme Erding).',
         description: 'The Therme Erding with state-approved medicinal water is today the largest thermal bath in the world',
         thingstodo: [
@@ -1800,6 +1844,7 @@ const tours = [
         date: 'february, 2021',
         location: 'https://goo.gl/maps/hQSTRvczRhU2rzmV7',
         site: 'https://www.bmw-welt.com/de/locations/museum.html',
+        address: '',
         addressdesc: 'Close to the Munich city center as it is about 20 min away via <strong>U3|U8 </strong>(Olympiazentrum).',
         description: 'Futuristic steel museum housing engines, designs plus vintage & new cars from the much-loved brand. There you have to visut also BMW Motor, company s futuristic distribution center & exhibition hall, with a restaurant & event space.',
         thingstodo: [
@@ -1827,6 +1872,7 @@ const tours = [
         date: 'february, 2022',
         location: 'https://goo.gl/maps/GTaeceHFcFavGUzWA',
         site: 'https://www.deutsches-museum.de/verkehrszentrum/',
+        address: '',
         addressdesc: 'Close to the Munich city center as it is about 15 min away via <strong>U5 </strong>(Schwanthalerhöhe).',
         description: 'Verkehrszentrum Museum. Contemporary indoor/outdoor museum featuring exhibits of old automobiles, buses & train cars.',
         thingstodo: [
@@ -1856,6 +1902,7 @@ const tours = [
         date: 'february, 2021',
         location: 'https://goo.gl/maps/U3g2sKwJkbkLxUe88',
         site: 'http://www.kindermuseum-muenchen.de/',
+        address: '',
         addressdesc: 'In the Munich city center via <strong>U5 </strong>(Hauptbahnhof).',
         description: 'Educational museum with temporary, hands-on exhibitions for kids to experiment with & learn.',
         thingstodo: [
@@ -1882,6 +1929,7 @@ const tours = [
         date: 'may, 2021',
         location: 'https://goo.gl/maps/orjUz8XBvLUJqF72A',
         site: 'https://www.pinakothek.de/besuch/alte-pinakothek',
+        address: '',
         addressdesc: 'In the Munich city center via <strong>U5 </strong>(Odeonsplatz).',
         description: 'Major art collection in a vast neoclassical building displaying about 900 paintings at any one time.',
         thingstodo: [
@@ -1907,6 +1955,7 @@ const tours = [
         date: 'may, 2021',
         location: 'https://goo.gl/maps/U2cPYoHwN1bpWvxL6',
         site: 'https://www.pinakothek-der-moderne.de/',
+        address: '',
         addressdesc: 'In the Munich city center via <strong>U5 </strong>(Odeonsplatz).',
         description: 'Vast, contemporary museum housing art, architecture, design & graphics of the 19th & 20th centuries.',
         thingstodo: [
@@ -1934,6 +1983,7 @@ const tours = [
         date: 'january, 2021',
         location: 'https://goo.gl/maps/bjnzWaBaSdNv4o8i6',
         site: 'https://www.lenbachhaus.de/',
+        address: '',
         addressdesc: 'close to the Munich city center awy 15 min via <strong>U2 </strong>(Königsplatz).',
         description: 'Modern & contemporary art museum with works by Kandinsky, Klee & the Blue Rider movement.',
         thingstodo: [
@@ -1961,6 +2011,7 @@ const tours = [
         date: 'April-September, 2022',
         location: 'https://goo.gl/maps/X5pPsyZmufCtu5KR8',
         site: 'https://www.circus-feraro.de/',
+        address: '',
         addressdesc: '01606500175. Predazzoallee, 85399 Hallbergmoos. In the north east of Munich about 35 min away of Munich center via <strong>S8</strong> (Hallbergmoos) then <strong>Bus 692</strong> (Hallbergmoos, Sportpark).',
         description: 'Circus Universal Feraro (animals) 6.5.22 - 15.5.22 in Hallbergmoos, . We present you a 2-hour circus program in and above the ring.Breathtaking acrobatics, exquisite animal training and clowning.Treat yourself and your family to a few wonderful hours and experience our performance.Coming soon in: Garching , Erding , Ebersberg , Wartenberg , Mainburg , Abensberg ,Dingolfing ,Landau on the Isar',
         thingstodo: [
@@ -1989,6 +2040,7 @@ const tours = [
         date: 'April, 2021',
         location: 'https://goo.gl/maps/HvBNgJq5kQKAMqdBA',
         site: 'http://www.dinopark-augsburg.de/',
+        address: '',
         addressdesc: 'Flughafenstraße, 86169 Augsburg, In the north west  of Munich as it is about 1.5 hr away via <strong>train</strong> (Augsburg).',
         description: 'Discover prehistoric stars. Mini golf, straw maze, amusement park for kids.',
         thingstodo: [
@@ -2016,6 +2068,7 @@ const tours = [
         date: 'April, 2021',
         location: 'https://goo.gl/maps/aafFi47RRByJKmAK6',
         site: 'https://www.big-jump.de/',
+        address: '',
         addressdesc: 'In the north west  of Munich as it is about 1.5 hr away via <strong>train</strong> (Augsburg).',
         description: 'Trampolines with lots of action and fun! Jumpers from Augsburg, numerous disciplines. Master the obstacle course , fights on balance beams in the battle beam or plays dodgeball and volley jump. Fly through the air with the longest flying fox in southern Germany and discover your skills as a secret agent on the longest lazer maze course in Germany. Or simulate more than ten sports on a gigantic screen. It doesn’t matter whether it’s a children’s birthday party, Family outing, bachelor parties, team events.',
         thingstodo: [
@@ -2043,6 +2096,7 @@ const tours = [
         date: 'May, 2021',
         location: 'https://goo.gl/maps/CVBj3QiEv1fdJWs39',
         site: 'http://www.reitsberger-hof.de/',
+        address: '',
         addressdesc: 'In the east of Munich as it is about 30 min away via <strong>S6</strong> (Baldham/Vaterstetten).',
         description: 'big certified adventure farm. The open farm is a great idea for a family outing. Young and old have direct contact with the farm animals like (donkey,geese,Chicken,cows,ducks,mule, horses, ponies, sheep, goats).',
         thingstodo: [
@@ -2073,6 +2127,7 @@ const tours = [
         location: 'https://goo.gl/maps/RTKvhQRE8auZChP29',
         site: '',
         facebook:'https://www.facebook.com/CircusBaldoniKaiser/',
+        address: '',
         addressdesc: '015226501541. 85640 Putzbrunn. In the south east of Munich about 35 min away of Munich center via <strong>Bus55|Bus212</strong> (Wernh-von-braun-str)',
         description: 'Circus Baldoni Kaiser 6.5.22 - 15.5.22 in Putzbrunn. the Circus BALDONI will soon be making a guest appearance in your city. Experience a colorful circus cocktail with breathtaking top artistry, heart-warming clowns and species-appropriate animal training.',
         thingstodo: [
@@ -2102,6 +2157,7 @@ const tours = [
         location: 'https://goo.gl/maps/mK5qPm4jNbznojTeA',
         site: '',
         facebook:'https://www.facebook.com/abenteuerlanddobolino',
+        address: '',
         addressdesc: 'Follow the Facebook page to know the location of the event when happened closest to you.',
         description: 'The perfect trip destination for the whole family, take the opportunity for a fun family trip, As always, a lot of bouncy castle game fun and action modules await you.', thingstodo: [
             'Bouncy Castles',
@@ -2128,6 +2184,7 @@ const tours = [
         date: 'february, 2021',
         location: 'https://goo.gl/maps/U3g2sKwJkbkLxUe88',
         site: 'http://www.kindermuseum-muenchen.de/',
+        address: '',
         addressdesc: 'Dinopark 1, 85095 Denkendorf, In the Munich city center via <strong>U5 </strong>(Hauptbahnhof).',
         description: 'Forest park with model dinosaurs & exhibits of excavated fossils, plus an outdoor play area.',
         thingstodo: [
@@ -2157,6 +2214,7 @@ const tours = [
         location: 'https://goo.gl/maps/hwZTj7YiXCt1A6rCA',
         site: 'https://www.wearehighfive.com/',
         facebook:'https://www.facebook.com/wearehighfive/',
+        address: '',
         addressdesc: 'HIGH FIVE. they are moving between 5 different locations during the week.',
         description:'HIGH FIVE is an organization that teaches children and youth new skills through various training programs throughout the year and helps them learn new and diverse sports 🏈🏀⛷🏂⛹🏻 ♂️ and offers these activities for free 👌   throughout the year, during weekdays in different areas in Munich You can find out about these places through their website 👇🏻 and go regularly and participate for the children in the existing activities We tried with them basketball 🏀 and skateboard 🏂, and it was an interesting and useful experience because they teach the children teamwork and participation and how to discover their skill',
         more: 'locations :- MONDAY :Giesing / Candidplatz, TUESDAY: Neuperlach / A-K-A Steinplatz, WEDNESDAY: Riem / Riemer Park, THURSDAY: Neuaubing / Wiesentfelserstr. ',
@@ -2183,6 +2241,7 @@ const tours = [
         date: 'Mai, 2022',
         location: 'https://g.page/phoenixbad?share',
         site: 'http://www.phoenixbad.de/',
+        address: '',
         addressdesc: 'Haidgraben 121, 85521 Ottobrunn, In the east of the Munich as it is about 30 min away via <strong>U5</strong> (Neuperlach Süd) then <strong>Bus 210</strong>(Taufkirchen, Lilienthalstr).',
         phone:'0896607870',
         description: 'Diverse sauna landscape and spa with a sophisticated atmosphere, sports and adventure pool for the whole family with a 5 m diving tower and 2 giant slides.',
@@ -2212,6 +2271,7 @@ const tours = [
         date: 'Mai, 2021',
         location: 'https://goo.gl/maps/outu3b6aU9eqZUb4A',
         site: 'https://www.swm.de/baeder/schwimmen-sauna/dantebad',
+        address: '',
         addressdesc: 'Postillonstraße 17, 80637 München, Close to the Munich city center as it is about 35 min away via <strong>U1</strong> (Dantebad).',
         phone:'08923615050',
         description: 'Year-round, outdoor aquatic center featuring a heated Olympic size pool & heated wellness pool.',
@@ -2241,6 +2301,7 @@ const tours = [
         date: 'june, 2021',
         location: 'https://goo.gl/maps/psuNRicT9uRipqGG8',
         site: 'https://www.seebad-starnberg.de/',
+        address: '',
         addressdesc: 'Strandbadstraße 17, 82319 Starnberg, in the north of the Munich as it is about 15 min away via <strong>S6</strong> (Seebad Starnberg).',
         phone:'0815112666',
         description: 'Lakeside lido with large sunbathing lawn & heated children`s pool, plus an indoor pool & sauna.',
@@ -2271,6 +2332,7 @@ const tours = [
         location: 'https://goo.gl/maps/ZbTcrAVsrpjWVUrR7',
         site: 'https://spielkultur.de/Veranstaltungen/weltspieltag/',
         facebook:'https://www.facebook.com/events/355305343233342?acontext=%7B%22event_action_history%22%3A[%7B%22mechanism%22%3A%22search_results%22%2C%22surface%22%3A%22search%22%7D]%2C%22ref_notif_type%22%3Anull%7D',
+        address: '',
         addressdesc: 'Neubaugebiet Gleisharfe Fritz-Bauer-Straße 81249 München. <strong>S8</strong> (Neuaubing)',
         description:'Weltspieltag 2022. World play day. takes place every year before the Corona virus, and it is very sweet and organized, and there are many different activities for children, whether sports games or recreational scientific activities, handicrafts, drawing and coloring. You can come and enjoy and simplify your beautiful children without money or prior registration 😍  👇🏻.',
         more: '28 Mai 2022. 10 am - 6 pm',
@@ -2300,6 +2362,7 @@ const tours = [
         date: 'Decmber, 2021',
         location: 'https://goo.gl/maps/yrW2BNYjgXbDGeHY8',
         site: 'https://skischule-muenchen-ost.de/pages/impressum.php',
+        address: '',
         addressdesc: 'In the east of Munich about 15 min away via <strong>U5</strong>(Mischaelibad).',
         description: 'Big place to ski in the winter, also to learn skiing with the trainers.',
         thingstodo: [
