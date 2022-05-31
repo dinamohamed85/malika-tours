@@ -139,6 +139,7 @@ const displayButtons = () => {
 };
 
 const getListBycategory = (category) => {
+    console.log(category);
     if(category =='all'){
         filteredTours = [...tours];
     }
@@ -153,8 +154,8 @@ const getListBycategory = (category) => {
         window.open('halalrestaurants.html','_self');
     }
     else{
-        filteredTours = tours.filter((tour) => {
-            return tour.category == category || tour.thingstodo.find((item) => item.toLowerCase()== category);;
+        filteredTours = tours.filter((item) => {
+            return item.category == category || item.thingstodo.find((el) => el.toLowerCase() == category);
         });
     }
 };
