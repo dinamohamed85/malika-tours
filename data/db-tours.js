@@ -314,7 +314,7 @@ const tours = [
         date: 'September, 2021',
         location: 'https://goo.gl/maps/MXqL54V1TmHgckZaA',
         site: 'http://www.bayregio-starnberger-see.de',
-        address: '',
+        address: 'Bahnhofsplatz, 82319 Starnberg',
         addressdesc: 'Starnberger See is Close to the Munich city center as it is about 25 min away via <strong>S6</strong> (Starnberg).',
         description: 'Starnberger See is Germany second- largest body of fresh water. places to visit in Munich and cities around.',
         thingstodo: [
@@ -346,7 +346,7 @@ const tours = [
         date: 'july, 2021',
         location: 'https://goo.gl/maps/xu7xHXgkjrmpXD9d7',
         site: 'https://www.muenchen.de/freizeit/orte/119333.html',
-        address: '',
+        address: '81249 München-Langwied',
         addressdesc: 'langwieder see is a lake Close to the Munich city center as it is about 30 min away via <strong>S8 </strong>Herrsching then take the <strong>Badebus</strong> (langwieder).',
         description: 'Langwiedersee is composed of three lakes west of Munich in Bavaria.',
         thingstodo: [
@@ -378,7 +378,7 @@ const tours = [
         date: 'May, 2021',
         location: 'https://goo.gl/maps/y9514a7gquqnsc7W6',
         site: 'https://www.schliersee.de',
-        address: '',
+        address: '83727 Schliersee',
         addressdesc: 'Schliersee is a lake In the south of Bavaria as it is about 40 min away by <strong>Car</strong> (83727 Schliersee) or 1.5 hr via <strong>Train</strong>.',
         description: 'Schliersee has a surface area of approximately 2.2 sq. mi and is known as one of the nicest lakes in Bavaria perfect for Sightseeing.',
         thingstodo: [
@@ -409,7 +409,7 @@ const tours = [
         date: 'February, 2021',
         location: 'https://goo.gl/maps/141JpUGq8eC4foCVA',
         site: 'https://www.tegernsee.com',
-        address: '',
+        address: '83684 Tegernsee',
         addressdesc: 'Tegernsee is a lake In the south of Bavaria as it is about 40 min away by <strong>Car</strong> (83684 Tegernsee) or 1.5 hr via <strong>Train</strong>.',
         description: 'Tegernsee. Glacial tongue-basin alpine lake covering 3.5 sq. mi., with spa towns & hiking routes nearby.',
         thingstodo: [
@@ -441,7 +441,7 @@ const tours = [
         date: 'may, 2022',
         location: 'https://goo.gl/maps/vcpjZ5FhS5shGtA48',
         site: 'https://www.ammersee-region.de/',
-        address: '',
+        address: '86911 Ammersee',
         addressdesc: 'Ammersee is a lake In the north of Bavaria as it is about 40 min away by <strong>Car</strong> (86911 Ammersee) or 1 hr via <strong>Train</strong>.',
         description: 'Ammersee. Large lake with beaches, water sports & boat excursions as well as waterfront cafes & beer gardens.',
         thingstodo: [
@@ -470,7 +470,7 @@ const tours = [
         date: 'june, 2021',
         location: 'https://goo.gl/maps/T6j8HtXXUNQJisZB6',
         site: 'https://www.muenchen.de/int/en/culture-leisure/sport-fitness/chiemsee.html',
-        address: '',
+        address: '83209 Chiemsee',
         addressdesc: 'Chiemsee is a lake In the southeast of Bavaria as it is about 50 min away by <strong>Car</strong> (83209 Chiemsee) or 1.5 hr via <strong>Train</strong>.',
         description: 'Chiemsee. Picturesque lake for swimming & boating, featuring 3 islands, one with a Benedictine nunnery.',
         thingstodo: [
@@ -499,7 +499,7 @@ const tours = [
         date: 'July, 2021',
         location: 'https://goo.gl/maps/CxQ5KFEDUJeBnyX38',
         site: 'https://www.bodensee.eu/en',
-        address: '',
+        address: '88131 Lindau',
         addressdesc: 'Bodensee is a lake in the south of Bavaria as it is about 3 hr away Munich via <strong>Train</strong> or 2.25 hr by<strong>Car</strong> (88131 Lindau).',
         description: 'Bodensee is A popular tourism destination, this Alpine lake offers resorts towns & seasonal water sports.',
         thingstodo: [
@@ -533,7 +533,7 @@ const tours = [
         date: 'July, 2021',
         location: 'https://goo.gl/maps/7Rd5wLgDuyJ9seYF6',
         site: 'https://www.muenchen.de/freizeit/orte/119331.html',
-        address: '',
+        address: '85774 Unterföhring',
         addressdesc: 'Feringasee is a lake In the east of Munich about 15 min away via <strong>S8</strong> (Unterföhring) or by <strong> Car</strong>(85774 Unterföhring).',
         description: 'Feringasee has a water surface of 32 hectares and is up to seven meters deep. There are 21 hectares of sunbathing lawns around the lake.',
         thingstodo: [
@@ -563,7 +563,7 @@ const tours = [
         date: 'Aguset, 2021',
         location: 'https://goo.gl/maps/K6hurs8Zx4rVJXJ59',
         site: 'https://www.muenchen.de/sehenswuerdigkeiten/orte/119360.html',
-        address: '',
+        address: 'Trudering-Riem, 81829 Munich',
         addressdesc: 'Riemer Park is a lake In the east of Munich about 20 min away via <strong>U2</strong> (Messestadt West).',
         description: 'Riemer Park makes up a fresh water area of approximately 7.7 hectares, and is 14 meters deep, in some areas as deep as 18 meters. The lake is surrounded by the park which includes a north shore, pier and beach area that makes up another 6.1 hectares.',
         thingstodo: [
@@ -592,7 +592,7 @@ const tours = [
         date: 'June, 2021',
         location: 'https://goo.gl/maps/vAoSBd8DbHGUo9bJ7',
         site: 'https://www.walchensee-kochelsee.de/walchensee-kochelsee-english.php',
-        address: '',
+        address: 'Walchensee, 82432 Kochel',
         addressdesc: 'Walchensee is a lake In the south of Bavaria as it is about 1 min away by <strong>Car</strong> (82432 Walchensee) or 2 hr via <strong>Train</strong>.',
         description: 'Walchensee is One of the largest alpine lakes in Germany, site of many activities like sailing, swimming & skiing.Google.',
         thingstodo: [
@@ -623,6 +623,7 @@ const tours = [
         date: 'July, 2021',
         location: 'https://goo.gl/maps/7MVpNHcaZNp1RiU47',
         site: 'http://www.muenchen.de/freizeit/orte/119330.html',
+        address: 'Feldmochinger See, 80995 München',
         addressdesc: 'Feldmochinger See is a lake In the north of Bavaria as it is about 40 min away by <strong>Car</strong> (80995 Feldmochinger See) or 1 hr via <strong>U2</strong>.',
         description: 'The Feldmochinger See is located in the northwest of the state capital on the border to Karlsfeld, together with the Lerchenauer See and the Fasaneriesee.',
         thingstodo: [
