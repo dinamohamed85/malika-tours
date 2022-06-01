@@ -1466,6 +1466,7 @@ const tours = [
             'Bistro cafe',
             'indoor',
             'kids',
+            'winter'
         ],
         likes: '1,309',
         duration: 3,
