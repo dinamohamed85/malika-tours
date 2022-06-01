@@ -56,7 +56,7 @@ const displayTours = () => {
     </div>`;
 
     toursContainer.innerHTML = filteredTours
-        .map((tour) => {
+        .map((tour, index) => {
             const { id, title, category, icon, image, country, date, location, site, address,addressdesc, description, thingstodo, likes, duration, season, featured, price ,more,phone,facebook,instagram} = tour;
             return `<article class="tour-card" data-id="${id}">
             <div class="tour-img-container">
@@ -69,7 +69,7 @@ const displayTours = () => {
             <div class="tour-info">
             <div class="tour-title">
                 <h4><a href="${site}" target="_blank" alt="web site"><i
-                    class="fa-solid fa-earth-europe site-icon"></i>${title}</a></h4>
+                    class="fa-solid fa-earth-europe site-icon"></i>${index + 1}. ${title}</a></h4>
                     <p>
                     <i class="fas fa-heart tour-love-icon"></i> ${likes}
                     </p>
