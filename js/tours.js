@@ -68,24 +68,24 @@ const displayTours = () => {
             <!-- tour info -->
             <div class="tour-info">
             <div class="tour-title">
-                <h4><a href="${site}" target="_blank"><i
+                <h4><a href="${site}" target="_blank" alt="web site"><i
                     class="fa-solid fa-earth-europe site-icon"></i>${title}</a></h4>
                     <p>
                     <i class="fas fa-heart tour-love-icon"></i> ${likes}
                     </p>
-                ${facebook ? `<p> <a href="${facebook}" target="_blank"><i
+                ${facebook ? `<p> <a href="${facebook}" target="_blank" alt="facebook"><i
                 class="fa-brands fa-facebook-square facebook-icon"></i></a> </p>` : ``} 
-                ${instagram ? `<p> <a href="${instagram}" target="_blank"><i
+                ${instagram ? `<p> <a href="${instagram}" target="_blank"  alt="instagram"><i
                 class="fa-brands fa-instagram-square facebook-icon"></i></a> </p>` : ``}   
             </div>
             <section class="tour-activtiy">           
-            ${address ? `<p><a href="${location}" target="_blank">
+            ${address ? `<p><a href="${location}" target="_blank" alt="Address">
             <span class="more-info">${address}</span></a> </p>` : ``}  
             ${location ? `<p>
-            <a href="${location}" target="_blank">
+            <a href="${location}" target="_blank" alt="Address">
             <span class="more-info"><i
             class="fa-solid fa-diamond-turn-right site-icon"></i>
-            Address </span></a></p>` : ``}  
+            Location </span></a></p>` : ``}  
              
             </section>
             <p>
