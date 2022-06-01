@@ -2326,6 +2326,7 @@ const tours = [
             'Arena Bistro cafe',
             'kids',
             'indoor',
+            'outdoor'
         ],
         likes: '53,146',
         duration: 6,
@@ -2345,7 +2346,7 @@ const tours = [
         site: 'https://allianz-arena.com/de',
         address: 'Effnerstraße 18, 85764 Oberschleißheim',
         phone:'0892179333',
-        addressdesc: 'Flugwerft Museum is in the north of Munich away about 70 min via <strong>S1 </strong>(Oberschleißheim).',
+        addressdesc: 'Flugwerft Museum is in the north of Munich away about 40 min via <strong>S1 </strong>(Oberschleißheim).',
         description: 'Flugwerft Museum. Airfield museum with 60 aircraft & helicopters in a historic hangar & huge glass exhibition halls.google',
         thingstodo: [
             'aircraft',
