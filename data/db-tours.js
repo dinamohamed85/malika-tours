@@ -2394,7 +2394,7 @@ const tours = [
     },
     {
         id: '714',
-        title: 'Neue Pinakothek -Temporarily closed',
+        title: 'Neue Pinakothek',
         category: 'museum',
         icon: 'fas fa-archway',
         image: './images/tours/7-museum/tour-14.jpeg',
@@ -2414,6 +2414,7 @@ const tours = [
             'Paint Art',
             'kids',
             'airy museum',
+            '-Temporarily closed'
         ],
         likes: '1,861',
         duration: 6,
