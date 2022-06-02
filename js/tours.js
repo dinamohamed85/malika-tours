@@ -87,11 +87,9 @@ const displayTours = () => {
             class="fa-solid fa-diamond-turn-right site-icon"></i>
             Location </span></a></p>` : ``}  
             </section>   
-            <div class="tour-activtiy">   
-           
+            <div class="tour-activtiy">            
             ${phone ? `<p> <i class="fa-solid fa-phone phone-icon" alt="phone"></i>
-            <span class="more-info">  ${phone}</span> </p> `  : ``} 
-            
+            <span class="more-info">  ${phone}</span> </p> `  : ``}             
             <p><i class="fa-solid fa-ticket phone-icon" alt="ticket"></i> ${price}€</p>
             </div>          
             <p>
