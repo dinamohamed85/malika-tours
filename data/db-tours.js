@@ -1661,7 +1661,7 @@ const tours = [
     },      
     {
         id: '718',
-        title: 'NS-Dokumentationszentrum München',
+        title: 'NS-Dokumentationszentrum',
         category: 'museum',
         icon: 'fas fa-archway',
         image: './images/tours/7-museum/tour-18.jpeg',
@@ -1740,8 +1740,7 @@ const tours = [
             'cafe',  
             'Donaustauf Castle',         
             'indoor',
-            'outdoor'
-            
+            'outdoor'            
         ],
         likes: '2,892',
         duration: 6,
