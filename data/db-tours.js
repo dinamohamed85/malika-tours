@@ -2286,7 +2286,7 @@ const tours = [
         image: './images/tours/7-museum/tour-10.jpeg',
         country: 'Germany',
         date: 'february, 2021',
-        location: 'https://goo.gl/maps/U3g2sKwJkbkLxUe88',
+        location: 'https://g.page/dinopark-bayern?share',
         site: 'http://www.kindermuseum-muenchen.de/',
         address: 'Arnulfstraße 3, 80335 München',
         phone:'08954046440',
