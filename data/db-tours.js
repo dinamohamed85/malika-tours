@@ -1727,7 +1727,7 @@ const tours = [
         site: 'https://www.schloesser.bayern.de/deutsch/schloss/objekte/walhalla.htm',
         address: 'Walhallastraße 48, 93093 Donaustauf',
         phone:'09403961680',
-        addressdesc: 'Walhalla Museum is close to the Munich center away about 5 min via <strong>S </strong>(Isartor).',
+        addressdesc: 'Walhalla Museum, 85095 Denkendorf, In the north of Munich away about 1.5 hr by  <strong>Car </strong>(93093 Donaustauf) or 2.5 hr by <strong>Train</strong>.',
         description: 'Walhalla Museum. Imposing neo-classical edifice with a marble hall housing plaques & busts of illustrious Germans. Memorial to the German nation and history. google',
         thingstodo: [
             'Place of worship',
@@ -1761,7 +1761,7 @@ const tours = [
         site: 'http://www.dinosauriermuseum.de/',
         address: 'Dinopark 1, 85095 Denkendorf',
         phone:'084669046813',
-        addressdesc: 'Dinopark 1, 85095 Denkendorf, In the north of Munich away about 1hr by  <strong>Car </strong>(85095 Denkendorf) or 2.5 hr by <strong>Train</strong>(Hauptbahnhof).',
+        addressdesc: 'Dinopark 1, 85095 Denkendorf, In the north of Munich away about 1hr by  <strong>Car </strong>(85095 Denkendorf) or 2.5 hr by <strong>Train</strong>.',
         description: 'Waldpark mit Dinosauriermodellen, Ausstellungen zu Fossilienfunden und einem Spielplatzbereich im Freien.',
         thingstodo: [
             'Amusement park',
