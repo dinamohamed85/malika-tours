@@ -721,6 +721,7 @@ const tours = [
             'small Lakes',
             'cafe',
             'Strolling',
+            'museum',
             'free tickets'
         ],
         likes: '22,332',
@@ -1025,7 +1026,7 @@ const tours = [
         image: './images/tours/3-parks/tour-13.jpeg',
         country: 'Germany',
         date: 'may, 2021',
-        location: 'https://goo.gl/maps/bEqvg9xkdw8AyN286',
+        location: 'https://goo.gl/maps/BcsNtK426HSZRKm69',
         site: 'https://www.residenz-muenchen.de/',
         address: 'Residenzstraße 1, 80333 München',
         phone:'089290671',
