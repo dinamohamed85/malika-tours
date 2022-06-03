@@ -334,7 +334,7 @@ const tours = [
             'mountain',
 
         ],
-        likes: '7,036',
+        likes: '3,985',
         duration: 10,
         price: 10,
         season: 'summer',
