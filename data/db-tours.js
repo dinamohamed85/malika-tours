@@ -317,7 +317,7 @@ const tours = [
         site: 'https://www.alpenwelt-karwendel.de/urlaub-mittenwald',
         address: '82481 Mittenwald',
         addressdesc: 'Mittenwald is a city in the south of Bavaria as it is about 2.5 hr away Munich via <strong>Train</strong> or 1.5 hr by<strong>Car</strong> (82481 Mittenwald).',
-        description: 'Mittenwald is a town in northern Bavaria,Mittenwald is a town amid the Alpine peaks of Bavaria, Germany. It is known for its colorful painted houses and its violin-making history, documented in the central Geigenbaumuseum. The 18th-century St. Peter and St. Paul Church is famed for its colorful frescoes. To the west, forested paths pass Lautersee Lake and the Laintal waterfall. In the northwest, Hoher Kranzberg’s slopes have trails and lookouts.Google.',
+        description: 'Mittenwald is a town amid the Alpine peaks of Bavaria, Germany. It is known for its colorful painted houses and its violin-making history, documented in the central Geigenbaumuseum. The 18th-century St. Peter and St. Paul Church is famed for its colorful frescoes. To the west, forested paths pass Lautersee Lake and the Laintal waterfall. In the northwest, Hoher Kranzberg’s slopes have trails and lookouts.Google.',
         thingstodo: [
             'cities to visit in Bayern',
             'Schloss Elmau',
