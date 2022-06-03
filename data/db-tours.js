@@ -332,7 +332,6 @@ const tours = [
             'Cable car',
             'Hiking',
             'mountain',
-
         ],
         likes: '3,985',
         duration: 10,
