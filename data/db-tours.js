@@ -2869,7 +2869,7 @@ const tours = [
         duration: 3,
         price: 5,
         season: 'winter',
-        featured: true,
+        featured: false,
     },
     {
         id: '908',
