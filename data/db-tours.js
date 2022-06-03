@@ -410,7 +410,7 @@ const tours = [
             'places to visit in munich',
             'lakes in Munich',
             'ship & boat',
-            'swimming pools in Munich',,
+            'swimming pools in Munich',
             'strolling',
             'bike',
             'Picnic',
@@ -754,7 +754,7 @@ const tours = [
             'Picnic',
             'ice-cream',
             'cafes',
-            'Berchtesgaden Land'
+            'Berchtesgaden Land',
         ],
         likes: '14,911',
         duration: 10,
@@ -2169,7 +2169,7 @@ const tours = [
         addressdesc: 'Close to the Munich city center as it is about 20 min away via <strong>U5</strong> (Laimer Platz) then <strong>Bus 57</strong>(Westbad).',
         description: 'One of the great Swimming Pool in Munich ,clean, good service,cool prizes. different Swimming Pools, Great Sauna World.',
         thingstodo: [
-            'swimming pools in Munich',,
+            'swimming pools in Munich',
             'Baby area',
             'Slides',
             'Sauna',
@@ -2225,7 +2225,7 @@ const tours = [
         addressdesc: 'In the east of Munich about 15 min away via <strong>U5</strong> (Michaelibad).',
         description: 'Large space that never feels busy, outdoor & indoor pool with good facilities.',
         thingstodo: [
-            'swimming pools in Munich',,
+            'swimming pools in Munich',
             'Baby area',
             'Slides',
             'Beginner swim pool',
@@ -2525,7 +2525,7 @@ const tours = [
         addressdesc: 'In the east of Munich about 15 min away via <strong>S2</strong> (Erding, Therme Erding).',
         description: 'The Therme Erding with state-approved medicinal water is today the largest thermal bath in the world',
         thingstodo: [
-            'swimming pools in Munich',,
+            'swimming pools in Munich',
             'Water Park',
             'Tropical Spa',
             'Baby area',
@@ -2769,7 +2769,7 @@ const tours = [
         addressdesc: 'Haidgraben 121, 85521 Ottobrunn, In the east of the Munich as it is about 30 min away via <strong>U5</strong> (Neuperlach Süd) then <strong>Bus 210</strong>(Taufkirchen, Lilienthalstr).',        
         description: 'Diverse sauna landscape and spa with a sophisticated atmosphere, sports and adventure pool for the whole family with a 5 m diving tower and 2 giant slides.',
         thingstodo: [
-            'swimming pools in Munich',,
+            'swimming pools in Munich',
             'Baby area',
             'Slides',
             'Sauna',
@@ -2799,7 +2799,7 @@ const tours = [
         addressdesc: 'Postillonstraße 17, 80637 München, Close to the Munich city center as it is about 35 min away via <strong>U1</strong> (Dantebad).',        
         description: 'Year-round, outdoor aquatic center featuring a heated Olympic size pool & heated wellness pool.',
         thingstodo: [
-            'swimming pools in Munich',,
+            'swimming pools in Munich',
             'Baby area',
             'Slides',
             'Sauna',
@@ -2829,7 +2829,7 @@ const tours = [
         addressdesc: 'Seebad Starnberg is in the north of the Munich as it is about 15 min away via <strong>S6</strong> (Seebad Starnberg).',        
         description: 'Seebad Starnberg. Lakeside lido with large sunbathing lawn & heated children`s pool, plus an indoor pool & sauna.',
         thingstodo: [
-            'swimming pools in Munich',,
+            'swimming pools in Munich',
             'Baby area',
             'Slides',
             'Sauna',
@@ -2859,7 +2859,7 @@ const tours = [
         addressdesc: 'Strandbadstraße 17, 82319 Starnberg, in the close to the Munich center it is about 15 min away via <strong>U5|U4</strong> (Max-Weber-Platz).',        
         description: 'Müller’sches Volksbad. Art nouveau–style public large & small swimming pools, open since 1901, with a Roman bath & café.google',
         thingstodo: [
-            'swimming pools in Munich',,            
+            'swimming pools in Munich',           
             'Sauna',
             'cafe',
             'indoor',
