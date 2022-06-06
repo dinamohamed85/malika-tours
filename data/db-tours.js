@@ -415,7 +415,6 @@ const tours = [
             'strolling',
             'bike',
             'Picnic',
-            'grillzone',
             'ice-cream',
             'cafe',
             'free tickets',
