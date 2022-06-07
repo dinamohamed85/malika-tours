@@ -130,7 +130,7 @@ const shopping = [
             'Watches & Jewellery',
             'brands',
             'Sports',
-            'kids & toys',
+            'kids , toys',
             'discounts'
         ],
         rate: 4.2,
@@ -415,7 +415,7 @@ const shopping = [
     {
         id: '17',
         title: 'Smyths Toys',
-        category: 'kids & toys',
+        category: 'kids , toys',
         icon: 'fa-solid fa-shop',
         images: [
             './images/shopping/shop-17.jpeg',
@@ -454,7 +454,7 @@ const shopping = [
             'Variety store',
             'decoration',
             'accessories',
-            'kids & toys',
+            'kids , toys',
             'low prices',
         ],
         rate: 4.3,
@@ -480,7 +480,7 @@ const shopping = [
             'Home goods store',
             'decoration',
             'accessories',
-            'kids & toys',
+            'kids , toys',
             'low prices',
         ],
         rate: 4.1,
@@ -506,7 +506,7 @@ const shopping = [
             'Department store',
             'decoration',
             'accessories',
-            'kids & toys',
+            'kids , toys',
             'low prices',
         ],
         rate: 4.2,
@@ -532,7 +532,7 @@ const shopping = [
             'Department store',
             'decoration',
             'accessories',
-            'kids & toys',
+            'kids , toys',
             'low prices',
         ],
         rate: 4.1,
@@ -705,7 +705,7 @@ const shopping = [
             'online shopping',
             'Brands',
             'shipping',
-            'kids & toys',
+            'kids , toys',
             'free returns'
         ],
         rate: 4.4,
@@ -921,7 +921,7 @@ const shopping = [
         description: 'KaufLand is a big supermarket in munich where you can find all what you need in one place. good prices and offers.',
         thingstodo: [
             'hypermarket',
-            'kids & toys',
+            'kids , toys',
             'fish market',
             'heringe',
             'discounts',
@@ -1063,7 +1063,7 @@ const shopping = [
     {
         id: '43',
         title: 'obletter(Müller) karlsplatz',
-        category: 'kids & toys',
+        category: 'kids , toys',
         icon: 'fa-solid fa-shop',
         images: [
             './images/shopping/shop-43.jpeg',
@@ -1086,7 +1086,7 @@ const shopping = [
     {
         id: '44',
         title: 'The LEGO® Store',
-        category: 'kids & toys',
+        category: 'kids , toys',
         icon: 'fa-solid fa-shop',
         images: [
             './images/shopping/shop-44.jpeg',
@@ -1110,7 +1110,7 @@ const shopping = [
     {
         id: '45',
         title: 'Spielwaren Krömer',
-        category: 'kids & toys',
+        category: 'kids , toys',
         icon: 'fa-solid fa-shop',
         images: [
             './images/shopping/shop-45.jpeg',
@@ -1132,7 +1132,7 @@ const shopping = [
     {
         id: '46',
         title: 'Art and play',
-        category: 'kids & toys',
+        category: 'kids , toys',
         icon: 'fa-solid fa-shop',
         images: [
             './images/shopping/shop-46.jpeg',
@@ -1156,7 +1156,7 @@ const shopping = [
     {
         id: '47',
         title: 'Playmobil',
-        category: 'kids & toys',
+        category: 'kids , toys',
         icon: 'fa-solid fa-shop',
         images: [
             './images/shopping/shop-47.jpeg',
@@ -1178,7 +1178,7 @@ const shopping = [
     {
         id: '48',
         title: 'Spielwaren Vordermaier',
-        category: 'kids & toys',
+        category: 'kids , toys',
         icon: 'fa-solid fa-shop',
         images: [
             './images/shopping/shop-48.jpeg',
@@ -1200,7 +1200,7 @@ const shopping = [
     {
         id: '49',
         title: 'Das Spielzeug',
-        category: 'kids & toys',
+        category: 'kids , toys',
         icon: 'fa-solid fa-shop',
         images: [
             './images/shopping/shop-49.jpeg',
@@ -1222,7 +1222,7 @@ const shopping = [
     {
         id: '50',
         title: 'myToys',
-        category: 'kids & toys',
+        category: 'kids , toys',
         icon: 'fa-solid fa-shop',
         images: [
             './images/shopping/shop-50.jpeg',
@@ -1244,7 +1244,7 @@ const shopping = [
     {
         id: '51',
         title: 'DAS KINDERZIMMER',
-        category: 'kids & toys',
+        category: 'kids , toys',
         icon: 'fa-solid fa-shop',
         images: [
             './images/shopping/shop-51.jpeg',
@@ -1266,7 +1266,7 @@ const shopping = [
     {
         id: '52',
         title: 'Die Spielzeugkiste',
-        category: 'kids & toys',
+        category: 'kids , toys',
         icon: 'fa-solid fa-shop',
         images: [
             './images/shopping/shop-52.jpeg',

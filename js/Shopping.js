@@ -125,6 +125,9 @@ const displayButtons = () => {
 };
 
 const getListBycategory = (category) => {
+
+    window.history.replaceState(null, null, '?category='+currentCategory );
+    
     if(category =='all'){
         filteredList = [...shopping];
     }

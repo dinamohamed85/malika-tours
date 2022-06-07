@@ -1,5 +1,6 @@
 import tours from '../data/db-tours.js';
 let filteredTours = [];
+let urlParams='';
 const toursContainer = document.querySelector('.tours-container');
 const form = document.querySelector('.input-form');
 const searchInput = document.querySelector('.search-input');
@@ -138,7 +139,10 @@ const displayButtons = () => {
 };
 
 const getListBycategory = (category) => {
+
     console.log(category);
+    window.history.replaceState(null, null, '?category='+currentCategory );
+
     if(category =='all'){
         filteredTours = [...tours];
     }
@@ -162,15 +166,15 @@ const getListBycategory = (category) => {
 
 window.addEventListener('DOMContentLoaded', () => {
     const queryString = window.location.search;
+    console.log('queryString of url  : '+queryString);
     try {   
         if(queryString){
-            console.log(queryString);
-            const urlParams = new URLSearchParams(queryString);
+            
+            urlParams = new URLSearchParams(queryString);
             if(urlParams.get('category'))
             currentCategory = urlParams.get('category');
             console.log(currentCategory);
         }
-
         getListBycategory(currentCategory);
 
         if (toursContainer && form && searchInput && clearButton && categoriesDOM && toursTitle) {
@@ -200,6 +204,7 @@ window.addEventListener('DOMContentLoaded', () => {
                 const el = e.target;
                 if (el.classList.contains('category-btn')) {
                     currentCategory = el.dataset.id;
+                    
                     getListBycategory(currentCategory);
 
                     searchInput.value = '';

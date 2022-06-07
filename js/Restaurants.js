@@ -131,6 +131,9 @@ const displayButtons = () => {
         .join('');
 };
 const getListBycategory = (category) => {
+    
+    window.history.replaceState(null, null, '?category='+currentCategory );
+
     if(category =='all'){
         filteredList = [...restaurants];
     }
