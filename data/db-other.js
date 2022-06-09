@@ -148,7 +148,7 @@ const other = [
         facebook: 'https://www.facebook.com/DeutschlandCard/',
         address1: 'Postfach 60 06 26060 Oldenburg',
         phone: '089/411 411 51',
-        description: 'DeutschlandCard is the leading bonus Aplication in Germany.',
+        description: 'DeutschlandCard. In Germany With your daily purchases and online shopping, you collect valuable points with your DeutschlandCard bonus card and benefit from exclusive coupon offers and attractive bonuses.',
         thingstodo: [
             'buy',
             'colect bonus',
