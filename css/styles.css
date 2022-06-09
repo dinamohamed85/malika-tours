@@ -382,7 +382,7 @@ Featured Tours
   position: relative;
 }
 .tour-img {
-  height: 18rem;
+  height: 19rem;
   object-fit: cover;
 }
 .tour-date {
@@ -927,7 +927,7 @@ min-height:calc(100vh - 62px);
 }
 .item-photo {
   object-fit: cover;
-  height: 18rem;
+  height: 20rem;
   border: 0.20rem solid var(--clr-orange-1);
   border-radius: var(--radius);
 }
@@ -956,9 +956,6 @@ min-height:calc(100vh - 62px);
     grid-template-columns: 1fr 1fr;
     gap: 0 1rem;
     max-width: 60rem;
-  }
-  .item-photo {
-    height: 19rem;
   }
 }
 @media screen and (min-width: 1200px) {

@@ -184,6 +184,31 @@ const other = [
         featured: true,
     },
     {
+        id: '404',
+        title: 'Groupon',
+        category: 'useful apps',
+        icon: 'fa-solid fa-shop',
+        images: [
+            './images/other/4-apps/app-404.jpeg',
+        ],
+        country: 'Germany',
+        location: 'https://play.google.com/store/apps/details?id=com.groupon&hl=en&gl=US',
+        site: 'https://www.groupon.de/',
+        facebook: 'https://www.facebook.com/groupon.de/?brand_redir=182588831756639',
+        address1: 'Hausvogteiplatz 2 10117, Berlin‎',
+        phone: '030 311 998 66',
+        description: 'Groupon is a place where customers can discover new experiences every day and local businesses thrive. Find discounts for Restaurants, beauty and more ',
+        thingstodo: [
+            'Deals & Coupons',
+            'Restaurants',
+            'beauty',
+            'discounts'
+        ],
+        rate: 4.2,
+        likes: '999,999',
+        featured: true,
+    },
+    {
         id: '501',
         title: 'Ikea',
         category: 'furniture',
