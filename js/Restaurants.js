@@ -131,7 +131,7 @@ const displayButtons = () => {
         .join('');
 };
 const getListBycategory = (category) => {
-    
+
     window.history.replaceState(null, null, '?category='+currentCategory );
 
     if(category =='all'){
@@ -149,7 +149,7 @@ const getListBycategory = (category) => {
     }
     else{
         filteredList = restaurants.filter((item) => {
-            return item.category == category || item.menu.find((el) => el.toLowerCase() == category);
+            return item.category == category || item.menu.find((el) => el.toLowerCase().includes(category));
         });
     }
 };

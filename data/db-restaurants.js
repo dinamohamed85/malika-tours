@@ -1876,7 +1876,7 @@ const restaurants = [
             'Cakes',
             'Baklava & desserts',
             'Cafes , Bakery',
-            'Pastry shop',
+            'pastry shop',
             'turkish',
             'halal',
         ],
@@ -1912,7 +1912,7 @@ const restaurants = [
             'Snacks',
             'Cakes',
             'Cafes , Bakery',
-            'Pastry shop',
+            'pastry shop',
             'turkish',
             'halal',
         ],
@@ -1981,7 +1981,7 @@ const restaurants = [
             'breakfast',
             'ice cream ',
             'tortes',
-            'Pastry shop'
+            'pastry shop'
         ],
         rate: 4.1,
         likes: '1,955',
@@ -2016,7 +2016,7 @@ const restaurants = [
             'tortes',
             'coffee',
             'breakfast',
-            'Pastry shop'
+            'pastry shop'
         ],
         rate: 4.1,
         likes: '2,165',
@@ -2115,7 +2115,7 @@ const restaurants = [
             'tortes',
             'cakes',
             'coffee',
-            'Pastry shop'
+            'pastry shop'
         ],
         rate: 4.6,
         likes: '1,485',
@@ -2312,13 +2312,13 @@ const restaurants = [
         site: 'https://www.facebook.com/pages/My-Simit/401038577346530',
         address: 'Ollenhauerstraße 6, 81737 München',
         phone: '015221099919',
-        description: 'Medium turkish cafe, bakery shop ,breakfast and  Pastry.',
+        description: 'Medium turkish cafe, bakery shop ,breakfast and  pastry.',
         more: '',
         menu: [
             'kefta',
             'chicken',
             'bakery',
-            'Pastry shop',
+            'pastry shop',
             'breakfast',
             'Cafes , Bakery',
             'pep mall',
@@ -2351,7 +2351,7 @@ const restaurants = [
         description: 'Medium greek cafe, cakes shop.',
         more: '',
         menu: [
-            'Pastry shop',
+            'pastry shop',
             'Cafes , Bakery',
             'greek',
         ],
