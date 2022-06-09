@@ -172,11 +172,12 @@ const other = [
         facebook: 'https://www.facebook.com/lidl',
         address1: 'Nailastraße 21, München‎',
         phone: '0800 4353361',
-        description: 'Lidl plus. In Germany With your daily purchases and online shopping, you collect valuable points with your DeutschlandCard bonus card and benefit from exclusive coupon offers and attractive bonuses.',
+        description: 'Lidl Plus is your digital customer card with which you can collect new discounts every week. Scan your card at the checkout with every purchase and automatically enjoy many advantages.',
         thingstodo: [
             'buy',
             'colect bonus',
             'buy for free',
+            'discounts'
         ],
         rate: 4.2,
         likes: '965,987',
