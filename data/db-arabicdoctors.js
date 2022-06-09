@@ -5,7 +5,7 @@ const arabicdoctors = [
         category: 'ophthalmology',
         icon: 'fa-solid fa-shop',
         images: [
-            './images/other/other-1.jpeg',
+            './images/arabicdoctors/arabicdoctor-1.jpeg',
         ],
         country: 'Germany',
         location: 'https://goo.gl/maps/fSRssMMSkmgp1aFz7',
@@ -32,7 +32,7 @@ const arabicdoctors = [
         category: 'dentist',
         icon: 'fa-solid fa-shop',
         images: [
-            './images/other/other-2.jpeg',
+            './images/arabicdoctors/arabicdoctor-2.jpeg',
         ],
         country: 'Germany',
         location: 'https://goo.gl/maps/FhH4CNnabMGUjThM6',
@@ -61,7 +61,7 @@ const arabicdoctors = [
         category: 'dentist',
         icon: 'fa-solid fa-shop',
         images: [
-            './images/other/other-3.jpeg',
+            './images/arabicdoctors/arabicdoctor-3.jpeg',
         ],
         country: 'Germany',
         location: 'https://goo.gl/maps/rcojGa7JqhCwww7P8',
@@ -89,7 +89,7 @@ const arabicdoctors = [
         category: 'dentist',
         icon: 'fa-solid fa-shop',
         images: [
-            './images/other/other-4.jpeg',
+            './images/arabicdoctors/arabicdoctor-4.jpeg',
         ],
         country: 'Germany',
         location: 'https://g.page/kinderzahn-bogenhausen?share',
@@ -116,7 +116,7 @@ const arabicdoctors = [
         category: 'Physiotherapy',
         icon: 'fa-solid fa-shop',
         images: [
-            './images/other/other-5.jpeg',
+            './images/arabicdoctors/arabicdoctor-5.jpeg',
         ],
         country: 'Germany',
         location: 'https://goo.gl/maps/qCatxGuBDk5ZgWev5',
@@ -154,7 +154,7 @@ const arabicdoctors = [
         category: 'Physiotherapy',
         icon: 'fa-solid fa-shop',
         images: [
-            './images/other/other-6.jpeg',
+            './images/arabicdoctors/arabicdoctor-6.jpeg',
         ],
         country: 'Germany',
         location: 'https://goo.gl/maps/BHegok4pSDqYXuMA8',
@@ -179,7 +179,7 @@ const arabicdoctors = [
         category: 'hausarzt',
         icon: 'fa-solid fa-shop',
         images: [
-            './images/other/other-7.jpeg',
+            './images/arabicdoctors/arabicdoctor-7.jpeg',
         ],
         country: 'Germany',
         location: 'https://goo.gl/maps/44FPzbsunBoFrbJv6',
@@ -216,7 +216,7 @@ const arabicdoctors = [
         category: 'hausarzt',
         icon: 'fa-solid fa-shop',
         images: [
-            './images/other/other-8.jpeg',
+            './images/arabicdoctors/arabicdoctor-8.jpeg',
         ],
         country: 'Germany',
         location: 'https://goo.gl/maps/hXaSSHYgPPoufep39',
@@ -242,7 +242,7 @@ const arabicdoctors = [
         category: 'hausarzt',
         icon: 'fa-solid fa-shop',
         images: [
-            './images/other/other-9.jpeg',
+            './images/arabicdoctors/arabicdoctor-9.jpeg',
         ],
         country: 'Germany',
         location: 'https://goo.gl/maps/AhFS9CSaixMxUToF6',
@@ -268,7 +268,7 @@ const arabicdoctors = [
         category: 'hausarzt',
         icon: 'fa-solid fa-shop',
         images: [
-            './images/other/other-10.jpeg',
+            './images/arabicdoctors/arabicdoctor-10.jpeg',
         ],
         country: 'Germany',
         location: 'https://goo.gl/maps/Md8vjtEyQw2Bby6EA',
@@ -300,7 +300,7 @@ const arabicdoctors = [
         category: 'frauenärztin',
         icon: 'fa-solid fa-shop',
         images: [
-            './images/other/other-11.jpeg',
+            './images/arabicdoctors/arabicdoctor-11.jpeg',
         ],
         country: 'Germany',
         location: 'https://goo.gl/maps/YCQb1VeJKTjXuxu58',
@@ -326,7 +326,7 @@ const arabicdoctors = [
         category: 'frauenärztin',
         icon: 'fa-solid fa-shop',
         images: [
-            './images/other/other-12.jpeg',
+            './images/arabicdoctors/arabicdoctor-12.jpeg',
         ],
         country: 'Germany',
         location: 'https://goo.gl/maps/fJsyE4Zzii1nxykC7',
@@ -355,7 +355,7 @@ const arabicdoctors = [
         category: 'frauenärztin',
         icon: 'fa-solid fa-shop',
         images: [
-            './images/other/other-13.jpeg',
+            './images/arabicdoctors/arabicdoctor-13.jpeg',
         ],
         country: 'Germany',
         location: 'https://goo.gl/maps/fJsyE4Zzii1nxykC7',
@@ -384,7 +384,7 @@ const arabicdoctors = [
         category: 'frauenärztin',
         icon: 'fa-solid fa-shop',
         images: [
-            './images/other/other-14.jpeg',
+            './images/arabicdoctors/arabicdoctor-14.jpeg',
         ],
         country: 'Germany',
         location: 'https://goo.gl/maps/HHjNvCSwxjtTGu97A',
@@ -415,7 +415,7 @@ const arabicdoctors = [
         category: 'frauenärztin',
         icon: 'fa-solid fa-shop',
         images: [
-            './images/other/other-15.jpeg',
+            './images/arabicdoctors/arabicdoctor-15.jpeg',
         ],
         country: 'Germany',
         location: 'https://goo.gl/maps/WuLqXsGbHVKbZGkL7',
@@ -441,7 +441,7 @@ const arabicdoctors = [
         category: 'Psychotherapy',
         icon: 'fa-solid fa-shop',
         images: [
-            './images/other/other-16.jpeg',
+            './images/arabicdoctors/arabicdoctor-16.jpeg',
         ],
         country: 'Germany',
         location: 'https://goo.gl/maps/hX9jREKHcm3jAp3U8',
@@ -469,7 +469,7 @@ const arabicdoctors = [
         category: 'Psychotherapy',
         icon: 'fa-solid fa-shop',
         images: [
-            './images/other/other-17.jpeg',
+            './images/arabicdoctors/arabicdoctor-17.jpeg',
         ],
         country: 'Germany',
         location: 'https://goo.gl/maps/KtVcpbAdqHzgX5KM7',
@@ -495,7 +495,7 @@ const arabicdoctors = [
         category: 'schulberatung',
         icon: 'fa-solid fa-shop',
         images: [
-            './images/other/other-18.jpeg',
+            './images/arabicdoctors/arabicdoctor-18.jpeg',
         ],
         country: 'Germany',
         location: 'https://goo.gl/maps/r3iesCVJVq2VkKKQ7',

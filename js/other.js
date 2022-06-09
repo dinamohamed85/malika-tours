@@ -5,7 +5,7 @@ const otherContainer = document.querySelector('.list-container');
 const categoriesDOM = document.querySelector('.categories');
 const otherTitle = document.querySelector('.section-title');
 
-let currentCategory = 'all';
+let currentCategory = 'useful apps';
 
 const displayother = () => {
 
@@ -125,11 +125,40 @@ const displayButtons = () => {
         .join('');
 };
 
+
+const getListBycategory = (category) => {
+
+    window.history.replaceState(null, null, '?category='+currentCategory );
+    
+    if(category =='all'){
+        filteredList = [...other];
+    }
+    else if (currentCategory == 'featured') {
+        filteredList = other.filter((item) => {
+            return item.featured
+        });
+    }    
+    else{
+        filteredList = other.filter((item) => {
+            return item.category == category || item.thingstodo.find((el) => el.toLowerCase() == category);;
+        });
+    }
+};
+
 window.addEventListener('DOMContentLoaded', () => {
 
-    try {
+    const queryString = window.location.search;
+    try {   
+        if(queryString){
+            console.log(queryString);
+            const urlParams = new URLSearchParams(queryString);
+            if(urlParams.get('category'))
+            currentCategory = urlParams.get('category');
+            console.log(currentCategory);
+        }
 
-        filteredList = [...other];
+        getListBycategory(currentCategory);
+
         if (otherContainer && categoriesDOM && otherTitle) {
             otherTitle.innerHTML = '';
             console.log('html selectors is true');
@@ -140,20 +169,7 @@ window.addEventListener('DOMContentLoaded', () => {
                 const el = e.target;
                 if (el.classList.contains('category-btn')) {
                     currentCategory = el.dataset.id;
-                    if (el.dataset.id === 'all') {
-                        filteredList = [...other];
-                    }
-
-                    else if (el.dataset.id === 'featured') {
-                        filteredList = other.filter((item) => {
-                            return item.featured
-                        });
-                    }
-                    else {
-                        filteredList = other.filter((item) => {
-                            return item.category === el.dataset.id || item.thingstodo.find((thing) => thing.toLowerCase().includes(el.textContent));;
-                        });
-                    }
+                    getListBycategory(currentCategory);
                     displayother();
                 }
             });

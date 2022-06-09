@@ -1,11 +1,11 @@
 const other = [    
     {
-        id: '30',
+        id: '101',
         title: 'DAR e.V. Zahr Elyasmin',
         category: 'arabic schools',
         icon: 'fa-solid fa-shop',
         images: [
-            './images/other/other-30.jpeg',
+            './images/other/1-arabicschools/arabicschool-101.jpeg',
         ],
         country: 'Germany',
         location: 'https://goo.gl/maps/54hcNGYRcybzZGss6',
@@ -27,12 +27,12 @@ const other = [
         featured: true,
     },  
     {
-        id: '31',
+        id: '201',
         title: 'Islamic Centre of Munich',
         category: 'mosques',
         icon: 'fa-solid fa-shop',
         images: [
-            './images/other/other-31.jpeg',
+            './images/other/2-mosques/mosque-201.jpeg',
         ],
         country: 'Germany',
         location: 'https://goo.gl/maps/yVok6t8p3aw8TySP7',
@@ -53,12 +53,12 @@ const other = [
         featured: true,
     },
     {
-        id: '32',
+        id: '301',
         title: '3esh & mal7',
         category: 'food homemade',
         icon: 'fa-solid fa-shop',
         images: [
-            './images/other/other-32.jpeg',
+            './images/other/3-foodhomemade/foodhomemade-301.jpeg',
         ],
         country: 'Germany',
         location: '',
@@ -86,12 +86,12 @@ const other = [
         featured: true,
     },
     {
-        id: '33',
+        id: '302',
         title: 'Nesto Torten',
         category: 'food homemade',
         icon: 'fa-solid fa-shop',
         images: [
-            './images/other/other-33.jpeg',
+            './images/other/3-foodhomemade/foodhomemade-302.jpeg',
         ],
         country: 'Germany',
         location: '',
@@ -111,12 +111,12 @@ const other = [
         featured: true,
     },   
     {
-        id: '34',
+        id: '401',
         title: 'payBack',
         category: 'useful apps',
         icon: 'fa-solid fa-shop',
         images: [
-            './images/other/other-34.jpeg',
+            './images/other/4-apps/app-401.jpeg',
         ],
         country: 'Germany',
         location: 'https://play.google.com/store/apps/details?id=de.payback.client.android&hl=en_US&gl=US',
@@ -135,12 +135,36 @@ const other = [
         featured: true,
     },
     {
-        id: '35',
+        id: '402',
+        title: 'DeutschlandCard',
+        category: 'useful apps',
+        icon: 'fa-solid fa-shop',
+        images: [
+            './images/other/4-apps/app-402.jpeg',
+        ],
+        country: 'Germany',
+        location: 'https://play.google.com/store/apps/details?id=de.deutschlandcard.app&hl=en_US&gl=US',
+        site: 'https://www.deutschlandcard.de/',
+        facebook: 'https://www.facebook.com/DeutschlandCard/',
+        address1: 'Postfach 60 06 26060 Oldenburg',
+        phone: '089/411 411 51',
+        description: 'DeutschlandCard is the leading bonus Aplication in Germany.',
+        thingstodo: [
+            'buy',
+            'colect bonus',
+            'buy for free',
+        ],
+        rate: 4.5,
+        likes: '371,145',
+        featured: true,
+    },
+    {
+        id: '501',
         title: 'Ikea',
         category: 'furniture',
         icon: 'fa-solid fa-shop',
         images: [
-            './images/other/other-35.jpeg',
+            './images/other/5-furniture/furniture-501.jpeg',
         ],
         country: 'Germany',
         location: 'https://goo.gl/maps/NYCnQ37c7vVMwz516',
@@ -159,12 +183,12 @@ const other = [
         featured: true,
     },   
     {
-        id: '36',
+        id: '601',
         title: 'fit star',
         category: 'gym',
         icon: 'fa-solid fa-shop',
         images: [
-            './images/other/other-36.jpeg',
+            './images/other/6-gym/gym-601.jpeg',
         ],
         country: 'Germany',
         location: 'https://goo.gl/maps/C1T5QtkbR49EFZiA6',
@@ -184,12 +208,12 @@ const other = [
         featured: true,
     },   
     {
-        id: '37',
+        id: '701',
         title: 'Maxxi Clean',
-        category: 'Products',
+        category: 'products',
         icon: 'fa-solid fa-shop',
         images: [
-            './images/other/other-37.jpeg',
+            './images/other/7-products/product-701.jpeg',
         ],
         country: 'Germany',
         location: '',
