@@ -481,7 +481,7 @@ const other = [
             'Shahid VIP',
             'aWatchIt',
             'Netflix',
-            'Disney+'
+            'IPTV'
         ],
         rate: 4.7,
         likes: '996,483',
