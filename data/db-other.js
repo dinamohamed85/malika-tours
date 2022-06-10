@@ -616,7 +616,7 @@ const other = [
         rate: 4.7,
         likes: '996,483',
         featured: true,
-    },  
+    },      
     {
         id: '420',
         title: 'Tax Declaration (Steuererklärung)',
@@ -636,6 +636,29 @@ const other = [
         thingstodo: [
             'Steuergo',
             'TaxFix ',
+        ],
+        rate: 4.7,
+        likes: '996,483',
+        featured: true,
+    },  
+    {
+        id: '421',
+        title: 'Neighbours Ask to Help',
+        category: 'apps',
+        icon: 'fa-solid fa-shop',
+        images: [
+            './images/other/4-apps/app-421.jpeg',
+        ],
+        country: 'Germany',
+        location: '',
+        site: '',
+        facebook: '',
+        address1: '',
+        phone: '',
+        email:'',
+        description: 'Neighbours Ask to Help',
+        thingstodo: [
+            'Nebenen',
         ],
         rate: 4.7,
         likes: '996,483',
