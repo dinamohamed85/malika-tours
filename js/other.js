@@ -140,6 +140,7 @@ const getListBycategory = (category) => {
         });
     }  
     else if (category == 'arabic doctors') {
+        // currentCategory = 'apps';
         //open arabic doctors page
         console.log('open arabic doctors page ');
         window.open('arabicdoctors.html','_self');
