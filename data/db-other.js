@@ -207,7 +207,7 @@ const other = [
         address1: 'Hausvogteiplatz 2 10117, Berlin‎',
         phone: '030 311 998 66',
         email:'socialmedia@groupon.de',
-        description: 'Groupon is a place where customers can discover new experiences every day and local businesses thrive. Find discounts for Restaurants, beauty and more ',
+        description: 'Groupon is a place where customers can discover new experiences every day and local businesses thrive. Find discounts for Restaurants, beauty and more.',
         thingstodo: [
             'Deals & Coupons',
             'Restaurants',
@@ -217,7 +217,32 @@ const other = [
         rate: 4.2,
         likes: '999,999',
         featured: true,
-    },    
+    }, 
+    {
+        id: '405',
+        title: 'Kaufda.de',
+        category: 'apps',
+        icon: 'fa-solid fa-shop',
+        images: [
+            './images/other/4-apps/app-405.jpeg',
+        ],
+        country: 'Germany',
+        location: 'https://play.google.com/store/apps/details?id=com.bonial.kaufda&hl=en_US&gl=US',
+        site: 'https://www.kaufda.de',
+        facebook: 'https://www.facebook.com/kaufda/',
+        address1: '‎Berlin',
+        phone: '030 60989600',
+        email:'info@kaufda.de',
+        description: 'Kaufda.de Current offers & brochures from over 350 dealers online at a glance ⭐ Browse through brochures, save money when shopping.',
+        thingstodo: [
+            'Deals & Coupons',
+            'super markets',
+            'discounts'
+        ],
+        rate: 4.6,
+        likes: '999,999',
+        featured: true,
+    },      
     {
         id: '501',
         title: 'Ikea',
