@@ -185,7 +185,8 @@ const other = [
             'buy',
             'colect bonus',
             'buy for free',
-            'discounts'
+            'discounts',
+            'Lidl'
         ],
         rate: 4.2,
         likes: '965,987',
