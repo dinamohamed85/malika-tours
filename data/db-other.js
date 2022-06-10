@@ -423,7 +423,7 @@ const other = [
         address1: '',
         phone: '',
         email:'',
-        description: 'Online shopping app in Germany',
+        description: 'Food delivery -Restaurants',
         thingstodo: [
             'Lieferando',
             'wolt',
@@ -449,7 +449,7 @@ const other = [
         address1: '',
         phone: '',
         email:'',
-        description: 'Online shopping app in Germany',
+        description: 'order halal food in Germany',
         thingstodo: [
             'GetHalal',
             'yam egyptian food',
@@ -459,7 +459,34 @@ const other = [
         rate: 4.7,
         likes: '996,483',
         featured: true,
-    },                
+    }, 
+    {
+        id: '414',
+        title: 'TV Entertainment',
+        category: 'apps',
+        icon: 'fa-solid fa-shop',
+        images: [
+            './images/other/4-apps/app-414.jpeg',
+        ],
+        country: 'Germany',
+        location: '',
+        site: '',
+        facebook: '',
+        address1: '',
+        phone: '',
+        email:'',
+        description: 'TV Entertainment',
+        thingstodo: [
+            'Amazon Prime',
+            'Shahid VIP',
+            'aWatchIt',
+            'Netflix',
+            'Disney+'
+        ],
+        rate: 4.7,
+        likes: '996,483',
+        featured: true,
+    },                  
     {
         id: '501',
         title: 'Ikea',
