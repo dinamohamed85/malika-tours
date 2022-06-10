@@ -771,6 +771,31 @@ const other = [
         rate: 4.7,
         likes: '996,483',
         featured: true,
+    }, 
+    {
+        id: '426',
+        title: 'Arabic & German translate',
+        category: 'apps',
+        icon: 'fa-solid fa-shop',
+        images: [
+            './images/other/4-apps/app-426.jpeg',
+        ],
+        country: 'Germany',
+        location: '',
+        site: '',
+        facebook: '',
+        address1: '',
+        phone: '',
+        email:'',
+        description: 'Arabic & German translate',
+        thingstodo: [
+            'Translation yandex ',
+            'Qtranslate ',
+            'Arabdict '
+        ],
+        rate: 4.7,
+        likes: '996,483',
+        featured: true,
     },                        
     {
         id: '501',
