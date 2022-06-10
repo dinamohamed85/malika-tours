@@ -5,7 +5,7 @@ const otherContainer = document.querySelector('.list-container');
 const categoriesDOM = document.querySelector('.categories');
 const otherTitle = document.querySelector('.section-title');
 
-let currentCategory = 'useful apps';
+let currentCategory = 'apps';
 
 const displayother = () => {
 
@@ -24,7 +24,7 @@ const displayother = () => {
         text1 = 'featured ';
         text2 = filteredList.length + ' things ';
     }
-    else if (currentCategory == 'useful apps') {
+    else if (currentCategory == 'apps') {
         text1 = 'top ';
         text2 = filteredList.length + ' ' + currentCategory + ' you need ';
     }

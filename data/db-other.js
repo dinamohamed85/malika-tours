@@ -113,7 +113,7 @@ const other = [
     {
         id: '401',
         title: 'payBack',
-        category: 'useful apps',
+        category: 'apps',
         icon: 'fa-solid fa-shop',
         images: [
             './images/other/4-apps/app-401.jpeg',
@@ -138,7 +138,7 @@ const other = [
     {
         id: '402',
         title: 'DeutschlandCard',
-        category: 'useful apps',
+        category: 'apps',
         icon: 'fa-solid fa-shop',
         images: [
             './images/other/4-apps/app-402.jpeg',
@@ -163,7 +163,7 @@ const other = [
     {
         id: '403',
         title: 'Lidl plus',
-        category: 'useful apps',
+        category: 'apps',
         icon: 'fa-solid fa-shop',
         images: [
             './images/other/4-apps/app-403.jpeg',
@@ -189,7 +189,7 @@ const other = [
     {
         id: '404',
         title: 'Groupon',
-        category: 'useful apps',
+        category: 'apps',
         icon: 'fa-solid fa-shop',
         images: [
             './images/other/4-apps/app-404.jpeg',
@@ -211,7 +211,7 @@ const other = [
         rate: 4.2,
         likes: '999,999',
         featured: true,
-    },
+    },    
     {
         id: '501',
         title: 'Ikea',
