@@ -685,7 +685,7 @@ const other = [
             'linkedIn',
             'xing',
             'stepStone',
-            'glass door',
+            'glassdoor',
             'indeed',
             'stack overflow',
             'moberries',
