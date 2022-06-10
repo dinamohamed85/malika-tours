@@ -172,9 +172,9 @@ const other = [
         location: 'https://play.google.com/store/apps/details?id=com.lidl.eci.lidlplus&hl=en&gl=US',
         site: 'https://www.lidl.de/c/lidl-plus/s10007388',
         facebook: 'https://www.facebook.com/lidl',
-        address1: 'Nailastraße 21, München‎',
+        address1: 'Bonfelder Straße 2 74206 Bad Wimpfen‎',
         phone: '0800 4353361',
-        email:'',
+        email:'socialmedia@lidl.de und kontakt@lidl.de',
         description: 'Lidl Plus is your digital customer card with which you can collect new discounts every week. Scan your card at the checkout with every purchase and automatically enjoy many advantages.',
         thingstodo: [
             'buy',
@@ -200,7 +200,7 @@ const other = [
         facebook: 'https://www.facebook.com/groupon.de/?brand_redir=182588831756639',
         address1: 'Hausvogteiplatz 2 10117, Berlin‎',
         phone: '030 311 998 66',
-        email:'',
+        email:'socialmedia@groupon.de',
         description: 'Groupon is a place where customers can discover new experiences every day and local businesses thrive. Find discounts for Restaurants, beauty and more ',
         thingstodo: [
             'Deals & Coupons',
