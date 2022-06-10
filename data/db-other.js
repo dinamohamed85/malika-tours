@@ -747,7 +747,31 @@ const other = [
         rate: 4.7,
         likes: '996,483',
         featured: true,
-    },                       
+    }, 
+    {
+        id: '425',
+        title: 'App for News',
+        category: 'apps',
+        icon: 'fa-solid fa-shop',
+        images: [
+            './images/other/4-apps/app-425.jpeg',
+        ],
+        country: 'Germany',
+        location: '',
+        site: '',
+        facebook: '',
+        address1: '',
+        phone: '',
+        email:'',
+        description: 'News',
+        thingstodo: [
+            'Tagesschau ',
+            'Nachrichten '
+        ],
+        rate: 4.7,
+        likes: '996,483',
+        featured: true,
+    },                        
     {
         id: '501',
         title: 'Ikea',
