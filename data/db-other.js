@@ -124,6 +124,7 @@ const other = [
         facebook: 'https://www.facebook.com/PAYBACK.Deutschland',
         address1: 'Theresienhöhe 12, 80339 München',
         phone: '+49089997410',
+        email:'info@payback.net',
         description: 'PAYBACK is the leading bonus Aplication in Germany.',
         thingstodo: [
             'buy',
@@ -148,6 +149,7 @@ const other = [
         facebook: 'https://www.facebook.com/DeutschlandCard/',
         address1: 'Postfach 60 06 26060 Oldenburg',
         phone: '089/411 411 51',
+        email:'kundenanfrage@deutschlandcard.de',
         description: 'DeutschlandCard. In Germany With your daily purchases and online shopping, you collect valuable points with your DeutschlandCard bonus card and benefit from exclusive coupon offers and attractive bonuses.',
         thingstodo: [
             'buy',
@@ -172,6 +174,7 @@ const other = [
         facebook: 'https://www.facebook.com/lidl',
         address1: 'Nailastraße 21, München‎',
         phone: '0800 4353361',
+        email:'',
         description: 'Lidl Plus is your digital customer card with which you can collect new discounts every week. Scan your card at the checkout with every purchase and automatically enjoy many advantages.',
         thingstodo: [
             'buy',
@@ -197,6 +200,7 @@ const other = [
         facebook: 'https://www.facebook.com/groupon.de/?brand_redir=182588831756639',
         address1: 'Hausvogteiplatz 2 10117, Berlin‎',
         phone: '030 311 998 66',
+        email:'',
         description: 'Groupon is a place where customers can discover new experiences every day and local businesses thrive. Find discounts for Restaurants, beauty and more ',
         thingstodo: [
             'Deals & Coupons',
@@ -222,6 +226,7 @@ const other = [
         facebook: 'https://www.facebook.com/IKEAdeutschland',
         address1: 'Brunnthaler Str. 1, 82024 Taufkirchen',
         phone: '061929399999',
+        email:'',
         description: 'IKEA. Scandinavian chain selling ready-to-assemble furniture, plus housewares, in a warehouse-like space.',
         thingstodo: [
             'Furniture store',
@@ -246,6 +251,7 @@ const other = [
         facebook: 'https://www.facebook.com/FITSTAR.Muenchen/',
         address1: 'Dachauer Str. 92, 80335 München',
         phone: '+498954726606',
+        email:'',
         description: 'Fitness training of the highest quality! Devices from the world market leader, open 24/7, course program, drinks flat rate, and much more from 19.90 euros.',
         thingstodo: [
             'open 24/7',
