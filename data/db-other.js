@@ -156,6 +156,7 @@ const other = [
         email:'kundenanfrage@deutschlandcard.de',
         description: 'DeutschlandCard. In Germany With your daily purchases and online shopping, you collect valuable points with your DeutschlandCard bonus card and benefit from exclusive coupon offers and attractive bonuses.',
         thingstodo: [
+            'Apps in Germany',
             'buy',
             'colect bonus',
             'buy for free',
