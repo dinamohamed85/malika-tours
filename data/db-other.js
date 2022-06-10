@@ -566,7 +566,7 @@ const other = [
     }, 
     {
         id: '418',
-        title: 'Car services',
+        title: 'Car & Taxi services',
         category: 'apps',
         icon: 'fa-solid fa-shop',
         images: [
@@ -586,6 +586,7 @@ const other = [
             'BlaBlaCar (Car Sharing) ',
             'HandyParken München (Car Parking payment)',
             'Easy teacher (Theoretical driver license)',
+            'Freenow (Taxi  , Scooter  , Uber renting ) '
         ],
         rate: 4.7,
         likes: '996,483',
@@ -663,7 +664,7 @@ const other = [
         rate: 4.7,
         likes: '996,483',
         featured: true,
-    },  
+    }, 
     {
         id: '422',
         title: 'Find a Job app',
@@ -699,7 +700,31 @@ const other = [
         rate: 4.7,
         likes: '996,483',
         featured: true,
-    },                 
+    },   
+    {
+        id: '423',
+        title: 'Weather',
+        category: 'apps',
+        icon: 'fa-solid fa-shop',
+        images: [
+            './images/other/4-apps/app-423.jpeg',
+        ],
+        country: 'Germany',
+        location: '',
+        site: '',
+        facebook: '',
+        address1: '',
+        phone: '',
+        email:'',
+        description: 'Weather',
+        thingstodo: [
+            'Siri Das Wetter',
+            'Windy ',
+        ],
+        rate: 4.7,
+        likes: '996,483',
+        featured: true,
+    },                    
     {
         id: '501',
         title: 'Ikea',
