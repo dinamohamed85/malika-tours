@@ -116,6 +116,7 @@ const displayButtons = () => {
     const buttons = [
         'all', 'featured',
         ...new Set(other.map((item) => item.category)),
+        'arabic doctors'
     ];
     // console.log(buttons);
     categoriesDOM.innerHTML = buttons
@@ -137,7 +138,12 @@ const getListBycategory = (category) => {
         filteredList = other.filter((item) => {
             return item.featured
         });
-    }    
+    }  
+    else if (category == 'arabic doctors') {
+        //open arabic doctors page
+        console.log('open arabic doctors page ');
+        window.open('arabicdoctors.html','_self');
+    }  
     else{
         filteredList = other.filter((item) => {
             return item.category == category || item.thingstodo.find((el) => el.toLowerCase() == category);;
