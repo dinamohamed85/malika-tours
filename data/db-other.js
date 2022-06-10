@@ -796,7 +796,32 @@ const other = [
         rate: 4.7,
         likes: '996,483',
         featured: true,
-    },                        
+    },
+    {
+        id: '427',
+        title: 'Learn German with teacher',
+        category: 'apps',
+        icon: 'fa-solid fa-shop',
+        images: [
+            './images/other/4-apps/app-427.jpeg',
+        ],
+        country: 'Germany',
+        location: '',
+        site: '',
+        facebook: '',
+        address1: '',
+        phone: '',
+        email:'',
+        description: 'Learn German with teacher',
+        thingstodo: [
+            'Italki ',
+            'Preply ',
+            'Chatterbug '
+        ],
+        rate: 4.7,
+        likes: '996,483',
+        featured: true,
+    },                            
     {
         id: '501',
         title: 'Ikea',
