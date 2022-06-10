@@ -258,11 +258,11 @@ const other = [
         address1: 'GmbH Albert-Einstein-Ring 26 14532 Kleinmachnow',
         phone: '',
         email:'service@ebay-kleinanzeigen.de',
-        description: 'ebay Kleinanzeigen',
+        description: 'ebay Kleinanzeigen is the flea market app with the best deals in your neighborhood.',
         thingstodo: [
-            '',
-            '',
-            ''
+            'furniture',
+            'home',
+            'kitchen'
         ],
         rate: 4.7,
         likes: '999,999',
