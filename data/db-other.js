@@ -260,6 +260,9 @@ const other = [
         email:'service@ebay-kleinanzeigen.de',
         description: 'ebay Kleinanzeigen is the flea market app with the best deals in your neighborhood.',
         thingstodo: [
+            'free',
+            'Easy',
+            'Local',
             'furniture',
             'home',
             'kitchen'
@@ -267,7 +270,29 @@ const other = [
         rate: 4.7,
         likes: '999,999',
         featured: true,
-    },        
+    },
+    {
+        id: '407',
+        title: 'Halal Zulal',
+        category: 'apps',
+        icon: 'fa-solid fa-shop',
+        images: [
+            './images/other/4-apps/app-407.jpeg',
+        ],
+        country: 'Germany',
+        location: 'https://play.google.com/store/apps/details?id=com.halalzulal.mammar.halalzulal&hl=en&gl=US',
+        site: 'https://www.halalzulal.com/',
+        facebook: 'https://www.facebook.com/groups/1102676916432033',
+        address1: '',
+        phone: '',
+        email:'',
+        description: 'Halal Zulal. Check Halal products',
+        thingstodo: [
+        ],
+        rate: 4.7,
+        likes: '45,331',
+        featured: true,
+    },         
     {
         id: '501',
         title: 'Ikea',
