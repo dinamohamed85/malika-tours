@@ -567,7 +567,7 @@ const other = [
     }, 
     {
         id: '418',
-        title: 'Car & Taxi services',
+        title: 'Car & Taxi & Bike services',
         category: 'apps',
         icon: 'fa-solid fa-shop',
         images: [
@@ -587,7 +587,8 @@ const other = [
             'BlaBlaCar (Car Sharing) ',
             'HandyParken München (Car Parking payment)',
             'Easy teacher (Theoretical driver license)',
-            'Freenow (Taxi  , Scooter  , Uber renting ) '
+            'Freenow (Taxi  , Scooter  , Uber renting ) ',
+            'MVGO (Bike Rental )'
         ],
         rate: 4.7,
         likes: '996,483',
