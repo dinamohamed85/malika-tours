@@ -480,7 +480,7 @@ const other = [
         thingstodo: [
             'Amazon Prime',
             'Shahid VIP',
-            'aWatchIt',
+            'WatchIt',
             'Netflix',
             'IPTV'
         ],
