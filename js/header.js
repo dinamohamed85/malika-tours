@@ -56,7 +56,7 @@ const displayHeader = () => {
         </li>
         <li><a href="arabicdoctors.html" class="nav-link" class="nav-icon"><i class="fa-solid fa-user-doctor  menu-icon"></i>arabic doctors</a>
         </li>
-        <li><a href="other.html" class="nav-link" class="nav-icon"><i class="fa-solid fa-graduation-cap  menu-icon"></i>other</a>
+        <li><a href="other.html" class="nav-link" class="nav-icon"><i class="fa-solid fa-graduation-cap  menu-icon"></i>apps & other</a>
         </li>        
     </ul>
     <!-- end of nav links -->   

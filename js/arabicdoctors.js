@@ -108,6 +108,7 @@ const displayButtons = () => {
     const buttons = [
         'all',
         ...new Set(arabicdoctors.map((item) => item.category)),
+        'apps'
     ];
     // console.log(buttons);
     categoriesDOM.innerHTML = buttons
@@ -132,18 +133,25 @@ window.addEventListener('DOMContentLoaded', () => {
                 const el = e.target;
                 if (el.classList.contains('category-btn')) {
                     currentCategory = el.dataset.id;
-                    if (el.dataset.id === 'all') {
+                    if (currentCategory === 'all') {
                         filteredList = [...arabicdoctors];
                     }
 
-                    else if (el.dataset.id === 'featured') {
+                    else if (currentCategory === 'featured') {
                         filteredList = arabicdoctors.filter((item) => {
                             return item.featured
                         });
                     }
+                    else if (currentCategory == 'apps') {
+                        // currentCategory = 'apps';
+                        //open apps & other page
+                        console.log('open apps page ');
+                        window.open('other.html','_self');
+                    } 
+
                     else {
                         filteredList = arabicdoctors.filter((item) => {
-                            return item.category === el.dataset.id || item.thingstodo.find((thing) => thing.toLowerCase().includes(el.textContent));;
+                            return item.category === currentCategory || item.thingstodo.find((thing) => thing.toLowerCase().includes(el.textContent));;
                         });
                     }
                     displayarabicdoctors();
