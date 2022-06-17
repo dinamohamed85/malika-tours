@@ -2989,7 +2989,7 @@ const tours = [
         location: 'https://goo.gl/maps/7Y8VRSWU85ZVYSPSA',
         site: 'https://www.tollwood.de/en/kalender-sommer-2022/',
         facebook:'https://www.facebook.com/Tollwood/',
-        address: 'Spiridon-Louis-Ring 100, 80809, Olympiapark, München',
+        address: 'Spiridon-Louis-Ring 100, 80809, <strong>(Olympiapark)</strong>, München',
         phone:'0893838500',
         addressdesc: '',
         description:'Tollwood 2022. For 25 days in summer, the Tollwood Festival invites music fans, those interested in culture and strollers to the Olympic Park. Fascinating theater and performance groups meet on the festival grounds against the backdrop of the colorful »Market of Ideas«, and live music from all over the world emanates from the tents. ',
