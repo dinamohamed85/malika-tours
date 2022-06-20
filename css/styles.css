@@ -756,13 +756,13 @@ min-height:calc(100vh - 62px);
 .site-icon {
   margin-right: 0.25rem;
   color: var(--clr-primary-5);
-  font-size: 1.25rem;
+  font-size: 1rem;
   transition: var(--transition);
 }
 .phone-icon {
   margin-right: 0.25rem;
   color: var(--clr-primary-5);
-  font-size: 1rem;
+  font-size: .895rem;
   transition: var(--transition);
 }
 .site-icon:hover {
