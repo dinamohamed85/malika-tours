@@ -3340,7 +3340,7 @@ const tours = [
         address: 'Fahrmannsbachstraße 2, 86919 Utting am Ammersee',
         phone: '088069234920',
         addressdesc: 'Hochseilgarten Ammersee is in the west of the Munich city center as it is about <strong>1.5 hr</strong> away via <strong>Train</strong>.',
-        description: 'Hochseilgarten Ammersee.',
+        description: 'Hochseilgarten Ammersee - Klettergarten. Ammersee High Ropes Climbing Garden. On the Ammersee you do not climb in the garden but on board the pirate ship "Wilde Gretel". ',
         thingstodo: [
             'outdoor High ropes',
             'climbing',
