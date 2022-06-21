@@ -47,13 +47,12 @@ const displayRestaurants = () => {
 
     restaurantsContainer.innerHTML = filteredList
         .map((item, index) => {
-            const { id, title, category, icon, images, location, site, description, menu, likes, featured, avg_price, address, phone, rate, more,facebook,instagram } = item;
+            const { id, title, category, icon, images, location, site, description, menu, likes, featured, avg_price, address, phone, rate, more, facebook, instagram } = item;
             return `<article class="item">
         <div class="tour-img-container">
         <a href="${site}" target="_blank">
             <img src="${images[0]}" class="item-photo" alt="${title}"/></a>
-            <i class="fa-solid fa-face-smile rate-icon"></i><p class="item-rate">${rate}</p>
-            
+            <i class="fa-solid fa-face-smile rate-icon"></i><p class="item-rate">${rate}</p>            
         </div>
         <div class="item-info">
         <header> 
@@ -68,8 +67,7 @@ const displayRestaurants = () => {
             ${facebook ? `<a href="${facebook}" target="_blank"><i
             class="fa-brands fa-facebook-square facebook-icon"></i></a> ` : ``}  
             ${instagram ? `<a href="${instagram}" target="_blank"><i
-            class="fa-brands fa-instagram-square facebook-icon"></i></a> ` : ``}            
-                      
+            class="fa-brands fa-instagram-square facebook-icon"></i></a> ` : ``}                    
         </header>
         <section>
             <p><a href="${location}" target="_blank"><i
@@ -132,22 +130,22 @@ const displayButtons = () => {
 };
 const getListBycategory = (category) => {
 
-    window.history.replaceState(null, null, '?category='+currentCategory );
+    window.history.replaceState(null, null, '?category=' + currentCategory);
 
-    if(category =='all'){
+    if (category == 'all') {
         filteredList = [...restaurants];
     }
     else if (category == 'featured') {
         filteredList = restaurants.filter((item) => {
             return item.featured
         });
-    }    
+    }
     else if (category == 'halal markets') {
         //open shopping.html with halal markets
         console.log('open halal markets page ');
-        window.open('shopping.html','_self');
+        window.open('shopping.html', '_self');
     }
-    else{
+    else {
         filteredList = restaurants.filter((item) => {
             return item.category == category || item.menu.find((el) => el.toLowerCase().includes(category));
         });
@@ -157,12 +155,12 @@ const getListBycategory = (category) => {
 window.addEventListener('DOMContentLoaded', () => {
 
     const queryString = window.location.search;
-    try {   
-        if(queryString){
+    try {
+        if (queryString) {
             console.log(queryString);
             const urlParams = new URLSearchParams(queryString);
-            if(urlParams.get('category'))
-            currentCategory = urlParams.get('category');
+            if (urlParams.get('category'))
+                currentCategory = urlParams.get('category');
             console.log(currentCategory);
         }
 

@@ -23,7 +23,7 @@ const displayarabicdoctors = () => {
     else if (currentCategory == 'featured') {
         text1 = 'featured ';
         text2 = filteredList.length + ' things ';
-    }   
+    }
     else {
         text1 = 'top ';
         text2 = filteredList.length + ' ' + currentCategory + ' doctors';
@@ -36,13 +36,13 @@ const displayarabicdoctors = () => {
 
     arabicdoctorsContainer.innerHTML = filteredList
         .map((item, index) => {
-            const { id, title, category, icon, images, location, site, description, more,likes, featured, address1,address2, phone, rate, thingstodo, facebook,instagram,termin,email } = item;
+            const { id, title, category, icon, images, location, site, description, more, likes, featured, address1, address2, phone, rate, thingstodo, facebook, instagram, termin, email } = item;
             return `<article class="item">
         <div class="tour-img-container"> 
-        ${location ? `<a href="${location}" target="_blank"><img src="${images[0]}" class="item-photo" alt="${title}"/></a>` 
-        : site ? `<a href = "${site}" target = "_blank"><img src="${images[0]}" class="item-photo" alt="${title}"/></a>` 
-        : facebook ? `<a href = "${facebook}" target = "_blank"><img src="${images[0]}" class="item-photo" alt="${title}"/></a>`
-        : `<img src="${images[0]}" class="item-photo" alt="${title}"/>`} 
+        ${location ? `<a href="${location}" target="_blank"><img src="${images[0]}" class="item-photo" alt="${title}"/></a>`
+                    : site ? `<a href = "${site}" target = "_blank"><img src="${images[0]}" class="item-photo" alt="${title}"/></a>`
+                        : facebook ? `<a href = "${facebook}" target = "_blank"><img src="${images[0]}" class="item-photo" alt="${title}"/></a>`
+                            : `<img src="${images[0]}" class="item-photo" alt="${title}"/>`} 
 
         </div>
         <div class="item-info">
@@ -74,17 +74,17 @@ const displayarabicdoctors = () => {
             <h5>things to do :</h5>
             <section class="tour-activtiy">
             ${thingstodo.map((item) => {
-                let text;
-                if (item == 'halal')
-                    text = `<p><span class="tour-love-icon">${item}</span></p>`
+                        let text;
+                        if (item == 'halal')
+                            text = `<p><span class="tour-love-icon">${item}</span></p>`
 
-                else if (item == 'arabic')
-                    text = `<p><span class="ar-icon">${item}</span></p>`
-               
-                else text = `<p>${item}</p>`
+                        else if (item == 'arabic')
+                            text = `<p><span class="ar-icon">${item}</span></p>`
 
-                return text;
-            }).join('')} 
+                        else text = `<p>${item}</p>`
+
+                        return text;
+                    }).join('')} 
                       
             </section>
         </div>
@@ -146,8 +146,8 @@ window.addEventListener('DOMContentLoaded', () => {
                         // currentCategory = 'apps';
                         //open apps & other page
                         console.log('open apps page ');
-                        window.open('other.html','_self');
-                    } 
+                        window.open('other.html', '_self');
+                    }
 
                     else {
                         filteredList = arabicdoctors.filter((item) => {

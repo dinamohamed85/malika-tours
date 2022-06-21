@@ -44,7 +44,7 @@ const displayshopping = () => {
 
     shoppingContainer.innerHTML = filteredList
         .map((item, index) => {
-            const { id, title, category, icon, images, location, site, description, likes, featured, address, phone, rate, thingstodo, facebook ,instagram,more} = item;
+            const { id, title, category, icon, images, location, site, description, likes, featured, address, phone, rate, thingstodo, facebook, instagram, more } = item;
             return `<article class="item">
         <div class="tour-img-container"> 
         ${site ? `<a href="${site}" target="_blank">
@@ -67,7 +67,7 @@ const displayshopping = () => {
             class="fa-solid fa-location-dot site-icon"></i>
             <span class="more-info">      ${address}</span></a> </p> ` : ``}
         ${phone ? `<p> <i class="fa-solid fa-phone phone-icon"></i>
-            <span class="more-info">  ${phone}</span> </p> `  : ``}
+            <span class="more-info">  ${phone}</span> </p> ` : ``}
                         
         </section>
         <p class="item-text">
@@ -126,9 +126,9 @@ const displayButtons = () => {
 
 const getListBycategory = (category) => {
 
-    window.history.replaceState(null, null, '?category='+currentCategory );
-    
-    if(category =='all'){
+    window.history.replaceState(null, null, '?category=' + currentCategory);
+
+    if (category == 'all') {
         filteredList = [...shopping];
     }
     else if (currentCategory == 'featured') {
@@ -139,9 +139,9 @@ const getListBycategory = (category) => {
     else if (category == 'halal restaurants') {
         //open halalrestaurants.html
         console.log('open halal restaurants page');
-        window.open('halalrestaurants.html','_self');
+        window.open('halalrestaurants.html', '_self');
     }
-    else{
+    else {
         filteredList = shopping.filter((item) => {
             return item.category == category || item.thingstodo.find((el) => el.toLowerCase() == category);;
         });
@@ -151,12 +151,12 @@ const getListBycategory = (category) => {
 window.addEventListener('DOMContentLoaded', () => {
 
     const queryString = window.location.search;
-    try {   
-        if(queryString){
+    try {
+        if (queryString) {
             console.log(queryString);
             const urlParams = new URLSearchParams(queryString);
-            if(urlParams.get('category'))
-            currentCategory = urlParams.get('category');
+            if (urlParams.get('category'))
+                currentCategory = urlParams.get('category');
             console.log(currentCategory);
         }
 
@@ -171,9 +171,9 @@ window.addEventListener('DOMContentLoaded', () => {
             categoriesDOM.addEventListener('click', (e) => {
                 const el = e.target;
                 if (el.classList.contains('category-btn')) {
-                   currentCategory = el.dataset.id;
-                   getListBycategory(currentCategory);
-                   displayshopping();
+                    currentCategory = el.dataset.id;
+                    getListBycategory(currentCategory);
+                    displayshopping();
                 }
             });
         }

@@ -44,13 +44,13 @@ const displayother = () => {
 
     otherContainer.innerHTML = filteredList
         .map((item, index) => {
-            const { id, title, category, icon, images, location, site, description, more,likes, featured, address1,address2, phone, rate, thingstodo, facebook,instagram,termin,email } = item;
+            const { id, title, category, icon, images, location, site, description, more, likes, featured, address1, address2, phone, rate, thingstodo, facebook, instagram, termin, email } = item;
             return `<article class="item">
         <div class="tour-img-container"> 
-        ${location ? `<a href="${location}" target="_blank"><img src="${images[0]}" class="item-photo" alt="${title}"/></a>` 
-        : site ? `<a href = "${site}" target = "_blank"><img src="${images[0]}" class="item-photo" alt="${title}"/></a>` 
-        : facebook ? `<a href = "${facebook}" target = "_blank"><img src="${images[0]}" class="item-photo" alt="${title}"/></a>`
-        : `<img src="${images[0]}" class="item-photo" alt="${title}"/>`} 
+        ${location ? `<a href="${location}" target="_blank"><img src="${images[0]}" class="item-photo" alt="${title}"/></a>`
+                    : site ? `<a href = "${site}" target = "_blank"><img src="${images[0]}" class="item-photo" alt="${title}"/></a>`
+                        : facebook ? `<a href = "${facebook}" target = "_blank"><img src="${images[0]}" class="item-photo" alt="${title}"/></a>`
+                            : `<img src="${images[0]}" class="item-photo" alt="${title}"/>`} 
 
         </div>
         <div class="item-info">
@@ -82,17 +82,17 @@ const displayother = () => {
             <h5>things to do :</h5>
             <section class="tour-activtiy">
             ${thingstodo.map((item) => {
-                let text;
-                if (item == 'halal')
-                    text = `<p><span class="tour-love-icon">${item}</span></p>`
+                        let text;
+                        if (item == 'halal')
+                            text = `<p><span class="tour-love-icon">${item}</span></p>`
 
-                else if (item == 'arabic')
-                    text = `<p><span class="ar-icon">${item}</span></p>`
-               
-                else text = `<p>${item}</p>`
+                        else if (item == 'arabic')
+                            text = `<p><span class="ar-icon">${item}</span></p>`
 
-                return text;
-            }).join('')} 
+                        else text = `<p>${item}</p>`
+
+                        return text;
+                    }).join('')} 
                       
             </section>
         </div>
@@ -126,26 +126,25 @@ const displayButtons = () => {
         .join('');
 };
 
-
 const getListBycategory = (category) => {
 
-    window.history.replaceState(null, null, '?category='+currentCategory );
-    
-    if(category =='all'){
+    window.history.replaceState(null, null, '?category=' + currentCategory);
+
+    if (category == 'all') {
         filteredList = [...other];
     }
     else if (currentCategory == 'featured') {
         filteredList = other.filter((item) => {
             return item.featured
         });
-    }  
+    }
     else if (category == 'arabic doctors') {
         // currentCategory = 'apps';
         //open arabic doctors page
         console.log('open arabic doctors page ');
-        window.open('arabicdoctors.html','_self');
-    }  
-    else{
+        window.open('arabicdoctors.html', '_self');
+    }
+    else {
         filteredList = other.filter((item) => {
             return item.category == category || item.thingstodo.find((el) => el.toLowerCase() == category);;
         });
@@ -155,12 +154,12 @@ const getListBycategory = (category) => {
 window.addEventListener('DOMContentLoaded', () => {
 
     const queryString = window.location.search;
-    try {   
-        if(queryString){
+    try {
+        if (queryString) {
             console.log(queryString);
             const urlParams = new URLSearchParams(queryString);
-            if(urlParams.get('category'))
-            currentCategory = urlParams.get('category');
+            if (urlParams.get('category'))
+                currentCategory = urlParams.get('category');
             console.log(currentCategory);
         }
 

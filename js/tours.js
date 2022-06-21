@@ -1,6 +1,6 @@
 import tours from '../data/db-tours.js';
 let filteredTours = [];
-let urlParams='';
+let urlParams = '';
 const toursContainer = document.querySelector('.tours-container');
 const form = document.querySelector('.input-form');
 const searchInput = document.querySelector('.search-input');
@@ -18,39 +18,39 @@ const displayTours = () => {
         toursContainer.innerHTML = `<h2 class="section-title" >Sorry, no tours matched your search</h2>`;
         return;
     }
-    let text0 = filteredTours.length  ;
+    let text0 = filteredTours.length;
     let text1 = '';
     let text2 = 'to visit in Munich and arounds';
 
-    if (currentCategory == 'all' ){       
+    if (currentCategory == 'all') {
         text2 = ' best places  to visit in Munich and cities around';
     }
-    else if ( currentCategory == 'featured'){     
+    else if (currentCategory == 'featured') {
         text1 = ' top places ';
         text2 = ' to visit in Munich and cities around';
     }
     else if (currentCategory == 'cities') {
-        text1 = ' top ' + currentCategory ;
-        text2 = ' to visit in Bayern'; 
-    }  
+        text1 = ' top ' + currentCategory;
+        text2 = ' to visit in Bayern';
+    }
     else if (currentCategory == 'lakes') {
         text1 = ' top ' + currentCategory;
-        text2 = ' to visit in Munich and Bayern'; 
-    }   
+        text2 = ' to visit in Munich and Bayern';
+    }
     else if (currentCategory == 'kids' || currentCategory == 'swimming') {
         text1 = ' top places for ' + currentCategory;
     }
-    else if (currentCategory == 'animals'|| currentCategory == 'free tickets') {
-        text1 =  ' top places has '+ currentCategory;
+    else if (currentCategory == 'animals' || currentCategory == 'free tickets') {
+        text1 = ' top places has ' + currentCategory;
     }
     else if (currentCategory == 'winter') {
-        text1 = ' top places in '+ currentCategory;
+        text1 = ' top places in ' + currentCategory;
     }
     else if (currentCategory == 'indoor') {
-        text1 = ' '+ currentCategory +' place '  ;
+        text1 = ' ' + currentCategory + ' place ';
     }
-    else 
-        text1 = ' top '+ currentCategory;    
+    else
+        text1 = ' top ' + currentCategory;
 
     toursTitle.innerHTML = `<div class="section-title">
         <h2> ${text0}<span class="featured-num">${text1}</span> ${text2}</h2>
@@ -58,7 +58,7 @@ const displayTours = () => {
 
     toursContainer.innerHTML = filteredTours
         .map((tour, index) => {
-            const { id, title, category, icon, image, country, date, location, site, address,addressdesc, description, thingstodo, likes, duration, season, featured, price ,more,phone,facebook,instagram} = tour;
+            const { id, title, category, icon, image, country, date, location, site, address, addressdesc, description, thingstodo, likes, duration, season, featured, price, more, phone, facebook, instagram, rate } = tour;
             return `<article class="tour-card" data-id="${id}">
             <div class="tour-img-container">
             <a href="${site}" target="_blank">
@@ -90,7 +90,7 @@ const displayTours = () => {
             </section>   
             <div class="tour-activtiy">            
             ${phone ? `<p> <i class="fa-solid fa-phone phone-icon" alt="phone"></i>
-            <span class="more-info">  ${phone}</span> </p> `  : ``}             
+            <span class="more-info">  ${phone}</span> </p> ` : ``}             
             <p><i class="fa-solid fa-ticket phone-icon" alt="ticket"></i> ${price}€</p>
             </div>          
             <p>
@@ -110,9 +110,9 @@ const displayTours = () => {
                 </div>
             </div>
             <!-- tour footer -->
-            <div class="tour-footer">
-               
-                <p>${duration} Hours</p>               
+            <div class="tour-footer">               
+                <p>${duration} Hours</p>  
+                <p><i class="fa-regular fa-star site-icon"></i>  ${rate}</p>            
             </div>
         </div>
         </article>`;
@@ -126,7 +126,7 @@ const displayButtons = () => {
     searchInput.value = '';
 
     const buttons = [
-        'all','featured',
+        'all', 'featured',
         ...new Set(tours.map((tour) => tour.category)),
         'halal restaurants'
     ];
@@ -141,9 +141,9 @@ const displayButtons = () => {
 const getListBycategory = (category) => {
 
     console.log(category);
-    window.history.replaceState(null, null, '?category='+currentCategory );
+    window.history.replaceState(null, null, '?category=' + currentCategory);
 
-    if(category =='all'){
+    if (category == 'all') {
         filteredTours = [...tours];
     }
     else if (category === 'featured') {
@@ -154,9 +154,9 @@ const getListBycategory = (category) => {
     else if (category === 'halal restaurants') {
         //open halalrestaurants.html
         console.log('open halal restaurants page');
-        window.open('halalrestaurants.html','_self');
+        window.open('halalrestaurants.html', '_self');
     }
-    else{
+    else {
         filteredTours = tours.filter((item) => {
             return item.category == category || item.thingstodo.find((el) => el.toLowerCase() == (category));
             // return item.category == category || item.thingstodo.find((el) => el.toLowerCase().includes(category));
@@ -166,13 +166,13 @@ const getListBycategory = (category) => {
 
 window.addEventListener('DOMContentLoaded', () => {
     const queryString = window.location.search;
-    console.log('queryString of url  : '+queryString);
-    try {   
-        if(queryString){
-            
+    console.log('queryString of url  : ' + queryString);
+    try {
+        if (queryString) {
+
             urlParams = new URLSearchParams(queryString);
-            if(urlParams.get('category'))
-            currentCategory = urlParams.get('category');
+            if (urlParams.get('category'))
+                currentCategory = urlParams.get('category');
             console.log(currentCategory);
         }
         getListBycategory(currentCategory);
@@ -204,7 +204,7 @@ window.addEventListener('DOMContentLoaded', () => {
                 const el = e.target;
                 if (el.classList.contains('category-btn')) {
                     currentCategory = el.dataset.id;
-                    
+
                     getListBycategory(currentCategory);
 
                     searchInput.value = '';
