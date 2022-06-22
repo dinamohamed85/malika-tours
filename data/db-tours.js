@@ -50,10 +50,10 @@ const tours = [
         date: 'October, 2021',
         location: 'https://goo.gl/maps/YpceZbEZX8HAsqBJA',
         site: 'https://www.neuschwanstein.de',
-        ticketslink: '',
-        facebook: '',
+        ticketslink: 'https://www.hohenschwangau.de/tickets-fuehrung/offizielle-tickets',
+        facebook: 'https://www.facebook.com/bayerische.schloesserverwaltung/',
         address: 'Neuschwansteinstraße 20, 87645 Schwangau',
-        phone: '',
+        phone: '+498362930830',
         addressdesc: 'Füssen In the south of Bavaria as it is about 2 hr away by <strong>Car</strong> (87645 Schwangau) or 2.5 hr via <strong>Train</strong>.',
         description: 'Füssen. Turreted fairytale, 19th-century, hilltop castle built for King Ludwig II, with tours of furnished rooms.',
         thingstodo: [
