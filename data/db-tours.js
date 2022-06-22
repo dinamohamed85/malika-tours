@@ -9,10 +9,10 @@ const tours = [
         date: 'February, 2021',
         location: 'https://goo.gl/maps/hHFs5ELaNHdJartR8',
         site: 'https://zugspitze.de/en',
-        ticketslink: '',
-        facebook: '',
+        ticketslink: 'https://zugspitze.de/en/Prices',
+        facebook: 'https://www.facebook.com/zugspitze.de/',
         address: 'Olympiastraße 31,82467 Garmisch-Partenkirchen',
-        phone: '',
+        phone: '+4988217970',
         addressdesc: 'Garmisch In the south of Bavaria about 1.5 hr away by <strong>Car</strong> (Garmisch-Partenkirchen) or 2 hr via<strong>Train</strong>.',
         description: 'Garmisch. Well-known alpine destination with a ski resort, glaciers & cable car rides offering scenic views.',
         thingstodo: [

@@ -58,7 +58,7 @@ const displayTours = () => {
 
     toursContainer.innerHTML = filteredTours
         .map((tour, index) => {
-            const { id, title, category, icon, image, country, date, location, site, address, addressdesc, description, thingstodo, likes, duration, season, featured, price, more, phone, facebook, instagram, rate } = tour;
+            const { id, title, category, icon, image, country, date, location, site, address, addressdesc, description, thingstodo, likes, duration, season, featured, price, more, phone, facebook, instagram, rate,ticketslink } = tour;
             return `<article class="tour-card" data-id="${id}">
             <div class="tour-img-container">
             <a href="${site}" target="_blank">
@@ -73,11 +73,7 @@ const displayTours = () => {
                     class="fa-solid fa-earth-europe site-icon"></i>${index + 1}. ${title}</a></h4>
                     <p>
                     <i class="fas fa-heart tour-love-icon"></i> ${likes}
-                    </p>
-                ${facebook ? `<p> <a href="${facebook}" target="_blank" alt="facebook"><i
-                class="fa-brands fa-facebook-square facebook-icon"></i></a> </p>` : ``} 
-                ${instagram ? `<p> <a href="${instagram}" target="_blank"  alt="instagram"><i
-                class="fa-brands fa-instagram-square facebook-icon"></i></a> </p>` : ``}   
+                    </p>                   
             </div>
             <section class="tour-activtiy">           
             ${address ? `<p><a href="${location}" target="_blank" alt="Address">
@@ -90,8 +86,11 @@ const displayTours = () => {
             </section>   
             <div class="tour-activtiy">            
             ${phone ? `<p> <i class="fa-solid fa-phone phone-icon" alt="phone"></i>
-            <span class="more-info">  ${phone}</span> </p> ` : ``}             
-            <p><i class="fa-solid fa-ticket phone-icon" alt="ticket"></i> ${price}€</p>
+            <span class="more-info">  ${phone}</span> </p> ` : ``}  
+            <p><span class="more-info">${duration} Hours</span> </p>             
+            <a href="${ticketslink}" target="_blank" alt="Address"><p>
+            <i class="fa-solid fa-ticket phone-icon" alt="ticket"></i> ${price}€</p>
+            </a>
             </div>          
             <p>
             ${addressdesc}               
@@ -110,8 +109,11 @@ const displayTours = () => {
                 </div>
             </div>
             <!-- tour footer -->
-            <div class="tour-footer">               
-                <p>${duration} Hours</p>  
+            <div class="tour-footer">                    
+                ${facebook ? `<p> <a href="${facebook}" target="_blank" alt="facebook"><i
+                class="fa-brands fa-facebook-square facebook-icon"></i></a> </p>` : ``} 
+                ${instagram ? `<p> <a href="${instagram}" target="_blank"  alt="instagram"><i
+                class="fa-brands fa-instagram-square facebook-icon"></i></a> </p>` : ``}
                 <p><i class="fa-regular fa-star site-icon"></i>  ${rate}</p>            
             </div>
         </div>
