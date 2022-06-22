@@ -26,11 +26,11 @@ const displayFooter = () => {
     <ul class="footer-icons">
     <!-- single icon -->
     <li>
-        <a href="https://www.facebook.com/munich.explory24" target="_blank" class="footer-icon"><i
+        <a href="https://www.facebook.com/explory24" target="_blank" class="footer-icon"><i
             class="fab fa-facebook"></i></a>
     </li>
     <li>
-    <a href="https://www.instagram.com/munich.explory24/" target="_blank" class="footer-icon"><i
+    <a href="https://www.instagram.com/explory24_/" target="_blank" class="footer-icon"><i
         class="fab fa-instagram"></i></a>
 </li>
     <!-- end of single icon -->
