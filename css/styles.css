@@ -398,7 +398,7 @@ Featured Tours
   font-weight: 600;
 }
 .tour-info {
-  padding: 1rem 0.5rem;
+  padding: .5rem 0.5rem;
 }
 /* additional css for different layout*/
 .tour-title {
@@ -423,6 +423,7 @@ Featured Tours
   justify-content: space-between;
   flex-wrap: wrap;
   align-items: center;
+  margin-top: 1rem;
 }
 .tour-footer p {
   line-height: 1rem;
