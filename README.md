@@ -6,7 +6,7 @@ If you are living in Munich, here is your reference for interesting Outings 🎡
 Your guide to know good information about what is the activities that nice to explore.  ⛰️
 
 - Responsive Design. 
-- Flexbox for Columns Layouts.
+- Flexbox & Css Grid for Columns Layouts.
 - Navbar. 
 - Sub Menu. 
 - Animation. 
