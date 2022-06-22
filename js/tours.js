@@ -58,7 +58,7 @@ const displayTours = () => {
 
     toursContainer.innerHTML = filteredTours
         .map((tour, index) => {
-            const { id, title, category, icon, image, country, date, location, site, address, addressdesc, description, thingstodo, likes, duration, season, featured, price, more, phone, facebook, instagram, rate,ticketslink } = tour;
+            const { id, title, category, icon, image, country, date, location, site, address, addressdesc, description, thingstodo, likes, duration, season, featured, price, more, phone, facebook, instagram, rate, ticketslink } = tour;
             return `<article class="tour-card" data-id="${id}">
             <div class="tour-img-container">
             <a href="${site}" target="_blank">
@@ -88,9 +88,9 @@ const displayTours = () => {
             ${phone ? `<p> <i class="fa-solid fa-phone phone-icon" alt="phone"></i>
             <span class="more-info">  ${phone}</span> </p> ` : ``}  
             <p><span class="more-info">${duration} Hours</span> </p>             
-            <a href="${ticketslink}" target="_blank" alt="Address"><p>
+            ${phone ? `<a href="${ticketslink}" target="_blank" alt="Address"><p>
             <i class="fa-solid fa-ticket phone-icon" alt="ticket"></i> ${price}€</p>
-            </a>
+            </a>` : `<p><i class="fa-solid fa-ticket phone-icon" alt="ticket"></i> ${price}€</p>`}  
             </div>          
             <p>
             ${addressdesc}               
