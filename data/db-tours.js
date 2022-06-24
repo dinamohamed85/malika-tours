@@ -3883,7 +3883,7 @@ const tours = [
         ],
         rate: 4.4,
         likes: '4,244',
-        duration: 6,
+        duration: 1,
         price: 18,
         season: 'winter',
         featured: true,
