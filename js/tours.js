@@ -20,14 +20,14 @@ const displayTours = () => {
     }
     let text0 = filteredTours.length;
     let text1 = '';
-    let text2 = 'to visit in Munich and arounds';
+    let text2 = ' in Munich and arounds';
 
     if (currentCategory == 'all') {
-        text2 = ' best places  to visit in Munich and cities around';
+        text2 = ' best places in Munich and cities around';
     }
     else if (currentCategory == 'featured') {
         text1 = ' top places ';
-        text2 = ' to visit in Munich and cities around';
+        text2 = ' in Munich and cities around';
     }
     else if (currentCategory == 'cities') {
         text1 = ' top ' + currentCategory;
