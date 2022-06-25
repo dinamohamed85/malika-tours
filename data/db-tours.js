@@ -1,7 +1,7 @@
 const tours = [
     {
         id: '101',
-        title: 'Garmisch',
+        title: 'Garmisch/Zugspitze/Eibsee',
         category: 'cities',
         icon: 'fa-solid fa-city',
         image: './images/tours/1-cities/tour-1.jpeg',
@@ -42,7 +42,7 @@ const tours = [
     },
     {
         id: '102',
-        title: 'Füssen',
+        title: 'Füssen/Neuschwanstein Castle',
         category: 'cities',
         icon: 'fa-solid fa-city',
         image: './images/tours/1-cities/tour-2.jpeg',
@@ -78,7 +78,7 @@ const tours = [
     },
     {
         id: '103',
-        title: 'Lindau',
+        title: 'Lindau/Bodensee',
         category: 'cities',
         icon: 'fa-solid fa-water',
         image: './images/tours/1-cities/tour-3.jpeg',
@@ -830,7 +830,7 @@ const tours = [
     },
     {
         id: '212',
-        title: 'Königssee',
+        title: 'Königssee/Eagle`s Nest',
         category: 'lakes',
         icon: 'fa-solid fa-water',
         image: './images/tours/2-lakes/tour-12.jpeg',
