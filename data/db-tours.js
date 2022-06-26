@@ -1356,7 +1356,7 @@ const tours = [
         price: 18,
         season: 'summer',
         featured: true,
-    },
+    }
     {
         id: '1001',
         title: 'Blombergbahn Bad Tölz',
@@ -3091,7 +3091,7 @@ const tours = [
         phone: '089 30905593',
         addressdesc: 'HIGH FIVE. they are moving between 5 different locations during the week.',
         description: 'HIGH FIVE is an organization that teaches children and youth new skills through various training programs throughout the year and helps them learn new and diverse sports 🏈🏀⛷🏂⛹🏻 ♂️ and offers these activities for free 👌   throughout the year, during weekdays in different areas in Munich You can find out about these places through their website 👇🏻 and go regularly and participate for the children in the existing activities We tried with them basketball 🏀 and skateboard 🏂, and it was an interesting and useful experience because they teach the children teamwork and participation and how to discover their skill',
-        more: 'locations :- MONDAY :Giesing / Candidplatz, TUESDAY: Neuperlach / A-K-A Steinplatz, WEDNESDAY: Riem / Riemer Park, THURSDAY: Neuaubing / Wiesentfelserstr. ',
+        more: 'locations :- MONDAY :Giesing / Candidplatz, TUESDAY: Neuperlach / A-K-A Steinplatz, WEDNESDAY: Riem / Riemer Park, THURSDAY: Neuaubing / Wiesentfelserstr. (Marwa Ahmed)',
         thingstodo: [
             'basketball',
             'Skateboard ',
@@ -3282,7 +3282,7 @@ const tours = [
         address: '',
         phone: '08938338310',
         addressdesc: 'Neubaugebiet Gleisharfe Fritz-Bauer-Straße 81249 München. <strong>S8</strong> (Neuaubing)',
-        description: 'Weltspieltag 2022. World play day. takes place every year before the Corona virus, and it is very sweet and organized, and there are many different activities for children, whether sports games or recreational scientific activities, handicrafts, drawing and coloring. You can come and enjoy and simplify your beautiful children without money or prior registration 😍  👇🏻.',
+        description: 'Weltspieltag 2022. World play day. takes place every year before the Corona virus, and it is very sweet and organized, and there are many different activities for children, whether sports games or recreational scientific activities, handicrafts, drawing and coloring. You can come and enjoy and simplify your beautiful children without money or prior registration 😍 👇🏻. (Marwa Ahmed) ',
         more: '28 Mai 2022. 10 am - 6 pm',
         thingstodo: [
             'sports',
