@@ -2437,7 +2437,8 @@ const tours = [
         address: 'Purpurweidenweg, 81249 München',
         phone: '08954650056',
         addressdesc: 'Purpurweidenweg, 81249 München , Feldmochinger Str., 80995 München, Close to the Munich city center as it is about 20 min away via <strong>S3</strong> (Lochhausen).',
-        description: 'Fruit bowls & cakes with berries at a family-friendly site with strawberry picking & kids games.',
+        description: 'Fruit bowls & cakes with berries at a family-friendly site with strawberry picking & kids games. (Google)',
+        more:'Who does not like strawberries 🍓🍓🍓 Here in Beerencafé, you can visit a strawberry farm and pick them in the one and the quantity you like. The place is also in Shebel Platz for children and suitable seating for friends and family, and you can order from the cafe the best 🍰👌 sweets with strawberries 🍓 and all kinds of berries 🍒, The place is nice and cute and has more than one branch in Munich. (Marwa Ahmed)',
         thingstodo: [
             'Strawberry Picking',
             'cafe',
