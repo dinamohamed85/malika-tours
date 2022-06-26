@@ -3923,7 +3923,7 @@ const tours = [
         price: 19,
         season: 'winter',
         featured: true,
-    },
+    },    
     {
         id: '1409',
         title: 'Ecodrom Kartbahn',
