@@ -2580,7 +2580,7 @@ const restaurants = [
         address: 'Hotterstraße 16, 80331 München',
         phone: '08996051949',
         description: 'Turkish specialties & vegan options served in a down-to-earth venue that has a terrace.',
-        more: '',
+        more: 'You will only pay 10.90 € and you can make a delicious dish consisting of the most famous Turkish dishes and enjoy Turkish tea in the corner of the Marienplatz. (Marwa Ahmed)',
         menu: [
             'popular breakfast for groups',
             'tomato&egg pan',
@@ -2594,7 +2594,7 @@ const restaurants = [
         ],
         rate: 4.8,
         likes: '507',
-        avg_price: 8.9,
+        avg_price: 10.9,
         featured: true,
     },
     {
