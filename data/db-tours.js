@@ -3735,7 +3735,7 @@ const tours = [
         image: './images/tours/13-klettern/tour-12.jpeg',
         country: 'Germany',
         date: 'June, 2020',
-        location: 'https://goo.gl/maps/ppxWLir1MqnBpZML9',
+        location: 'https://goo.gl/maps/zXH8LDnUTHdyYfxEA',
         site: 'http://www.der-blomberg.de/kletterwald',
         ticketslink: 'https://www.der-blomberg.de/kletterwald/preise',
         facebook: 'https://www.facebook.com/Kletterwald-Blomberg-354524211395',
