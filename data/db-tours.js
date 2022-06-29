@@ -4241,7 +4241,7 @@ const tours = [
             'events',
             'kids',
         ],
-        rate: 4.3,
+        rate: 4.4,
         likes: '607',
         duration: 1,
         price: 11,
