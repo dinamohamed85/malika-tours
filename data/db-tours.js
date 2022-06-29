@@ -3876,7 +3876,7 @@ const tours = [
             'Go-kart track',
             'Kartfahren',
             'Bowling',
-            'Minigolf',
+            'golf',
             'Food',
             'indoor',
             'amusement',
@@ -3954,7 +3954,7 @@ const tours = [
         duration: 1,
         price: 19,
         season: 'winter',
-        featured: true,
+        featured: false,
     }, 
     {
         id: '1404',
@@ -4021,7 +4021,7 @@ const tours = [
         duration: 1,
         price: 79,
         season: 'winter',
-        featured: true,
+        featured: false,
     }, 
     {
         id: '1406',
@@ -4053,7 +4053,7 @@ const tours = [
         duration: 1,
         price: 13,
         season: 'winter',
-        featured: true,
+        featured: false,
     },
     {
         id: '1407',
@@ -4087,7 +4087,7 @@ const tours = [
         duration: 1,
         price: 18,
         season: 'winter',
-        featured: true,
+        featured: false,
     }, 
     {
         id: '1408',
@@ -4120,7 +4120,7 @@ const tours = [
         duration: 1,
         price: 18,
         season: 'winter',
-        featured: true,
+        featured: false,
     },                    
     {
         id: '1409',
@@ -4151,7 +4151,7 @@ const tours = [
         duration: 1,
         price: 21,
         season: 'winter',
-        featured: true,
+        featured: false,
     },
     {
         id: '1410',
@@ -4215,7 +4215,7 @@ const tours = [
         duration: 1,
         price: 14,
         season: 'winter',
-        featured: true,
+        featured: false,
     },
     {
         id: '1412',
@@ -4246,7 +4246,7 @@ const tours = [
         duration: 1,
         price: 11,
         season: 'winter',
-        featured: true,
+        featured: false,
     },
 ];
 
