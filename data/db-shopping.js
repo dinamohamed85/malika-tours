@@ -2682,6 +2682,42 @@ const shopping = [
         likes: '3,325',
         featured: true,
     }, 
+    {
+        id: '105',
+        title: 'Marienplatz',
+        category: 'malls',
+        icon: 'fa-solid fa-city',
+        images: [
+            './images/shopping/shop-105.jpeg',
+        ],
+        country: 'Germany',
+        date: 'October, 2021',
+        location: 'https://goo.gl/maps/2mk3XVETdFtKKRNRA',
+        site: 'https://www.muenchen.de/sehenswuerdigkeiten/orte/120347.html',
+        priceslink: '',
+        facebook: '',
+        address: 'Marienplatz, 80331 München',
+        phone: '',
+        addressdesc: 'Marienplatz is the Munich city center via <strong>U3|S</strong> (Marienplatz).',
+        description: 'Marienplatz. City-center square & transport hub with towering St. Peters church, 2 town halls & a toy museum, christmas market.',
+        thingstodo: [
+            'cities to visit in Bayern',
+            'Rathaus',
+            'Shopping',
+            'cafe',
+            'strolling',
+            'historic',
+            'christmas market',
+            'city',
+            'free tickets'
+        ],
+        rate: 4.6,
+        likes: '90,668',
+        duration: 6,
+        price: 0,
+        season: 'summer',
+        featured: true,
+    },
 ];
 
 export default shopping;
