@@ -118,11 +118,43 @@ const displayButtons = () => {
         .join('');
 };
 
+const getListBycategory = (category) => {
+
+    window.history.replaceState(null, null, '?category=' + currentCategory);
+
+    if (category == 'all') {
+        filteredList = [...arabicdoctors];
+    }
+    else if (currentCategory == 'featured') {
+        filteredList = arabicdoctors.filter((item) => {
+            return item.featured
+        });
+    }
+    else if (category == 'apps') {
+        //open halalrestaurants.html
+        console.log('open apps page');
+        window.open('other.html', '_self');
+    }
+    else {
+        filteredList = arabicdoctors.filter((item) => {
+            return item.category == category || item.thingstodo.find((el) => el.toLowerCase() == category);
+        });
+    }
+};
+
 window.addEventListener('DOMContentLoaded', () => {
 
+    const queryString = window.location.search;
     try {
+        if (queryString) {
+            console.log(queryString);
+            const urlParams = new URLSearchParams(queryString);
+            if (urlParams.get('category'))
+                currentCategory = urlParams.get('category');
+            console.log(currentCategory);
+        }
+        getListBycategory(currentCategory);
 
-        filteredList = [...arabicdoctors];
         if (arabicdoctorsContainer && categoriesDOM && arabicdoctorsTitle) {
             arabicdoctorsTitle.innerHTML = '';
             console.log('html selectors is true');
@@ -133,27 +165,7 @@ window.addEventListener('DOMContentLoaded', () => {
                 const el = e.target;
                 if (el.classList.contains('category-btn')) {
                     currentCategory = el.dataset.id;
-                    if (currentCategory === 'all') {
-                        filteredList = [...arabicdoctors];
-                    }
-
-                    else if (currentCategory === 'featured') {
-                        filteredList = arabicdoctors.filter((item) => {
-                            return item.featured
-                        });
-                    }
-                    else if (currentCategory == 'apps') {
-                        // currentCategory = 'apps';
-                        //open apps & other page
-                        console.log('open apps page ');
-                        window.open('other.html', '_self');
-                    }
-
-                    else {
-                        filteredList = arabicdoctors.filter((item) => {
-                            return item.category === currentCategory || item.thingstodo.find((thing) => thing.toLowerCase().includes(el.textContent));;
-                        });
-                    }
+                    getListBycategory(currentCategory);
                     displayarabicdoctors();
                 }
             });
