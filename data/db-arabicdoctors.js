@@ -503,7 +503,7 @@ const arabicdoctors = [
         facebook: '',
         termin: '',
         address1: 'goethestraße 53  münchen 80336',
-        phone: '+49 89 23326874',
+        phone: '+49 89 23326874  ,  +49 152 56815872',
         email:'mona.gad@muenchen.de',
         description: 'Dr. Mona Gad, PhD Beratung in Deutsch, Arabisch. schulberatung, Landeshauptstadt München Referat für Bildung und Sport. Pädagogisches Institut-Zentrum für Kommunales Bildungsmanagement Bildungsberatung International. Educational Institute Municipal Education Administration Center International Educational Guidance, Educational consultant in Munich.',
         more: 'Montag, Mittwoch und Donnerstag',
