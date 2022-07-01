@@ -160,7 +160,7 @@ const getListBycategory = (category) => {
     }
     else {
         filteredTours = tours.filter((item) => {
-            return item.category == category || item.thingstodo.find((el) => el.toLowerCase().includes(category));
+            return item.category == category || item.thingstodo.find((el) => el.toLowerCase()==category);
         });
     }
 };

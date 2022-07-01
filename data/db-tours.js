@@ -2413,6 +2413,7 @@ const tours = [
             'summer toboggan',
             'Downhills',
             'Swimming pools',
+            'Swimming',
             'Restaurant',
             'hotel',
             'playground',
