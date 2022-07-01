@@ -112,7 +112,7 @@ const tours = [
     },
     {
         id: '104',
-        title: 'Nürnberg',
+        title: 'Nürnberg/Kaiserburg Nürnberg',
         category: 'cities',
         icon: 'fa-solid fa-water',
         image: './images/tours/1-cities/tour-4.jpeg',
@@ -128,7 +128,7 @@ const tours = [
         description: 'Nürnberg is the second-largest city of the German state of Bavaria after its capital Munich, and its 518,370 inhabitants make it the 14th-largest city in Germany.Wikipedia.',
         thingstodo: [
             'cities to visit in Bayern',
-            'Kaiserburg Nürnberg',
+            'Kaiserburg Nürnberg (Castle)',
             'Altstadt - St. Sebald',
             'Imperial Castle of Nuremberg',
             'Germanisches Nationalmuseum',
@@ -147,7 +147,7 @@ const tours = [
     },
     {
         id: '105',
-        title: 'Salzburg',
+        title: 'Salzburg/Fortress Hohensalzburg',
         category: 'cities',
         icon: 'fa-solid fa-city',
         image: './images/tours/1-cities/tour-5.jpeg',
@@ -180,7 +180,7 @@ const tours = [
     },
     {
         id: '106',
-        title: 'Würzburg',
+        title: 'Würzburg/Marienberg Fortress',
         category: 'cities',
         icon: 'fa-solid fa-city',
         image: './images/tours/1-cities/tour-6.jpeg',
@@ -245,7 +245,7 @@ const tours = [
     },
     {
         id: '108',
-        title: 'Regensburg',
+        title: 'Regensburg/Danube river',
         category: 'cities',
         icon: 'fa-solid fa-city',
         image: './images/tours/1-cities/tour-8.jpeg',
@@ -280,7 +280,7 @@ const tours = [
     },
     {
         id: '109',
-        title: 'Marienplatz',
+        title: 'Marienplatz/Rathaus/Shopping',
         category: 'cities',
         icon: 'fa-solid fa-city',
         image: './images/tours/1-cities/tour-9.jpeg',
@@ -314,7 +314,7 @@ const tours = [
     },
     {
         id: '110',
-        title: 'Odeonsplatz',
+        title: 'Odeonsplatz/Strolling',
         category: 'cities',
         icon: 'fa-solid fa-city',
         image: './images/tours/1-cities/tour-10.jpeg',
@@ -419,7 +419,7 @@ const tours = [
     },
     {
         id: '113',
-        title: 'Murnau',
+        title: 'Murnau/Murnauer Moos/Staffelsee',
         category: 'cities',
         icon: 'fa-solid fa-water',
         image: './images/tours/1-cities/tour-13.jpeg',
