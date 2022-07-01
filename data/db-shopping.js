@@ -723,11 +723,16 @@ const shopping = [
         country: 'Germany',
         site: 'https://www.ebay-kleinanzeigen.de/',
         facebook: 'https://www.facebook.com/eBayKleinanzeigen/',
-        description: 'Post free ads with eBay Classifieds. Used or new, private or commercial - advertise now for free on Germany most visited ...',
-        thingstodo: [
-            'free ads',
+        description: 'ebay Kleinanzeigen is the flea market app with the best deals in your neighborhood. Post free ads with eBay Classifieds. Used or new, private or commercial - advertise now for free on Germany most visited ...',
+        thingstodo: [            
             'second hand',
             'low prices',
+            'furniture',
+            'Easy',
+            'Local',
+            'home',
+            'kitchen',
+            'free',
         ],
         rate: 4.6,
         likes: '500,000',
@@ -2424,7 +2429,7 @@ const shopping = [
     {
         id: '95',
         title: 'Höffner',
-        category: 'malls',
+        category: 'furniture',
         icon: 'fa-solid fa-shop',
         images: [
             './images/shopping/shop-95.jpeg',
@@ -2447,7 +2452,7 @@ const shopping = [
     {
         id: '96',
         title: ' IKEA ',
-        category: 'malls',
+        category: 'furniture',
         icon: 'fa-solid fa-shop',
         images: [
             './images/shopping/shop-96.jpeg',
@@ -2460,7 +2465,8 @@ const shopping = [
         phone: '061929399999',
         description: 'IKEA. Scandinavian chain selling ready-to-assemble furniture, plus housewares, in a warehouse-like space.',
         thingstodo: [
-            'Furniture store',
+            'furniture store',
+            'kitchen',
             'Brunnthal',
         ],
         rate: 4.1,

@@ -143,7 +143,7 @@ const getListBycategory = (category) => {
     }
     else {
         filteredList = shopping.filter((item) => {
-            return item.category == category || item.thingstodo.find((el) => el.toLowerCase() == category);
+            return item.category == category || item.thingstodo.find((el) => el.toLowerCase().includes(category));
         });
     }
 };
