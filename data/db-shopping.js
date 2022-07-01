@@ -706,6 +706,7 @@ const shopping = [
             'Brands',
             'shipping',
             'kids , toys',
+            'furniture',
             'free returns'
         ],
         rate: 4.4,
