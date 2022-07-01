@@ -955,7 +955,7 @@ const tours = [
             'lakes beside Bayern',
             'Treetop Trail Lipno  - baumwipfelpfad',
             'Four- (chairlift) Lipno - Kramolín (Mountain cable car)',
-            'Království Lesa (water park)',
+            'Království Lesa (playground & park)',
             'Slideland Bobova Draha Lipno  - rodelbahn',
             'Marína Lipno',
             'Aquaworld Lipno- swimming pool',
