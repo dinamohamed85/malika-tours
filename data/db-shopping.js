@@ -1439,7 +1439,7 @@ const shopping = [
         category: 'halal markets',
         icon: 'fa-solid fa-shop',
         images: [
-            './images/shopping/3-halal-markets/shop-6.jpeg',
+            './images/shopping/3-halal-markets/shop-7.jpeg',
         ],
         country: 'Germany',
         location: 'https://g.page/freshlandsupermarkt?share',
