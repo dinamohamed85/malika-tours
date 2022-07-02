@@ -5,7 +5,7 @@ const shopping = [
         category: 'malls',
         icon: 'fa-solid fa-shop',
         images: [
-            './images/shopping/shop-1.jpeg',
+            './images/shopping/1-malls/shop-1.jpeg',
         ],
         country: 'Germany',
         location: 'https://goo.gl/maps/PaLKeBPunaVZg6kaA',
@@ -31,7 +31,7 @@ const shopping = [
         category: 'malls',
         icon: 'fa-solid fa-shop',
         images: [
-            './images/shopping/shop-2.jpeg',
+            './images/shopping/1-malls/shop-2.jpeg',
         ],
         country: 'Germany',
         location: 'https://goo.gl/maps/Nutra2ER4EBfeuoX8',
@@ -57,7 +57,7 @@ const shopping = [
         category: 'malls',
         icon: 'fa-solid fa-shop',
         images: [
-            './images/shopping/shop-3.jpeg',
+            './images/shopping/1-malls/shop-3.jpeg',
         ],
         country: 'Germany',
         location: 'https://goo.gl/maps/QxSM9wTPfmcu9ApS9',
@@ -86,7 +86,7 @@ const shopping = [
         category: 'malls',
         icon: 'fa-solid fa-shop',
         images: [
-            './images/shopping/shop-4.jpeg',
+            './images/shopping/1-malls/shop-4.jpeg',
         ],
         country: 'Germany',
         location: 'https://goo.gl/maps/8TbBESMfyDooGGXV7',
@@ -115,7 +115,7 @@ const shopping = [
         category: 'malls',
         icon: 'fa-solid fa-shop',
         images: [
-            './images/shopping/shop-5.jpeg',
+            './images/shopping/1-malls/shop-5.jpeg',
         ],
         country: 'Germany',
         location: 'https://goo.gl/maps/HWDSHVLeuGBkeiVp9',
@@ -130,7 +130,7 @@ const shopping = [
             'Watches & Jewellery',
             'brands',
             'Sports',
-            'kids , toys',
+            'kids-Toys',
             'discounts'
         ],
         rate: 4.2,
@@ -143,7 +143,7 @@ const shopping = [
         category: 'malls',
         icon: 'fa-solid fa-shop',
         images: [
-            './images/shopping/shop-6.jpeg',
+            './images/shopping/1-malls/shop-6.jpeg',
         ],
         country: 'Germany',
         location: 'https://goo.gl/maps/MRTDZCVMEKa1uyvR9',
@@ -171,7 +171,7 @@ const shopping = [
         category: 'shops',
         icon: 'fa-solid fa-shop',
         images: [
-            './images/shopping/shop-7.jpeg',
+            './images/shopping/5-shops/shop-1.jpeg',
         ],
         country: 'Germany',
         location: 'https://goo.gl/maps/b3moMta6ZwSHyoVu7',
@@ -194,7 +194,7 @@ const shopping = [
         category: 'shops',
         icon: 'fa-solid fa-shop',
         images: [
-            './images/shopping/shop-8.jpeg',
+            './images/shopping/5-shops/shop-2.jpeg',
         ],
         country: 'Germany',
         location: 'https://goo.gl/maps/tQ4iXSbW1PSPMXTj8',
@@ -219,7 +219,7 @@ const shopping = [
         category: 'shops',
         icon: 'fa-solid fa-shop',
         images: [
-            './images/shopping/shop-9.jpeg',
+            './images/shopping/5-shops/shop-3.jpeg',
         ],
         country: 'Germany',
         location: 'https://goo.gl/maps/tCJRMM5PXNXFm3Y96',
@@ -241,7 +241,7 @@ const shopping = [
         category: 'shops',
         icon: 'fa-solid fa-shop',
         images: [
-            './images/shopping/shop-10.jpeg',
+            './images/shopping/5-shops/shop-4.jpeg',
         ],
         country: 'Germany',
         location: 'https://goo.gl/maps/VYyt8RkjvFCypUMZ7',
@@ -260,10 +260,10 @@ const shopping = [
     {
         id: '11',
         title: 'Tk maxx',
-        category: 'shops',
+        category: 'outlet',
         icon: 'fa-solid fa-shop',
         images: [
-            './images/shopping/shop-11.jpeg',
+            './images/shopping/8-outlet/shop-1.jpeg',
         ],
         country: 'Germany',
         location: 'https://goo.gl/maps/fCm74MsLdcLdLDEF9',
@@ -274,6 +274,7 @@ const shopping = [
         description: 'shopping original brand with low price.',
         thingstodo: [
             'Department store',
+            'shops',
             'Cosmetics',
             'perfumes',
             'shoes',
@@ -295,7 +296,7 @@ const shopping = [
         category: 'shops',
         icon: 'fa-solid fa-shop',
         images: [
-            './images/shopping/shop-12.jpeg',
+            './images/shopping/5-shops/shop-5.jpeg',
         ],
         country: 'Germany',
         location: 'https://goo.gl/maps/918H4585kdyBV9Sw9',
@@ -320,7 +321,7 @@ const shopping = [
         category: 'shops',
         icon: 'fa-solid fa-shop',
         images: [
-            './images/shopping/shop-13.jpeg',
+            './images/shopping/5-shops/shop-6.jpeg',
         ],
         country: 'Germany',
         location: 'https://goo.gl/maps/ofgvD3pSVu2Dhg7t8',
@@ -344,7 +345,7 @@ const shopping = [
         category: 'shops',
         icon: 'fa-solid fa-shop',
         images: [
-            './images/shopping/shop-14.jpeg',
+            './images/shopping/5-shops/shop-7.jpeg',
         ],
         country: 'Germany',
         location: 'https://goo.gl/maps/zp1Hk4Yv3RqKJTMt9',
@@ -371,7 +372,7 @@ const shopping = [
         category: 'shops',
         icon: 'fa-solid fa-shop',
         images: [
-            './images/shopping/shop-15.jpeg',
+            './images/shopping/5-shops/shop-8.jpeg',
         ],
         country: 'Germany',
         location: 'https://goo.gl/maps/FQTqxLk3sRmupGMv6',
@@ -395,7 +396,7 @@ const shopping = [
         category: 'shops',
         icon: 'fa-solid fa-shop',
         images: [
-            './images/shopping/shop-16.jpeg',
+            './images/shopping/5-shops/shop-9.jpeg',
         ],
         country: 'Germany',
         location: 'https://goo.gl/maps/WBpi8jXQDoVZcefW6',
@@ -415,10 +416,10 @@ const shopping = [
     {
         id: '17',
         title: 'Smyths Toys',
-        category: 'kids , toys',
+        category: 'kids-Toys',
         icon: 'fa-solid fa-shop',
         images: [
-            './images/shopping/shop-17.jpeg',
+            './images/shopping/6-kids-toys/shop-1.jpeg',
         ],
         country: 'Germany',
         location: 'https://goo.gl/maps/pZrYR7UcdNJWLRbu8',
@@ -441,7 +442,7 @@ const shopping = [
         category: 'shops',
         icon: 'fa-solid fa-shop',
         images: [
-            './images/shopping/shop-18.jpeg',
+            './images/shopping/10-low-price/shop-1.jpeg',
         ],
         country: 'Germany',
         location: 'https://goo.gl/maps/L9rJFaHEikW1oAwD7',
@@ -454,7 +455,7 @@ const shopping = [
             'Variety store',
             'decoration',
             'accessories',
-            'kids , toys',
+            'kids-Toys',
             'low prices',
         ],
         rate: 4.3,
@@ -467,7 +468,7 @@ const shopping = [
         category: 'shops',
         icon: 'fa-solid fa-shop',
         images: [
-            './images/shopping/shop-19.jpeg',
+            './images/shopping/10-low-price/shop-2.jpeg',
         ],
         country: 'Germany',
         location: 'https://goo.gl/maps/zPApzjsq2xCVaD4R6',
@@ -480,7 +481,7 @@ const shopping = [
             'Home goods store',
             'decoration',
             'accessories',
-            'kids , toys',
+            'kids-Toys',
             'low prices',
         ],
         rate: 4.1,
@@ -493,7 +494,7 @@ const shopping = [
         category: 'shops',
         icon: 'fa-solid fa-shop',
         images: [
-            './images/shopping/shop-20.jpeg',
+            './images/shopping/10-low-price/shop-3.jpeg',
         ],
         country: 'Germany',
         location: 'https://goo.gl/maps/Dm2KRRew5MRSHq9E9',
@@ -506,7 +507,7 @@ const shopping = [
             'Department store',
             'decoration',
             'accessories',
-            'kids , toys',
+            'kids-Toys',
             'low prices',
         ],
         rate: 4.2,
@@ -519,7 +520,7 @@ const shopping = [
         category: 'shops',
         icon: 'fa-solid fa-shop',
         images: [
-            './images/shopping/shop-21.jpeg',
+            './images/shopping/10-low-price/shop-4.jpeg',
         ],
         country: 'Germany',
         location: 'https://goo.gl/maps/zteLL2XZ6yqoDjkx8',
@@ -532,7 +533,7 @@ const shopping = [
             'Department store',
             'decoration',
             'accessories',
-            'kids , toys',
+            'kids-Toys',
             'low prices',
         ],
         rate: 4.1,
@@ -545,7 +546,7 @@ const shopping = [
         category: 'markets',
         icon: 'fa-solid fa-shop',
         images: [
-            './images/shopping/shop-22.jpeg',
+            './images/shopping/2-markets/shop-1.jpeg',
         ],
         country: 'Germany',
         location: 'https://goo.gl/maps/Xyp1f6zkzsLSVNKNA',
@@ -567,7 +568,7 @@ const shopping = [
         category: 'markets',
         icon: 'fa-solid fa-shop',
         images: [
-            './images/shopping/shop-23.jpeg',
+            './images/shopping/2-markets/shop-2.jpeg',
         ],
         country: 'Germany',
         location: 'https://goo.gl/maps/PjGQFybRPzJcE4AJ8',
@@ -589,7 +590,7 @@ const shopping = [
         category: 'markets',
         icon: 'fa-solid fa-shop',
         images: [
-            './images/shopping/shop-24.jpeg',
+            './images/shopping/2-markets/shop-3.jpeg',
         ],
         country: 'Germany',
         location: 'https://goo.gl/maps/MNjSqqx1vYNpVsJSA',
@@ -616,7 +617,7 @@ const shopping = [
         category: 'markets',
         icon: 'fa-solid fa-shop',
         images: [
-            './images/shopping/shop-25.jpeg',
+            './images/shopping/2-markets/shop-4.jpeg',
         ],
         country: 'Germany',
         location: 'https://goo.gl/maps/5eCtDrW3Gezu1RNv8',
@@ -639,7 +640,7 @@ const shopping = [
         category: 'halal markets',
         icon: 'fa-solid fa-shop',
         images: [
-            './images/shopping/shop-26.jpeg',
+            './images/shopping/3-halal-markets/shop-1.jpeg',
         ],
         country: 'Germany',
         location: 'https://goo.gl/maps/aan82G3DtoYDnZbM7',
@@ -667,7 +668,7 @@ const shopping = [
         category: 'halal markets',
         icon: 'fa-solid fa-shop',
         images: [
-            './images/shopping/shop-27.jpeg',
+            './images/shopping/3-halal-markets/shop-2.jpeg',
         ],
         country: 'Germany',
         location: 'https://goo.gl/maps/LtGqJQmz5r621jfs5',
@@ -695,7 +696,7 @@ const shopping = [
         category: 'online',
         icon: 'fa-solid fa-shop',
         images: [
-            './images/shopping/shop-28.jpeg',
+            './images/shopping/9-online/shop-1.jpeg',
         ],
         country: 'Germany',
         site: 'https://www.amazon.de/-/en',
@@ -705,7 +706,7 @@ const shopping = [
             'online shopping',
             'Brands',
             'shipping',
-            'kids , toys',
+            'kids-Toys',
             'furniture',
             'free returns'
         ],
@@ -719,7 +720,7 @@ const shopping = [
         category: 'online',
         icon: 'fa-solid fa-shop',
         images: [
-            './images/shopping/shop-29.jpeg',
+            './images/shopping/9-online/shop-2.jpeg',
         ],
         country: 'Germany',
         site: 'https://www.ebay-kleinanzeigen.de/',
@@ -745,7 +746,7 @@ const shopping = [
         category: 'online',
         icon: 'fa-solid fa-shop',
         images: [
-            './images/shopping/shop-30.jpeg',
+            './images/shopping/9-online/shop-3.jpeg',
         ],
         country: 'Germany',
         site: 'https://www.zalando.de',
@@ -767,7 +768,7 @@ const shopping = [
         category: 'online',
         icon: 'fa-solid fa-shop',
         images: [
-            './images/shopping/shop-31.jpeg',
+            './images/shopping/9-online/shop-4.jpeg',
         ],
         country: 'Germany',
         site: 'https://de.shein.com/',
@@ -789,7 +790,7 @@ const shopping = [
         category: 'online',
         icon: 'fa-solid fa-shop',
         images: [
-            './images/shopping/shop-32.jpeg',
+            './images/shopping/9-online/shop-5.jpeg',
         ],
         country: 'Germany',
         site: 'https://www.modanisa.com/ar/',
@@ -812,7 +813,7 @@ const shopping = [
         category: 'online',
         icon: 'fa-solid fa-shop',
         images: [
-            './images/shopping/shop-33.jpeg',
+            './images/shopping/9-online/shop-6.jpeg',
         ],
         country: 'Germany',
         site: 'https://www.idealo.de/',
@@ -835,7 +836,7 @@ const shopping = [
         category: 'online',
         icon: 'fa-solid fa-shop',
         images: [
-            './images/shopping/shop-34.jpeg',
+            './images/shopping/9-online/shop-7.jpeg',
         ],
         country: 'Germany',
         site: 'https://gethalal.de/',
@@ -862,7 +863,7 @@ const shopping = [
         category: 'halal markets',
         icon: 'fa-solid fa-shop',
         images: [
-            './images/shopping/shop-35.jpeg',
+            './images/shopping/3-halal-markets/shop-3.jpeg',
         ],
         country: 'Germany',
         location: 'https://goo.gl/maps/KNbUAaFgZcspHKR9A',
@@ -889,7 +890,7 @@ const shopping = [
         category: 'halal markets',
         icon: 'fa-solid fa-shop',
         images: [
-            './images/shopping/shop-36.jpeg',
+            './images/shopping/3-halal-markets/shop-4.jpeg',
         ],
         country: 'Germany',
         location: 'https://goo.gl/maps/gG4961FEFA29Ve4F8',
@@ -916,7 +917,7 @@ const shopping = [
         category: 'markets',
         icon: 'fa-solid fa-shop',
         images: [
-            './images/shopping/shop-37.jpeg',
+            './images/shopping/2-markets/shop-5.jpeg',
         ],
         country: 'Germany',
         location: 'https://goo.gl/maps/9d7poQWDShtGqcDD8',
@@ -927,7 +928,7 @@ const shopping = [
         description: 'KaufLand is a big supermarket in munich where you can find all what you need in one place. good prices and offers.',
         thingstodo: [
             'hypermarket',
-            'kids , toys',
+            'kids-Toys',
             'fish market',
             'heringe',
             'discounts',
@@ -945,7 +946,7 @@ const shopping = [
         category: 'shops',
         icon: 'fa-solid fa-shop',
         images: [
-            './images/shopping/shop-38.jpeg',
+            './images/shopping/5-shops/shop-10.jpeg',
         ],
         country: 'Germany',
         location: 'https://goo.gl/maps/aB9VE7UMJsXBfKMf6',
@@ -971,7 +972,7 @@ const shopping = [
         category: 'markets',
         icon: 'fa-solid fa-shop',
         images: [
-            './images/shopping/shop-39.jpeg',
+            './images/shopping/2-markets/shop-6.jpeg',
         ],
         country: 'Germany',
         location: 'https://goo.gl/maps/qCywGEzh1F1TUnTv7',
@@ -995,7 +996,7 @@ const shopping = [
         category: 'markets',
         icon: 'fa-solid fa-shop',
         images: [
-            './images/shopping/shop-40.jpeg',
+            './images/shopping/2-markets/shop-7.jpeg',
         ],
         country: 'Germany',
         location: 'https://goo.gl/maps/LsScBjV4WwRNDXwj8',
@@ -1018,7 +1019,7 @@ const shopping = [
         category: 'halal markets',
         icon: 'fa-solid fa-shop',
         images: [
-            './images/shopping/shop-41.jpeg',
+            './images/shopping/3-halal-markets/shop-5.jpeg',
         ],
         country: 'Germany',
         location: 'https://goo.gl/maps/kDWnffDUDXQnGNRj6',
@@ -1045,7 +1046,7 @@ const shopping = [
         category: 'halal markets',
         icon: 'fa-solid fa-shop',
         images: [
-            './images/shopping/shop-42.jpeg',
+            './images/shopping/3-halal-markets/shop-6.jpeg',
         ],
         country: 'Germany',
         location: 'https://goo.gl/maps/iNFzy4iA5HggGtsz6',
@@ -1069,10 +1070,10 @@ const shopping = [
     {
         id: '43',
         title: 'obletter(Müller) karlsplatz',
-        category: 'kids , toys',
+        category: 'kids-Toys',
         icon: 'fa-solid fa-shop',
         images: [
-            './images/shopping/shop-43.jpeg',
+            './images/shopping/6-kids-toys/shop-2.jpeg',
         ],
         country: 'Germany',
         location: 'https://goo.gl/maps/f8cSknj5j3noLQjaA',
@@ -1092,10 +1093,10 @@ const shopping = [
     {
         id: '44',
         title: 'The LEGO® Store',
-        category: 'kids , toys',
+        category: 'kids-Toys',
         icon: 'fa-solid fa-shop',
         images: [
-            './images/shopping/shop-44.jpeg',
+            './images/shopping/6-kids-toys/shop-3.jpeg',
         ],
         country: 'Germany',
         location: 'https://goo.gl/maps/V5z2BZdiHwn6qbg7A',
@@ -1116,10 +1117,10 @@ const shopping = [
     {
         id: '45',
         title: 'Spielwaren Krömer',
-        category: 'kids , toys',
+        category: 'kids-Toys',
         icon: 'fa-solid fa-shop',
         images: [
-            './images/shopping/shop-45.jpeg',
+            './images/shopping/6-kids-toys/shop-4.jpeg',
         ],
         country: 'Germany',
         location: 'https://goo.gl/maps/qUHZmZ5LTojgPLGG8',
@@ -1138,10 +1139,10 @@ const shopping = [
     {
         id: '46',
         title: 'Art and play',
-        category: 'kids , toys',
+        category: 'kids-Toys',
         icon: 'fa-solid fa-shop',
         images: [
-            './images/shopping/shop-46.jpeg',
+            './images/shopping/6-kids-toys/shop-5.jpeg',
         ],
         country: 'Germany',
         location: 'https://goo.gl/maps/Mmp6XXh1dJevpDeUA',
@@ -1162,10 +1163,10 @@ const shopping = [
     {
         id: '47',
         title: 'Playmobil',
-        category: 'kids , toys',
+        category: 'kids-Toys',
         icon: 'fa-solid fa-shop',
         images: [
-            './images/shopping/shop-47.jpeg',
+            './images/shopping/6-kids-toys/shop-6.jpeg',
         ],
         country: 'Germany',
         location: 'https://goo.gl/maps/nL47B4JL82thNstJA',
@@ -1184,10 +1185,10 @@ const shopping = [
     {
         id: '48',
         title: 'Spielwaren Vordermaier',
-        category: 'kids , toys',
+        category: 'kids-Toys',
         icon: 'fa-solid fa-shop',
         images: [
-            './images/shopping/shop-48.jpeg',
+            './images/shopping/6-kids-toys/shop-7.jpeg',
         ],
         country: 'Germany',
         location: 'https://goo.gl/maps/id1rxMbzkZLrHTFw9',
@@ -1206,10 +1207,10 @@ const shopping = [
     {
         id: '49',
         title: 'Das Spielzeug',
-        category: 'kids , toys',
+        category: 'kids-Toys',
         icon: 'fa-solid fa-shop',
         images: [
-            './images/shopping/shop-49.jpeg',
+            './images/shopping/6-kids-toys/shop-8.jpeg',
         ],
         country: 'Germany',
         location: 'https://g.page/dasspielzeugmuenchen?share',
@@ -1228,10 +1229,10 @@ const shopping = [
     {
         id: '50',
         title: 'myToys',
-        category: 'kids , toys',
+        category: 'kids-Toys',
         icon: 'fa-solid fa-shop',
         images: [
-            './images/shopping/shop-50.jpeg',
+            './images/shopping/6-kids-toys/shop-9.jpeg',
         ],
         country: 'Germany',
         location: 'https://goo.gl/maps/tkL2t8QXHAnLrpe47',
@@ -1250,10 +1251,10 @@ const shopping = [
     {
         id: '51',
         title: 'DAS KINDERZIMMER',
-        category: 'kids , toys',
+        category: 'kids-Toys',
         icon: 'fa-solid fa-shop',
         images: [
-            './images/shopping/shop-51.jpeg',
+            './images/shopping/6-kids-toys/shop-10.jpeg',
         ],
         country: 'Germany',
         location: 'https://goo.gl/maps/jMi4E6ZRCBTaGved9',
@@ -1272,10 +1273,10 @@ const shopping = [
     {
         id: '52',
         title: 'Die Spielzeugkiste',
-        category: 'kids , toys',
+        category: 'kids-Toys',
         icon: 'fa-solid fa-shop',
         images: [
-            './images/shopping/shop-52.jpeg',
+            './images/shopping/6-kids-toys/shop-11.jpeg',
         ],
         country: 'Germany',
         location: 'https://goo.gl/maps/o832PsbiYbupXcQ78',
@@ -1294,10 +1295,10 @@ const shopping = [
     {
         id: '53',
         title: 'Ingolstadt Village',
-        category: 'malls',
+        category: 'outlet',
         icon: 'fa-solid fa-shop',
         images: [
-            './images/shopping/shop-53.jpeg',
+            './images/shopping/8-outlet/shop-2.jpeg',
         ],
         country: 'Germany',
         location: 'https://goo.gl/maps/WM1YrzCHiTY4BQAq9',
@@ -1308,6 +1309,7 @@ const shopping = [
         description: 'At Ingolstadt Village Enjoy luxury open-air shopping with more than 110 boutiques from designer brands, original brands with low price.',
         thingstodo: [
             'shopping',
+            'malls',
             'brands',
             'fast food',
             'cafes',
@@ -1325,7 +1327,7 @@ const shopping = [
         category: 'malls',
         icon: 'fa-solid fa-shop',
         images: [
-            './images/shopping/shop-54.jpeg',
+            './images/shopping/1-malls/shop-7.jpeg',
         ],
         country: 'Germany',
         location: 'https://goo.gl/maps/YYEG8XJyo2n7tiZC8',
@@ -1356,7 +1358,7 @@ const shopping = [
         category: 'malls',
         icon: 'fa-solid fa-shop',
         images: [
-            './images/shopping/shop-55.jpeg',
+            './images/shopping/1-malls/shop-8.jpeg',
         ],
         country: 'Germany',
         location: 'https://goo.gl/maps/oU4BAv1UK2QNbaJs8',
@@ -1382,7 +1384,7 @@ const shopping = [
         category: 'malls',
         icon: 'fa-solid fa-shop',
         images: [
-            './images/shopping/shop-56.jpeg',
+            './images/shopping/1-malls/shop-9.jpeg',
         ],
         country: 'Germany',
         location: 'https://goo.gl/maps/z8B4sGMsX97hCga76',
@@ -1411,7 +1413,7 @@ const shopping = [
         category: 'malls',
         icon: 'fa-solid fa-shop',
         images: [
-            './images/shopping/shop-57.jpeg',
+            './images/shopping/1-malls/shop-10.jpeg',
         ],
         country: 'Germany',
         location: 'https://goo.gl/maps/xCkyihj3siRmy7zQA',
@@ -1437,7 +1439,7 @@ const shopping = [
         category: 'halal markets',
         icon: 'fa-solid fa-shop',
         images: [
-            './images/shopping/shop-58.jpeg',
+            './images/shopping/3-halal-markets/shop-6.jpeg',
         ],
         country: 'Germany',
         location: 'https://g.page/freshlandsupermarkt?share',
@@ -1467,7 +1469,7 @@ const shopping = [
         category: 'halal markets',
         icon: 'fa-solid fa-shop',
         images: [
-            './images/shopping/shop-59.jpeg',
+            './images/shopping/3-halal-markets/shop-8.jpeg',
         ],
         country: 'Germany',
         location: 'https://g.page/dolphin-ohg?share',
@@ -1497,7 +1499,7 @@ const shopping = [
         category: 'halal markets',
         icon: 'fa-solid fa-shop',
         images: [
-            './images/shopping/shop-60.jpeg',
+            './images/shopping/3-halal-markets/shop-9.jpeg',
         ],
         country: 'Germany',
         location: 'https://goo.gl/maps/zT3aHuXEdLYGrqme7',
@@ -1527,7 +1529,7 @@ const shopping = [
         category: 'halal markets',
         icon: 'fa-solid fa-shop',
         images: [
-            './images/shopping/shop-61.jpeg',
+            './images/shopping/3-halal-markets/shop-10.jpeg',
         ],
         country: 'Germany',
         location: 'https://goo.gl/maps/yMQQTW1ZKrQnCYUy7',
@@ -1557,7 +1559,7 @@ const shopping = [
         category: 'halal markets',
         icon: 'fa-solid fa-shop',
         images: [
-            './images/shopping/shop-62.jpeg',
+            './images/shopping/3-halal-markets/shop-11.jpeg',
         ],
         country: 'Germany',
         location: 'https://goo.gl/maps/tkjY4JxbyunT3EMs8',
@@ -1587,7 +1589,7 @@ const shopping = [
         category: 'halal markets',
         icon: 'fa-solid fa-shop',
         images: [
-            './images/shopping/shop-63.jpeg',
+            './images/shopping/3-halal-markets/shop-12.jpeg',
         ],
         country: 'Germany',
         location: 'https://goo.gl/maps/L54WYrPGdCekzgKW9',
@@ -1617,7 +1619,7 @@ const shopping = [
         category: 'fish market',
         icon: 'fa-solid fa-shop',
         images: [
-            './images/shopping/shop-64.jpeg',
+            './images/shopping/4-fish-market/shop-1.jpeg',
         ],
         country: 'Germany',
         location: 'https://goo.gl/maps/5n7CTHvVQa4JDveU9',
@@ -1639,10 +1641,10 @@ const shopping = [
     {
         id: '65',
         title: 'Bayram Supermarkt',
-        category: 'fish market',
+        category: 'halal markets',
         icon: 'fa-solid fa-shop',
         images: [
-            './images/shopping/shop-65.jpeg',
+            './images/shopping/3-halal-markets/shop-13.jpeg',
         ],
         country: 'Germany',
         location: 'https://goo.gl/maps/xggGqTxK3LWbGkDk8',
@@ -1669,7 +1671,7 @@ const shopping = [
         category: 'halal markets',
         icon: 'fa-solid fa-shop',
         images: [
-            './images/shopping/shop-66.jpeg',
+            './images/shopping/3-halal-markets/shop-14.jpeg',
         ],
         country: 'Germany',
         location: 'https://goo.gl/maps/RtJxXeZ12HcQJsWb6',
@@ -1699,7 +1701,7 @@ const shopping = [
         category: 'halal markets',
         icon: 'fa-solid fa-shop',
         images: [
-            './images/shopping/shop-67.jpeg',
+            './images/shopping/3-halal-markets/shop-15.jpeg',
         ],
         country: 'Germany',
         location: 'https://goo.gl/maps/kNoDqTMxAAyevC5t8',
@@ -1729,7 +1731,7 @@ const shopping = [
         category: 'halal markets',
         icon: 'fa-solid fa-shop',
         images: [
-            './images/shopping/shop-68.jpeg',
+            './images/shopping/3-halal-markets/shop-16.jpeg',
         ],
         country: 'Germany',
         location: 'https://goo.gl/maps/okqEMWV5mUerKbEF6',
@@ -1758,7 +1760,7 @@ const shopping = [
         category: 'halal markets',
         icon: 'fa-solid fa-shop',
         images: [
-            './images/shopping/shop-69.jpeg',
+            './images/shopping/3-halal-markets/shop-17.jpeg',
         ],
         country: 'Germany',
         location: 'https://g.page/forumstar-supermarkt?share',
@@ -1792,7 +1794,7 @@ const shopping = [
         category: 'halal markets',
         icon: 'fa-solid fa-shop',
         images: [
-            './images/shopping/shop-70.jpeg',
+            './images/shopping/3-halal-markets/shop-18.jpeg',
         ],
         country: 'Germany',
         location: 'https://goo.gl/maps/MnkEtgh18Sehzu5h8',
@@ -1821,7 +1823,7 @@ const shopping = [
         category: 'halal markets',
         icon: 'fa-solid fa-shop',
         images: [
-            './images/shopping/shop-71.jpeg',
+            './images/shopping/3-halal-markets/shop-19.jpeg',
         ],
         country: 'Germany',
         location: 'https://goo.gl/maps/9kb7tNGPUVLzCGBC8',
@@ -1849,7 +1851,7 @@ const shopping = [
         category: 'halal markets',
         icon: 'fa-solid fa-shop',
         images: [
-            './images/shopping/shop-72.jpeg',
+            './images/shopping/3-halal-markets/shop-20.jpeg',
         ],
         country: 'Germany',
         location: 'https://g.page/tuna_kasap?share',
@@ -1878,7 +1880,7 @@ const shopping = [
         category: 'halal markets',
         icon: 'fa-solid fa-shop',
         images: [
-            './images/shopping/shop-73.jpeg',
+            './images/shopping/3-halal-markets/shop-21.jpeg',
         ],
         country: 'Germany',
         location: 'https://goo.gl/maps/WJwj998NitCZEZys5',
@@ -1907,7 +1909,7 @@ const shopping = [
         category: 'online',
         icon: 'fa-solid fa-shop',
         images: [
-            './images/shopping/shop-74.jpeg',
+            './images/shopping/9-online/shop-8.jpeg',
         ],
         country: 'Germany',
         location: '',
@@ -1935,7 +1937,7 @@ const shopping = [
         category: 'fish market',
         icon: 'fa-solid fa-shop',
         images: [
-            './images/shopping/shop-75.jpeg',
+            './images/shopping/4-fish-market/shop-2.jpeg',
         ],
         country: 'Germany',
         location: 'https://goo.gl/maps/eyWfM78YhiwQfobG7',
@@ -1959,7 +1961,7 @@ const shopping = [
         category: 'fish market',
         icon: 'fa-solid fa-shop',
         images: [
-            './images/shopping/shop-76.jpeg',
+            './images/shopping/4-fish-market/shop-3.jpeg',
         ],
         country: 'Germany',
         location: 'https://g.page/frischeparadies-muenchen?share',
@@ -1983,7 +1985,7 @@ const shopping = [
         category: 'fish market',
         icon: 'fa-solid fa-shop',
         images: [
-            './images/shopping/shop-77.jpeg',
+            './images/shopping/4-fish-market/shop-4.jpeg',
         ],
         country: 'Germany',
         location: 'https://goo.gl/maps/jddv7VttGUnWi8zr6',
@@ -2006,7 +2008,7 @@ const shopping = [
         category: 'markets',
         icon: 'fa-solid fa-shop',
         images: [
-            './images/shopping/shop-78.jpeg',
+            './images/shopping/2-markets/shop-8.jpeg',
         ],
         country: 'Germany',
         location: 'https://goo.gl/maps/XrmXH56hFFNyahWQ9',
@@ -2033,7 +2035,7 @@ const shopping = [
         category: 'markets',
         icon: 'fa-solid fa-shop',
         images: [
-            './images/shopping/shop-79.jpeg',
+            './images/shopping/2-markets/shop-9.jpeg',
         ],
         country: 'Germany',
         location: 'https://goo.gl/maps/q2TZEDjmTbzCRhmz6',
@@ -2060,7 +2062,7 @@ const shopping = [
         category: 'markets',
         icon: 'fa-solid fa-shop',
         images: [
-            './images/shopping/shop-80.jpeg',
+            './images/shopping/2-markets/shop-10.jpeg',
         ],
         country: 'Germany',
         location: 'https://goo.gl/maps/BKt5KjRfFwYqNJdZ8',
@@ -2083,7 +2085,7 @@ const shopping = [
         category: 'fish market',
         icon: 'fa-solid fa-shop',
         images: [
-            './images/shopping/shop-81.jpeg',
+            './images/shopping/4-fish-market/shop-5.jpeg',
         ],
         country: 'Germany',
         location: 'https://goo.gl/maps/wB3SY2EbSoPibrSe9',
@@ -2106,7 +2108,7 @@ const shopping = [
         category: 'markets',
         icon: 'fa-solid fa-shop',
         images: [
-            './images/shopping/shop-82.jpeg',
+            './images/shopping/2-markets/shop-11.jpeg',
         ],
         country: 'Germany',
         location: 'https://goo.gl/maps/2hvEF6BQyGkQfkFZ9',
@@ -2131,7 +2133,7 @@ const shopping = [
         category: 'shops',
         icon: 'fa-solid fa-shop',
         images: [
-            './images/shopping/shop-83.jpeg',
+            './images/shopping/5-shops/shop-13.jpeg',
         ],
         country: 'Germany',
         location: 'https://g.page/secondhandsports_de?share',
@@ -2158,7 +2160,7 @@ const shopping = [
         category: 'shops',
         icon: 'fa-solid fa-shop',
         images: [
-            './images/shopping/shop-84.jpeg',
+            './images/shopping/11-women/shop-1.jpeg',
         ],
         country: 'Germany',
         location: 'https://goo.gl/maps/PbVv3c36b8ZCHs9E8',
@@ -2182,7 +2184,7 @@ const shopping = [
         category: 'shops',
         icon: 'fa-solid fa-shop',
         images: [
-            './images/shopping/shop-85.jpeg',
+            './images/shopping/11-women/shop-2.jpeg',
         ],
         country: 'Germany',
         location: 'https://goo.gl/maps/PbVv3c36b8ZCHs9E8',
@@ -2208,7 +2210,7 @@ const shopping = [
         category: 'shops',
         icon: 'fa-solid fa-shop',
         images: [
-            './images/shopping/shop-86.jpeg',
+            './images/shopping/11-women/shop-3.jpeg',
         ],
         country: 'Germany',
         location: 'https://goo.gl/maps/j7Px9B6TNA9rAEGj6',
@@ -2235,7 +2237,7 @@ const shopping = [
         category: 'shops',
         icon: 'fa-solid fa-shop',
         images: [
-            './images/shopping/shop-87.jpeg',
+            './images/shopping/11-women/shop-4.jpeg',
         ],
         country: 'Germany',
         location: 'https://goo.gl/maps/3w1xzWpsdeNyQ5Wx9',
@@ -2259,7 +2261,7 @@ const shopping = [
         category: 'shops',
         icon: 'fa-solid fa-shop',
         images: [
-            './images/shopping/shop-88.jpeg',
+            './images/shopping/11-women/shop-5.jpeg',
         ],
         country: 'Germany',
         location: 'https://g.page/ONLY-Neuhauser?share',
@@ -2283,7 +2285,7 @@ const shopping = [
         category: 'shops',
         icon: 'fa-solid fa-shop',
         images: [
-            './images/shopping/shop-89.jpeg',
+            './images/shopping/5-shops/shop-11.jpeg',
         ],
         country: 'Germany',
         location: 'https://g.page/hugendubel-karlsplatz?share',
@@ -2304,10 +2306,10 @@ const shopping = [
     {
         id: '90',
         title: 'Müller -PEP',
-        category: 'shops',
+        category: 'markets',
         icon: 'fa-solid fa-shop',
         images: [
-            './images/shopping/shop-90.jpeg',
+            './images/shopping/2-markets/shop-12.jpeg',
         ],
         country: 'Germany',
         location: 'https://goo.gl/maps/QY5j34QDmPCCfc8t8',
@@ -2332,10 +2334,10 @@ const shopping = [
     {
         id: '91',
         title: 'DM',
-        category: 'shops',
+        category: 'markets',
         icon: 'fa-solid fa-shop',
         images: [
-            './images/shopping/shop-91.jpeg',
+            './images/shopping/2-markets/shop-13.jpeg',
         ],
         country: 'Germany',
         location: 'https://goo.gl/maps/iariPHC1T7sY1hhQ8',
@@ -2358,10 +2360,10 @@ const shopping = [
     {
         id: '92',
         title: 'ROSSMANN',
-        category: 'shops',
+        category: 'markets',
         icon: 'fa-solid fa-shop',
         images: [
-            './images/shopping/shop-92.jpeg',
+            './images/shopping/2-markets/shop-14.jpeg',
         ],
         country: 'Germany',
         location: 'https://goo.gl/maps/4brT8HzkPn8Xpb736',
@@ -2387,7 +2389,7 @@ const shopping = [
         category: 'fish market',
         icon: 'fa-solid fa-shop',
         images: [
-            './images/shopping/shop-93.jpeg',
+            './images/shopping/4-fish-market/shop-6.jpeg',
         ],
         country: 'Germany',
         location: 'https://g.page/kurtfischmuenchen?share',
@@ -2410,7 +2412,7 @@ const shopping = [
         category: 'fish market',
         icon: 'fa-solid fa-shop',
         images: [
-            './images/shopping/shop-94.jpeg',
+            './images/shopping/4-fish-market/shop-7.jpeg',
         ],
         country: 'Germany',
         location: 'https://goo.gl/maps/gkDbYTtg8D9vqHBB9',
@@ -2433,7 +2435,7 @@ const shopping = [
         category: 'furniture',
         icon: 'fa-solid fa-shop',
         images: [
-            './images/shopping/shop-95.jpeg',
+            './images/shopping/7-furniture/shop-1.jpeg',
         ],
         country: 'Germany',
         location: 'https://goo.gl/maps/NYCnQ37c7vVMwz516',
@@ -2456,7 +2458,7 @@ const shopping = [
         category: 'furniture',
         icon: 'fa-solid fa-shop',
         images: [
-            './images/shopping/shop-96.jpeg',
+            './images/shopping/7-furniture/shop-2.jpeg',
         ],
         country: 'Germany',
         location: 'https://goo.gl/maps/NYCnQ37c7vVMwz516',
@@ -2480,7 +2482,7 @@ const shopping = [
         category: 'markets',
         icon: 'fa-solid fa-shop',
         images: [
-            './images/shopping/shop-97.jpeg',
+            './images/shopping/2-markets/shop-15.jpeg',
         ],
         country: 'Germany',
         location: 'https://goo.gl/maps/7zSpmHXvUYxa67gF9',
@@ -2504,7 +2506,7 @@ const shopping = [
         category: 'markets',
         icon: 'fa-solid fa-shop',
         images: [
-            './images/shopping/shop-98.jpeg',
+            './images/shopping/2-markets/shop-16.jpeg',
         ],
         country: 'Germany',
         location: 'https://goo.gl/maps/pjQzidxqLgWKz5n4A',
@@ -2527,7 +2529,7 @@ const shopping = [
         category: 'markets',
         icon: 'fa-solid fa-shop',
         images: [
-            './images/shopping/shop-99.jpeg',
+            './images/shopping/2-markets/shop-17.jpeg',
         ],
         country: 'Germany',
         location: 'https://goo.gl/maps/bQ4Ugi82pnCjdDqs8',
@@ -2550,7 +2552,7 @@ const shopping = [
         category: 'markets',
         icon: 'fa-solid fa-shop',
         images: [
-            './images/shopping/shop-100.jpeg',
+            './images/shopping/2-markets/shop-18.jpeg',
         ],
         country: 'Germany',
         location: 'https://goo.gl/maps/DTgs42SwV8hHjcdc7',
@@ -2573,7 +2575,7 @@ const shopping = [
         category: 'outlet',
         icon: 'fa-solid fa-shop',
         images: [
-            './images/shopping/shop-101.jpeg',
+            './images/shopping/8-outlet/shop-3.jpeg',
         ],
         country: 'Germany',
         location: 'https://goo.gl/maps/XbmeSEhigTAXH7Ky8',
@@ -2601,7 +2603,7 @@ const shopping = [
         category: 'shops',
         icon: 'fa-solid fa-shop',
         images: [
-            './images/shopping/shop-102.jpeg',
+            './images/shopping/5-shops/shop-12.jpeg',
         ],
         country: 'Germany',
         location: 'https://g.page/sportscheck-muenchen?share',
@@ -2629,7 +2631,7 @@ const shopping = [
         category: 'outlet',
         icon: 'fa-solid fa-shop',
         images: [
-            './images/shopping/shop-103.jpeg',
+            './images/shopping/8-outlet/shop-4.jpeg',
         ],
         country: 'Germany',
         location: 'https://g.page/sportscheck-outlet-muenchen?share',
@@ -2658,7 +2660,7 @@ const shopping = [
         category: 'outlet',
         icon: 'fa-solid fa-shop',
         images: [
-            './images/shopping/shop-104.jpeg',
+            './images/shopping/8-outlet/shop-5.jpeg',
         ],
         country: 'Germany',
         location: 'https://goo.gl/maps/XbmeSEhigTAXH7Ky8',
@@ -2695,7 +2697,7 @@ const shopping = [
         category: 'malls',
         icon: 'fa-solid fa-city',
         images: [
-            './images/shopping/shop-105.jpeg',
+            './images/shopping/1-malls/shop-11.jpeg',
         ],
         country: 'Germany',
         date: 'October, 2021',
