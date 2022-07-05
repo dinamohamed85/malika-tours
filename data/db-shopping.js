@@ -2259,7 +2259,7 @@ const shopping = [
         featured: true,
     },
     {
-        id: '88',
+        id: '1105',
         title: 'only',
         category: 'shops',
         icon: 'fa-solid fa-shop',
@@ -2283,7 +2283,7 @@ const shopping = [
         featured: true,
     },
     {
-        id: '515',
+        id: '1106',
         title: 'Esprit Outlet',
         category: 'shops',
         icon: 'fa-solid fa-shop',
@@ -2305,6 +2305,55 @@ const shopping = [
         ],
         rate: 4.1,
         likes: '489',
+        featured: true,
+    },
+    {
+        id: '1107',
+        title: 'Desigual',
+        category: 'shops',
+        icon: 'fa-solid fa-shop',
+        images: [
+            './images/shopping/11-women/shop-7.jpeg',
+        ],
+        country: 'Germany',
+        location: 'https://goo.gl/maps/dGijvVo6YCXdJYyQ8',
+        site: 'https://www.desigual.com/',
+        facebook: 'https://www.facebook.com/Desigual/',
+        address: 'Hanauer Str. 68, 80993 München',
+        phone: '08912112809',
+        description: 'Desigual. Store selling colorful, fashionable clothes for women, plus bags, accessories & shoes.google',
+        thingstodo: [
+            'Clothing store',
+            'outlet',
+            'women',
+            'Olympia-Einkaufszentrum, Riem Arcaden'
+        ],
+        rate: 4.4,
+        likes: '578',
+        featured: true,
+    },
+    {
+        id: '1108',
+        title: 'Ulla Popken -Large Sizes',
+        category: 'shops',
+        icon: 'fa-solid fa-shop',
+        images: [
+            './images/shopping/11-women/shop-8.jpeg',
+        ],
+        country: 'Germany',
+        location: 'https://g.page/ulla-popken-muenchen?share',
+        site: 'http://www.ullapopken.de/',
+        facebook: 'https://www.facebook.com/ulla.popken/',
+        address: 'Sonne, Sonnenstraße 11, 80331 München',
+        phone: '08955029312',
+        description: 'Ulla Popken.stands for current trend fashion from size 42. Feminine looks and perfect fits are convincing.FB',
+        thingstodo: [
+            'Clothing store',
+            'women',
+            'Karlsplatz (Stachus)'
+        ],
+        rate: 4.4,
+        likes: '578',
         featured: true,
     },
     {
