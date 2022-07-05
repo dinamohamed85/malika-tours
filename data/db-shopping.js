@@ -230,6 +230,9 @@ const shopping = [
         description: 'Trend-focused footwear chain with well-known brands and own-label shoes for men, women and children.',
         thingstodo: [
             'Shoe store',
+            'men',
+            'women',
+            'kids'
         ],
         rate: 4.3,
         likes: '9,864',
@@ -2275,6 +2278,30 @@ const shopping = [
         ],
         rate: 4.4,
         likes: '578',
+        featured: true,
+    },
+    {
+        id: '1110',
+        title: 'HALLHUBER',
+        category: 'women',
+        icon: 'fa-solid fa-shop',
+        images: [
+            './images/shopping/11-women/shop-10.jpeg',
+        ],
+        country: 'Germany',
+        location: 'https://goo.gl/maps/Jt5s5qK4CNCyocZQ7',
+        site: 'http://www.hallhuber.de/',
+        facebook: 'https://www.facebook.com/hallhuberfashion',
+        address: 'Stachus Passagen 1. UG, Karlspl., 80335 München',
+        phone: '08954885771',
+        description: 'HALLHUBER. .FB',
+        thingstodo: [
+            'Clothing store',
+            'women',
+            'Riem Arcaden'
+        ],
+        rate: 4.4,
+        likes: '343',
         featured: true,
     },
     {
