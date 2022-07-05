@@ -2254,6 +2254,30 @@ const shopping = [
         featured: true,
     },
     {
+        id: '1109',
+        title: 'GERRY WEBER',
+        category: 'women',
+        icon: 'fa-solid fa-shop',
+        images: [
+            './images/shopping/11-women/shop-9.jpeg',
+        ],
+        country: 'Germany',
+        location: 'https://goo.gl/maps/PAswd43xT65usw9a8',
+        site: 'https://www.gerryweber.com/de-de/',
+        facebook: 'https://www.facebook.com/gerryweber.global',
+        address: 'Willy-Brandt-Platz 5, 81829 München',
+        phone: '08994466839',
+        description: 'GERRY WEBER. Represents a lifestyle which implements trends with style-confidence, a true master of the detail that always creates looks which are fascinatingly presented and emphasise the personality.FB',
+        thingstodo: [
+            'Clothing store',
+            'women',
+            'Riem Arcaden'
+        ],
+        rate: 4.4,
+        likes: '578',
+        featured: true,
+    },
+    {
         id: '89',
         title: 'Hugenduble',
         category: 'shops',
