@@ -2279,7 +2279,32 @@ const shopping = [
             'Marienplatz'
         ],
         rate: 4.1,
-        likes: '152',
+        likes: '352',
+        featured: true,
+    },
+    {
+        id: '515',
+        title: 'Esprit Outlet',
+        category: 'shops',
+        icon: 'fa-solid fa-shop',
+        images: [
+            './images/shopping/11-women/shop-6.jpeg',
+        ],
+        country: 'Germany',
+        location: 'https://goo.gl/maps/yjERBcwgoGpUytkL8',
+        site: 'https://www.esprit.com/storefinder?campaign=0616&brand=0616.googlemybus',
+        facebook: 'https://www.facebook.com/ONLYDACH/?brand_redir=30659884904',
+        address: 'Posthalterring 22, 85599 Vaterstetten',
+        phone: '03022380663',
+        description: 'Esprit. Chain retailer of fashionable casualwear for men, women and children, plus contemporary homewares.google',
+        thingstodo: [
+            'Clothing store',
+            'outlet',
+            'women',
+            'Vaterstetten, PEP, Pasing, Riem Arcaden'
+        ],
+        rate: 4.1,
+        likes: '489',
         featured: true,
     },
     {
@@ -2829,6 +2854,32 @@ const shopping = [
         likes: '8,456',
         featured: true,
     },
+    {
+        id: '514',
+        title: 'Peek & Cloppenburg',
+        category: 'shops',
+        icon: 'fa-solid fa-shop',
+        images: [
+            './images/shopping/5-shops/shop-14.jpeg',
+        ],
+        country: 'Germany',
+        location: 'https://goo.gl/maps/cbePYcNBuvcb8ujx7',
+        site: 'https://www.peek-cloppenburg.de/',
+        facebook: 'https://www.facebook.com/peekcloppenburg',
+        address: 'Ollenhauerstraße 6, 81737 München',
+        phone: '08995479046',
+        description: 'Peek & Cloppenburg. find the latest trends of the season and find your favorite piece at P&C. .',
+        thingstodo: [
+            'Clothing Store',
+            'women',
+            'men',
+            'kids',
+            'PEP Mall, Riem Arcaden'
+        ],
+        rate: 4.2,
+        likes: '8,456',
+        featured: true,
+    },   
     {
         id: '103',
         title: 'SportScheck -outlet',
