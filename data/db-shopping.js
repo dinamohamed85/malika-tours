@@ -2224,7 +2224,6 @@ const shopping = [
         description: 'Desigual. Store selling colorful, fashionable clothes for women, plus bags, accessories & shoes.google',
         thingstodo: [
             'Clothing store',
-            'outlet',
             'women',
             'Olympia-Einkaufszentrum, Riem Arcaden'
         ],
