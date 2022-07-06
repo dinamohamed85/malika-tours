@@ -384,7 +384,8 @@ Featured Tours
   position: relative;
 }
 .tour-img {
-  height: 19rem;
+  height: 100%;
+  max-height: 25rem;
   object-fit: cover;
 }
 .tour-date {
@@ -902,13 +903,20 @@ min-height:calc(100vh - 62px);
   max-width: 1260px;
   display: grid;
   gap: 2rem 2rem;
-  justify-items: center;
+  justify-items: start;
 }
 .item {
+  transition: var(--transition);
+  background: var(--clr-grey-10);
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  margin-bottom: 1.5rem;
   display: grid;
   gap: 1rem 2rem;
-  max-width: 30rem;
   border-bottom: 0.4rem solid var(--clr-grey-9)
+}
+.item:hover {
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+  transform: scale(1.02);
 }
 .item-photo {
   object-fit: cover;
@@ -940,8 +948,8 @@ min-height:calc(100vh - 62px);
   .item {
     grid-template-columns: 1fr 1fr;
     gap: 0 1rem;
-    max-width: 60rem;
-    width: 60vw;
+    max-width: 55rem;
+    /* width: 60vw; */
   }
 }
 .item-rate {
