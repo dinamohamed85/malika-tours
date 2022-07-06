@@ -607,6 +607,10 @@ const shopping = [
             'Brands',
             'shipping',
             'kids-Toys',
+            'clothes',
+            'elecrtonics',
+            'Kitchen',
+            'home',           
             'furniture',
             'free returns'
         ],
@@ -2493,7 +2497,8 @@ const shopping = [
         description: 'IKEA. Scandinavian chain selling ready-to-assemble furniture, plus housewares, in a warehouse-like space.',
         thingstodo: [
             'furniture store',
-            'kitchen',
+            'kitchen',            
+            'home',             
             'Brunnthal',
         ],
         rate: 4.1,
