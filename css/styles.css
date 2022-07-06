@@ -800,24 +800,6 @@ min-height:calc(100vh - 62px);
 .category-btn:hover {
   color: var(--grey-700);
 }
-
-/* @media screen and (min-width: 868px) {
-  .tours {
-    grid-template-columns: 17rem 1fr;
-  }
-} */
-@media screen and (min-width: 992px) { 
-  .tours-container {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 1rem;
-  }  
-}
-@media screen and (min-width: 1170px) {
-  .tours-container {
-    grid-template-columns: repeat(3, 1fr);
-  }
-}
 .categories {
   margin: .5rem auto;
   display: flex;
@@ -959,15 +941,7 @@ min-height:calc(100vh - 62px);
     grid-template-columns: 1fr 1fr;
     gap: 0 1rem;
     max-width: 60rem;
-  }
-}
-@media screen and (min-width: 1200px) {
-  .list-container {
-    width: 99vw;
-    grid-template-columns: 1fr 1fr;
-  }
-  .item {
-    grid-template-columns: 20rem 1fr;
+    width: 60vw;
   }
 }
 .item-rate {
