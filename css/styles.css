@@ -989,3 +989,8 @@ min-height:calc(100vh - 62px);
 .more-desc{
   color: var(--clr-grey-8);
 }
+.strong-txt{
+  color: var(--clr-primary-8);
+  font-size: 1.5rem;
+  font-weight: 900;
+}
