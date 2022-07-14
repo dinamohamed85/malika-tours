@@ -40,7 +40,7 @@ const displayFooter = () => {
         class="fab fa-github"></i></a>
     </ul>
     <p class="copyright">
-    copyright &copy; Explory24 your guid for interesting hikes 2021-<span id="date"></span>. all rights reserved
+    copyright &copy; Explory24 your guid for interesting hikes <span id="date"></span>. all rights reserved
     </p>`;
 };
 
