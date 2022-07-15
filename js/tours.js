@@ -9,7 +9,7 @@ const categoriesDOM = document.querySelector('.categories');
 const toursTitle = document.querySelector('.tours-title');
 
 
-let currentCategory = 'featured';
+let currentCategory = 'best';
 
 const displayTours = () => {
 
@@ -24,6 +24,10 @@ const displayTours = () => {
 
     if (currentCategory == 'all') {
         text2 = ' best places in Munich and cities around';
+    }
+    else if (currentCategory == 'best') {
+        text1 = ' best places ';
+        text2 = ' in Munich and cities around';
     }
     else if (currentCategory == 'featured') {
         text1 = ' top places ';
@@ -148,6 +152,11 @@ const getListBycategory = (category) => {
     if (category == 'all') {
         filteredTours = [...tours];
     }
+    else if (category === 'best') {
+        filteredTours = tours.filter((tour) => {
+            return tour.featured || tour.category == 'cities' || tour.category == 'lakes';
+        });
+    }
     else if (category === 'featured') {
         filteredTours = tours.filter((tour) => {
             return tour.featured;
@@ -159,8 +168,8 @@ const getListBycategory = (category) => {
         window.open('halalrestaurants.html', '_self');
     }
     else {
-        filteredTours = tours.filter((item) => {
-            return item.category == category || item.thingstodo.find((el) => el.toLowerCase()==category);
+        filteredTours = tours.filter((tour) => {
+            return tour.category == category || tour.thingstodo.find((el) => el.toLowerCase() == category);
         });
     }
 };

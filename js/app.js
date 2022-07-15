@@ -69,7 +69,7 @@ const displayTours = () => {
                     class="fa-solid fa-earth-europe site-icon"></i>${title}</a></h4>
                 <p><a href="${location}" target="_blank"><i
                     class="fa-solid fa-location-dot site-icon"></i>
-                    ${country}</a> </p>
+                    Location</a> </p>
             </div>
             <p>
                 ${address}
