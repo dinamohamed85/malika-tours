@@ -994,3 +994,17 @@ min-height:calc(100vh - 62px);
   font-size: 1.5rem;
   font-weight: 900;
 }
+.gallery-title {
+  position: absolute;
+  left: .0;
+  top: .5rem;
+  width: 100%;
+  background: var(--clr-grey-4);  
+  color: var(--clr-white);
+  text-transform: capitalize;
+  text-align: center;
+  padding: 0.5rem;
+  margin-bottom: 0;
+  opacity: 0.6;
+  font-weight: 1000;
+}

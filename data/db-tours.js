@@ -874,7 +874,7 @@ const tours = [
         image: './images/tours/2-lakes/tour-12.jpeg',
         country: 'Germany',
         date: 'June, 2021',
-        location: 'https://goo.gl/maps/8JfjeX3uhBHMcw1f6',
+        location: 'https://goo.gl/maps/ub1bVP8oEpU9qhbc9',
         site: 'https://www.koenigssee.de/home',
         priceslink: '',
         facebook: '',
