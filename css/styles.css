@@ -519,7 +519,6 @@ Contact
 Gallery
 ===============
 */
-
 .gallery-img-container {
   position: relative;
   background: var(--clr-primary-5);
@@ -544,27 +543,26 @@ Gallery
 .gallery-img-container:hover  {
   opacity: 1;
 }
-@media screen and (max-width: 768px) {
-  .gallery-center {
-    display: flex;
-    flex-wrap: wrap;
-  }
+.gallery-center {
+  /* background: var(--clr-primary-5); */
+  background: var(--clr-grey-4);
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+@media screen and (max-width: 768px) {  
   .gallery-img-container {
-    flex: 0 0 50%;
+    flex: 0 0 calc(50% - .15rem);    
   }
 }
-@media screen and (min-width: 768px) {
-  .gallery-center {
-    display: flex;
-    flex-wrap: wrap;
-  }
+@media screen and (min-width: 768px) { 
   .gallery-img-container {
-    flex: 0 0 33.3%;
+    flex: 0 0 calc(33.3% - .15rem);
   }
 }
 @media screen and (min-width: 992px) {
   .gallery-img-container {
-    flex: 0 0 25%;
+    flex: 0 0 calc(25% - .15rem);
   }
 }
 /*
