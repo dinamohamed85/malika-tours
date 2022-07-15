@@ -2,14 +2,14 @@ const gallery = [
     {
         id: '1',
         itemID: '201',
-        title:'Starnberger See',
+        title:'Starnberger See -H’ugo’s Beach Club',
         image: './images/gallery/gallery-1.jpeg',
         location:'https://goo.gl/maps/MXqL54V1TmHgckZaA',
     },
     {
         id: '2',
         itemID: '210',
-        title:'Walchensee Cafe am See',
+        title:'Walchensee Cafe -Cafe am See',
         image: './images/gallery/gallery-2.jpeg',
         location:'https://goo.gl/maps/LeoU3upUdUT2iZmV9',
     },
@@ -46,7 +46,7 @@ const gallery = [
         itemID: '214',
         title:'lipno Lake Resort',
         image: './images/gallery/gallery-7.jpeg',
-        location:'https://goo.gl/maps/27n3hNbNKFrUyKdc6',
+        location:'https://g.page/LandalMarinaLipno?share',
     },
     {
         id: '8',
@@ -74,7 +74,7 @@ const gallery = [
         itemID: '214',
         title:'lipno Lake Resort',
         image: './images/gallery/gallery-11.jpeg',
-        location:'https://goo.gl/maps/27n3hNbNKFrUyKdc6',
+        location:'https://g.page/LandalMarinaLipno?share',
     },
     {
         id: '12',
@@ -86,7 +86,7 @@ const gallery = [
     {
         id: '13',
         itemID: '210',
-        title:'Wörthsee',
+        title:'Wörthsee -Augustiner Restaurant',
         image: './images/gallery/gallery-13.jpeg',
         location:'https://goo.gl/maps/9PYhn7QdHa7Abr3R8',
     },
@@ -95,7 +95,7 @@ const gallery = [
         itemID: '214',
         title:'lipno Lake Resort',
         image: './images/gallery/gallery-14.jpeg',
-        location:'https://goo.gl/maps/27n3hNbNKFrUyKdc6',
+        location:'https://g.page/LandalMarinaLipno?share',
     },
     {
         id: '15',
@@ -107,7 +107,7 @@ const gallery = [
     {
         id: '16',
         itemID: '201',
-        title:'Chiemsee',
+        title:'Chiemsee -schifffahrt',
         image: './images/gallery/gallery-16.jpeg',
         location:'https://goo.gl/maps/T6j8HtXXUNQJisZB6',
     },

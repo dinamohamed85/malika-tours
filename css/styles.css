@@ -548,7 +548,8 @@ Gallery
   background: var(--clr-grey-4);
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
+  justify-content: space-around;
+  gap: .15rem .15rem;
 }
 @media screen and (max-width: 768px) {  
   .gallery-img-container {
