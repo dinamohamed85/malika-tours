@@ -4,7 +4,7 @@ const gallery = [
         itemID: '201',
         title:'Starnberger See -H’ugo’s Beach Club',
         image: './images/gallery/gallery-1.jpeg',
-        location:'https://goo.gl/maps/MXqL54V1TmHgckZaA',
+        location:'https://goo.gl/maps/MsHmGb5jpLcFgyzq6',
     },
     {
         id: '2',
@@ -30,14 +30,14 @@ const gallery = [
     {
         id: '5',
         itemID: '108',
-        title:'Regensburg',
+        title:'Regensburg -Danube river',
         image: './images/gallery/gallery-5.jpeg',
         location:'https://goo.gl/maps/95rmytUxcsF3mfWLA',
     },
     {
         id: '6',
         itemID: '909',
-        title:'Sommer Tollwood 2022',
+        title:'Sommer Tollwood 2022 till 17 July',
         image: './images/gallery/gallery-6.jpeg',
         location:'https://goo.gl/maps/7Y8VRSWU85ZVYSPSA',
     },

@@ -996,7 +996,7 @@ min-height:calc(100vh - 62px);
 .gallery-title {
   position: absolute;
   left: .0;
-  top: .5rem;
+  top: .25rem;
   width: 100%;
   background: var(--clr-grey-4);  
   color: var(--clr-white);
