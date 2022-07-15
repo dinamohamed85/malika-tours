@@ -143,7 +143,7 @@ const tours = [
         duration: 10,
         price: 10,
         season: 'summer',
-        featured: true,
+        featured: false,
     },
     {
         id: '105',
@@ -209,7 +209,7 @@ const tours = [
         duration: 12,
         price: 10,
         season: 'summer',
-        featured: true,
+        featured: false,
     },
     {
         id: '107',
@@ -241,7 +241,7 @@ const tours = [
         duration: 12,
         price: 10,
         season: 'summer',
-        featured: true,
+        featured: false,
     },
     {
         id: '108',
@@ -276,7 +276,7 @@ const tours = [
         duration: 12,
         price: 10,
         season: 'summer',
-        featured: true,
+        featured: false,
     },
     {
         id: '109',
@@ -377,7 +377,7 @@ const tours = [
         duration: 10,
         price: 10,
         season: 'summer',
-        featured: true,
+        featured: false,
     },
     {
         id: '112',
@@ -415,7 +415,7 @@ const tours = [
         duration: 10,
         price: 10,
         season: 'summer',
-        featured: true,
+        featured: false,
     },
     {
         id: '113',
@@ -447,7 +447,7 @@ const tours = [
         duration: 10,
         price: 10,
         season: 'summer',
-        featured: true,
+        featured: false,
     },
     {
         id: '114',
@@ -653,7 +653,7 @@ const tours = [
         duration: 10,
         price: 10,
         season: 'summer',
-        featured: true,
+        featured: false,
     },
     {
         id: '206',
@@ -764,7 +764,7 @@ const tours = [
         duration: 6,
         price: 0,
         season: 'summer',
-        featured: true,
+        featured: false,
     },
     {
         id: '209',
@@ -797,7 +797,7 @@ const tours = [
         duration: 8,
         price: 0,
         season: 'summer',
-        featured: true,
+        featured: false,
     },
     {
         id: '210',
@@ -864,7 +864,7 @@ const tours = [
         duration: 10,
         price: 0,
         season: 'summer',
-        featured: true,
+        featured: false,
     },
     {
         id: '212',
@@ -936,7 +936,7 @@ const tours = [
         duration: 10,
         price: 10,
         season: 'summer',
-        featured: true,
+        featured: false,
     },
     {
         id: '214',
@@ -982,7 +982,7 @@ const tours = [
         duration: 24,
         price: 50,
         season: 'summer',
-        featured: true,
+        featured: false,
     },
     {
         id: '301',
@@ -1393,7 +1393,7 @@ const tours = [
         duration: 8,
         price: 18,
         season: 'summer',
-        featured: true,
+        featured: false,
     },
     {
         id: '1001',
@@ -1816,7 +1816,7 @@ const tours = [
         duration: 6,
         price: 10,
         season: 'summer',
-        featured: true,
+        featured: false,
     },
     {
         id: '708',
@@ -2267,7 +2267,7 @@ const tours = [
         duration: 10,
         price: 20,
         season: 'summer',
-        featured: false,
+        featured: true,
     },
     {
         id: '604',
@@ -2685,7 +2685,7 @@ const tours = [
         duration: 3,
         price: 5,
         season: 'summer',
-        featured: false,
+        featured: true,
     },
 
     {
@@ -3010,7 +3010,7 @@ const tours = [
         duration: 8,
         price: 5,
         season: 'summer',
-        featured: false,
+        featured: true,
     },
     {
         id: '804',
@@ -4068,7 +4068,7 @@ const tours = [
         duration: 1,
         price: 19,
         season: 'winter',
-        featured: true,
+        featured: false,
     },    
     {
         id: '1403',
