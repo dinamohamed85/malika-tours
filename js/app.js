@@ -1,35 +1,6 @@
 import tours from '../data/db-tours.js';
 
 // ********** ************ ************ ************ ************
-// ********** smooth scroll ************
-//const linkBtns = [...document.querySelectorAll('.nav-link')];
-// select links
-// const scrollLinks = document.querySelectorAll(".nav-link");
-// scrollLinks.forEach(link => {
-//   link.addEventListener("click", e => {
-//     // prevent default
-//     e.preventDefault();
-//     links.classList.remove("show-links");
-//     // submenu.classList.remove('show');
-
-//     const id = e.target.getAttribute("href").slice(1);
-//     const element = document.getElementById(id);
-//     //
-//     // console.log(element);
-
-//     let position = element.offsetTop - 62;
-//     // console.log(position);
-
-//     window.scrollTo({
-//       left: 0,
-//       // top: element.offsetTop,
-//       top: position,
-//       behavior: "smooth"
-//     });
-//   });
-// });
-
-// ********** ************ ************ ************ ************
 // **********  display featured list ************
 
 let filteredTours = [];

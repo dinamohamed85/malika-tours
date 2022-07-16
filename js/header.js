@@ -9,7 +9,34 @@ const navToggle = () => {
     navBtn.addEventListener("click", () => {
         links.classList.toggle("show-links");
     });
+
+    // ********** smooth scroll ************
+    if (window.location.pathname.slice(1) == "index.html") {
+        // select links
+        const scrollLinks = document.querySelectorAll(".scroll-link");
+        scrollLinks.forEach(link => {
+            link.addEventListener("click", e => {
+                // prevent default
+                e.preventDefault();
+                links.classList.remove("show-links");
+                
+                const id = e.target.getAttribute("href").slice(11);
+                const element = document.getElementById(id);
+
+                let position = element.offsetTop - 62;
+                console.log(position);
+
+                window.scrollTo({
+                    left: 0,
+                    // top: element.offsetTop,
+                    top: position,
+                    behavior: "smooth"
+                });
+            });
+        });
+    }
 };
+
 // ********** dispaly header ************
 const displayHeader = () => {
     navBar.innerHTML = ` <div class="nav-center">
@@ -27,23 +54,23 @@ const displayHeader = () => {
     <ul class="menu" id="menu">
         <!-- single link -->
         <li>        
-        <a class="nav-link" href="index.html" class="nav-icon"><i class="fa-solid fa-house menu-icon"></i>home</a>
+        <a class="nav-link scroll-link" href="index.html#hero" class="nav-icon"><i class="fa-solid fa-house menu-icon"></i>home</a>
         </li>
         <!-- end of single link -->
         <!-- single link -->
         <!-- single link -->
         <li>        
-        <a class="nav-link" href="about.html" class="nav-icon"><i class="fa-solid fa-address-card menu-icon"></i>about</a>
+        <a class="nav-link scroll-link" href="index.html#about" class="nav-icon"><i class="fa-solid fa-address-card menu-icon"></i>about</a>
         </li>
         <!-- end of single link -->
         <!-- single link -->
         <li>
-        <a class="nav-link" href="index.html#featured" class="nav-icon"><i class="fa-regular fa-star menu-icon"></i>featured</a>
+        <a class="nav-link scroll-link" href="index.html#featured" class="nav-icon"><i class="fa-regular fa-star menu-icon"></i>featured</a>
         </li>
         <!-- end of single link -->
         <!-- single link -->
         <li>
-        <a class="nav-link" href="index.html#gallery" class="nav-icon"><i class="fa-regular fa-images menu-icon"></i>gallery</a>
+        <a class="nav-link scroll-link" href="index.html#gallery" class="nav-icon"><i class="fa-regular fa-images menu-icon"></i>gallery</a>
         </li>
         <!-- end of single link -->
         <li><a href="tours.html" class="nav-link" class="nav-icon"><i
@@ -62,6 +89,7 @@ const displayHeader = () => {
     <!-- end of nav links -->   
     </div>`;
 };
+
 
 window.addEventListener('DOMContentLoaded', () => {
 

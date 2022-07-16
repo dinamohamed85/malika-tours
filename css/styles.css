@@ -544,8 +544,8 @@ Gallery
   opacity: 1;
 }
 .gallery-center {
-  /* background: var(--clr-primary-5); */
   background: var(--clr-grey-4);
+  padding-top: 1rem;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
@@ -996,7 +996,7 @@ min-height:calc(100vh - 62px);
 .gallery-title {
   position: absolute;
   left: .0;
-  top: .25rem;
+  top: 0;
   width: 100%;
   background: var(--clr-grey-4);  
   color: var(--clr-white);
