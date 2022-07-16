@@ -21,6 +21,7 @@ const navToggle = () => {
                 links.classList.remove("show-links");
 
                 const id = e.target.getAttribute("href").slice(11);
+                console.log("id scroll....   ",id);
                 scrollWindow(id);
             });
         });
@@ -29,8 +30,8 @@ const navToggle = () => {
         console.log(window.location.hash);
         if (window.location.hash){
             
-            const id = window.location.hash.slice(1);
-            console.log("id ....   ",id);
+            const id = (window.location.hash).slice(1);
+            console.log("id hash ....   ",id);
             scrollWindow(id);
         }
     }
@@ -90,7 +91,7 @@ const displayHeader = () => {
 };
 
 
-window.addEventListener('DOMContentLoaded', () => {
+window.addEventListener('load', () => {
 
     try {
         if (navBar) {
@@ -113,7 +114,8 @@ window.addEventListener('DOMContentLoaded', () => {
 const scrollWindow = (id) => {
 
     const element = document.getElementById(id);
-    let position = element.offsetTop - 70;
+    console.log("element...   ",element);
+    let position = element.offsetTop - 62;
     console.log(position);
 
     window.scrollTo({
