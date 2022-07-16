@@ -19,21 +19,20 @@ const navToggle = () => {
                 // prevent default
                 e.preventDefault();
                 links.classList.remove("show-links");
-                
+
                 const id = e.target.getAttribute("href").slice(11);
-                const element = document.getElementById(id);
-
-                let position = element.offsetTop - 62;
-                console.log(position);
-
-                window.scrollTo({
-                    left: 0,
-                    // top: element.offsetTop,
-                    top: position,
-                    behavior: "smooth"
-                });
+                scrollWindow(id);
             });
         });
+
+        //if page opend with hash (id) of section
+        console.log(window.location.hash);
+        if (window.location.hash){
+            
+            const id = window.location.hash.slice(1);
+            console.log("id ....   ",id);
+            scrollWindow(id);
+        }
     }
 };
 
@@ -110,3 +109,17 @@ window.addEventListener('DOMContentLoaded', () => {
         toursContainer.textContent = 'There was an error.....    ' + error.message;
     }
 });
+
+const scrollWindow = (id) => {
+
+    const element = document.getElementById(id);
+    let position = element.offsetTop - 70;
+    console.log(position);
+
+    window.scrollTo({
+        left: 0,
+        // top: element.offsetTop,
+        top: position,
+        behavior: "smooth"
+    });
+};
