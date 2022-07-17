@@ -13,14 +13,14 @@ const displayFooter = () => {
     <li>
         <a href="index.html" class="footer-link scroll-link">home</a>
     </li>
-    <a href="about.html" class="footer-link scroll-link">about</a>    
+    <a href="index.html#about" class="footer-link scroll-link">about</a>    
     <a href="index.html#services" class="footer-link scroll-link">services</a>
     <a href="index.html#gallery" class="footer-link scroll-link">gallery</a>
     <a href="index.html#featured" class="footer-link scroll-link">featured</a>
-    <a href="tours.html" class="footer-link scroll-link">Outings</a>
-    <a href="halalrestaurants.html" class="footer-link scroll-link">halal Restaurants</a>
-    <a href="shopping.html" class="footer-link scroll-link">shopping</a>
-    <a href="arabicdoctors.html" class="footer-link scroll-link">arabic doctors</a>
+    <a href="tours.html" class="footer-link">Outings</a>
+    <a href="halalrestaurants.html" class="footer-link">halal Restaurants</a>
+    <a href="shopping.html" class="footer-link">shopping</a>
+    <a href="arabicdoctors.html" class="footer-link">arabic doctors</a>
     </ul>
     <!-- footer icons -->
     <ul class="footer-icons">
@@ -44,7 +44,7 @@ const displayFooter = () => {
     </p>`;
 };
 
-window.addEventListener('DOMContentLoaded', () => {
+window.addEventListener('load', () => {
 
     try {
         if (footer) {
