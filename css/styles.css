@@ -1021,6 +1021,7 @@ min-height:calc(100vh - 62px);
   grid-template-columns: 1fr 1.5fr;
   gap: 0 .25rem;
   max-width: 50rem;
+  max-height: 17rem;
 }
 .blog:hover {
   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
@@ -1033,12 +1034,11 @@ min-height:calc(100vh - 62px);
   border-radius: var(--radius);
 } */
 .blog-img-container {
-  position: relative;
+  position: relative;  
 }
-.blog-img {
-  height: 100vh;
-  max-height: 35rem;
+.blog-img {  
   object-fit: cover;
+  height: 100vh;
 }
 .blog-info header {
   display: flex;
