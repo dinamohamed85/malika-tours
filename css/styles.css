@@ -1056,7 +1056,7 @@ min-height:calc(100vh - 62px);
 .blog-title p,
 .blog-title h4 {
   margin-bottom: 0.5rem;
-  line-height: 1rem;
+  line-height: .5rem;
 }
 .blog-title p,a,a:visited {
   color: var(--clr-grey-4);
@@ -1089,8 +1089,8 @@ min-height:calc(100vh - 62px);
   justify-content: space-between;
   flex-wrap: wrap;
   align-items: center;
-  margin-top: .5rem;
-  margin-bottom: 1rem;
+  /* margin-top: .5rem;
+  margin-bottom: 1rem; */
 }
 .blog-footer p {
   line-height: 1rem;
