@@ -175,12 +175,12 @@ p {
 }
 /* section */
 .section {
-  padding: 1rem .156rem;  
+  padding: 1rem 0rem;  
 }
 
 .section-title {
   margin: 0 auto;
-  width: 90vw;
+  width: 95vw;
   text-align: center;
   margin-bottom: 1rem;
   margin-top: 0rem;
@@ -189,7 +189,7 @@ p {
   color: var(--clr-primary-5);
 }
 .section-center {
-  width: 93vw;
+  width: 95vw;
   margin: 0 auto;
   max-width: var(--max-width);
   /* min-height: 67vh; */
@@ -897,7 +897,7 @@ min-height:calc(100vh - 62px);
   color: var(--clr-white);
 }
 .list-container {
-  width: 93vw;
+  width: 95vw;
   margin: 1rem auto;
   max-width: 1260px;
   display: grid;
@@ -915,7 +915,7 @@ min-height:calc(100vh - 62px);
 }
 .item:hover {
   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
-  transform: scale(1.02);
+  /* transform: scale(1.02); */
 }
 .item-photo {
   object-fit: cover;
@@ -1018,13 +1018,13 @@ min-height:calc(100vh - 62px);
   margin-bottom: 1.5rem;
   display: grid;
   border-bottom: 0.4rem solid var(--clr-grey-9);
-  grid-template-columns: 1fr 1fr;
-  gap: 0 .5rem;
+  grid-template-columns: 1fr 1.5fr;
+  gap: 0 .25rem;
   max-width: 50rem;
 }
 .blog:hover {
   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
-  transform: scale(1.02);
+  /* transform: scale(1.02); */
 }
 .blog-photo {
   object-fit: cover;
@@ -1043,6 +1043,7 @@ min-height:calc(100vh - 62px);
 }
 .blog-info p {
   margin-bottom: 0.25rem;
+  /* font-size: .5rem; */
 }
 .blog-price {
   color: var(--clr-primary-5);
@@ -1052,7 +1053,7 @@ min-height:calc(100vh - 62px);
   padding-top: .5rem;
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 900px) {
   .blog {
     grid-template-columns: 1fr 1fr;
     gap: 0 1rem;
@@ -1072,4 +1073,24 @@ min-height:calc(100vh - 62px);
   opacity: 0.8;
   font-size: 1rem;
   font-weight: 900;
+}
+.blog-footer {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  align-items: center;
+  margin-top: 1rem;
+}
+.blog-footer p {
+  line-height: 1rem;
+  margin-bottom: 0;
+  text-transform: capitalize;
+  color: var(--clr-primary-5);
+}
+.blog-btn {
+  text-align: center;
+}
+.post-by{
+  color: var(--clr-grey-8);
+  font-size: .785rem;
 }
