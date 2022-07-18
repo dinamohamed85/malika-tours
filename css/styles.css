@@ -1028,7 +1028,7 @@ min-height:calc(100vh - 62px);
 }
 .blog-photo {
   object-fit: cover;
-  height: 15rem;
+  height: 100vh;
   border: 0.20rem solid var(--clr-orange-1);
   border-radius: var(--radius);
 }
@@ -1044,6 +1044,22 @@ min-height:calc(100vh - 62px);
 .blog-info p {
   margin-bottom: 0.25rem;
   /* font-size: .5rem; */
+}
+.blog-title {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.blog-title p,
+.blog-title h4 {
+  margin-bottom: 0.75rem;
+  line-height: 1.25;
+}
+.blog-title p,a,a:visited {
+  color: var(--clr-grey-4);
+}
+.blog-title p {
+  font-size: 0.85rem;
 }
 .blog-price {
   color: var(--clr-primary-5);

@@ -1,7 +1,7 @@
 const blogs = [
     {
         id: '101',
-        title:'Königssee - Schifffahrt',
+        title:'Königssee',
         category: 'tours',
         categorylink: 'https://explory24.com/tours.html?category=featured',
         icon: 'fa-solid fa-city',
@@ -21,6 +21,7 @@ const blogs = [
              './images/blogs/1-tours/post1/img4.jpeg',
              './images/blogs/1-tours/post1/img5.jpeg',
         ], 
+        activities:'Schifffahrt',
         description: 'Königssee Schönau am Königssee is a municipality in the district of Berchtesgadener Land in the German state of Bavaria. It is located at the northern end of the Königssee lake.Wikipedia.',       
         text0:'Lake Königsee is one of the most beautiful lakes in the world. Located in southern Germany in the state of Bayern in the middle of the Alps and enjoys beautiful nature.<br> You can enjoy a boat trip until you reach the National Park.',
         text1:'Lake Königsee is one of the most beautiful lakes in the world, which is located in southern Germany in the state of Bayern and is located in the middle of the Alps and enjoys beautiful nature.<br> You can enjoy a boat trip until you reach the National Park, including a walk in the middle of the picturesque nature, mountains, waterfalls and beautiful animals until you reach the Obersee.',
