@@ -1036,7 +1036,7 @@ min-height:calc(100vh - 62px);
   position: relative;
 }
 .blog-img {
-  height: 100%vh;
+  height: 100vh;
   max-height: 35rem;
   object-fit: cover;
 }
