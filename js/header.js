@@ -73,13 +73,16 @@ const displayHeader = () => {
         <a class="nav-link scroll-link" href="index.html#gallery" class="nav-icon"><i class="fa-regular fa-images menu-icon"></i>gallery</a>
         </li>
         <!-- end of single link -->
+        <li><a href="blogs.html" class="nav-link" class="nav-icon"><i
+            class="fa-solid fa-blog menu-icon"></i>Blogs</a>
+        </li>
         <li><a href="tours.html" class="nav-link" class="nav-icon"><i
-            class="fa-solid fa-person-walking-luggage menu-icon"></i>Outings</a>
+            class="fa-solid fa-umbrella-beach menu-icon"></i>Outings</a>
         </li>
         <li><a href="halalrestaurants.html" class="nav-link" class="nav-icon"><i
             class="fa-solid fa-utensils menu-icon"></i>Halal Restaurants</a>
         </li>
-        <li><a href="shopping.html" class="nav-link" class="nav-icon"><i class="fa-solid fa-bag-shopping menu-icon"></i>Shopping</a>
+        <li><a href="shopping.html" class="nav-link" class="nav-icon"><i class="fa-solid fa-basket-shopping menu-icon"></i>Shopping</a>
         </li>
         <li><a href="arabicdoctors.html" class="nav-link" class="nav-icon"><i class="fa-solid fa-user-doctor  menu-icon"></i>arabic doctors</a>
         </li>
