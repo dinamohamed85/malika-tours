@@ -1090,7 +1090,7 @@ min-height:calc(100vh - 62px);
   flex-wrap: wrap;
   align-items: center;
   margin-top: 0;
-  margin-bottom: .75rem;
+  margin-bottom: 1rem;
 }
 .blog-footer p {
   line-height: 1rem;
