@@ -1026,11 +1026,19 @@ min-height:calc(100vh - 62px);
   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
   /* transform: scale(1.02); */
 }
-.blog-photo {
+/* .blog-photo {
   object-fit: cover;
   height: 100vh;
   border: 0.20rem solid var(--clr-orange-1);
   border-radius: var(--radius);
+} */
+.blog-img-container {
+  position: relative;
+}
+.blog-img {
+  height: 100%;
+  max-height: 25rem;
+  object-fit: cover;
 }
 .blog-info header {
   display: flex;
