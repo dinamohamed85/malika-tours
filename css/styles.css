@@ -1094,7 +1094,7 @@ min-height:calc(100vh - 62px);
 }
 .blog-footer p {
   line-height: 1rem;
-  margin-bottom: 0;
+  /* margin-bottom: 0; */
   text-transform: capitalize;
   color: var(--clr-primary-5);
 }
