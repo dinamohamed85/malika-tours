@@ -1034,11 +1034,12 @@ min-height:calc(100vh - 62px);
   border-radius: var(--radius);
 } */
 .blog-img-container {
-  position: relative;  
+  position: relative;   
 }
 .blog-img {  
-  object-fit: cover;
-  height: 100vh;
+  object-fit: cover;  
+  border-radius: var(--radius);  
+  height: 100%; 
 }
 .blog-info header {
   display: flex;
