@@ -3395,7 +3395,7 @@ const tours = [
         address: 'Birkenallee 1, 86356 Neusäß',
         phone: '08216506030',
         addressdesc: 'Titania Neusäß is in the north-west of the Munich center it is about 1.5 hr away via <strong>Train</strong>.',
-        description: 'Titania Neusäß. Leisure & fitness swimming facility with indoor & outdoor pools, saunas & a wellness center..google',
+        description: 'Titania Neusäß. Leisure & fitness swimming facility with indoor & outdoor pools, saunas & a wellness center.google',
         thingstodo: [
             'swimming pools',
             'Sauna',
