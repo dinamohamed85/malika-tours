@@ -287,7 +287,7 @@ const blogs = [
         ],
         activities: ['strawberries','boating'],
         description: '',
-        textbrief: 'Who doesnot like strawberries🍓, Here in Beerencafé, visit a strawberry farm and pick them the quantity you like. there playground for kids and nice seating for friends and family, also order from the cafe the best🍰👌 Desserts with strawberries🍓 and all kinds of berries🍒',
+        textbrief: 'Who doesnot like strawberries🍓, Here in Beerencafé, visit a strawberry farm and pick them the quantity you like. there playground for kids and nice seating for friends and family, also order from the cafe the best🍰👌 Desserts with strawberries🍓 and berries🍒',
         text1: '',
         text2: '',
         text3: '',
