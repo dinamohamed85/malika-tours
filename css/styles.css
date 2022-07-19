@@ -1033,7 +1033,7 @@ min-height:calc(100vh - 62px);
   object-fit: cover;  
   border-radius: var(--radius);  
   height: 100%; 
-  max-height: 14rem;
+  max-height: 14.5rem;
 }
 .blog-info header {
   display: flex;
