@@ -75,7 +75,7 @@ const displayblogs = () => {
               <!-- blog info -->
               <div class="blog-info">
                 <div class="blog-title">
-                  <h4> ${title}</h4>
+                  <h4>${index + 1}. ${title}</h4>
                   
                 </div>
                 <p>${textbrief}
@@ -83,7 +83,8 @@ const displayblogs = () => {
                 <div>
                   <div>
                     <p class="activtiy"><i class="fa-solid fa-star"></i> ${rate}</p>
-                    <p class="activtiy"><i class="fa-solid fa-location-dot"></i> ${destenation}</p>
+                    ${destenation ? `<p class="activtiy"><i class="fa-solid fa-location-dot"></i> ${destenation}</p>` : ``} 
+                   
                   </div>
                 </div>
                 <!-- blog footer -->
