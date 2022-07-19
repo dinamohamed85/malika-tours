@@ -69,14 +69,15 @@ const displayblogs = () => {
               <div class="blog-img-container">
                 <img src="${images[0]}" class="blog-img" alt="" />
                 <p class="img-title"> ${activities[0]} <span class="blog-price"> ${price} €</span> </p>
+                <h4>
+                    <i class="fas fa-heart tour-love-icon"></i> ${likes}
+                  </h4>
               </div>
               <!-- blog info -->
               <div class="blog-info">
                 <div class="blog-title">
                   <h4> ${title}</h4>
-                  <h4>
-                    <i class="fas fa-heart tour-love-icon"></i> ${likes}
-                  </h4>
+                  
                 </div>
                 <p>${textbrief}
                 </p>
