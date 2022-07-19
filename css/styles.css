@@ -902,7 +902,7 @@ min-height:calc(100vh - 62px);
   max-width: 1260px;
   display: grid;
   gap: 2rem 2rem;
-  justify-items: start;
+  justify-items: center;
 }
 .item {
   transition: var(--transition);
