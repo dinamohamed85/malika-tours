@@ -11,7 +11,7 @@ const displayGallery = () => {
             return ` <article class="gallery-img-container">
             <a href="${location}" target="_blank">           
         <img src="${image}" class="gallery-img" alt="${title}" /></a>
-        <p class="gallery-title"> ${title}</p>
+        <p class="img-title"> ${title}</p>
       </article>`;
         })
         .join('');
