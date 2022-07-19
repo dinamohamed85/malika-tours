@@ -415,8 +415,8 @@ Featured Tours
   line-height: 1.25;
 }
 .tour-title p,a,a:visited {
-  color: var(--clr-grey-4);
-}
+   color: var(--clr-grey-4); 
+} 
 .tour-title p {
   font-size: 0.85rem;
 }
@@ -1089,7 +1089,6 @@ min-height:calc(100vh - 62px);
   justify-content: space-between;
   flex-wrap: wrap;
   align-items: flex-start;
-  margin-top: .789rem;
   margin-top: .5rem;
 }
 .blog-footer p {
@@ -1103,5 +1102,9 @@ min-height:calc(100vh - 62px);
 }
 .post-by{
   color: var(--clr-grey-7);
+  font-size: .875rem;
+}
+.post-bytxt{
+  color: var(--clr-primary-5);
   font-size: .875rem;
 }
