@@ -287,7 +287,7 @@ const blogs = [
         ],
         activities: ['strawberries','boating'],
         description: '',
-        textbrief: 'Who doesnot like strawberries🍓, Here in Beerencafé, you can visit a strawberry farm and pick them in the one and the quantity you like. The place is also in Sebel Platz for children and suitable seating for friends and family, and you can order from the cafe the best 🍰👌 Desserts with strawberries 🍓 and all kinds of berries 🍒',
+        textbrief: 'Who doesnot like strawberries🍓, Here in Beerencafé, you can visit a strawberry farm and pick them the quantity you like. The place has playground for kids and suitable seating for friends and family, and you can order from the cafe the best🍰👌 Desserts with strawberries🍓 and all kinds of berries🍒',
         text1: '',
         text2: '',
         text3: '',
