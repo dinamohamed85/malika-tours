@@ -188,7 +188,7 @@ const blogs = [
         ],
         activities: ['Madfon Lamb'],
         description: 'Bab Al Yemen is an arabic halal restaurant in the center of Munich, Let yourself be inspired by our delicious Arabic delicacies! Everything is freshly prepared and our kitchen uses wonderful flavors in your dishes. and find 42 top Halal Restaurants in Munich.',
-        textbrief: 'Yemen Restaurant in Munich Dishes of Yemeni cuisine 😋in the way of settling the mandi or buried meat and chicken with special rice (zurbiyan or biryani). We also tried Yemeni tea, they have a distinctive taste and a special flavour.',
+        textbrief: 'Yemen Restaurant in Munich Dishes of Yemeni cuisine 🥘🍛😋in the way of settling the mandi or buried meat🍖 and chicken🍗 with special rice🍚(zurbiyan or biryani). We also tried Yemeni tea☕️, they have a distinctive taste and a special flavour.',
         text1: '',
         text2: '',
         text3: '',
