@@ -82,7 +82,7 @@ const displayblogs = () => {
                 </p>
                 <div>
                   <div>
-                    <p class="activtiy"><i class="fa-solid fa-star"></i> ${likes} Very good</p>
+                    <p class="activtiy"><i class="fa-solid fa-star"></i> ${rate}</p>
                     <p class="activtiy"><i class="fa-solid fa-location-dot"></i> ${destenation}</p>
                   </div>
                 </div>
