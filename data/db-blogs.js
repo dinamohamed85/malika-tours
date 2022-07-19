@@ -221,7 +221,7 @@ const blogs = [
         ],
         activities: ['Ruhezeit','boating'],
         description: '',
-        textbrief: 'is one of the cleanest lakes in Bavaria and the temperatures are also quite pleasant for swimming. ',
+        textbrief: 'is one of the cleanest lakes in Bavaria and the temperatures are also quite pleasant for swimming. is one of the best and purest lakes 🚤🌊 in Bavaria and the water temperature is very suitable for swimming 🧜 ♀️🏊🏻.',
         text1: 'Lake Wörthsee is one of the best and purest lakes 🚤🌊 in Bavaria and the water temperature is very suitable for swimming 🧜 ♀️🏊🏻 ♀️ and doing water sports like 👈🏻🛶🚣😉',
         text2: 'The nice thing about Wörthsee is that you can easily reach it by S-Bahn. The Steinebach train station is still in zone 2 and the journey is therefore cheaper than a journey to Herrsching. It takes about 40 minutes to get to Steinebach from Munich Central Station.',
         text3: '👉🏻https://isarblog.de/die-schoensten-badestellen-am-woerthsee/ ',
