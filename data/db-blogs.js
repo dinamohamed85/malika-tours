@@ -271,7 +271,7 @@ const blogs = [
         icon: 'fa-solid fa-city',
         country: 'Germany',
         date: 'June, 2022',
-        rate: '4.2 Very good',
+        rate: '4.3 Very good',
         likes: '1,581',
         price: 4,
         destenation: '11 km from center',
