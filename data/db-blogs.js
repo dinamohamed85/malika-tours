@@ -8,7 +8,7 @@ const blogs = [
         country: 'Germany',
         date: 'June, 2022',
         rate: '4.8 Very good',
-        likes: '60,006',
+        likes: '40,006',
         price: 25,
         destenation: '150 km from center',
         season: 'summer',
