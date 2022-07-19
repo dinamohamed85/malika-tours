@@ -14,7 +14,6 @@ let currentCategory = 'all';
 const displayblogs = () => {
 
     if (filteredblogs.length < 1) {
-        blogsTitle.innerHTML = '';
         blogsContainer.innerHTML = `<h2 class="section-title" >Sorry, no blogs matched your search</h2>`;
         return;
     }
