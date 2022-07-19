@@ -1015,7 +1015,7 @@ min-height:calc(100vh - 62px);
   transition: var(--transition);
   background: var(--clr-grey-10);
   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
-  margin-bottom: 1.5rem;
+  margin-bottom: .5rem;
   display: grid;
   border-bottom: 0.4rem solid var(--clr-grey-9);
   grid-template-columns: 1fr 1.5fr;
