@@ -167,7 +167,7 @@ const blogs = [
         links: 'Forumstar Supermarkt  089 82969119  https://goo.gl/maps/ZPcrg13hQTRdSNpTA ** The rest of the halal supermarkets you will find in this link :-',
         owner: 'Marwa Ahmed',
         ownerLink: 'https://www.facebook.com/profile.php?id=100042007731139',
-        fblink: '',
+        fblink: 'https://www.facebook.com/explory24/posts/pfbid0WunYZbtoXwTrwRm4gmX26QUCvsjBHTppaokBMrz53g18cqkuxrDdJ2GsgDvPeGrAl',
     },
     {
         id: '202',
