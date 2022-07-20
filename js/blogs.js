@@ -62,9 +62,8 @@ const displayblogs = () => {
     blogsContainer.innerHTML = filteredblogs
         .map((blog, index) => {
             const { id, title, category, icon, categorylink, images, country, date, location, destenation, description, activities, likes, season, featured, price, textbrief, text1, text2, text3, owner, ownerlink, fblink, rate, video } = blog;
-            return ` <article class="blog">
-            <a href="${fblink}"
-              target="_blank">
+            return `<a href="${fblink}"
+            target="_blank"> <article class="blog">            
               <div class="blog-img-container">
               ${video ? ` <video controls autoplay muted loop class="blog-img">
               <source src="${video}" type="video/mp4" />
@@ -100,10 +99,9 @@ const displayblogs = () => {
                       href="${fblink}"
                       target="_blank"><i class="fab fa-facebook site-icon"></i>
                     </a></p>
-                </div>
-            </a>
+                </div>           
         </div>
-        </article>`;
+        </article> </a>`;
         })
         .join('');
 };
