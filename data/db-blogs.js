@@ -477,7 +477,7 @@ const blogs = [
     },
     {
         id: '204',
-        title: 'Bayern-Park Freizeitparadies🎡',
+        title: 'Bayern-Park 🎡',
         category: 'restaurants',
         categorylink: 'https://explory24.com/tours.html?category=best',
         icon: 'fa-solid fa-city',
@@ -500,7 +500,7 @@ const blogs = [
         ],
         activities: ['All day ticket'],
         description: '',
-        textbrief: 'Bayern Park is the best, largest and closest amusement park to Munich 🎢🎡🎉🎉- The amusement park timings are from 9 am to 6 pm ⏱..we have to go early to catch up and play all the games.- It consists of 3 zones so that there are games for all ages and all family members will be happy in the Amusement parks.',
+        textbrief: 'Is the best, largest and closest amusement park to Munich 🎢🎡🎉- The amusement park timings are from 9 am to 6 pm ⏱..we have to go early to catch up and play all the games. It consists of 3 zones so that there are games for all ages and all family members will be happy there.',
         text1: '2 bowls of eggs, bread and simit, cheese, olives, tomatoes, cucumbers, honey with cream, jam, butter, fruit, 3 cups of orange juice, a teapot.. I mean, one person will pay about 11€. Tried it once, it was so beautiful...',
         text2: '',
         text3: '',
