@@ -330,7 +330,7 @@ const blogs = [
         ],
         activities: ['tray. per person'],
         description: '',
-        textbrief: 'If you are a group of friends who want to take a delicious breakfast.. we will tell you about halal Turkish restaurants that serve breakfast for groups (trays), For example, a tray for 3 people, the price of the ring is 33 €',
+        textbrief: 'If you are a group of friends who want to take a delicious breakfast.. we will tell you about halal Turkish restaurants that serve breakfast for groups (trays), For example, a tray for 3 persons, the price is 33 €',
         text1: '2 bowls of eggs, bread and simit, cheese, olives, tomatoes, cucumbers, honey with cream, jam, butter, fruit, 3 cups of orange juice, a teapot.. I mean, one person will pay about 11€. Tried it once, it was so beautiful...',
         text2: '',
         text3: '',
