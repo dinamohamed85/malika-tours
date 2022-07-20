@@ -534,7 +534,7 @@ const blogs = [
         ],
         activities: ['burger'],
         description: '',
-        textbrief: 'Try a different taste of a burger "Meat In Bun" Burger restaurant ranked among the top 10 restaurants in Munich, burgers is with different bread 9,90€🍔 And you can choose (pommes🍟 in a new way or crispy and hot Süßkartoffeln with a drink 5,5€) and also kidsMenü. and yummy😋Guten Appetit',
+        textbrief: 'Try a different taste of a burger "Meat In Bun" Burger restaurant ranked among the top 10 restaurants in Munich, burgers is with different bread 9,9€🍔 And you can choose (pommes🍟 in a new way or crispy and hot Süßkartoffeln with a drink 5,5€), also kidsMenü. yummy😋Guten Appetit',
         text1: '',
         text2: '',
         text3: '',
