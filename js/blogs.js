@@ -61,12 +61,17 @@ const displayblogs = () => {
 
     blogsContainer.innerHTML = filteredblogs
         .map((blog, index) => {
-            const { id, title, category, icon, categorylink, images, country, date, location, destenation, description, activities, likes, season, featured, price, textbrief, text1, text2, text3, owner, ownerlink, fblink, rate } = blog;
+            const { id, title, category, icon, categorylink, images, country, date, location, destenation, description, activities, likes, season, featured, price, textbrief, text1, text2, text3, owner, ownerlink, fblink, rate, video } = blog;
             return ` <article class="blog">
             <a href="${fblink}"
               target="_blank">
               <div class="blog-img-container">
-                <img src="${images[0]}" class="blog-img" alt="" />
+              ${video ? ` <video controls class="blog-img">
+              <source src="${video}" type="video/mp4" />
+              Sorry, your browser does not support embedded videos
+            </video>`
+                    : `<img src="${images[0]}" class="blog-img" alt="" />`} 
+                
                 <p class="img-title"> ${activities[0]} <span class="blog-price"> ${price} €</span> </p>
                 <h4>
                     <i class="fas fa-heart tour-love-icon"></i> ${likes}
@@ -137,7 +142,7 @@ const getListBycategory = (category) => {
         filteredblogs = blogs.filter((blog) => {
             return blog.featured;
         });
-    }   
+    }
     else {
         filteredblogs = blogs.filter((blog) => {
             return blog.category == category;

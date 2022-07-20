@@ -14,6 +14,7 @@ const blogs = [
         season: 'summer',
         featured: true,
         location: 'https://goo.gl/maps/ub1bVP8oEpU9qhbc9',
+        video:'',
         images: [
             './images/blogs/1-tours/post1/img1.jpeg',
             './images/blogs/1-tours/post1/img2.jpeg',
@@ -54,6 +55,7 @@ const blogs = [
             './images/blogs/2-restaurants/post1/img4.jpeg',
             './images/blogs/2-restaurants/post1/img5.jpeg',
         ],
+        video:'',
         activities: ['Pide'],
         description: 'EssPoint is a Turkish restaurant has many branches in Munich. EssPoint Pide & Grill is the original of the Pide. It is a family business run for several generations. We cook with love and heart. The fulfillment of your wishes, your needs and your satisfaction has been our top priority. All of our dishes are always freshly prepared for you with the best ingredients.google',
         textbrief: 'The best restaurant serving Pide (Turkish pizza) in Munich undisputedly 🍕 with different foods (pasturma, käse, döner) yummy😋 köfte, döner🌮🌯  and different dishes🍝',
@@ -80,6 +82,7 @@ const blogs = [
         season: 'summer',
         featured: true,
         location: 'https://goo.gl/maps/6pN1S5oBA2KdRjpE6',
+        video:'',
         images: [
             './images/blogs/3-shopping/post1/img1.jpeg',
             './images/blogs/3-shopping/post1/img2.jpeg',
@@ -113,6 +116,7 @@ const blogs = [
         season: 'summer',
         featured: true,
         location: 'https://goo.gl/maps/ub1bVP8oEpU9qhbc9',
+        video:'',
         images: [
             './images/blogs/5-apps/post1/img1.jpeg',
             './images/blogs/5-apps/post1/img2.jpeg',
@@ -146,6 +150,7 @@ const blogs = [
         season: 'summer',
         featured: true,
         location: 'https://goo.gl/maps/ub1bVP8oEpU9qhbc9',
+        video:'',
         images: [
             './images/blogs/4-products/post1/img1.jpeg',
             './images/blogs/4-products/post1/img2.jpeg',
@@ -179,6 +184,7 @@ const blogs = [
         season: 'summer',
         featured: true,
         location: 'https://goo.gl/maps/ub1bVP8oEpU9qhbc9',
+        video:'',
         images: [
             './images/blogs/2-restaurants/post2/img1.jpeg',
             './images/blogs/2-restaurants/post2/img2.jpeg',
@@ -212,6 +218,7 @@ const blogs = [
         season: 'summer',
         featured: true,
         location: 'https://goo.gl/maps/cftMuAF2ruy7MWGa9',
+        video:'',
         images: [
             './images/blogs/1-tours/post2/img1.jpeg',
             './images/blogs/1-tours/post2/img2.jpeg',
@@ -245,6 +252,7 @@ const blogs = [
         season: 'summer',
         featured: true,
         location: 'https://goo.gl/maps/K7mTyReY6Cdvuffz7',
+        video:'',
         images: [
             './images/blogs/2-restaurants/post3/img1.jpeg',
             './images/blogs/2-restaurants/post3/img2.jpeg',
@@ -278,6 +286,7 @@ const blogs = [
         season: 'summer',
         featured: true,
         location: 'https://goo.gl/maps/LQowPAQCsqyYibYn6',
+        video:'',
         images: [
             './images/blogs/1-tours/post3/img1.jpeg',
             './images/blogs/1-tours/post3/img2.jpeg',
@@ -311,6 +320,7 @@ const blogs = [
         season: 'summer',
         featured: true,
         location: 'https://goo.gl/maps/K7mTyReY6Cdvuffz7',
+        video:'',
         images: [
             './images/blogs/2-restaurants/post4/img1.jpeg',
             './images/blogs/2-restaurants/post4/img2.jpeg',
@@ -328,6 +338,40 @@ const blogs = [
         owner: 'Dina Mohamed',
         ownerLink: 'https://www.linkedin.com/in/dina-mohamed-686a17188/',
         fblink: 'https://www.facebook.com/explory24/posts/pfbid0Lk3uyxgiVtUUjFrDsgG8LsBQVj2vCRiPpeL4LaNUUkgMCaobLjeBtBGLHvkw8RYRl',
+    },
+    {
+        id: '103',
+        title: 'Surfen',
+        category: 'tours',
+        categorylink: 'https://explory24.com/halalrestaurants.html?category=halal',
+        icon: 'fa-solid fa-city',
+        country: 'Germany',
+        date: 'July, 2022',
+        rate: '4.7 Very good',
+        likes: '13,942',
+        price: 0,
+        destenation: '3 km from center',
+        season: 'summer',
+        featured: true,
+        location: 'https://maps.app.goo.gl/3Rzg6RLAwS5yD3KS6',
+        video:'./images/blogs/1-tours/post4/video1.mp4',
+        images: [
+            './images/blogs/1-tours/post4/img1.jpeg',
+            './images/blogs/1-tours/post4/img2.jpeg',
+            './images/blogs/1-tours/post4/img3.jpeg',
+            './images/blogs/1-tours/post4/img4.jpeg',
+            './images/blogs/1-tours/post4/img5.jpeg',
+        ],
+        activities: ['Surfen (Eisbachwelle)'],
+        description: 'There is year-round surfing on this continuous wave on the Englischer Garten Eisbach River.',
+        textbrief: '🌊🌊🏄🏄🏄 The weather is still sunny and beautiful 🌞🌞 A nice walk in this weather 🏄 People asked me 🤔 They want to see this sport surfen🏄🏄 This place is called Eisbachwelle, and if the weather is hot, the weather will be beautiful because of the water and the trees 🌳🌳🏄.',
+        text1: '',
+        text2: '',
+        text3: '',
+        links: '',
+        owner: 'Tasnim Abdelaziz',
+        ownerLink: 'https://www.facebook.com/ServusMunich/',
+        fblink: 'https://fb.watch/enmAUCEy_X/',
     },
 ];
 
