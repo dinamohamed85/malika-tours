@@ -430,7 +430,7 @@ const blogs = [
             './images/blogs/1-tours/post6/img4.jpeg',
             './images/blogs/1-tours/post6/img5.jpeg',
         ],
-        activities: ['Surfen (Eisbachwelle)'],
+        activities: ['All day ticket'],
         description: 'There is year-round surfing on this continuous wave on the Englischer Garten Eisbach River.',
         textbrief: 'Happy Eid🥳, a nice outing for Eid 🎈🎊🎉from the wonderful amusement park with interesting games for kids & adults, suitable for the whole family🎢🎡🎠, there are places to eat döner🌯🌮, pommes🍟, pizza🍕, crepes, of course drinks 🍹🍸🥃, Ice Cream in the shape of a ball🍦🍧🍨.',
         text1: 'find location here 👉 https://maps.app.goo.gl/3Rzg6RLAwS5yD3KS6',
