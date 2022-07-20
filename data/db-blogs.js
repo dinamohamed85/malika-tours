@@ -35,7 +35,7 @@ const blogs = [
     },
     {
         id: '201',
-        title: 'EssPoint Pide & Grill',
+        title: 'EssPoint Pide&Grill🌮🌯',
         category: 'restaurants',
         categorylink: 'https://explory24.com/halalrestaurants.html?category=halal',
         icon: 'fa-solid fa-city',
@@ -69,7 +69,7 @@ const blogs = [
     },
     {
         id: '301',
-        title: 'Kingdom of Sweets',
+        title: 'Kingdom of Sweets🍬',
         category: 'shopping',
         categorylink: 'https://explory24.com/shopping.html?category=shops',
         icon: 'fa-solid fa-city',
@@ -103,7 +103,7 @@ const blogs = [
     },
     {
         id: '501',
-        title: 'payback',
+        title: 'payback🛒📱',
         category: 'apps',
         categorylink: 'https://explory24.com/other.html?category=apps',
         icon: 'fa-solid fa-city',
@@ -128,7 +128,7 @@ const blogs = [
         description: 'PAYBACK is the leading bonus Aplication in Germany.',
         textbrief: 'Who can buy 🛒 from DM, Penny, REWE, H&M, C&A, Put petrol in Aral Arabia 🚗, Who knows that you can collect points and convert them 🤩Gutschein from Ikea, Douglas, Adidas and many other stores 😱?!',
         text1: 'earn the equivalent of 30 to 50 euros per month in the form of Gutschein 😎, Every 1000 points converted into 10 Euro 💶, All I did is that I registered an account on Payback and it scans and I buy from the stores that I said this to 👆',
-        text2: 'But the tricks are the following: 😜 After registration, download the app on the mobile so that you do not need to remove the card in the wallet, and open the app at the Kasse at the time of the account and let the seller do a scan from the mobile 📱. ',
+        text2: 'But the tricks are the following: 😜 After registration, download the app on the mobile so that you do not need to remove the card in the wallet, and open the app at the Kasse at the time of the account and let the seller do a scan from the mobile 📱🛒. ',
         text3: 'I need to follow the offers and subscribe to the offer coupons to get you more points because the normal one gets you one point for every euro 😏 Can I follow the offers by subscribing to the e-mail newsletter News letters. Personally, my brain relaxes while I am in the supermarket. I enter the App coupons and filter the supermarket or shop I am in and subscribe to any new Coupon',
         links: 'I gave you the link to register below, if anyone would like to register from here 👉 https://www.payback.de/anmelden/freunde-werben.. I gave you the pictures of the app and how to choose the Coupons and how to collect Gutschein 35 Euro from Douglaslast month 😂. The rest of the important application you know in this link 👇🏽👇🏽',
         owner: 'Tasnim Abdelaziz',
@@ -171,7 +171,7 @@ const blogs = [
     },
     {
         id: '202',
-        title: 'Bab Alyaman',
+        title: 'Bab Alyaman🍖🍗',
         category: 'restaurants',
         categorylink: 'https://explory24.com/halalrestaurants.html?category=halal',
         icon: 'fa-solid fa-city',
@@ -341,7 +341,7 @@ const blogs = [
     },
     {
         id: '104',
-        title: 'Surfen',
+        title: 'Surfen🏄',
         category: 'tours',
         categorylink: 'https://explory24.com/tours.html?category=best',
         icon: 'fa-solid fa-city',
@@ -409,7 +409,7 @@ const blogs = [
     },  
     {
         id: '106',
-        title: 'Skyline Park Allgäu',
+        title: 'Skyline Park Allgäu🎡',
         category: 'tours',
         categorylink: 'https://explory24.com/tours.html?category=best',
         icon: 'fa-solid fa-city',
@@ -432,7 +432,7 @@ const blogs = [
         ],
         activities: ['Surfen (Eisbachwelle)'],
         description: 'There is year-round surfing on this continuous wave on the Englischer Garten Eisbach River.',
-        textbrief: 'Happy Eid, a nice outing for Eid 🎈🎊🎉from the wonderful amusement park here with interesting games for kids & adults, suitable for the whole family 🎢🎡🎠 And there are places to eat döner🌯🌮, pommes🍟, pizza🍕, crepes, of course drinks 🍹🍸🥃, New ice cream in the shape of a ball🍦🍧🍨.',
+        textbrief: 'Happy Eid, a nice outing for Eid 🎈🎊🎉from the wonderful amusement park with interesting games for kids & adults, suitable for the whole family🎢🎡🎠 And there are places to eat döner🌯🌮, pommes🍟, pizza🍕, crepes, of course drinks 🍹🍸🥃, Ice Cream in the shape of a ball🍦🍧🍨.',
         text1: 'find location here 👉 https://maps.app.goo.gl/3Rzg6RLAwS5yD3KS6',
         text2: 'And there is a Spielplatz, if you have kids, a minute walk 👉 https://maps.app.goo.gl/3Rzg6RLAwS5yD3KS6 ',
         text3: '🍦 There is also Eis café 4 minutes walk 👉 https://maps.app.goo.gl/bYssPitmGUaMsMFH8 <br> 🍦🍨🍦🍦🍦 and vielspaß The yummy😋🍦 eis and enjoy the surf🏄.',
