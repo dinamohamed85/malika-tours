@@ -439,7 +439,7 @@ const blogs = [
         links: 'Visit our Website and find out more interesting😉😍places 👇🏻🤗 <br>',
         owner: 'Tasnim Abdelaziz',
         ownerLink: 'https://www.facebook.com/ServusMunich/',
-        fblink: 'https://fb.watch/enmAUCEy_X/',
+        fblink: 'https://www.facebook.com/explory24/posts/pfbid04gvfdFTM4NrVSAkYVgq692kYnYEvKnnrcai29WudHJcjNr6Kuxd4Czg3pFmsexrYl',
     },
 ];
 
