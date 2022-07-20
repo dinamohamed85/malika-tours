@@ -443,7 +443,7 @@ const blogs = [
     },
     {
         id: '205',
-        title: 'Mama`s Küche',
+        title: 'Mama`s Küche🍛',
         category: 'restaurants',
         categorylink: 'https://explory24.com/tours.html?category=best',
         icon: 'fa-solid fa-city',
