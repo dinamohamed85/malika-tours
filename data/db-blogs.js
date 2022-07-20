@@ -77,7 +77,7 @@ const blogs = [
         date: 'June, 2022',
         rate: '4.1 Very good',
         likes: '2,045',
-        price: 10,
+        price: 9,
         destenation: '1 km from center',
         season: 'summer',
         featured: true,
