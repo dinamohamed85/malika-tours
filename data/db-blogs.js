@@ -1,7 +1,7 @@
 const blogs = [
     {
         id: '101',
-        title: 'Königssee',
+        title: 'Königssee👑',
         category: 'tours',
         categorylink: 'https://explory24.com/tours.html?category=best',
         icon: 'fa-solid fa-city',
@@ -137,7 +137,7 @@ const blogs = [
     },
     {
         id: '401',
-        title: 'Forumstar Supermarkt',
+        title: 'Forumstar Supermarkt🍮',
         category: 'products',
         categorylink: 'https://explory24.com/shopping.html?category=halal',
         icon: 'fa-solid fa-city',
@@ -239,7 +239,7 @@ const blogs = [
     },
     {
         id: '203',
-        title: 'Pardi',
+        title: 'Pardi🥩',
         category: 'restaurants',
         categorylink: 'https://explory24.com/halalrestaurants.html?category=halal',
         icon: 'fa-solid fa-city',
@@ -307,7 +307,7 @@ const blogs = [
     },
     {
         id: '203',
-        title: 'Simitçi Café',
+        title: 'Simitçi Café🍳🧀🍉☕️',
         category: 'restaurants',
         categorylink: 'https://explory24.com/halalrestaurants.html?category=breakfast',
         icon: 'fa-solid fa-city',
@@ -432,7 +432,7 @@ const blogs = [
         ],
         activities: ['Surfen (Eisbachwelle)'],
         description: 'There is year-round surfing on this continuous wave on the Englischer Garten Eisbach River.',
-        textbrief: 'Happy Eid, a nice outing for Eid 🎈🎊🎉from the wonderful amusement park with interesting games for kids & adults, suitable for the whole family🎢🎡🎠, there are places to eat döner🌯🌮, pommes🍟, pizza🍕, crepes, of course drinks 🍹🍸🥃, Ice Cream in the shape of a ball🍦🍧🍨.',
+        textbrief: 'Happy Eid🥳, a nice outing for Eid 🎈🎊🎉from the wonderful amusement park with interesting games for kids & adults, suitable for the whole family🎢🎡🎠, there are places to eat döner🌯🌮, pommes🍟, pizza🍕, crepes, of course drinks 🍹🍸🥃, Ice Cream in the shape of a ball🍦🍧🍨.',
         text1: 'find location here 👉 https://maps.app.goo.gl/3Rzg6RLAwS5yD3KS6',
         text2: 'And there is a Spielplatz, if you have kids, a minute walk 👉 https://maps.app.goo.gl/3Rzg6RLAwS5yD3KS6 ',
         text3: '🍦 There is also Eis café 4 minutes walk 👉 https://maps.app.goo.gl/bYssPitmGUaMsMFH8 <br> 🍦🍨🍦🍦🍦 and vielspaß The yummy😋🍦 eis and enjoy the surf🏄.',
