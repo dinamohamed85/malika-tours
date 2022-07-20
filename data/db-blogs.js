@@ -126,7 +126,7 @@ const blogs = [
         ],
         activities: ['Colect Bonus up to ','Coupons from App coupons'],
         description: 'PAYBACK is the leading bonus Aplication in Germany.',
-        textbrief: 'Who can buy 🛒 from DM, Penny, REWE, H&M, C&A, Put petrol in Aral Arabia 🚗, Who knows that you can collect points and convert them 🤩Gutschein from Ikea, Douglas, Adidas and many other stores 😱?!',
+        textbrief: 'Who can buy from DM, Penny, REWE🛒, H&M, C&A 🛍, Put petrol in Aral Arabia🚗, Who knows that you can collect points and convert them 🤩Gutschein from Ikea, Douglas, Adidas and many other stores 😱?!',
         text1: 'earn the equivalent of 30 to 50 euros per month in the form of Gutschein 😎, Every 1000 points converted into 10 Euro 💶, All I did is that I registered an account on Payback and it scans and I buy from the stores that I said this to 👆',
         text2: 'But the tricks are the following: 😜 After registration, download the app on the mobile so that you do not need to remove the card in the wallet, and open the app at the Kasse at the time of the account and let the seller do a scan from the mobile 📱🛒. ',
         text3: 'I need to follow the offers and subscribe to the offer coupons to get you more points because the normal one gets you one point for every euro 😏 Can I follow the offers by subscribing to the e-mail newsletter News letters. Personally, my brain relaxes while I am in the supermarket. I enter the App coupons and filter the supermarket or shop I am in and subscribe to any new Coupon',
