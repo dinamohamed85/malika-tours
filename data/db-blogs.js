@@ -364,7 +364,7 @@ const blogs = [
         ],
         activities: ['Surfen (Eisbachwelle)'],
         description: 'There is year-round surfing on this continuous wave on the Englischer Garten Eisbach River.',
-        textbrief: '🌊🌊🏄🏄🏄 The weather is still sunny and beautiful 🌞🌞 A nice walk in this weather 🏄 People asked me 🤔 They want to see this sport surfen🏄🏄 This place is called Eisbachwelle, and if the weather is hot, the weather will be beautiful because of the water and the trees 🌳🌳🏄.',
+        textbrief: '🌊🌊🏄🏄 The weather is still sunny and beautiful 🌞🌞 A nice walk in this weather 🏄 People asked me 🤔 They want to see this sport surfen🏄🏄 This place is called Eisbachwelle, if weather is hot, the weather will be beautiful because of the water and the trees 🌳🏄.',
         text1: '',
         text2: '',
         text3: '',
