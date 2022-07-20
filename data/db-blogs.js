@@ -399,13 +399,13 @@ const blogs = [
         activities: ['basketball & Skateboard ','sports'],
         description: '',
         textbrief: 'It is an organization that teaches children and young people new skills through various training programs throughout the year and helps them learn new and diverse sports 🏈🏀⛷🏂⛹🏻 ♂️ and offers these activities for free 👌   throughout the year during weekdays in different areas in Munich',
-        text1: '',
-        text2: '',
-        text3: '',
-        links: '',
+        text1: 'Find out about these places through their website 👇🏻 and go regularly and participate for the children in the existing activities We tried with them basketball 🏀 and skateboard 🏂, and it was an interesting and useful experience because they teach the children teamwork and participation and how to discover their skill',
+        text2: 'https://www.wearehighfive.com/',
+        text3: 'facebook link 👉 https://www.facebook.com/wearehighfive/',
+        links: 'Visit our Website and find out more interesting😉😍places 👇🏻🤗 <br>',
         owner: 'Marwa Ahmed',
         ownerLink: 'https://www.facebook.com/profile.php?id=100042007731139',
-        fblink: 'https://www.facebook.com/explory24/posts/pfbid02MakuF8Q384Np7h2yxEzX6MVFZcbp8D2uaMMeBDziq5AhCHHFRQp1M4SbJAocjkxRl',
+        fblink: 'https://www.facebook.com/explory24/posts/pfbid0325ZN7ubPUbqPXqJCYvdKELVEcLUsZS9SVxurKCMWN3Rn2VaSeH9qGL9RyTLh2A55l',
     },  
 ];
 
