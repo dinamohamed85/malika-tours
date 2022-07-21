@@ -65,7 +65,7 @@ const displayblogs = () => {
             return `<a href="${fblink}"
             target="_blank"> <article class="blog">            
               <div class="blog-img-container">
-              ${video ? ` <video controls autoplay muted loop class="blog-img">
+              ${video ? ` <video controls muted loop class="blog-img">
               <source src="${video}" type="video/mp4" />
               Sorry, your browser does not support embedded videos
             </video>`
