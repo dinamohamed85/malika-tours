@@ -451,7 +451,7 @@ const blogs = [
         date: 'June, 2022',
         rate: '4.7 Very good',
         likes: '982',
-        price: 10.90,
+        price: 11,
         destenation: '1 km from center',
         season: 'summer',
         featured: true,
