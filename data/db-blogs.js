@@ -58,7 +58,7 @@ const blogs = [
         ],
         activities: ['Lammfleischfilet (Steak)'],
         description: 'Pardi is a Turkish restaurant in Munich, Modern venue with a terrace, offering Turkish food, grilled meat & seafood, plus pasta.',
-        textbrief: 'The best Turkish restaurant has distinctive taste and the seat is a masterpiece and a very nice atmosphere and you enjoy eating it has a distinct taste and flavor 😋👌.The meal is offered in a different way and the quantity is good and food flavor is special. 😋The tajines are delicious as meatballs or meat with yogurt sauce and grilled tomatoes 16€- 17€ ',
+        textbrief: 'The best Turkish restaurant has distinctive taste and the seat has very nice atmosphere and you enjoy eating it has a distinct taste and special flavor 😋👌.The meal is offered in a different way and the quantity is good. 😋The tajines are delicious as meatballs or meat with yogurt sauce and grilled tomatoes 16€- 17€ ',
         text1: 'The best Turkish restaurant has distinctive taste and the seat is a masterpiece and a very nice atmosphere and you enjoy eating it has a distinct taste and flavor 😋 The meal is offered in a different way and the quantity is good and the food is of a good level and its flavor is special, not like many other restaurants👌. 😋 The tajines are dangerous as meatballs or meat with yogurt sauce and grilled tomatoes 17€ 😋p 😋 ,15,90€',
         text2: 'Its seat is wonderful, and it also has a beautiful outside seat. You must try it. There is also a Menü breakfast and a beautiful Nachspeise. 😋 and yummy 😋',
         text3: '',
