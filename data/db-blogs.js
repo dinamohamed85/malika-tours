@@ -602,7 +602,7 @@ const blogs = [
         ],
         activities: ['Boating'],
         description: '',
-        textbrief: 'One of the largest lakes in the state of Bayern, southern Germany, on the Alps. We sat in a cafe(Cafe am See) directly on the lake and there is a balcony section overlooking the lake Serves pizza 🍕, drinks 🍹☕️, ice cream🍦, snacks and Next to the cafe there is a place for me to rent boats, we took a boat 🚣‍ paddle for an hour we were 2 adults and 3 children we paid 20€',
+        textbrief: 'One of the largest lakes in the state of Bayern southern Germany on the Alps. We sat in a cafe(Cafe am See) directly on the lake Serves pizza 🍕, drinks 🍹☕️, ice cream🍦, snacks and Next to the cafe there is a place for me to rent boats, we took a boat 🚣‍ paddle for an hour we were 2 adults and 3 children we paid 20€',
         text1: '',
         text2: '',
         text3: '',
