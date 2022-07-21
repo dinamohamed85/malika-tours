@@ -476,9 +476,9 @@ const blogs = [
         fblink: 'https://www.facebook.com/explory24/posts/pfbid02VHs5t5vThxpocDPYUCrwAHwaapk4cMqvuKxRXweEeR5RQQziKVWKcQ9XkwgAJMBRl',
     },
     {
-        id: '204',
+        id: '208',
         title: 'Bayern-Park 🎡',
-        category: 'restaurants',
+        category: 'tours',
         categorylink: 'https://explory24.com/tours.html?category=best',
         icon: 'fa-solid fa-city',
         country: 'Germany',
@@ -576,7 +576,7 @@ const blogs = [
         owner: 'Marwa Ahmed',
         ownerLink: 'https://www.facebook.com/profile.php?id=100042007731139',
         fblink: 'https://www.facebook.com/explory24/posts/pfbid032SkDpTemRJQdv5jbNzEEXxvH1LQECQgxafD1KUCCbnhfGKEM2s6WGvK3Qb8dANAAl',
-    },
+    },   
 ];
 
 export default blogs;
