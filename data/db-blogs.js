@@ -568,7 +568,7 @@ const blogs = [
         ],
         activities: ['grilled dishes','protin','rice','salde'],
         description: '',
-        textbrief: 'A distinguished Afghani😋 restaurant in Munich serving delicious Afghani grilled🍗 dishes (meat, tawook, kofta) with premium Afghani rice🍚👌, Mostly The dishes consist of grills, rice with vegetables (potatoes, moussaka, cooked lentils, salad🥗).normally The dishes come with one grilled skewer so may be you to order 2 skewers of grills ex. a meat skewer and a tawook skewer) 25€.',
+        textbrief: 'Afghani restaurant in Munich serving delicious Afghani grilled dishes (meat, tawook, kofta)🍗 with premium steam rice🍚👌, Mostly The dishes consist of grills, rice with vegetables (potatoes, moussaka, cooked lentils, salad🥗).normally The dishes come with one grilled skewer so may be you need to order 2 skewers of grills 25€.',
         text1: '',
         text2: '',
         text3: '',
