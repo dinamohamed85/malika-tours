@@ -772,7 +772,7 @@ const blogs = [
         ],
         activities: [''],
         description: '',
-        textbrief: 'World play day. International Play Day happens every year before the Corona virus, and it will be an interesting and organized day and there are many different activities for children, whether sports games or scientific activities, entertainment, handicrafts, drawing, coloring and others. You can come and enjoy while your children are happy without money or prior registration 😍👇🏻',
+        textbrief: 'World play day. happens every year before the Corona virus, It is an interesting and organized day, there are many different activities for kids, whether sports games or scientific activities, entertainment, handicrafts, drawing, coloring and others. You can come and enjoy while your kids are happy without money or prior registration 😍👇🏻',
         text1: '',
         text2: '',
         text3: '',
