@@ -738,7 +738,7 @@ const blogs = [
         ],
         activities: ['blomberg. bergbahn. rodelbahn'],
         description: '',
-        textbrief: 'A city in the state of Bayern, located southwest of Munich. people want to visit a nearby city and also find activities to do in the Mountains. Then go to Bad Tölz town. We strolling in the city streets. There are Restaurants🍽, Cafes🍹☕️ and Ice cream🍦. Then we take bus 9612 to Blomberg to ride the Cable Car🚠 and go down by the Toboggan.',
+        textbrief: 'A city in the state of Bayern, located southwest of Munich. People want to visit a nearby city and also find activities to do in the Mountains. Then go to Bad Tölz town. Strolling in the city streets. There are Restaurants🍽, Cafes🍹☕️ and Ice cream🍦. Then take bus 9612 to Blomberg to ride the Cable Car🚠 and go down by the Toboggan.',
         text1: '',
         text2: '',
         text3: '',
