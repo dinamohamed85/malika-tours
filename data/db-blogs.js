@@ -614,7 +614,7 @@ const blogs = [
     {
         id: '110',
         title: 'Chiemsee 🚂🚢',
-        category: 'restaurants',
+        category: 'tours',
         categorylink: 'https://explory24.com/tours.html?category=best',
         icon: 'fa-solid fa-city',
         country: 'Germany',
@@ -648,7 +648,7 @@ const blogs = [
     {
         id: '111',
         title: 'Starnbergersee 🚢',
-        category: 'restaurants',
+        category: 'tours',
         categorylink: 'https://explory24.com/tours.html?category=best',
         icon: 'fa-solid fa-city',
         country: 'Germany',
@@ -713,6 +713,7 @@ const blogs = [
         ownerLink: 'https://www.facebook.com/ServusMunich/',
         fblink: 'https://www.facebook.com/explory24/posts/pfbid0rxL1PUKui6hBLVoHJ2W7iC2eXRXJSW3kSdvyUAW6wz3kyAc73xRtTDGbEoVoBAdFl',
     },
+   
 ];
 
 export default blogs;
