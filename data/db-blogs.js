@@ -704,7 +704,7 @@ const blogs = [
         ],
         activities: ['Boat'],
         description: '',
-        textbrief: 'Many people would like to ride a boat 🤩 but they want a lake nearby, here is a nice outing for you, an easy boat to ride, It is possible for one person to move it easily 🛶. in a nearby and small lake. You do not need a car🚗 or train. In this weather 😁. A very enjoyable experience for kids and adults! find a boat for 4 persons, and the large one up to 6 persons, the third one in an umbrella boat☀️☂. For Rowing lovers find a classic boat with a paddle for two people.🚣‍♂️ One person is 8€, two people are 11€, and children are 2€ for 1/2 hour.',
+        textbrief: 'Many people would like to ride a boat 🤩 but they want a lake nearby, here is a nice outing for you, an easy boat to ride, It is possible for one person to move it easily 🛶. in a nearby and small lake. You do not need a car🚗 or train. In this weather 😁. A very enjoyable experience for kids and adults! find a boat for 4 persons, and the large one up to 6 persons, the third one in an umbrella boat☀️☂. For Rowing lovers find a classic boat with a paddle for two people🚣‍♂️. 1 person 8€, 2 person 11€, kids 2€ for half hour.',
         text1: '',
         text2: ' ',
         text3: '',
