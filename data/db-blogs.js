@@ -806,7 +806,7 @@ const blogs = [
         ],
         activities: ['grilled dishes','protin','rice','salad'],
         description: '',
-        textbrief: 'Restaurant from its name you feel like you are in Turkey and (Turkish ambiance Turkish songs) and the menu has different varieties köfte mit käse🍢🍢 worth trying and eating comes hot and prices are reasonable with salads🥗, bread and tea 🥃 and different dishes 🍢🍗🥩🍖 And of course there is the Turkish sweet süßkeiten and Trilisha, a Turkish dessert with milk',
+        textbrief: 'Restaurant from its name you feel like you are in Turkey (Turkish atmosphere Turkish songs), the menu has different varieties dishes 🍗🥩🍖 köfte mit käse🍢🍢 worth trying , Food comes hot and prices are reasonable with salads🥗, bread and tea 🥃 , of course there is the Turkish sweet süßkeiten and Trilisha, a Turkish dessert with milk',
         text1: '',
         text2: '',
         text3: '',
