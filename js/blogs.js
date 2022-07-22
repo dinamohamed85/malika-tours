@@ -79,7 +79,7 @@ const displayblogs = () => {
               <!-- blog info -->
               <div class="blog-info">
                 <div class="blog-title">
-                  <h4>${index + 1}. ${title}</h4>
+                  <h4>${index + 1}.${title}</h4>
                   
                 </div>
                 <p>${textbrief}
