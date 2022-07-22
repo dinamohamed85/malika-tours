@@ -898,7 +898,7 @@ min-height:calc(100vh - 62px);
   color: var(--clr-white);
 }
 .list-container {
-  /* width: 99vw; */
+  width: 96vw;
   margin: 1rem auto;
   max-width: 1260px;
   display: grid;
