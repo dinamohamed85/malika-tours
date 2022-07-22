@@ -636,7 +636,7 @@ const blogs = [
         ],
         activities: ['Ship'],
         description: '',
-        textbrief: 'Lake Chiemsee is located in the southeast of Bayern, Germany. It is famous for its beautiful nature and includes 3 islands. We will find interesting activities that we can do, ex. ship tour 🚢 and visit to Fraueninsel Island and Herreninsel Island, boat rentals are also available 🚣‍♂️. Worth to visit Prienavera Swimming pool🏊 with lake side view🏝',
+        textbrief: 'Lake Chiemsee is located in the southeast of Bayern, Germany. It is famous for its beautiful nature and includes 3 islands. We will find interesting activities that we can do, ex. Ship tour 🚢 to visit Fraueninsel & Herreninsel Islands, Boat rentals are also available 🚣‍♂️. Worth to visit Prienavera Swimming pool🏊 with lake side view🏝',
         text1: '',
         text2: '',
         text3: '',
