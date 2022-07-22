@@ -670,7 +670,7 @@ const blogs = [
         ],
         activities: ['H’ugo’s Beach Club -Cafe & Restaurant Pizza '],
         description: '',
-        textbrief: 'Starnberger See is a large lake located in southwest Germany. only 30 min from the center of Munich by S6 (Tutzing/Starnberg). The activities like a ship tour🚢, boat rides🚣‍♂️, Seebad Starnberg swimming pool🏊(indoor & outdoor lake side🏝) , Spielplates, Many Cafes🍹☕️🍦, Restaurants🍕 directly on the lake.',
+        textbrief: 'Starnberger See is a large lake located in southwest Bayern. Only 30 min from the center of Munich by S6(Tutzing/Starnberg). Activities like a ship tour🚢, boat rides🚣‍♂️, Seebad Starnberg Swimming Pool🏊(indoor & outdoor lake side🏝) , Spielplates, Many Cafes🍹☕️🍦, Restaurants🍕 directly on the lake.',
         text1: '',
         text2: '',
         text3: '',
