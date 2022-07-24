@@ -89,7 +89,7 @@ const getListByowner = (owner) => {
 
     if (owner == 'all') {
         filteredblogs = [...blogs];
-    }  
+    }
     else {
         filteredblogs = blogs.filter((blog) => {
             return blog.owner == owner;
@@ -129,20 +129,19 @@ window.addEventListener('DOMContentLoaded', () => {
         if (queryString) {
 
             urlParams = new URLSearchParams(queryString);
-            if (urlParams.get('category'))
-                {
-                    currentCategory = urlParams.get('category');
-                    getListBycategory(currentCategory);
-                }
+            if (urlParams.get('category')) {
+                currentCategory = urlParams.get('category');
+            }
 
-            else if (urlParams.get('owner'))
-                {
-                    currentOwner = urlParams.get('owner');
-                    getListByowner(currentOwner);
-                }
+            else if (urlParams.get('owner')) {
+                currentOwner = urlParams.get('owner');
+                getListByowner(currentOwner);
+            }
 
             console.log(currentCategory);
         }
+        else
+            getListBycategory(currentCategory);
 
         if (blogsContainer && form && searchInput && clearButton && categoriesDOM) {
             console.log('html selectors is true');

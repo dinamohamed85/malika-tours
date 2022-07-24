@@ -21,6 +21,7 @@ const displayFooter = () => {
     <a href="halalrestaurants.html" class="footer-link">halal Restaurants</a>
     <a href="shopping.html" class="footer-link">shopping</a>
     <a href="arabicdoctors.html" class="footer-link">arabic doctors</a>
+    <a href="blogs.html" class="footer-link">blogs</a>
     </ul>
     <!-- footer icons -->
     <ul class="footer-icons">
@@ -32,7 +33,7 @@ const displayFooter = () => {
     <li>
     <a href="https://www.instagram.com/explory24_/" target="_blank" class="footer-icon"><i
         class="fab fa-instagram"></i></a>
-</li>
+    </li>
     <!-- end of single icon -->
     <a href="https://www.linkedin.com/in/dina-mohamed-686a17188" target="_blank" class="footer-icon"><i
         class="fab fa-linkedin"></i></a>
