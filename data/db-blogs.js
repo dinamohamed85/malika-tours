@@ -847,7 +847,7 @@ const blogs = [
         links: '',
         owner: 'Dina Mohamed',
         ownerLink: 'https://www.linkedin.com/in/dina-mohamed-686a17188/',
-        fblink: 'https://www.facebook.com/explory24/posts/pfbid02MQvu6bPd62eS5FQhrqSyJisVTb4T522bGKQpeHn6f3x5ghtcLhthqDSBFzjSnrvsl',
+        fblink: 'https://www.facebook.com/explory24/posts/pfbid0oX8Ub3L6CdnXNcbjXW2MqUrPb6igU5gfZJHdoWtUT9QjogvFpij6cQM2vj5kLtmml',
     }, 
 ];
 
