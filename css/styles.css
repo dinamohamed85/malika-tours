@@ -1104,6 +1104,7 @@ min-height:calc(100vh - 62px);
 }
 .post-by{
   color: var(--clr-grey-7);
+  text-transform: capitalize;
   font-size: .875rem;
 }
 .post-bytxt{
