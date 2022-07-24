@@ -840,7 +840,7 @@ const blogs = [
         ],
         activities: ['bouncycastle, trampoline, jump, climbing '],
         description: '',
-        textbrief: 'The aerodynamic area that every time we go to, the children are very surprised 🏃🏻 ♀️🏃🏻 ♀️🏰🏰. Each game has a different idea like climbing, sliding, bouncing, jumping, Ball House Maze and Kickerball',
+        textbrief: 'The aerodynamic area that every time we go to, the children are very surprised 🏃🏻 🏃🏻 🏰🏰. Each game has a different idea like climbing, sliding, bouncing, jumping, Ball House Maze and Kickerball.',
         text1: '',
         text2: '',
         text3: '',
