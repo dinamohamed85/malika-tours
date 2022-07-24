@@ -874,7 +874,7 @@ const blogs = [
         ],
         activities: ['swimming'],
         description: '',
-        textbrief: 'A small lake located in the east of Munich surrounded by a large garden, the advantedge it is close to the Reem Arkadan Mall. means, easy to buy food from food court, Find all kinds of food, like Mac or Indian food, doner, Thai or pizza. Activities that we can do like swimming, spielplatz, strolling, picnic, climbing to the top of a small mountain and we can sit on for a while and go down the stairs, also pring ur boat🚣‍♂️',
+        textbrief: 'A small lake located in the east of Munich surrounded by a large garden, the advantedge it is close to the Reem Arkadan Mall. means, easy to buy food from food court, Find all kinds of food, like Mac, Indian food, doner, Thai, pizza. Enjoy swimming, strolling, picnic, spielplatz, climbing to the top of a small mountain and we can sit on for a while and go down the stairs, also pring ur boat🚣‍♂️',
         text1: 'A small lake located in the east of Munich surrounded by a large garden, and what is distinctive is that it is close to the Reem Arkadan Mall. I mean, we will not be anxious to eat, because in the mall there is a food court, and we will find all kinds of food, such as Mac or Indian food, doner, Thai or pizza. The activities that we can do are like swimming in the lake, spielplatz, strolling, picnic, climbing to the top of a small mountain and we can sit on for a while and go down the stairs, also pring your private boat🚣‍♂️',
         text2: '',
         text3: '',
