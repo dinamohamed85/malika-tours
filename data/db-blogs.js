@@ -838,7 +838,7 @@ const blogs = [
             './images/blogs/1-tours/post15/img4.jpeg',
             './images/blogs/1-tours/post15/img5.jpeg',
         ],
-        activities: ['bouncycastle, trampoline, jump, climbing '],
+        activities: ['bouncycastle'],
         description: '',
         textbrief: 'The BouncyCastle area that every time we go to, the children are very surprised 🏃🏻 🏃🏻 🏰🏰. Each game has a different idea like climbing, sliding, bouncing, jumping, Ball House Maze and Kickerball.',
         text1: '',
