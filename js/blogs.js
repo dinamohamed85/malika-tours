@@ -131,6 +131,7 @@ window.addEventListener('DOMContentLoaded', () => {
             urlParams = new URLSearchParams(queryString);
             if (urlParams.get('category')) {
                 currentCategory = urlParams.get('category');
+                getListBycategory(currentCategory);
             }
 
             else if (urlParams.get('owner')) {
