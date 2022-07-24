@@ -141,7 +141,7 @@ window.addEventListener('DOMContentLoaded', () => {
 
             console.log(currentCategory);
         }
-        else
+        // else
             getListBycategory(currentCategory);
 
         if (blogsContainer && form && searchInput && clearButton && categoriesDOM) {
