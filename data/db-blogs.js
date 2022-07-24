@@ -779,7 +779,7 @@ const blogs = [
         links: '',
         owner: 'Marwa Ahmed',
         ownerLink: 'https://www.facebook.com/profile.php?id=100042007731139',
-        fblink: 'https://www.facebook.com/explory24/posts/pfbid02MakuF8Q384Np7h2yxEzX6MVFZcbp8D2uaMMeBDziq5AhCHHFRQp1M4SbJAocjkxRl',
+        fblink: 'https://www.facebook.com/explory24/posts/pfbid0YkhmCV4N5wwAG5jJiXd6NibNKUVfeYkjq9yWD1LaMhvm2zqzVqE23bPsv783xP7Wl',
     },
     {
         id: '208',
@@ -813,7 +813,7 @@ const blogs = [
         links: '',
         owner: 'Tasnim Abdelaziz',
         ownerLink: 'https://www.facebook.com/ServusMunich/',
-        fblink: 'https://www.facebook.com/explory24/posts/pfbid032SkDpTemRJQdv5jbNzEEXxvH1LQECQgxafD1KUCCbnhfGKEM2s6WGvK3Qb8dANAAl',
+        fblink: 'https://www.facebook.com/explory24/posts/pfbid06bEGZef2ESKttQMaRZ8BAd2LDNNFxEoGrojFXkZoWbvbvuUJvekUTgRTSkcZ9p6ol',
     }, 
     {
         id: '115',
