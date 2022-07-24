@@ -141,10 +141,11 @@ window.addEventListener('DOMContentLoaded', () => {
 
             else
                 getListBycategory(currentCategory);
-                
+
             console.log(currentCategory);
         }
-
+        else
+            getListBycategory(currentCategory);
 
         if (blogsContainer && form && searchInput && clearButton && categoriesDOM) {
             console.log('html selectors is true');
