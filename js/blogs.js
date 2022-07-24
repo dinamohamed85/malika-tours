@@ -8,8 +8,8 @@ const clearButton = document.querySelector('.clear-btn');
 const categoriesDOM = document.querySelector('.categories');
 // const blogsTitle = document.querySelector('.blogs-title');
 
-
 let currentCategory = 'all';
+let currentOwner = 'all';
 
 const displayblogs = () => {
 
@@ -32,32 +32,8 @@ const displayblogs = () => {
         text1 = ' top places ';
         text2 = ' in Munich and cities around';
     }
-    else if (currentCategory == 'cities') {
-        text1 = ' top ' + currentCategory;
-        text2 = ' to visit in Bayern';
-    }
-    else if (currentCategory == 'lakes') {
-        text1 = ' top ' + currentCategory;
-        text2 = ' to visit in Munich and Bayern';
-    }
-    else if (currentCategory == 'kids' || currentCategory == 'swimming') {
-        text1 = ' top places for ' + currentCategory;
-    }
-    else if (currentCategory == 'animals' || currentCategory == 'free tickets') {
-        text1 = ' top places has ' + currentCategory;
-    }
-    else if (currentCategory == 'winter') {
-        text1 = ' top places in ' + currentCategory;
-    }
-    else if (currentCategory == 'indoor') {
-        text1 = ' ' + currentCategory + ' place ';
-    }
     else
         text1 = ' top ' + currentCategory;
-
-    // blogsTitle.innerHTML = `<div class="section-title">
-    //     <h2> ${text0}<span class="featured-num">${text1}</span> ${text2}</h2>
-    // </div>`;
 
     blogsContainer.innerHTML = filteredblogs
         .map((blog, index) => {
@@ -106,21 +82,19 @@ const displayblogs = () => {
         .join('');
 };
 
-// Filter Buttons
-const displayButtons = () => {
+const getListByowner = (owner) => {
 
-    // searchInput.value = '';
+    console.log(owner);
+    window.history.replaceState(null, null, '?owner=' + currentOwner);
 
-    // const buttons = [
-    //     'all', 'featured',
-    //     ...new Set(blogs.map((blog) => blog.category))
-    // ];
-    // // console.log(buttons);
-    // categoriesDOM.innerHTML = buttons
-    //     .map((category) => {
-    //         return `<button class='category-btn' data-id="${category}">${category}</button>`;
-    //     })
-    //     .join('');
+    if (owner == 'all') {
+        filteredblogs = [...blogs];
+    }  
+    else {
+        filteredblogs = blogs.filter((blog) => {
+            return blog.owner == owner;
+        });
+    }
 };
 
 const getListBycategory = (category) => {
@@ -156,15 +130,23 @@ window.addEventListener('DOMContentLoaded', () => {
 
             urlParams = new URLSearchParams(queryString);
             if (urlParams.get('category'))
-                currentCategory = urlParams.get('category');
+                {
+                    currentCategory = urlParams.get('category');
+                    getListBycategory(currentCategory);
+                }
+
+            else if (urlParams.get('owner'))
+                {
+                    currentOwner = urlParams.get('owner');
+                    getListByowner(currentOwner);
+                }
+
             console.log(currentCategory);
         }
-        getListBycategory(currentCategory);
 
         if (blogsContainer && form && searchInput && clearButton && categoriesDOM) {
             console.log('html selectors is true');
             displayblogs();
-            // displayButtons();
 
             // Text Filter
             form.addEventListener('keyup', () => {

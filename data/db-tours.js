@@ -1601,7 +1601,7 @@ const tours = [
         date: 'march, 2022',
         location: 'https://g.page/FCBAllianzArena?share',
         site: 'https://allianz-arena.com/de',
-        priceslink: '',
+        priceslink: 'https://fcbayern.com/museum/de/tickets',
         facebook: '',
         address: 'Werner-Heisenberg-Allee 25, 80939 München',
         phone: '08969931222',
