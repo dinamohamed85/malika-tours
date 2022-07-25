@@ -908,7 +908,7 @@ const blogs = [
         ],
         activities: ['swimming'],
         description: '',
-        textbrief: 'This hot weather really needed a swimming pool ☀️🏊The storm did not come, the day was beautiful, Entry without reservation. Children free without tickets. Ticket for adults 5.5 €. There are 3 swimming pools',
+        textbrief: 'This hot weather really needed a swimming pool ☀️🏊The storm did not come, the day was beautiful, Entry without reservation. Children free without tickets. Ticket for adults 5.5 €. There are 3 swimming pools for young , kids, baby area. There are tennis and volleyball courts, Spielplatz, Snacks, ice cream and Cafe.',
         text1: '',
         text2: '',
         text3: '',
