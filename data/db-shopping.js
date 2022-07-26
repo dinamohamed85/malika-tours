@@ -2062,7 +2062,7 @@ const shopping = [
         featured: true,
     },
     {
-        id: '84',
+        id: '1101',
         title: 'Orsay -PEP',
         category: 'women',
         icon: 'fa-solid fa-shop',
@@ -2086,7 +2086,7 @@ const shopping = [
         featured: true,
     },
     {
-        id: '85',
+        id: '1102',
         title: 'mango',
         category: 'women',
         icon: 'fa-solid fa-shop',
@@ -2112,7 +2112,7 @@ const shopping = [
         featured: true,
     },
     {
-        id: '86',
+        id: '1103',
         title: 's.Oliver Outlet',
         category: 'women',
         icon: 'fa-solid fa-shop',
@@ -2139,7 +2139,7 @@ const shopping = [
         featured: true,
     },
     {
-        id: '87',
+        id: '1104',
         title: 'VERO MODA',
         category: 'women',
         icon: 'fa-solid fa-shop',
@@ -2307,6 +2307,31 @@ const shopping = [
         likes: '343',
         featured: true,
     },
+    {
+        id: '1111',
+        title: 'Betty Barclay',
+        category: 'women',
+        icon: 'fa-solid fa-shop',
+        images: [
+            './images/shopping/11-women/shop-11.jpeg',
+        ],
+        country: 'Germany',
+        location: 'https://goo.gl/maps/bDpBwvaHctB6CCiX9',
+        site: 'https://stores.bettybarclay.com/de/muenchen/',
+        facebook: 'https://www.facebook.com/Barclay.Betty',
+        address: 'Viktualienmarkt 6, 80331 München',
+        phone: '08923077880',
+        description: 'Betty Barclay.With an unparalleled track record, the Betty Barclay brand ranks nationally and internationally among the leading women`s outerwear brands.',
+        thingstodo: [
+            'Clothing store',
+            'classic',
+            'women',
+            'Olympia-Einkaufszentrum, PEP Mall, Riem Arcaden, Marienplatz'
+        ],
+        rate: 4.4,
+        likes: '4,822',
+        featured: true,
+    },  
     {
         id: '89',
         title: 'Hugenduble',
@@ -2928,13 +2953,15 @@ const shopping = [
         thingstodo: [
             'cosmetics store',
             'perfumes',
+            'brands',
+            'make up',
             'women',
             'Olympia-Einkaufszentrum, PEP Mall, Riem Arcaden, Marienplatz'
         ],
         rate: 4.4,
         likes: '4,822',
         featured: true,
-    },      
+    },           
     {
         id: '103',
         title: 'SportScheck -outlet',
