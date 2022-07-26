@@ -942,7 +942,7 @@ const blogs = [
         ],
         activities: ['swimming'],
         description: '',
-        textbrief: 'If you want a swimming pool with a lake side and not far away, you need to know this place " Seebad Starnberg "☀️, There are 2 indoor swimming pools with a large slide and a small slide and baby area👶, and in the outside part you can enjoy swimming in the lake. There is also spielplatz and a small outdoor pool, there is a cafe has snacks🍔🍟🍕and drinks☕️',
+        textbrief: 'If you want a swimming pool with a lake side and not far away, you need to know this place Seebad Starnberg☀️, There are 2 indoor swimming pools with a large slide, a small slide and baby area👶, In the outside you can enjoy swimming in the lake. There is also spielplatz and a small outdoor pool, easy to pring snacks🍔🍟🍕and drinks☕️ from Cafe.',
         text1: '',
         text2: '',
         text3: '',
