@@ -2901,6 +2901,7 @@ const shopping = [
             'Accessoires',
             'Silver',
             'scarves',
+            'glasses',
             'women',
             'kids',
             'Olympia-Einkaufszentrum, PEP Mall, Riem Arcaden, Marienplatz'
@@ -2908,7 +2909,32 @@ const shopping = [
         rate: 4.3,
         likes: '1,259',
         featured: true,
-    },    
+    },  
+    {
+        id: '516',
+        title: 'Douglas',
+        category: 'shops',
+        icon: 'fa-solid fa-shop',
+        images: [
+            './images/shopping/5-shops/shop-16.jpeg',
+        ],
+        country: 'Germany',
+        location: 'https://goo.gl/maps/XSemXYgqKePr4nBQ8',
+        site: 'https://www.douglas.de/de',
+        facebook: 'https://www.facebook.com/DouglasDeutschland',
+        address: 'Kaufingerstraße 17, 80331 München',
+        phone: '08923237390',
+        description: 'Douglas GmbH is a German perfume and cosmetics retailer based in Düsseldorf. wikipedia ',
+        thingstodo: [
+            'cosmetics store',
+            'perfumes',
+            'women',
+            'Olympia-Einkaufszentrum, PEP Mall, Riem Arcaden, Marienplatz'
+        ],
+        rate: 4.4,
+        likes: '4,822',
+        featured: true,
+    },      
     {
         id: '103',
         title: 'SportScheck -outlet',
