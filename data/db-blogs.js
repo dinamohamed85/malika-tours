@@ -1112,7 +1112,7 @@ const blogs = [
         ],
         activities: ['Launch meal'],
         description: '',
-        textbrief: 'I want to talk to you about an area called `Werkviertel Mitte` #street_food it is like foodcourt has diffrent restaurants like. Indian, Thai, Mexican, Syrian (Shawarma), Pizza, salad. this restaurants offers lunch meals are price ring 7 € .After buying your meal, go sit at the outside tables and enjoy your meal in the fresh air. If you have an appointment at the Ostbahnhof, it worth to visit this place. ',
+        textbrief: 'I want to talk to you about an area called `Werkviertel Mitte` #street_food it is like foodcourt has diffrent restaurants ex. Indian, Thai, Mexican, Syrian (Shawarma), Pizza, Salad. Restaurants offers lunch meals price ring 7€ .Buy your meal, go sit at the outside tables and enjoy your meal in the fresh air. If you have an appointment at the Ostbahnhof, it worth to visit this place.',
         text1: '',
         text2: '',
         text3: '',
