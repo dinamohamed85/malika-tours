@@ -1146,7 +1146,7 @@ const blogs = [
         ],
         activities: ['buy start'],
         description: '',
-        textbrief: 'Shops that serve my purpose at a low price!!You want to decorate the house without paying a lot, get toys for children, accessories,Birthday party decoration and gifts, hairclips, coustom clothes, school supplies, threads, beads, simple kitchen necessities, sports wear, sweets for kids, Christmas supplies, other variety of products.. Action.. Tedi.. Woolworth.. Kik.',
+        textbrief: 'Shops that serve my purpose at a low price!!You want to decorate the house without paying a lot, buy toys for kids, accessories, Birthday party decoration and gifts, hairclips, coustom clothes, school supplies, threads, beads, kitchen, sports wear, sweets for kids, Christmas supplies, other variety of products.. Action.. Tedi.. Woolworth.. Kik.',
         text1: '',
         text2: '',
         text3: '',
