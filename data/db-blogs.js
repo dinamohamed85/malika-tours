@@ -1180,7 +1180,7 @@ const blogs = [
         ],
         activities: ['cosmetics, perfumes, vitamins'],
         description: '',
-        textbrief: 'Important shops we need to go to like we go to the supermarket.. why because those stores have many branches, products of high quality at reasonable prices.. Find cosmetics, perfumes, vitamins, healthy snacks, sweets.. Get services like: Print paper and photos. self Photographing. **Also Rent a cleaning machine for carpet, sofa and mattress. Müller.. DM.. Rossmann.',
+        textbrief: 'Important shops we need to go to like we go to the supermarket. why!! because those stores have many branches & products of high quality at reasonable prices.. Find cosmetics, perfumes, vitamins, healthy snacks, sweets. Get services like: Print paper and photos, self Photographing. **Also Rent a cleaning machine for carpet, sofa and mattress. Müller.. DM.. Rossmann.',
         text2: 'Important shops we need to go to like we go to the supermarket.. why because those stores have many branches and products of high quality at reasonable prices.. So we can find cosmetics, perfumes, vitamins, cleaning supplies, baby items, healthy snacks, .. Also, get some services like : Print paper and photos. self Photographing. ** also Rent a cleaning machine for carpet, sofa and mattress .., sweets for kids, Christmas supplies, other variety of products.. Müller.. DM.. Rossmann.',
         text1: '',
         text2: '',
