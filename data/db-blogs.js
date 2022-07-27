@@ -1022,7 +1022,7 @@ const blogs = [
     {
         id: '119',
         title: 'Attractions & Top Sights',
-        category: 'shopping',
+        category: 'tours',
         categorylink: 'https://explory24.com/tours.html?category=best',
         icon: 'fa-solid fa-city',
         country: 'Germany',
@@ -1090,7 +1090,7 @@ const blogs = [
     {
         id: '209',
         title: 'Werksviertel Mitte',
-        category: 'shopping',
+        category: 'restaurants',
         categorylink: 'https://explory24.com/tours.html?category=best',
         icon: 'fa-solid fa-city',
         country: 'Germany',
