@@ -1,5 +1,4 @@
 import gallery from '../data/db-gallery.js';
-import tours from '../data/db-tours.js';
 let gallerylist = [];
 
 const galleryContainer = document.querySelector('.gallery-center');

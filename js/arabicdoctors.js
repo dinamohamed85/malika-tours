@@ -29,7 +29,6 @@ const displayarabicdoctors = () => {
         text2 = filteredList.length + ' ' + currentCategory + ' doctors';
     }
 
-
     arabicdoctorsTitle.innerHTML = `<div class="section-title">
         <h2> ${text1}<span class="featured-num">${text2}</span> in Munich</h2>
     </div>`;

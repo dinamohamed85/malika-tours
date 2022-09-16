@@ -6,7 +6,7 @@ const form = document.querySelector('.input-form');
 const searchInput = document.querySelector('.search-input');
 const clearButton = document.querySelector('.clear-btn');
 const categoriesDOM = document.querySelector('.categories');
-// const blogsTitle = document.querySelector('.blogs-title');
+const blogsTitle = document.querySelector('.section-title');
 
 let currentCategory = 'all';
 let currentOwner = 'all';
@@ -18,8 +18,8 @@ const displayblogs = () => {
         return;
     }
     // let text0 = filteredblogs.length;
-    let text1 = '';
-    let text2 = ' in Munich and arounds';
+    let text1 = filteredblogs.length;
+    let text2 = '';
 
     if (currentCategory == 'all') {
         text2 = ' Attractions & Top sights & Things to Do in Munich and tours in Bayern.';
@@ -34,6 +34,10 @@ const displayblogs = () => {
     }
     else
         text1 = ' top ' + currentCategory;
+
+        blogsTitle.innerHTML = `<div class="section-title">
+        <h2> ${text1}<span class="featured-num">${text2}</span></h2>
+    </div>`;
 
     blogsContainer.innerHTML = filteredblogs
         .map((blog, index) => {

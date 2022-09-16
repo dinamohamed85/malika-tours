@@ -40,7 +40,6 @@ const displayRestaurants = () => {
         text2 = filteredList.length + ' ' + currentCategory + ' restaurants';
     }
 
-
     restaurantsTitle.innerHTML = `<div class="section-title">
         <h2> ${text1}<span class="featured-num">${text2}</span> in Munich</h2>
     </div>`;

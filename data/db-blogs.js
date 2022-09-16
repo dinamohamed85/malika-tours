@@ -235,7 +235,7 @@ const blogs = [
         links: 'Cafe & Restaurant :- 1- Il Kiosko(Segafredo) am Wörthsee 08153 9015033 https://goo.gl/maps/cftMuAF2ruy7MWGa9  2- Augustiner am Wörthsee / Strandbad Fleischmann / Kiosk & Biergarten 08153 9879091 https://goo.gl/maps/MrPrmhofVzzWboTz7  Visit our Website and find out more interesting😉😍places 👇🏻🤗',
         owner: 'marwa ahmed',
         ownerLink: 'https://www.facebook.com/profile.php?id=100042007731139',
-        fblink: '',
+        fblink: 'https://www.facebook.com/explory24/posts/pfbid0xn37ncXAigASA5V5nD5fVbZcGpA5qhFNMkfUUeEbp81YcQ2mpz5RwEDGCtrPtMwPl',
     },
     {
         id: '201',
@@ -269,7 +269,7 @@ const blogs = [
         links: 'EssPoint Pide & Grill <br> 089 89999910 <br> https://goo.gl/maps/GEUQj831Ld8Kmqdy5 <br> S8 ( Neuaubing ) <br>  Halal restaurants in Munich in this link👇<br> https://explory24.com/halalrestaurants.html?category=halal',
         owner: 'tasnim abdelaziz',
         ownerLink: 'https://www.facebook.com/ServusMunich/',
-        fblink: '',
+        fblink: 'https://www.facebook.com/explory24/posts/pfbid01Dnya8hu1miMWFJH6D4AAHnrx9p1mbq9tu3hba1VFy9XLCHS9M9xRgvc31AZe7dzl',
     },   
     {
         id: '103',
@@ -507,7 +507,7 @@ const blogs = [
         links: '',
         owner: 'dina mohamed',
         ownerLink: 'https://www.linkedin.com/in/dina-mohamed-686a17188/',
-        fblink: '',
+        fblink: 'https://fb.watch/fzwr6GmFlP/',
     },
     {
         id: '206',
@@ -711,7 +711,7 @@ const blogs = [
         links: 'Visit our Website and find out more interesting😉😍places 👇🏻🤗 <br>',
         owner: 'tasnim abdelaziz',
         ownerLink: 'https://www.facebook.com/ServusMunich/',
-        fblink: '',
+        fblink: 'https://www.facebook.com/explory24/posts/pfbid027q7ukGvgAA3aBxb598DL9wH6oKTfT9fCCJPBHUWvmsX9EAypZTTeVYg2ZKAqGeDil',
     },   
     {
         id: '113',
