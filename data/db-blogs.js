@@ -1110,7 +1110,7 @@ const blogs = [
             './images/blogs/3-shopping/post4/img4.jpeg',
             './images/blogs/3-shopping/post4/img5.jpeg',
         ],
-        activities: ['Outing & shopping'],
+        activities: ['shopping & Outing'],
         description: '',
         textbrief: 'How do you do shopping with discounted prices while you are in Munich 🤔.. in the place of some branded shops like: - Nike Factory, Adidas, Reebok, S Oliver, Baby One, S Cheeser, Jerry Weber, Pettenred, Happy Show and You?, The area is in southeast of Munich. The sign of the area in which it is located: IKEA, Metro market..',
         text1: '',
