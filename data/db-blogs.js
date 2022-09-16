@@ -133,7 +133,7 @@ const blogs = [
         links: 'I gave you the link to register below, if anyone would like to register from here 👉 https://www.payback.de/anmelden/freunde-werben.. I gave you the pictures of the app and how to choose the Coupons and how to collect Gutschein 35 Euro from Douglaslast month 😂. The rest of the important application you know in this link 👇🏽👇🏽',
         owner: 'tasnim abdelaziz',
         ownerLink: 'https://www.facebook.com/ServusMunich/',
-        fblink: '',
+        fblink: 'https://www.facebook.com/explory24/posts/pfbid0TMXAxCK3hC4d1jxAMgGTEJfsZQD9sNfz2BpfJoQ2rBLVA2kpxo1nuusUWv6yQaTWl',
     },
     {
         id: '401',
