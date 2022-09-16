@@ -987,7 +987,7 @@ const blogs = [
     }, 
     {
         id: '302',
-        title: 'shopping 🛍',
+        title: 'Shopping 🛍',
         category: 'shopping',
         categorylink: 'https://explory24.com/tours.html?category=best',
         icon: 'fa-solid fa-city',
@@ -1076,7 +1076,7 @@ const blogs = [
             './images/blogs/3-shopping/post3/img4.jpeg',
             './images/blogs/3-shopping/post3/img5.jpeg',
         ],
-        activities: ['Outing & shopping'],
+        activities: ['shopping & Outing'],
         description: '',
         textbrief: 'Outing and Outlet-Shopping outside of Munich in the  ingolstadt city near Munich (an hour and a half by train).. An open place like a shopping mall, there are many shops for clothes and shoes of brands with much lower prices than Munich stores. And there are restaurants and cafes so that the outing is as you like',
         text1: '',
