@@ -1,4 +1,4 @@
-import blogs from '../data/db-blogs.js';
+import blogs from '../data/db-blogs-en.js';
 let filteredblogs = [];
 let urlParams = '';
 const blogsContainer = document.querySelector('.list-container');
