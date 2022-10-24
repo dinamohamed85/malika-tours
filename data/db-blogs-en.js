@@ -1386,7 +1386,7 @@ const blogs = [
         ],
         activities: ['Chicken, Rice , Sauce'],
         description: '',
-        textbrief: 'when we in München Freiheit We tried this Indian restaurant many times before, this time we take some photos to tell you the experience. We ordered chicken tikka with sauce (spicy, mango, butter) for 12.99 € The food is hot and tastey and the chicken is tender😋. But without salad. The quantities are good. Rice and sauce are refill. Drinks: tea, fresh juices, Coca-Cola. the weather was nice so we tried to sit outside, it was nice ☀️🤩',
+        textbrief: 'when we in München Freiheit We tried this Indian restaurant many times before, this time we take some photos to tell you the experience. We ordered chicken tikka with sauce (spicy, mango, butter). The food is hot and tastey and the chicken is tender😋. But without salad. The quantities are good. Rice and sauce are refill. Drinks: tea, fresh juices, Coca-Cola. the weather was nice so we tried to sit outside☀️',
         text1: '',
         text2: '',
         text3: '',
