@@ -1295,7 +1295,7 @@ const blogs = [
     }, 
     {
         id: '121',
-        title: 'Museum Outing 🗿🏛',
+        title: 'Museum Outing 🏛🗿',
         category: 'tours',
         categorylink: 'https://explory24.com/tours.html?category=best',
         icon: 'fa-solid fa-city',
@@ -1318,7 +1318,7 @@ const blogs = [
         ],
         activities: ['Technology 🔭, FC Bayern ⚽️, Art 🖼, Artifacts, Aquarium'],
         description: '',
-        textbrief: 'A nice outing, suitable for a family with kids. More than 20 museums in Munich, we can visit them to know about different cultures, arts🌅 and sciences. And we see antiques, statues, memorials and the kings` collectibles👑. We also visit the BMW Museum🚘, where the most important industry in Germany is the automobile industry and how it has looked over the years.',     
+        textbrief: 'A nice outing, suitable for a family with kids. More than 20 museums in Munich, Visit them to know about different cultures, arts🌅 and sciences. We see antiques, statues, memorials and the kings` collectibles👑. Also visit the BMW Museum🚘, where the most important industry in Germany is the automobile industry and how it has looked over the years.',     
         text1: 'A nice outing, suitable for a family with kids. More than 20 museums in Munich, we can visit them to learn about different cultures, arts and sciences. And we see antiques, statues, memorials and the kings` collectibles 👑.. And we know the historical events that Munich went through. We also visit the BMW Museum, where the most important industry in Germany is the automobile industry and how it has looked over the years.   And also in the Aircraft Museum (models of planes from different countries) and the Museum of Vehicles and Traffic Rules.. and we hear new information in a variety of groups..',     
         text2: '',
         text3: '',
@@ -1329,7 +1329,7 @@ const blogs = [
     },   
     {
         id: '122',
-        title: 'Alte Pinakothek 🏛🖼',
+        title: 'Alte Pinakothek 🖼🏛',
         category: 'tours',
         categorylink: 'https://explory24.com/tours.html?category=best',
         icon: 'fa-solid fa-city',
