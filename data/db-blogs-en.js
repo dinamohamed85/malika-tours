@@ -1318,7 +1318,7 @@ const blogs = [
         ],
         activities: ['Art Museum, 900 Exhibiting'],
         description: '',
-        textbrief: 'An art museum in a neoclassical building exhibiting around 900 artworks. Our visit was on Sunday, the ticket is 1€ for adults and free for kids. We attended a free workshop "We are a family" at 3PM-5PM. 🕵️It is a tour about some of the paintings in the museum and a simple explanation about them with a short discussion with kids about what they see in the, Then the kids go to complete the workshop to drawing inspired by their imagination🖌🎨',     
+        textbrief: 'Art museum in a neoclassical building exhibiting around 900 artworks. Our visit was on Sunday, the ticket is 1€ for adults and free for kids. We attended a free workshop "We are a family" at 3PM-5PM. 🕵️It is a tour about some of the paintings in the museum with simple explanation and short discussion with kids about them, Then the kids go to complete the workshop to drawing inspired by their imagination🖌🎨',     
         text1: '🏛🌅An art museum in a neoclassical building exhibiting around 900 artworks. Our visit to the museum was on Sunday, the ticket is 1 € for adults and free for kids. We attended a workshop without fees called "We are a family" at 3 PM - 5 PM . 🕵️ It is a tour about some of the paintings in the museum and a simple explanation about them with a short discussion with the children about what they see in the painting 😊 Then the children go to complete the workshop to drawing inspired by their imagination 🖌🎨',
         text2: '',
         text3: '',
