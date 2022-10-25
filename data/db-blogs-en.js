@@ -1499,7 +1499,7 @@ const blogs = [
     },
     {
         id: '124',
-        title: 'Freizeitpark Märchenwald  🎠🎡🎢',
+        title: 'Freizeitpark Märchenwald 🎢',
         category: 'tours',
         categorylink: 'https://explory24.com/tours.html?category=best',
         icon: 'fa-solid fa-city',
@@ -1522,7 +1522,7 @@ const blogs = [
         ],
         activities: [''],
         description: '',
-        textbrief: 'Amusement park games that all kids love.. - Outings inside Munich and suitable with children.... *** What activities can we do there:- 1- Various amusement parks like roller coaster, towing, big slides, horse, carts,.. 2- Hearing storytelling in a dramatic scene. 3- A game area. 4- A restaurant and cafe that makes drinks and donuts. 5- A walk in the woods among the trees',
+        textbrief: 'Amusement park games 🎠🎡that all kids love. - Outings inside Munich and suitable with children.* What activities can we do there:- 1- Various amusement parks like roller coaster, towing, big slides, horse, carts,.. 2- Hearing storytelling in a dramatic scene. 3- A game area. 4- A restaurant and cafe that makes drinks and donuts.',
         text1: '',
         text2: '',
         text3: '',
