@@ -1123,7 +1123,7 @@ const blogs = [
     },
     {
         id: '209',
-        title: 'Werksviertel Mitte',
+        title: 'Werksviertel Mitte 🍲',
         category: 'restaurants',
         categorylink: 'https://explory24.com/tours.html?category=best',
         icon: 'fa-solid fa-city',
@@ -1363,7 +1363,7 @@ const blogs = [
     },
     {
         id: '210',
-        title: 'Shere Punjab',
+        title: 'Shere Punjab 🥘',
         category: 'restaurants',
         categorylink: 'https://explory24.com/halalrestaurants.html?category=breakfast',
         icon: 'fa-solid fa-city',
@@ -1397,7 +1397,7 @@ const blogs = [
     },
     {
         id: '211',
-        title: ' Deli Tadka',
+        title: 'Deli Tadka 🍲',
         category: 'restaurants',
         categorylink: 'https://explory24.com/halalrestaurants.html?category=breakfast',
         icon: 'fa-solid fa-city',
@@ -1420,7 +1420,7 @@ const blogs = [
         ],
         activities: ['Indian Food: Chicken, Rice ,Salad , Sauce'],
         description: '',
-        textbrief: 'Eat Indian food(chicken, rice and salad with Indian sauce) in lunch or dinner for only 9€ 😋. We tried it many times, really the best Indian food in this price, mostly we order (chicken tikka or chicken masala), for kids choose the yellow curry sauce, it isn`t spicy or order the Korma dish. then we drink mango lassi. If you like Indian food, it is worth to try. find 5 branches, also order it delivery.',
+        textbrief: 'Eat Indian food(chicken, rice and salad🥗 with Indian sauce) in lunch or dinner for only 9€ 😋. We tried it many times, really the best Indian food in this price, mostly we order (chicken tikka or chicken masala), for kids choose the yellow curry sauce, it isn`t spicy or order the Korma dish. then we drink mango lassi. If you like Indian food, it is worth to try. find 5 branches, also order it delivery.',
         text1: 'You would like to eat Indian food at lunch or dinner for only 8.5 € 😋.. it consists of rice, chicken and salad with Indian sauce.. We tried it many times, really the best Indian food in this price, and we always order (chicken masala or chicken tikka) , for the kids choose the yellow curry sauce because it is not hot or ask about the Korma meal.. and then we drink mango lassi.. If you like Indian food, try it, it is worth. find 5 branches and you can also order it delivery..',
         text2: '',
         text3: '',
@@ -1431,7 +1431,7 @@ const blogs = [
     },
     {
         id: '212',
-        title: 'Shawerma',
+        title: 'Shawerma 🌯',
         category: 'restaurants',
         categorylink: 'https://explory24.com/halalrestaurants.html?category=breakfast',
         icon: 'fa-solid fa-city',
@@ -1454,7 +1454,7 @@ const blogs = [
         ],
         activities: ['Shawerma'],
         description: '',
-        textbrief: 'Who loves shawarma, this post is for you In this post, we gathered the restaurants that serve Syrian shawarma as we know it (roll, Arabic, plate) With potatoes, garlic and pickles 😋😋. . .',
+        textbrief: 'Who loves shawarma, this post is for you In this post, we gathered the restaurants that serve Syrian shawarma as we know it (roll, Arabic, plate) With potatoes🍟, garlic and pickles🥒 😋😋. . .',
         text1: '',
         text2: '',
         text3: '',
@@ -1463,8 +1463,6 @@ const blogs = [
         ownerLink: 'https://www.linkedin.com/in/dina-mohamed-686a17188/',
         fblink: 'https://www.facebook.com/explory24/posts/pfbid02po7kfkChRSYFMnNRjCkFsJ2gSa6gUwMDq6VcFEExUaVo98qiKBjXwdiJkdmd4GGSl',
     },
-
-
 ];
 
 export default blogs;
